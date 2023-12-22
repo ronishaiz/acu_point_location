@@ -1,0 +1,106 @@
+
+[LU11]
+chinese_name = "Shao Shang"
+number = 11
+characters = ["WELL"]
+element = "WOOD"
+location = "0.1 proximal to the corner of the thum nail on the radial side"
+find_anatomically = true
+functions = ["Heat extraction in acute cases"]
+indications = ["Acute sore throat", "Acute blockage of Airways"]
+
+
+[LU10]
+chinese_name = "Yu Ji"
+number = 10
+characters = ["SPRING"]
+element = "FIRE"
+location = "Between the 1st metacarpal and the Thenar muscle, at the midpoint of the bone"
+find_anatomically = true
+functions = ["Heat extraction from the LU and the throat"]
+indications = ["Sore throat"]
+comments = "Like LU11, but not as acute. Will not puncture them both at the same time."
+
+
+[LU9]
+chinese_name = "Tai Yuan"
+number = 9
+characters = ["STREAM", "YUAN", "TONIFICATION", "HUI MEETING OF VESSELS"]
+element = "EARTH"
+location = "At the wrist crease between the radial artery and the Abductor Pollicis Longus tendon"
+find_anatomically = true
+functions = ["Strengthens all LU functions", "Strengthens the Metal element"]
+indications = ["Chronic Cough", "Chronic Asthma", "Chronic Shortness of Breath", "Chronic Weak LU Qi", "Presisting Sorrow", "Weak Voice", "Cold Limb Tips"]
+poem = "Two streaming\nVessels\nDrip\nSorrow\nOnto the earth.\n\nMother is here.\nNow\nYou can take\nA deep breath."
+
+
+[LU8]
+chinese_name = "Jing Qu"
+number = 8
+characters = ["RIVER", "HORARY"]
+element = "METAL"
+location = "1 cun proximal to LU9 on the line joining LU5 & LU9"
+find_anatomically = false
+functions = ["Strengthens the Metal element"]
+indications = ["Weak Metal"]
+comments = "Not widely used, due to the hours of Metal being in the very early morning."
+
+
+[LU7]
+chinese_name = "Lie Que"
+number = 7
+characters = ["LOU", "REN MAI OPENING", "COMMAND"]
+location = "In the radial aspect of the arm, 1.5 cun proximal to LU9, between the tendons Brachoradialis and the Abductor Pollicis Longus"
+find_anatomically = false
+functions = ["Treats sorrow", "Activates the REN MAI (CV), with addition of KID6", "Commanding the back of the neck", "Extracting Cold Wind"]
+indications = ["Cough", "Catching a cold", "Flue", "Sore muscles (especially in the higher back and shoulders)", "Running nose", "Trouble breathing", "Sorrow"]
+use_with = ["LI4"]
+comments = "Indications are of the LU Wind Cold pathology"
+
+
+[LU6]
+chinese_name = "Kong Zui"
+number = 6
+characters = ["XI"]
+location = "7 cun proximal to LU9 on the line joining LU5 and LU9"
+find_anatomically = false
+functions = ["Redirects downwards rebellious LU Qi"]
+indications = ["Acute Cough", "Acute Asthma", "Acute Shortness of Breath"]
+comments = "Similar to LU9, but treats acute cases while LU9 is for the chronic cases"
+use_with = ["LU1"]
+
+
+[LU5]
+chinese_name = "Chi Ze"
+number = 5
+characters = ["SEA", "SEDATION"]
+element = "WATER"
+location = "At the Cubital crease on the radial side of the Biceps Brachii tendon"
+find_anatomically = true
+functions = ["Extracts LU Heat"]
+indications = ["Yellow-Phlegm Cough", "Coughing Blood", "Dry Cough", "Motoric Restriction (Cubital Crease)"]
+comments = "Indications of LU Heat/LU Dryness pathologies. The heat may be full or empty"
+use_with = ["ST40"]
+
+
+[LU3]
+chinese_name = "Tian Fu"
+number = 3
+characters = ["WINDOW OF HEAVEN"]
+location = "In the anterior aspect of the arm, 3 cun inferior to the Axilar crease, between the lateral border of the Biceps Brachii and the Humerus"
+find_anatomically = false
+functions = ["Treats the PO"]
+indications = ["High skin sensitivity", "Mental disconnection from the Here and Now"]
+comments = "An exception among the Window of Heaven points, since it is not located on the neck"
+
+
+[LU1]
+chinese_name = "Zhong Fu"
+number = 1
+characters = ["MU", "TAI YIN MEETING"]
+location = "6 cun lateral to the anterior midline, level with the 1st intercostal space, at the Delto-Pectoral Triangle"
+find_anatomically = true
+functions = ["Redirects downwards rebellious LU Qi", "Disposes of phlegm caused by faulty Tai Yin function (SP/LU)"]
+indications = ["Acute Cough", "Acute Asthma", "Acute Shortness of Breath", "White phlegm due to weak SP"]
+comments = "Like LU6, but with a special connection to the SP as well. A state of excess in the LU"
+use_with = ["LU6"]
