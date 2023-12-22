@@ -1,12 +1,15 @@
 import streamlit as st
 
-from backend.meridians.meridian import ALL_POINTS, ALL_MERIDIANS
+from backend.enums import Organ
+from backend.meridians.meridian import ALL_POINTS, ALL_MERIDIANS, get_meridian_by_organ
 from pages_backend.flashcards.flashcard import FlashCard, FlashCardStack
 
 
-def restack():
+def restack(sort: bool = False):
     if 'stack' in st.session_state:
         st.session_state.pop('stack')
+
+    st.session_state['sort'] = sort
 
 
 def show_flashcards():
@@ -32,13 +35,20 @@ st.set_page_config(
 )
 
 flashcard_topic = st.selectbox('Select Flashcards Topic', ['Points', 'Meridians'], on_change=restack)
-flashcard_objects = ALL_POINTS if flashcard_topic == 'Points' else ALL_MERIDIANS
+
+if flashcard_topic == 'Points':
+    meridian_selection = st.selectbox('Choose Meridian', ['ALL'] + [meridian.organ for meridian in ALL_MERIDIANS], on_change=restack)
+    flashcard_objects = ALL_POINTS if meridian_selection == 'ALL' else get_meridian_by_organ(Organ(meridian_selection)).points
+
+else:
+    flashcard_objects = ALL_MERIDIANS
 
 flashcards = [FlashCard(flashcard_object) for flashcard_object in flashcard_objects]
 
-if 'stack' not in st.session_state:
-    st.session_state['stack'] = FlashCardStack(flashcards)
-
 st.button('Shuffle', on_click=restack)
+st.button('Sort', on_click=lambda: restack(True))
+
+if 'stack' not in st.session_state:
+    st.session_state['stack'] = FlashCardStack(flashcards, st.session_state.get('sort', False))
 
 show_flashcards()

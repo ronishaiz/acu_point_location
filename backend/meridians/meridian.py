@@ -96,5 +96,13 @@ LU_MERIDIAN = Meridian(_stage=Stage.tai_yin, _organ=Organ.LU, _element=Element.M
 #                        yin_yang_partner_organ=Organ.LU, stage_partner_organ=Organ.ST, hours=(5, 7))
 
 
+def get_meridian_by_organ(organ: Organ):
+    if organ == Organ.LU:
+        return LU_MERIDIAN
+
+    else:
+        raise Exception("Non supported meridian")
+
+
 ALL_MERIDIANS = [LU_MERIDIAN]
 ALL_POINTS = [item for sublist in [meridian.points for meridian in ALL_MERIDIANS] for item in sublist]

@@ -58,8 +58,11 @@ class FlashCard:
 
 class FlashCardStack:
 
-    def __init__(self, flashcards: List[FlashCard]):
-        shuffle(flashcards)
+    def __init__(self, flashcards: List[FlashCard], sort: bool = False):
+
+        if not sort:
+            shuffle(flashcards)
+
         self._flashcards = flashcards
 
     def get_top(self) -> FlashCard:
