@@ -37,7 +37,7 @@ st.set_page_config(
 flashcard_topic = st.selectbox('Select Flashcards Topic', ['Points', 'Meridians'], on_change=restack)
 
 if flashcard_topic == 'Points':
-    meridian_selection = st.selectbox('Choose Meridian', ['ALL'] + [meridian.organ for meridian in ALL_MERIDIANS], on_change=restack)
+    meridian_selection = st.selectbox('Choose Meridian', ['ALL'] + [meridian.organ.value for meridian in ALL_MERIDIANS], on_change=restack)
     flashcard_objects = ALL_POINTS if meridian_selection == 'ALL' else get_meridian_by_organ(Organ(meridian_selection)).points
 
 else:
