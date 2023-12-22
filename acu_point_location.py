@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Hello",
+    page_title="Welcome",
     page_icon="👋",
 )
 
@@ -18,6 +18,7 @@ st.markdown(
     **👈 Select your study plan from the sidebar** to start learning!
     
     ### Want to contribute?
-    - Contact me through Github: https://github.com/ronishaiz/acu_point_location
+    - See Github: https://github.com/ronishaiz/acu_point_location
+    - Found a mistake? Please let me know!! 😇
 """
 )
