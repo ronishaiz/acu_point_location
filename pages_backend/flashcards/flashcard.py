@@ -56,7 +56,7 @@ class FlashCard:
                 st.write(attribute_value)
 
 
-class FlashCardStack:
+class FlashCardQue:
 
     def __init__(self, flashcards: List[FlashCard], sort: bool = False):
 
@@ -68,6 +68,8 @@ class FlashCardStack:
     def get_top(self) -> FlashCard:
         return self._flashcards[0]
 
-    def switch(self) -> None:
-        current = self.get_top()
-        self._flashcards = self._flashcards[1:] + [current]
+    def prev(self) -> None:
+        self._flashcards = [self._flashcards[-1]] + self._flashcards[:-1]
+
+    def next(self) -> None:
+        self._flashcards = self._flashcards[1:] + [self._flashcards[0]]

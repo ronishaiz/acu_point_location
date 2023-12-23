@@ -2,7 +2,7 @@ import streamlit as st
 
 from backend.enums import Organ
 from backend.meridians.meridian import ALL_POINTS, ALL_MERIDIANS, get_meridian_by_organ
-from pages_backend.flashcards.flashcard import FlashCard, FlashCardStack
+from pages_backend.flashcards.flashcard import FlashCard, FlashCardQue
 
 
 def restack(sort: bool = False):
@@ -19,7 +19,8 @@ def show_flashcards():
     hide_content = st.checkbox('Hide Content', value=True, key='hide_flashcard_content')
     show_flashcard(stack.get_top(), hide_content)
 
-    st.button("Next", on_click=lambda: stack.switch(), key="next_flashcard")
+    st.button("Previous", on_click=lambda: stack.prev(), key="previous_flashcard")
+    st.button("Next", on_click=lambda: stack.next(), key="next_flashcard")
 
 
 def show_flashcard(flashcard: FlashCard, hide_content: bool):
@@ -49,6 +50,6 @@ st.button('Shuffle', on_click=restack)
 st.button('Sort', on_click=lambda: restack(True))
 
 if 'stack' not in st.session_state:
-    st.session_state['stack'] = FlashCardStack(flashcards, st.session_state.get('sort', False))
+    st.session_state['stack'] = FlashCardQue(flashcards, st.session_state.get('sort', False))
 
 show_flashcards()
