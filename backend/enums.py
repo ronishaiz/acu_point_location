@@ -71,4 +71,4 @@ class PointCharacter(Enum):
 
     command: str = 'COMMAND'
 
-    tai_yin_meeting: str = 'TAI YIN MEETING'
+    stage_meeting: str = 'STAGE MEETING'

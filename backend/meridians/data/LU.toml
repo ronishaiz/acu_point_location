@@ -97,7 +97,7 @@ comments = "An exception among the Window of Heaven points, since it is not loca
 [LU1]
 chinese_name = "Zhong Fu"
 number = 1
-characters = ["MU", "TAI YIN MEETING"]
+characters = ["MU", "STAGE MEETING"]
 location = "6 cun lateral to the anterior midline, level with the 1st intercostal space, at the Delto-Pectoral Triangle"
 find_anatomically = true
 functions = ["Redirects downwards rebellious LU Qi", "Disposes of phlegm caused by faulty Tai Yin function (SP/LU)"]
