@@ -1,0 +1,123 @@
+[LI1]
+chinese_name = "Shang Yang"
+number = 1
+characters = ["WELL", "HORARY"]
+element = "METAL"
+location = "0.1 proximal to the corner of the index finger's nail on the radial side"
+find_anatomically = true
+functions = ["TMM"]
+indications = ["Pain Along the Meridian"]
+
+[LI2]
+chinese_name = "Er Jian"
+number = 2
+characters = ["SPRING", "SEDATION"]
+element = "WATER"
+location = "On the radial side of the index finger distal to the 2nd metacarpophalangeal joint"
+find_anatomically = true
+functions = ["Extracts heat from the Yang Ming and the LI"]
+indications = ["Heat-based Constipation", "The 4-Bigs", "Dry, Stiff, Stinky Stool"]
+use_with = ["ST44"]
+
+[LI3]
+chinese_name = "San Jian"
+number = 3
+characters = ["STREAM"]
+element = "WOOD"
+location = "On the radial side of the index finger, proximal to the head of the 2nd metacarpal bone"
+find_anatomically = true
+functions = ["Joint-related pain along the meridian"]
+indications = ["Elbow Pain", "Shoulder Pain", "Arthritis"]
+use_with = ["SI3"]
+
+[LI4]
+chinese_name = "He Gu"
+number = 4
+characters = ["YUAN", "COMMAND"]
+location = "In the middle of the 2nd metacarpal bone on the radial side"
+find_anatomically = true
+functions = ["Affects the face", "Frees stagnant Qi", "Encourages labor", "Gets rid of outer wind by controlling the WEI Qi"]
+indications = ["Outer Pathogen Body (both cold and hot)", "Face Pathologies", "Facialis", "Trigeminal Neuralgia", "Teeth Pain", "Neural Pain in the Face", "Pain"]
+use_with = ["TW5", "LU7", "LIV3"]
+comments = "DO NOT USE IN PREGNANCY! For cold wind, use with LU7. For warm wind, use with TW5. For LIV QI STG, use with LIV3 (called '4 Gates' when used bilaterally)"
+
+[LI5]
+chinese_name = "Yang Xi"
+number = 5
+characters = ["RIVER"]
+element = "FIRE"
+location = "On the radial side of the wrist in a depression between Extensor Pollicis Longus and Brevis tendons (Snuffbox)"
+find_anatomically = true
+functions = ["Local"]
+indications = ["Wrist Pain"]
+
+[LI6]
+chinese_name = "Pian Li"
+number = 6
+characters = ["LUO"]
+location = "3 cun proximal to LI5 on the line joining LI5 and LI11"
+find_anatomically = false
+functions = ["Opens the water passages"]
+indications = ["Facial Edema"]
+use_with = ["LU7", "LU9"]
+comments = "Connects with LU functionality of lowering and distributing Qi (because this is a LUO point). Use with LU points that enhance this functionality"
+
+[LI7]
+chinese_name = "Wen Liu"
+number = 7
+characters = ["XI"]
+location = "5 cun proximal to LI5 on the line joining LI5 and LI11"
+find_anatomically = false
+functions = ["Controlling Qi along the meridian"]
+indications = ["Pain Along the Meridian"]
+
+[LI10]
+chinese_name = "Shou San Li"
+number = 10
+characters = []
+location = "10 cun proximal to LI5 on the line joining LI5 and LI11"
+find_anatomically = false
+functions = ["Provides Qi and Blood to the limbs (arms)"]
+indications = ["Weakness and Numbness in Upper Limbs", "Weakness (due to lacking Qi/Blood)"]
+use_with = ["ST36"]
+comments = "The meaning of the Chinese name is: 'Arm Three Mile', matching the name of ST36 which is 'Leg Three Mile'. Used together, they strengthen Qi and blood in the entire body and limbs"
+
+[LI11]
+chinese_name = "Qu Chi"
+number = 11
+characters = ["SEA", "TONIFICATION"]
+element = "EARTH"
+location = "Midway between LU5 and the lateral Epicondyle of the Humerus"
+find_anatomically = true
+functions = ["Extracts heat from the QI and Blood", "Stops itch", "Reduces high blood pressure", "Strengthens the Metal element"]
+indications = ["Fever", "High Blood Pressure", "Itch", "Skin Problems"]
+use_with = ["ST36", "LI2", "ST44"]
+
+[LI15]
+chinese_name = "Yang Xi"
+number = 15
+characters = []
+location = "Anterior and inferior to the tip of the frontal Acromion"
+find_anatomically = true
+functions = ["Local"]
+indications = ["Shoulder Pain"]
+
+[LI18]
+chinese_name = "Fu Tu"
+number = 18
+characters = ["WINDOW OF HEAVEN"]
+location = "Level with the tip of the Adam's Apple between the sternal and clavicular heads of the Sterno-Cleido-Mastoid"
+find_anatomically = true
+functions = ["Soothes the PO", "Soothes the throat"]
+indications = ["Trouble Letting Go", "Throat Pain"]
+
+[LI20]
+chinese_name = "Ying Xiang"
+number = 20
+characters = ["STAGE MEETING"]
+location = "In the nasolabial groove, level with the most lateral part of the nostril"
+find_anatomically = true
+functions = ["Opens the nasal passages"]
+indications = ["Blocked Nasal Passages"]
+use_with = ["LI4", "LU7"]
+poem = "A deep\nTunnel\nFrom heaven\nTo a corner\nOf a smile.\nIt will be\nOur ritual -\nWe will smile.\nOnly so\nBoundaries\nSoften\nNostrils\nOpen\nAn inhale\nStraightens\nThe back\nLife\nPenetrates\nThe heart\nBright\nAnd unfiltered\nLike a scent."

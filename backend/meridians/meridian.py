@@ -92,8 +92,9 @@ LU_MERIDIAN = Meridian(_stage=Stage.tai_yin, _organ=Organ.LU, _element=Element.M
                        _yin_yang_partner_organ=Organ.LI, _stage_partner_organ=Organ.SP, _hours=(3, 5),
                        _number_of_learned_points=9)
 
-# LI_MERIDIAN = Meridian(stage=Stage.yang_ming, organ=Organ.LI, element=Element.METAL, limb=Limb.LEG,
-#                        yin_yang_partner_organ=Organ.LU, stage_partner_organ=Organ.ST, hours=(5, 7))
+LI_MERIDIAN = Meridian(_stage=Stage.yang_ming, _organ=Organ.LI, _element=Element.METAL, _limb=Limb.LEG,
+                       _yin_yang_partner_organ=Organ.LU, _stage_partner_organ=Organ.ST, _hours=(5, 7),
+                       _number_of_learned_points=12)
 
 
 def get_meridian_by_organ(organ: Organ):
@@ -104,5 +105,5 @@ def get_meridian_by_organ(organ: Organ):
         raise Exception("Non supported meridian")
 
 
-ALL_MERIDIANS = [LU_MERIDIAN]
+ALL_MERIDIANS = [LU_MERIDIAN, LI_MERIDIAN]
 ALL_POINTS = [item for sublist in [meridian.points for meridian in ALL_MERIDIANS] for item in sublist]
