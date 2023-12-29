@@ -2,7 +2,8 @@ import streamlit as st
 
 from backend.enums import Organ
 from backend.meridians.meridian import ALL_POINTS, ALL_MERIDIANS, get_meridian_by_organ
-from pages_backend.flashcards.flashcard import FlashCard, FlashCardQue
+from pages_backend.flashcards.flashcard import FlashCard
+from pages_backend.utils import Queue
 
 
 def restack(sort: bool = False):
@@ -50,6 +51,6 @@ st.button('Shuffle', on_click=restack)
 st.button('Sort', on_click=lambda: restack(True))
 
 if 'stack' not in st.session_state:
-    st.session_state['stack'] = FlashCardQue(flashcards, st.session_state.get('sort', False))
+    st.session_state['stack'] = Queue[FlashCard](flashcards, st.session_state.get('sort', False))
 
 show_flashcards()

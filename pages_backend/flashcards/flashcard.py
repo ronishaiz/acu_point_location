@@ -1,8 +1,6 @@
 from abc import ABCMeta, abstractmethod
 from dataclasses import dataclass
 from enum import Enum
-from random import shuffle
-from typing import List
 
 import streamlit as st
 
@@ -54,22 +52,3 @@ class FlashCard:
 
             else:
                 st.write(attribute_value)
-
-
-class FlashCardQue:
-
-    def __init__(self, flashcards: List[FlashCard], sort: bool = False):
-
-        if not sort:
-            shuffle(flashcards)
-
-        self._flashcards = flashcards
-
-    def get_top(self) -> FlashCard:
-        return self._flashcards[0]
-
-    def prev(self) -> None:
-        self._flashcards = [self._flashcards[-1]] + self._flashcards[:-1]
-
-    def next(self) -> None:
-        self._flashcards = self._flashcards[1:] + [self._flashcards[0]]
