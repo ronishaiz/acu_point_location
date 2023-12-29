@@ -61,7 +61,7 @@ class PointCharacter(Enum):
 
     window_of_heaven: str = 'WINDOW OF HEAVEN'
 
-    lou: str = 'LOU'  # Hibur
+    luo: str = 'LUO'  # Hibur
 
     xi: str = 'XI'  # Hitstabrut
 
