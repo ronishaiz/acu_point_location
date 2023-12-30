@@ -5,6 +5,8 @@ from typing import List
 
 import streamlit as st
 
+from pages_backend.utils import format_displayable_object
+
 
 @dataclass
 class Question:
@@ -30,9 +32,10 @@ class Question:
 
             shuffle(question_bank)
 
-            question_str = question_bank[0]
-            answer = questions_to_answers[question_str]
-            questions.append(cls(_answer=answer, _question_str=question_str))
+            question = question_bank[0]
+            answer = questions_to_answers[question]
+
+            questions.append(cls(_answer=str(format_displayable_object(answer)), _question_str=str(question)))
 
         return questions
 

@@ -1,3 +1,4 @@
+from enum import Enum
 from random import shuffle
 from typing import TypeVar, Generic, List
 
@@ -21,3 +22,21 @@ class Queue(Generic[T]):
 
     def next(self) -> None:
         self._elements = self._elements[1:] + [self._elements[0]]
+
+
+def format_displayable_object(displayable_object: object):
+    new_displayable_object = displayable_object
+
+    if isinstance(displayable_object, Enum):
+        new_displayable_object = str(displayable_object.value)
+
+    if isinstance(displayable_object, list):
+
+        new_displayable_object = []
+        for item in displayable_object:
+
+            if isinstance(item, Enum):
+                item = str(item.value)
+                new_displayable_object.append(item)
+
+    return new_displayable_object

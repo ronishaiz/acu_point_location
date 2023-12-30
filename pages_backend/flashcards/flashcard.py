@@ -1,8 +1,9 @@
 from abc import ABCMeta, abstractmethod
 from dataclasses import dataclass
-from enum import Enum
 
 import streamlit as st
+
+from pages_backend.utils import format_displayable_object
 
 
 @dataclass
@@ -36,19 +37,12 @@ class FlashCard:
             if attribute_value is None:
                 continue
 
-            if isinstance(attribute_value, Enum):
-                attribute_value = str(attribute_value.value)
-
             st.write(f" #### {header_name}")
 
+            attribute_value = format_displayable_object(attribute_value)
+
             if isinstance(attribute_value, list):
-
                 for item in attribute_value:
-
-                    if isinstance(item, Enum):
-                        item = str(item.value)
-
                     st.write(item)
-
             else:
                 st.write(attribute_value)
