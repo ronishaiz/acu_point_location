@@ -39,4 +39,7 @@ def format_displayable_object(displayable_object: object):
                 item = str(item.value)
                 new_displayable_object.append(item)
 
+            else:
+                new_displayable_object.append(item)
+
     return new_displayable_object
