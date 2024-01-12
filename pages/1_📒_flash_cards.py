@@ -1,7 +1,7 @@
 import streamlit as st
 
-from backend.enums import Organ
-from backend.meridians.meridian import ALL_POINTS, ALL_MERIDIANS, get_meridian_by_organ
+from backend.enums import MeridianName
+from backend.meridians.meridian import ALL_POINTS, ALL_MERIDIANS, get_meridian_by_name
 from pages_backend.flashcards.flashcard import FlashCard
 from pages_backend.utils import Queue
 
@@ -39,8 +39,8 @@ st.set_page_config(
 flashcard_topic = st.selectbox('Select Flashcards Topic', ['Points', 'Meridians'], on_change=restack)
 
 if flashcard_topic == 'Points':
-    meridian_selection = st.selectbox('Choose Meridian', ['ALL'] + [meridian.organ.value for meridian in ALL_MERIDIANS], on_change=restack)
-    flashcard_objects = ALL_POINTS if meridian_selection == 'ALL' else get_meridian_by_organ(Organ(meridian_selection)).points
+    meridian_selection = st.selectbox('Choose Meridian', ['ALL'] + [meridian.name.value for meridian in ALL_MERIDIANS], on_change=restack)
+    flashcard_objects = ALL_POINTS if meridian_selection == 'ALL' else get_meridian_by_name(MeridianName(meridian_selection)).points
 
 else:
     flashcard_objects = ALL_MERIDIANS

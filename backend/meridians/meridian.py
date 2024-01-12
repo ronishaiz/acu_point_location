@@ -1,30 +1,58 @@
 import os.path
+from abc import ABCMeta
 from dataclasses import dataclass
 from typing import List
 
 import toml
 
-from backend.enums import Organ, Stage, Element, Limb
+from backend.enums import MeridianName, Stage, Element, Limb
 from backend.points.point import Point
 from pages_backend.flashcards.flashcard import FlashCardObject
 
 
 @dataclass
-class Meridian(FlashCardObject):
-
-    _stage: Stage = None
-    _organ: Organ = None
-    _element: Element = None
-    _limb: Limb = None
-
-    _yin_yang_partner_organ: Organ = None
-    _stage_partner_organ: Organ = None
-
-    _hours: tuple = None
+class MeridianBase(FlashCardObject, metaclass=ABCMeta):
+    _name: MeridianName = None
 
     _points: List[Point] = None
 
     _number_of_learned_points: int = None
+
+    def __post_init__(self):
+        self._points = self._get_points()
+
+    @property
+    def number_of_learned_points(self) -> int:
+        return self._number_of_learned_points
+
+    @property
+    def name(self) -> MeridianName:
+        return self._name
+
+    @property
+    def points(self) -> List[Point]:
+        return self._points
+
+    def _get_points(self) -> List[Point]:
+        path_to_toml = os.path.join(os.path.dirname(__file__), 'data', self.name.value + '.toml')
+
+        with open(path_to_toml, 'r') as f:
+            points_dict = toml.load(f)
+
+        return [Point.get_point_from_dict(point_dict, identifier) for identifier, point_dict in points_dict.items()]
+
+
+@dataclass
+class ZangFuMeridian(MeridianBase):
+    _stage: Stage = None
+    _name: MeridianName = None
+    _element: Element = None
+    _limb: Limb = None
+
+    _yin_yang_partner_organ: MeridianName = None
+    _stage_partner_organ: MeridianName = None
+
+    _hours: tuple = None
 
     @property
     def identifier(self):
@@ -35,10 +63,6 @@ class Meridian(FlashCardObject):
         return self._stage
 
     @property
-    def organ(self) -> Organ:
-        return self._organ
-
-    @property
     def element(self) -> Element:
         return self._element
 
@@ -47,28 +71,20 @@ class Meridian(FlashCardObject):
         return self._limb
 
     @property
-    def yin_yang_partner_organ(self) -> Organ:
+    def yin_yang_partner_organ(self) -> MeridianName:
         return self._yin_yang_partner_organ
 
     @property
-    def stage_partner_organ(self) -> Organ:
+    def stage_partner_organ(self) -> MeridianName:
         return self._stage_partner_organ
 
     @property
     def hours(self) -> tuple:
         return self._hours
 
-    @property
-    def points(self) -> List[Point]:
-        return self._points
-
-    @property
-    def number_of_learned_points(self) -> int:
-        return self._number_of_learned_points
-
     @classmethod
     def get_property_name_to_flash_card_property_name(cls) -> dict:
-        return {'organ': 'Organ',
+        return {'name': 'Organ',
                 'stage': 'Stage',
                 'element': 'Element',
                 'limb': 'Limb',
@@ -76,30 +92,59 @@ class Meridian(FlashCardObject):
                 'stage_partner_organ': 'Partner in Same Stage',
                 'hours': 'Hours'}
 
-    def __post_init__(self):
-        self._points = self._get_points()
 
-    def _get_points(self) -> List[Point]:
-        path_to_toml = os.path.join(os.path.dirname(__file__), 'data', self.organ.value + '.toml')
+@dataclass
+class SpecialMeridian(MeridianBase):
 
-        with open(path_to_toml, 'r') as f:
-            points_dict = toml.load(f)
+    _opening_point: str = None
+    _closing_point: str = None
+    _region: str = None
+    _yin_yang: str = None
 
-        return [Point.get_point_from_dict(point_dict, identifier) for identifier, point_dict in points_dict.items()]
+    @property
+    def identifier(self):
+        return self.name
+
+    @property
+    def opening_point(self):
+        return self._opening_point
+
+    @property
+    def closing_point(self):
+        return self._closing_point
+
+    @property
+    def region(self):
+        return self._region
+
+    @property
+    def yin_yang(self):
+        return self._yin_yang
+
+    @classmethod
+    def get_property_name_to_flash_card_property_name(cls) -> dict:
+        return {'name': 'Name',
+                'opening_point': 'Opening Point',
+                'closing_point': 'Closing Point',
+                'region': 'Region',
+                'yin_yang': 'Yin Yang'}
 
 
-LU_MERIDIAN = Meridian(_stage=Stage.tai_yin, _organ=Organ.LU, _element=Element.METAL, _limb=Limb.HAND,
-                       _yin_yang_partner_organ=Organ.LI, _stage_partner_organ=Organ.SP, _hours=(3, 5),
-                       _number_of_learned_points=9)
+LU_MERIDIAN = ZangFuMeridian(_stage=Stage.tai_yin, _name=MeridianName.LU, _element=Element.METAL, _limb=Limb.HAND,
+                             _yin_yang_partner_organ=MeridianName.LI, _stage_partner_organ=MeridianName.SP, _hours=(3, 5),
+                             _number_of_learned_points=9)
 
-LI_MERIDIAN = Meridian(_stage=Stage.yang_ming, _organ=Organ.LI, _element=Element.METAL, _limb=Limb.LEG,
-                       _yin_yang_partner_organ=Organ.LU, _stage_partner_organ=Organ.ST, _hours=(5, 7),
-                       _number_of_learned_points=12)
+LI_MERIDIAN = ZangFuMeridian(_stage=Stage.yang_ming, _name=MeridianName.LI, _element=Element.METAL, _limb=Limb.LEG,
+                             _yin_yang_partner_organ=MeridianName.LU, _stage_partner_organ=MeridianName.ST, _hours=(5, 7),
+                             _number_of_learned_points=12)
 
 
-def get_meridian_by_organ(organ: Organ):
-    if organ == Organ.LU:
+def get_meridian_by_name(name: MeridianName):
+    if name == MeridianName.LU:
         return LU_MERIDIAN
+
+    elif name == MeridianName.LI:
+        return LI_MERIDIAN
 
     else:
         raise Exception("Non supported meridian")

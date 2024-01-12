@@ -9,12 +9,12 @@ class TestMeridians(unittest.TestCase):
 
         for meridian in ALL_MERIDIANS:
             self.assertEqual(meridian.number_of_learned_points, len(meridian.points),
-                             f"The meridian: {meridian._organ.value} contains less points than the number of points learned")
+                             f"The meridian: {meridian._name.value} contains less points than the number of points learned")
 
     def test_matching_point_identifiers(self):
 
         for meridian in ALL_MERIDIANS:
             for point in meridian.points:
-                self.assertTrue(point.identifier.endswith(str(point.number)), f"The point identifier of {meridian.organ}{point.number} "
+                self.assertTrue(point.identifier.endswith(str(point.number)), f"The point identifier of {meridian.name}{point.number} "
                                                                               f"ends with the wrong number. "
                                                                               f"The point identifier is mistakenly: {point.identifier}")

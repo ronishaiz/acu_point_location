@@ -11,7 +11,7 @@ class Stage(Enum):
     jue_yin: str = "JUE YIN"
 
 
-class Organ(Enum):
+class MeridianName(Enum):
 
     LIV: str = 'LIV'
     GB: str = 'GB'
@@ -25,6 +25,8 @@ class Organ(Enum):
     LI: str = 'LI'
     KID: str = 'KID'
     BL: str = 'BL'
+    CV: str = 'CV'
+    GV: str = 'GV'
 
 
 class Element(Enum):
