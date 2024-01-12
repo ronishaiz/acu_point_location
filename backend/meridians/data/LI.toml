@@ -114,7 +114,7 @@ indications = ["Trouble Letting Go", "Throat Pain"]
 [LI20]
 chinese_name = "Ying Xiang"
 number = 20
-characters = ["STAGE MEETING"]
+characters = ["MEETING"]
 location = "In the nasolabial groove, level with the most lateral part of the nostril"
 find_anatomically = true
 functions = ["Opens the nasal passages"]

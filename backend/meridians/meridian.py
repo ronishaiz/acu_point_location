@@ -138,6 +138,9 @@ LI_MERIDIAN = ZangFuMeridian(_stage=Stage.yang_ming, _name=MeridianName.LI, _ele
                              _yin_yang_partner_organ=MeridianName.LU, _stage_partner_organ=MeridianName.ST, _hours=(5, 7),
                              _number_of_learned_points=12)
 
+CV_MERIDIAN = SpecialMeridian(_name=MeridianName.CV, _number_of_learned_points=17, _opening_point='LU7', _closing_point='KID6',
+                              _region='Front', _yin_yang='Yin')
+
 
 def get_meridian_by_name(name: MeridianName):
     if name == MeridianName.LU:
@@ -146,9 +149,12 @@ def get_meridian_by_name(name: MeridianName):
     elif name == MeridianName.LI:
         return LI_MERIDIAN
 
+    elif name == MeridianName.CV:
+        return CV_MERIDIAN
+
     else:
         raise Exception("Non supported meridian")
 
 
-ALL_MERIDIANS = [LU_MERIDIAN, LI_MERIDIAN]
+ALL_MERIDIANS = [LU_MERIDIAN, LI_MERIDIAN, CV_MERIDIAN]
 ALL_POINTS = [item for sublist in [meridian.points for meridian in ALL_MERIDIANS] for item in sublist]
