@@ -76,3 +76,9 @@ class PointCharacter(Enum):
     meeting: str = 'MEETING'
 
     sea_of_qi: str = 'SEA OF QI'
+
+    sea_of_blood: str = 'SEA OF BLOOD'
+
+    sea_of_water_and_grain: str = 'SEA OF WATER AND GRAIN'
+
+    lower_sea: str = 'LOWER SEA'

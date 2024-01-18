@@ -1,0 +1,107 @@
+[ST45]
+chinese_name = "Li Dui"
+number = 45
+characters = ["WELL", "SEDATION"]
+element = "METAL"
+location = "0.1 cun proximal to the lateral corner of the second toe nail"
+find_anatomically = true
+functions = ["TMM", "Disposes of acute heat in the face"]
+indications = ["Sinusitis (in the lower sinuses)", "Muscular Pain Along the Meridian"]
+
+[ST44]
+chinese_name = "Nei Ting"
+number = 44
+characters = ["SPRING"]
+element = "WATER"
+location = "In the dorsal part of the foot, between the second and third toes, 0.5 cun proximal to the WEB margin"
+find_anatomically = true
+functions = ["Extracts heat from the ST", "Extracts heat from the Yang Ming"]
+indications = ["Excessive Hunger", "Lesions in the Mouth and Gums", "The 4 Bigs"]
+comments = "It also affects the face, as a distal point on ST. Can help with face heat in general. We can use with LI4 for this function"
+use_with = ["LI4"]
+poem = "Even a subtle\nTouch\nAt the web\nBetween the toes\nMay remind us -\nOnce upon a time, we knew how to swim.\nThe big void\nThat tore through the center\nMay also be filled\nWith water.\nThe hunger\nBurning\nIn our soul\nMay be soothed\nWith salt.\nWe can rinse the lesions once again\nAnd find remedy."
+
+[ST43]
+chinese_name = "Xian Gu"
+number = 43
+characters = ["STREAM"]
+element = "WOOD"
+location = "At the dorsal part of the foot, between the 2nd and 3rd metatarsal bones at the height of SP3"
+find_anatomically = true
+functions = ["Treats joint pain along the meridian"]
+indications = ["Joint Pain Along the Meridian", "Knee Pain", "Ankle Pain", "Thigh Pain"]
+
+[ST42]
+chinese_name = "Chong Yang"
+number = 42
+characters = ["YUAN"]
+location = "At the dorsal part of the foot, in the crevice between the 2nd and 3rd metatarsal bones and the Cuneiform"
+find_anatomically = true
+functions = ["Strengthens the ST"]
+indications = ["Weak ST"]
+comments = "Need to find ST41 before finding it, because it is on the line between ST43 and ST41, approximately in the middle. It is less usable because it is not as good as ST36"
+
+[ST41]
+chinese_name = "Jie Si"
+number = 41
+characters = ["RIVER", "TONIFICATION"]
+element = "FIRE"
+location = "At the lateral malleolus joint, between the Extensor Hallucis Longus and the Extensor Digitorum Longus"
+find_anatomically = true
+functions = ["Locally"]
+indications = ["Ankle Pain"]
+
+[ST40]
+chinese_name = "Feng Long"
+number = 40
+characters = ["LUO"]
+location = "8 cun distal to ST35, 2 fingers lateral to the peak of the Tibia"
+find_anatomically = false
+functions = ["Extracts phlegm from the 1st burner"]
+indications = ["Cough With Phlegm", "Joint Inflammation", "Dizziness, Heavy Head", "Mental Confusion (Misty Mind)"]
+use_with = ["LU5", "PC5"]
+comments = "Use with LU5 for treating LU phlegm (cough). Use with PC5 for phlegm misting the mind."
+
+[ST39]
+chinese_name = "Xia Ju Xu"
+number = 39
+characters = ["LOWER SEA", "SEA OF BLOOD"]
+location = "3 cun inferior to ST37, a finger lateral to the peak of the Tibia"
+find_anatomically = false
+functions = ["Strengthens blood through absorption enhancement"]
+indications = ["Anemia (Based on Diarrhea, Chron, Colitis)"]
+comments = "The lower sea point of the SI"
+use_with = ["ST37"]
+
+[ST38]
+chinese_name = "Tiao Kou"
+number = 38
+characters = []
+location = "8 cun distal to ST35, a finger lateral to the peak of the Tibia"
+find_anatomically = false
+functions = ["A distal point to the shoulder (through the connection with LI)"]
+indications = ["Anterior Shoulder Pain"]
+comments = "Sometimes, punctured during stimulation, after the session is over"
+
+[ST37]
+chinese_name = "Shang Ju Xu"
+number = 37
+characters = ["LOWER SEA", "SEA OF BLOOD"]
+location = "3 cun inferior to ST36, a finger lateral to the peak of the Tibia"
+find_anatomically = false
+functions = ["Strengthens blood through absorption enhancement"]
+indications = ["Anemia (Based on Diarrhea, Chron, Colitis)"]
+comments = "The lower sea point of the LI"
+use_with = ["ST39"]
+
+[ST36]
+chinese_name = "Zu San Li"
+number = 36
+characters = ["SEA", "HORARY", "COMMAND", "SEA OF WATER AND GRAIN"]
+element = "EARTH"
+location = "3 cun inferior to ST35, a finger lateral to the peak of the Tibia"
+find_anatomically = false
+functions = ["Strengthens ST and SP", "Feeds the post-heaven Qi and Jing", "Strengthens blood", "Regulates the ST"]
+indications = ["Low Circulation of Blood to Lower Limbs", "Fatigue", "Nausea, Puking"]
+comments = "Best point for Qi strengthening"
+use_with = ["LI10", "CV6", "CV12"]
