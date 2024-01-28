@@ -105,3 +105,63 @@ functions = ["Strengthens ST and SP", "Feeds the post-heaven Qi and Jing", "Stre
 indications = ["Low Circulation of Blood to Lower Limbs", "Fatigue", "Nausea, Puking"]
 comments = "Best point for Qi strengthening"
 use_with = ["LI10", "CV6", "CV12"]
+
+[ST35]
+chinese_name = "Du Bi"
+number = 35
+characters = []
+location = "At the crevice exposed when the knee is bent, directly underneath the patella and lateral to the patellar ligament"
+find_anatomically = true
+functions = ["Locally"]
+indications = ["Knee Pain"]
+comments = "Usually when it hurts too much, we will use the stream points to address joint pains, instead of using the point at the joint"
+
+[ST34]
+chinese_name = "Liang Qui"
+number = 34
+characters = ["XI"]
+location = "On the line connecting between the lateral side of the patella and the ASIS, in the crevice 2 cun proximal to the superior-lateral border of the patella"
+find_anatomically = false
+functions = ["Harmonizes ST Qi"]
+indications = ["Acidic ST (Ulcer)", "Nausea", "Heartburn", "ST Pain"]
+use_with = ["CV12"]
+
+[ST31]
+chinese_name = "Bi Guan"
+number = 31
+characters = []
+location = "At the crevice lateral to the Sartorius muscle, at the meeting of the lines created by the ASIS and the Greater Trauchanter (height of the low border of the Pubic Symphysis)"
+find_anatomically = true
+functions = ["Moves Qi to the lower limbs"]
+indications = ["Weakness in Lower Limbs (like after removing a cast)"]
+
+[ST30]
+chinese_name = "Qi Chong"
+number = 30
+characters = ["SEA OF WATER AND GRAIN", "MEETING"]
+location = "2 cun lateral to the midline, at the height of the superior border of the Pubic Symphysis (height of CV2)"
+find_anatomically = false
+functions = ["Controls the lower burner"]
+indications = ["Rebellious Lower Burner Qi - Running Piglet (Rushing Feeling of Fear or Stress)"]
+comments = "Meeting with the Chong Mai meridian"
+
+[ST28]
+chinese_name = "Shui Dao"
+number = 28
+characters = []
+location = "2 cun lateral to the midline, 2 cun superior to ST38 (at the height of CV4)"
+find_anatomically = false
+functions = ["Extracts humidity from the lower burner (Uterus and Bladder)"]
+indications = ["Excessive Vaginal Lubrication", "Polycystic Ovary", "Bladder Inflammation"]
+use_with = ["CV3"]
+comments = "Can use for both hot and cold humidity"
+
+[ST25]
+chinese_name = "Tian Shu"
+number = 25
+characters = ["MU"]
+location = "2 cun lateral to the midline, at the height of the umbilicus (at the center of the Rectus Abdominus muscle)"
+find_anatomically = false
+functions = ["Harmonizes the lower burner (intestine)"]
+indications = ["Constipation (dry)", "Diarrhea (hot humidity)"]
+comments = "MU of LI"
