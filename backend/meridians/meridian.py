@@ -143,7 +143,7 @@ CV_MERIDIAN = SpecialMeridian(_name=MeridianName.CV, _number_of_learned_points=1
 
 ST_MERIDIAN = ZangFuMeridian(_stage=Stage.yang_ming, _name=MeridianName.ST, _element=Element.EARTH, _limb=Limb.LEG,
                              _yin_yang_partner_organ=MeridianName.SP, _stage_partner_organ=MeridianName.LI, _hours=(7, 9),
-                             _number_of_learned_points=16)
+                             _number_of_learned_points=28)
 
 
 def get_meridian_by_name(name: MeridianName):

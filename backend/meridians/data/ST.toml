@@ -144,6 +144,7 @@ find_anatomically = false
 functions = ["Controls the lower burner"]
 indications = ["Rebellious Lower Burner Qi - Running Piglet (Rushing Feeling of Fear or Stress)"]
 comments = "Meeting with the Chong Mai meridian"
+poem = "Hold your horses\nAt the stables\nKeep the pigs\nOn the ground\nSuddenly\nIt all had risen\nUp.\nSuck out\nThe Helium\nThe heart\nIs not\nA balloon."
 
 [ST28]
 chinese_name = "Shui Dao"
@@ -165,3 +166,125 @@ find_anatomically = false
 functions = ["Harmonizes the lower burner (intestine)"]
 indications = ["Constipation (dry)", "Diarrhea (hot humidity)"]
 comments = "MU of LI"
+
+[ST21]
+chinese_name = "Liang Men"
+number = 21
+characters = []
+location = "2 cun lateral to the midline, 4 cun superior to the umbilicus (at the height of CV12)"
+find_anatomically = false
+functions = ["Harmonizes the middle burner (in cases of excess, food stagnation)"]
+indications = ["Nausea", "Stomach Ache", "Vomit"]
+use_with = ["CV12"]
+comments = "CV12 and ST21 both harmonize the middle burner, but ST21 is good mostly for excess states, while CV12 is good also for shortages"
+
+[ST18]
+chinese_name = "Gu Ren"
+number = 18
+characters = []
+location = "4 cun lateral to the midline, at the 5th intercostal space (in the area of the base of the breast)"
+find_anatomically = true
+functions = ["Does well with the chest and the breast (locally)"]
+indications = ["Breast-Milk Discharge Encouragement", "Breast Inflammation or Pain"]
+use_with = ["CV17", "SI1"]
+comments = "the combination with CV17 and SI1 is good for breast-milk manufacture and discharge"
+
+[ST17]
+chinese_name = "Ru Zhong"
+number = 17
+characters = []
+location = "At the center of the nipple"
+find_anatomically = true
+functions = []
+indications = []
+comments = "Not in use"
+
+[ST12]
+chinese_name = "Qu Pen"
+number = 12
+characters = ["MEETING"]
+location = "At the superior side of the clavicle, 4 cun lateral to the midline"
+find_anatomically = false
+functions = []
+indications = []
+comments = "Not in use in TCM, but can be used in some occasions as the meeting point of all Yang Meridians except the BL"
+
+[ST9]
+chinese_name = "Ren Ying"
+number = 9
+characters = ["WINDOW OF HEAVEN", "SEA OF QI"]
+location = "Level with the tip of the Adam's Apple and 1.5 cun lateral to it, in the crevice between the anterior part of the Sterno-Cleido-Mastoid and the lateral border of the Thyroid Cartilage"
+find_anatomically = true
+functions = ["Lowers rebellious rising Qi", "Locally"]
+indications = ["High Blood Pressure (Yang Rising)", "Goiter"]
+use_with = ["LI11", "ST36"]
+comments = "Next to the Carotid artery, find the pulse and then go lateral to it to make sure you don't puncture it. Use with LI11 and ST36 for high blood pressure"
+
+[ST8]
+chinese_name = "Tou Wei"
+number = 8
+characters = ["MEETING"]
+location = "At the corner of the forehead, 4.5 cun lateral to DU24, and 0.5 cun into the line of the hair"
+find_anatomically = true
+functions = ["Does well with the head", "Extracts humidity from the head"]
+indications = ["Head Ache (especially in the front of the head), Heavy Head"]
+comments = "Meeting of ST, GB and Yang Wei"
+
+[ST7]
+chinese_name = "Xia Guan"
+number = 7
+characters = []
+location = "At the lower border of the Zygomatic Arch, at the crevice anterior to the Condyloid Process of the Mandible"
+find_anatomically = true
+functions = ["Does well with the ears, mouth, jaw and face"]
+indications = ["Trigeminal Neurology", "Facialis", "Locking Jaw", "Teeth Grinding", "Facial Problems"]
+use_with = ["LI4"]
+comments = "The Trigeminal nerve passes through that area"
+
+[ST6]
+chinese_name = "Jia Che"
+number = 6
+characters = []
+location = "A finger anterior and superior to the angle of the Mandible, at the center of the Masseter (between the heads of the muscle)"
+find_anatomically = true
+functions = ["Locally - mouth, jaw and teeth"]
+indications = ["Facialis", "Tooth Pain", "Gums Pain"]
+
+[ST5]
+chinese_name = "Da Ying"
+number = 5
+characters = []
+location = "Anterior to the angle of the jaw, at the crevice at the anterior border of the Masseter (on the bone)"
+find_anatomically = true
+functions = ["Locally - mouth, jaw and teeth"]
+indications = ["Facialis", "Tooth Pain", "Gums Pain"]
+
+[ST4]
+chinese_name = "Di Chang"
+number = 4
+characters = []
+location = "0.4 cun lateral to the corner of the mouth"
+find_anatomically = true
+functions = ["Locally - mouth, jaw and teeth"]
+indications = ["Facialis", "Tooth Pain", "Gums Pain", "Lip Herpes"]
+
+[ST2]
+chinese_name = "Si Bai"
+number = 2
+characters = []
+location = "When the eye is looking straight ahead, 1 cun underneath the pupil, at the Infra-orbital Foramen crevice (on the bone)"
+find_anatomically = true
+functions = ["Does well with the eyes"]
+indications = ["Redness in the Eye", "Eye Inflammation", "Eye Itch", "Eye Pain", "Sinusitis"]
+comments = "We will try to find the organ related to the eye problem, and treat it as well as puncturing this general eye helper point"
+poem = "North\nSouth\nEast\nWest\nThe fog vanishes\nThe world glows\nAnd now\nAll four\nAre bright.\nIn all directions\nLet there be sight."
+
+[ST1]
+chinese_name = "Chen Chi"
+number = 1
+characters = []
+location = "When the eye is looking straight ahead, directly underneath the pupil, between the eyeball and the Infra-orbital margin"
+find_anatomically = true
+functions = ["Does well with the eyes"]
+indications = ["Eye Problems", "Tearing Eyes", "Lack of Tears", "Eye Itch"]
+comments = "We will not use it because of the proximity to the eye"
