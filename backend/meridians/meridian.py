@@ -145,6 +145,10 @@ ST_MERIDIAN = ZangFuMeridian(_stage=Stage.yang_ming, _name=MeridianName.ST, _ele
                              _yin_yang_partner_organ=MeridianName.SP, _stage_partner_organ=MeridianName.LI, _hours=(7, 9),
                              _number_of_learned_points=28)
 
+SP_MERIDIAN = ZangFuMeridian(_stage=Stage.tai_yin, _name=MeridianName.SP, _element=Element.EARTH, _limb=Limb.LEG,
+                             _yin_yang_partner_organ=MeridianName.ST, _stage_partner_organ=MeridianName.LU, _hours=(9, 11),
+                             _number_of_learned_points=11)
+
 
 def get_meridian_by_name(name: MeridianName):
     if name == MeridianName.LU:
@@ -158,6 +162,9 @@ def get_meridian_by_name(name: MeridianName):
 
     elif name == MeridianName.ST:
         return ST_MERIDIAN
+
+    elif name == MeridianName.SP:
+        return SP_MERIDIAN
 
     else:
         raise Exception("Non supported meridian")

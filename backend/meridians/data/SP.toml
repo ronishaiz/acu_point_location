@@ -1,0 +1,124 @@
+[SP1]
+chinese_name = "Yin Bai"
+number = 1
+characters = ["WELL"]
+element = "WOOD"
+location = "0.1 cun proximal to the medial corner of the first toe nail"
+find_anatomically = true
+functions = ["Stops bleeding caused by lack (weak Qi, weak SP)"]
+indications = ["Elongated Menstruation", "Bleeding Between Menstruation Cycles"]
+comments = "To puncture during the menstruation, when there is long bleeding, because this point is for acute cases."
+
+[SP2]
+chinese_name = "Da Du"
+number = 2
+characters = ["SPRING", "TONIFICATION"]
+element = "FIRE"
+location = "At the medial part of the first toe, distal and inferior to the first meta-tarsal-phalangial joint, at the neck of the bone"
+find_anatomically = true
+functions = ["Strengthens the Earth element"]
+indications = ["Weak Earth Element"]
+comments = "Not very useful in TCM, because it will be better to use other points to strengthen the Earth"
+
+
+[SP3]
+chinese_name = "Tai Bai"
+number = 3
+characters = ["STREAM", "YUAN", "HORARY"]
+element = "EARTH"
+location = "At the medial part of the foot, proximal to the first metatarsal-phalangial joint, at the neck of the first metatarsal bone"
+find_anatomically = true
+functions = ["Strengthens all SP functions"]
+indications = ["Weak SP", "Weak Earth", "Hallux Valgus (Locally)", "Gaud (Locally)"]
+
+[SP4]
+chinese_name = "Gong Sun"
+number = 4
+characters = ["LUO", "CHONG MAI OPENING"]
+location = "At the medial part of the foot, distal and inferior to the base of the first metatarsal, at the neck of the bone"
+find_anatomically = true
+functions = ["Helps with worry", "Harmonizes MJ", "Controls the CHONG MAI"]
+indications = ["Mental Earth Issues", "Nausea", "Puking"]
+use_with = ["CV12"]
+
+[SP5]
+chinese_name = "Shang Qiu"
+number = 5
+characters = ["RIVER", "SEDATION"]
+element = "METAL"
+location = "At the medial part of the ankle, anterior and inferior to the bulge of the medial malleolus (foot snuffbox)"
+find_anatomically = true
+functions = ["Extracts humidity and phlegm from the LU and the joints"]
+indications = ["Joint Inflammation with Swollen Joints", "Cough with Phlegm"]
+use_with = ["LU1"]
+
+[SP6]
+chinese_name = "San Yin Jiao"
+number = 6
+characters = ["MEETING"]
+location = "At the medial part of the leg, 3 cun superior to the bulge of the medial malleolus, in the crevice close to the medial border of the Tibia"
+find_anatomically = false
+functions = ["Strengthens Yin and Blood", "Organizes the menstrual cycle", "Soothes the soul", "Encourages labor"]
+indications = ["Gynecological Issues (caused by lack of Yin)", "Empty Heat Symptoms (lack of Yin)", "Insomnia", "Troubled Mind", "Depression"]
+use_with = ["CV4", "HT7", "LI4"]
+comments = "DO NOT USE ON PREGNANT WOMEN!!! Meeting of the three leg Yin meridians. Use with CV4 for blood and Yin. Use with HT7 for the soul. Use with LI4 to encourage labor"
+
+[SP8]
+chinese_name = "Di Ji"
+number = 8
+characters = ["XI"]
+location = "At the medial part of the leg, 10 cun superior to the medial malleolus on the line connecting SP6 and SP9 (not bordering with the Tibia!)"
+find_anatomically = false
+functions = ["Controls the menstrual cycle"]
+indications = ["Acute Pain, Before or During Menstruation"]
+
+[SP9]
+chinese_name = "Yin Ling Quan"
+number = 9
+characters = ["SEA"]
+element = "WATER"
+location = "At the medial part of the leg, at the crevice created by the medial Condyle of the Tibia, beneath the neck of the Tibia"
+find_anatomically = true
+functions = ["Extracts humidity from the middle and low burners by urination encouragement"]
+indications = ["Bladder Inflammation", "Excessive Vaginal Lubrication", "Swollen Legs or Knees"]
+use_with = ["CV3", "ST28"]
+comments = "Good for both cold and warm humidity"
+
+[SP10]
+chinese_name = "Xue Hai"
+number = 10
+characters = []
+location = "2 cun proximal to the medial-superior border of the patella, at the gentle crevice created on the Vastus Medialis muscle"
+find_anatomically = true
+functions = ["Moves blood", "Extracts heat from blood", "Strengthens blood"]
+indications = ["Severe Pains (Blood Stagnation)", "Big Blood Vessels During Menstruation", "Itch", "Red Skin", "Acne", "Excessive Bleeding", "Dry Skin", "Short Menstruation with Little Bleeding"]
+use_with = ["LI11", "CV4"]
+comments = "Called Sea of Blood but does not belong to the group of points with this name (similar to Sea of Qi and CV6). To extract heat from blood - use with LI11. To strengthen blood - use with CV4"
+
+[SP15]
+chinese_name = "Da Heng"
+number = 15
+characters = []
+location = "4 cun lateral to the umbilicus, at the lateral border of the Rectus Abdominus muscle (at the height of CV8 and ST25)"
+find_anatomically = false
+functions = ["Harmonizes the intestines"]
+indications = ["LI Damp Heat", "Soft Stool", "Pencil-like Stool", "Going to the toilets many times", "Constipation (based on SP Qi Xu)"]
+
+[SP21]
+chinese_name = "Da Bao"
+number = 21
+characters = ["MEETING"]
+location = "At the Axilar midline, at the 6th or 7th intercostal space"
+find_anatomically = true
+functions = ["Controls Qi and Blood"]
+indications = ["All-Body Pain", "Unbalanced Front and Back Sides"]
+use_with = ["LI4"]
+comments = "Meeting of all LUO meridians"
+
+
+
+
+
+
+
+
