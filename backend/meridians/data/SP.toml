@@ -40,6 +40,7 @@ find_anatomically = true
 functions = ["Helps with worry", "Harmonizes MJ", "Controls the CHONG MAI"]
 indications = ["Mental Earth Issues", "Nausea", "Puking"]
 use_with = ["CV12"]
+poem = "I remember how it was\nBeing born\nTo this dynasty.\nLater,\nThe world grew me up\nHesitantly\nLike a shy flower\nI was another one\nBowing my head\nAt the kindergarten.\nConnected with strings of ruby\nTo my two parents\nTo my ancestral disaster\nAnd to the sea, the winds\nAnd the bushes.\nThrough the eyes\nOf all my loved ones\nI could not fathom\nWho I am.\nI forgot, by then\nThat I was born\nThe dragon's daughter."
 
 [SP5]
 chinese_name = "Shang Qiu"
