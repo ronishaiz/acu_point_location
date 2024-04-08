@@ -81,9 +81,10 @@ use_with = ["KID2"]
 [HT1]
 chinese_name = "Ji Quan"
 number = 1
+characters = []
 location = "At the center of the Axilar crease"
 find_anatomically = true
 functions = ["Treats excessive axilar sweating", "Soothes the chest area"]
-indications = ["Sweating Armpits", "Stress\Pain in the Chest"]
+indications = ["Sweating Armpits", "Stress or Pain in the Chest"]
 comments = "if the sweating is due to full heat, we will add HT8. if the sweating is due to empty heat, we will add HT6"
 use_with = ["HT8", "HT6"]
