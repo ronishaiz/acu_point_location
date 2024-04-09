@@ -1,7 +1,10 @@
 import streamlit as st
 
-from pages_backend.practice.practice_type import PracticeType
-from pages_backend.practice.random_choice_practice import random_choice_practice
+from pages_backend.practice.base_practice import BasePractice
+from pages_backend.practice.practice_factory import get_practice
+from pages_backend.practice.practice_type import PRACTICE_TYPES
+
+practice = BasePractice()
 
 st.set_page_config(
     page_title="Practice",
@@ -10,8 +13,10 @@ st.set_page_config(
 
 practice_type = st.selectbox(
     label="Select Practice Type",
-    options=[PracticeType.random_choice.value]
+    options=PRACTICE_TYPES,
+    on_change=practice.regenerate
 )
 
-if practice_type == PracticeType.random_choice.value:
-    random_choice_practice()
+practice = get_practice(practice_type)
+
+practice.practice()

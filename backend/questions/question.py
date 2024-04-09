@@ -1,7 +1,7 @@
 from abc import ABCMeta, abstractmethod
 from dataclasses import dataclass
 from random import shuffle
-from typing import List
+from typing import List, Dict
 
 import streamlit as st
 
@@ -23,19 +23,17 @@ class Question:
         return self._question_str
 
     @classmethod
-    def generate(cls, questions_to_answers: dict, num_questions_to_generate: int) -> List['Question']:
+    def generate(cls, questions_to_answers: Dict[str, str], num_questions_to_generate: int) -> List['Question']:
 
-        questions = []
-        question_bank = list(questions_to_answers)
+        if num_questions_to_generate > len(questions_to_answers):
+            raise ValueError("Were asked to generate more questions than those that exist")
 
-        for _ in range(num_questions_to_generate):
+        questions = [cls(_answer=str(format_displayable_object(answer)), _question_str=str(question))
+                     for question, answer in questions_to_answers.items()]
 
-            shuffle(question_bank)
+        shuffle(questions)
 
-            question = question_bank[0]
-            answer = questions_to_answers[question]
-
-            questions.append(cls(_answer=str(format_displayable_object(answer)), _question_str=str(question)))
+        questions = questions[:num_questions_to_generate]
 
         return questions
 
@@ -46,8 +44,18 @@ class DisplayableQuestion(metaclass=ABCMeta):
     _question: Question
 
     @abstractmethod
-    def display(self):
+    def display_question_and_get_answer(self) -> str:
         pass
+
+    @classmethod
+    @abstractmethod
+    def generate(cls, questions_to_answers: dict, num_questions_to_generate: int) -> List['DisplayableQuestion']:
+        pass
+
+    def display(self):
+        answer = self.display_question_and_get_answer()
+
+        st.button("Submit", key="Submit Answer", on_click=lambda: self.submit_answer(answer))
 
     def submit_answer(self, answer: str):
         if answer == self._question.answer:

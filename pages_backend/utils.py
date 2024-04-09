@@ -23,6 +23,10 @@ class Queue(Generic[T]):
     def next(self) -> None:
         self._elements = self._elements[1:] + [self._elements[0]]
 
+    @property
+    def empty(self) -> bool:
+        return not self._elements
+
 
 def format_displayable_object(displayable_object: object):
     new_displayable_object = displayable_object

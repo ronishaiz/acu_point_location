@@ -16,10 +16,8 @@ class RandomChoice(DisplayableQuestion):
 
     _choices: list
 
-    def display(self):
-        answer = st.radio(label=str(self._question.question_str), options=self._choices)
-
-        st.button("Submit", key="Submit Answer", on_click=lambda: self.submit_answer(answer))
+    def display_question_and_get_answer(self) -> str:
+        return st.radio(label=str(self._question.question_str), options=self._choices)
 
     @classmethod
     def generate(cls, questions_to_answers: dict, num_questions_to_generate: int) -> List['RandomChoice']:
