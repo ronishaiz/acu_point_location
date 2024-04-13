@@ -1,0 +1,85 @@
+[SI1]
+chinese_name = "Shao Ze"
+number = 1
+characters = ["WELL"]
+element = "METAL"
+location = "0.1 proximal to the corner of the pinky finger's nail on the ulnar side"
+find_anatomically = true
+functions = ["TMM", "Encourages Breast Milk Production"]
+indications = ["Pain Along the Meridian", "Lack of Breast-Milk Production"]
+
+[SI2]
+chinese_name = "Qian Gu"
+number = 2
+characters = ["SPRING"]
+element = "WATER"
+location = "On the ulnar border of the pinky finger, at the crevice distal to the 5th metacarpophalangial joint"
+find_anatomically = true
+functions = []
+indications = []
+comments = "Less useful in TCM (may use in 5 elements perspective as a water point)"
+
+[SI3]
+chinese_name = "Hou Xi"
+number = 3
+characters = ["STREAM", "TONIFICATION", "SPECIAL MERIDIAN OPENING"]
+element = "WOOD"
+location = "On the ulnar border of the palm, proximal to the 5th metacarpophalangial joint"
+find_anatomically = true
+functions = ["Treats joint-related pain along the meridian", "Activates the DU MAI (along with BL62)", "Extracts wind from the TAI YANG", "Does well with the spine", "Treats mental issues (Bi-Polar, Epilepsy)"]
+indications = ["Joint Pain Along the Meridian", "Flu, Catching a Cold", "Skin and Muscle Pain (Tension in the Back, Shoulders, Muscles)", "Mental Issues"]
+use_with = ["BL60", "LI3"]
+comments = "Use with BL60 for activating the TAI YANG and extracting external wind and pathogens. Use with LI3 for joint pain in the body, Arthritis (Stream Treatment)"
+
+[SI4]
+chinese_name = "Wan Gu"
+number = 4
+characters = ["YUAN"]
+location = "On the ulnar border of the palm, at the crevice between the base of the 5th metacarpal bone and the Triquetral bone"
+find_anatomically = true
+functions = ["Treats Jaundice"]
+indications = ["Jaundice"]
+comments = "Jaundice has to do with the liver, which is the opposite organ to the SI in the Chinese biological clock"
+
+[SI5]
+chinese_name = "Yang Gu"
+number = 5
+characters = ["RIVER", "HORARY"]
+element = "FIRE"
+location = "On the ulnar border of the wrist, at the crevice between the head of the Ulna and the Triquetral bone"
+find_anatomically = true
+functions = ["Extracts heat from the heart", "Soothes the soul"]
+indications = ["BL Inflammation (Sterile)"]
+use_with = ["LI5", "HT5", "BL60/BL66"]
+comments = "Use with HT5 and BL60/BL66 for sterile bladder inflammation (originating from heat of the HT). Use with LI5 for wrist pains."
+
+[SI6]
+chinese_name = "Yang Lao"
+number = 6
+characters = ["XI"]
+location = "When the hand is on the chest, at the dorsal aspect of the Ulna's head, at the crevice at the highest point on the radial side"
+find_anatomically = true
+functions = ["Treats acute pain along the meridian", "Does well with the eyes"]
+indications = ["Shoulder Pain", "Scapula Pain", "Eye Issues"]
+comments = "Helps feed Yin to the eyes. Called: 'feed the aged'"
+
+[SI7]
+chinese_name = "Zhi Zheng"
+number = 7
+characters = ["LUO"]
+location = "5 cun proximal to SI5 at the crevice between the anterior border of the Ulna and the Flexor Carpi Ulnaris muscle"
+find_anatomically = false
+functions = ["Extracts heat", "Soothes the soul"]
+indications = ["Restlessness", "HT Fire"]
+use_with = ["HT7"]
+comments = "Use with HT7 as part of the host/guest technique, to balance the organs within the fire element when the HT is lacking and the SI is excessive"
+
+[SI8]
+chinese_name = "Xiao Hai"
+number = 8
+characters = ["SEA", "SEDATION"]
+element = "EARTH"
+location = "At the crevice between the tip of the Olecranon and the tip of the medial Epycondile of the Humerus"
+find_anatomically = true
+functions = ["Locally"]
+indications = ["Elbow Pain"]

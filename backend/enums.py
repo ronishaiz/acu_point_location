@@ -69,8 +69,7 @@ class PointCharacter(Enum):
 
     mu: str = 'MU'  # Hatra'a
 
-    ren_mai_opening: str = 'REN MAI OPENING'
-    chong_mai_opening: str = 'CHONG MAI OPENING'
+    special_meridian_opening: str = 'SPECIAL MERIDIAN OPENING'
 
     command: str = 'COMMAND'
 

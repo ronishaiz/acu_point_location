@@ -49,7 +49,7 @@ comments = "Not widely used, due to the hours of Metal being in the very early m
 [LU7]
 chinese_name = "Lie Que"
 number = 7
-characters = ["LUO", "REN MAI OPENING", "COMMAND"]
+characters = ["LUO", "SPECIAL MERIDIAN OPENING", "COMMAND"]
 location = "In the radial aspect of the arm, 1.5 cun proximal to LU9, between the tendons Brachoradialis and the Abductor Pollicis Longus"
 find_anatomically = false
 functions = ["Treats sorrow", "Activates the REN MAI (CV), with addition of KID6", "Commanding the back of the neck", "Extracting Cold Wind"]
