@@ -1,4 +1,5 @@
 import os.path
+import re
 from abc import ABCMeta
 from dataclasses import dataclass
 from typing import List
@@ -182,6 +183,19 @@ def get_meridian_by_name(name: MeridianName):
 
     else:
         raise Exception("Non supported meridian")
+
+
+def get_point_by_identifier(identifier: str) -> Point:
+    matched = re.match('([A-Z]*)([0-9]*)', identifier)
+    meridian_name = matched.group(1)
+
+    meridian = get_meridian_by_name(MeridianName(meridian_name))
+    possible_points = [point for point in meridian.points if identifier == point.identifier]
+
+    if len(possible_points) != 1:
+        raise ValueError(f"Could not find the point with the identifier: {identifier} in the meridian: {meridian.name.value}")
+
+    return possible_points[0]
 
 
 ALL_MERIDIANS = [LU_MERIDIAN, LI_MERIDIAN, CV_MERIDIAN, ST_MERIDIAN, SP_MERIDIAN, HT_MERIDIAN, SI_MERIDIAN]

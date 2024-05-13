@@ -25,12 +25,13 @@ comments = "Like LU11, but not as acute. Will not puncture them both at the same
 [LU9]
 chinese_name = "Tai Yuan"
 number = 9
-characters = ["STREAM", "YUAN", "TONIFICATION", "HUI MEETING OF VESSELS"]
+characters = ["STREAM", "YUAN", "TONIFICATION", "MEETING"]
 element = "EARTH"
 location = "At the wrist crease between the radial artery and the Abductor Pollicis Longus tendon"
 find_anatomically = true
 functions = ["Strengthens all LU functions", "Strengthens the Metal element"]
 indications = ["Chronic Cough", "Chronic Asthma", "Chronic Shortness of Breath", "Chronic Weak LU Qi", "Presisting Sorrow", "Weak Voice", "Cold Limb Tips"]
+comments = "Meeting of Vessels"
 poem = "Two streaming\nVessels\nDrip\nSorrow\nOnto the earth.\n\nMother is here.\nNow\nYou can take\nA deep breath."
 
 

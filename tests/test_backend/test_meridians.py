@@ -1,6 +1,7 @@
 import unittest
 
-from backend.meridians.meridian import ALL_MERIDIANS
+from backend.meridians.meridian import ALL_MERIDIANS, get_point_by_identifier
+from backend.points.point import Point
 
 
 class TestMeridians(unittest.TestCase):
@@ -18,3 +19,21 @@ class TestMeridians(unittest.TestCase):
                 self.assertTrue(point.identifier.endswith(str(point.number)), f"The point identifier of {meridian.name}{point.number} "
                                                                               f"ends with the wrong number. "
                                                                               f"The point identifier is mistakenly: {point.identifier}")
+
+    def test_get_point_by_identifier(self):
+
+        point = get_point_by_identifier('SP15')
+
+        expected_point = Point(
+            _identifier='SP15', _chinese_name='Da Heng', _number=15, _characters=[],
+            _location='4 cun lateral to the umbilicus, at the lateral border of the Rectus Abdominus muscle (at the height of CV8 and ST25)',
+            _find_anatomically=False, _functions=['Harmonizes the intestines'],
+            _indications=['LI Damp Heat', 'Soft Stool', 'Pencil-like Stool', 'Going to the toilets many times',
+                          'Constipation (based on SP Qi Xu)'])
+
+        self.assertEqual(expected_point, point)
+
+    def test_get_non_existing_point_by_identifier(self):
+
+        with self.assertRaises(ValueError, msg="Could not find the point with the identifier: SP18 in the meridian: SP"):
+            get_point_by_identifier('SP18')

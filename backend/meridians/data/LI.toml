@@ -33,13 +33,13 @@ use_with = ["SI3"]
 [LI4]
 chinese_name = "He Gu"
 number = 4
-characters = ["YUAN", "COMMAND"]
+characters = ["YUAN", "COMMAND", "FORBIDDEN IN PREGNANCY"]
 location = "In the middle of the 2nd metacarpal bone on the radial side"
 find_anatomically = true
 functions = ["Affects the face", "Frees stagnant Qi", "Encourages labor", "Gets rid of outer wind by controlling the WEI Qi"]
 indications = ["Outer Pathogen Body (both cold and hot)", "Face Pathologies", "Facialis", "Trigeminal Neuralgia", "Teeth Pain", "Neural Pain in the Face", "Pain"]
 use_with = ["TW5", "LU7", "LIV3"]
-comments = "DO NOT USE IN PREGNANCY! For cold wind, use with LU7. For warm wind, use with TW5. For LIV QI STG, use with LIV3 (called '4 Gates' when used bilaterally)"
+comments = "For cold wind, use with LU7. For warm wind, use with TW5. For LIV QI STG, use with LIV3 (called '4 Gates' when used bilaterally)"
 
 [LI5]
 chinese_name = "Yang Xi"

@@ -57,8 +57,6 @@ class PointCharacter(Enum):
     tonification: str = 'TONIFICATION'
     sedation: str = 'SEDATION'
 
-    hui_meeting_of_vessels: str = 'HUI MEETING OF VESSELS'
-
     horary: str = 'HORARY'
 
     window_of_heaven: str = 'WINDOW OF HEAVEN'
@@ -82,3 +80,5 @@ class PointCharacter(Enum):
     sea_of_water_and_grain: str = 'SEA OF WATER AND GRAIN'
 
     lower_sea: str = 'LOWER SEA'
+
+    forbidden_in_pregnancy: str = 'FORBIDDEN IN PREGNANCY'

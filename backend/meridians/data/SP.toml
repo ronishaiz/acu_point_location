@@ -56,13 +56,13 @@ use_with = ["LU1"]
 [SP6]
 chinese_name = "San Yin Jiao"
 number = 6
-characters = ["MEETING"]
+characters = ["MEETING", "FORBIDDEN IN PREGNANCY"]
 location = "At the medial part of the leg, 3 cun superior to the bulge of the medial malleolus, in the crevice close to the medial border of the Tibia"
 find_anatomically = false
 functions = ["Strengthens Yin and Blood", "Organizes the menstrual cycle", "Soothes the soul", "Encourages labor"]
 indications = ["Gynecological Issues (caused by lack of Yin)", "Empty Heat Symptoms (lack of Yin)", "Insomnia", "Troubled Mind", "Depression"]
 use_with = ["CV4", "HT7", "LI4"]
-comments = "DO NOT USE ON PREGNANT WOMEN!!! Meeting of the three leg Yin meridians. Use with CV4 for blood and Yin. Use with HT7 for the soul. Use with LI4 to encourage labor"
+comments = "Meeting of the three leg Yin meridians. Use with CV4 for blood and Yin. Use with HT7 for the soul. Use with LI4 to encourage labor"
 
 [SP8]
 chinese_name = "Di Ji"
