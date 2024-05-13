@@ -83,3 +83,89 @@ location = "At the crevice between the tip of the Olecranon and the tip of the m
 find_anatomically = true
 functions = ["Locally"]
 indications = ["Elbow Pain"]
+
+[SI9]
+chinese_name = "Jian Zhen"
+number = 9
+characters = []
+location = "At the posterior aspect of the shoulder, one cun superior to the posterior border of the axilar crease (when the arm is at adduction)"
+find_anatomically = true
+functions = ["Locally, moves Qi at the shoulder"]
+indications = ["Posterior Shoulder Pain"]
+
+[SI10]
+chinese_name = "Nao Shu"
+number = 10
+characters = []
+location = "At the posterior aspect of the shoulder, at the crevice inferior to the scapular spine, superior to the posterior border of the axilar crease (when the arm is at adduction)"
+find_anatomically = true
+functions = ["Locally, moves Qi at the shoulder"]
+indications = ["Shoulder Pain"]
+
+[SI11]
+chinese_name = "Tian Zong"
+number = 11
+characters = []
+location = "At the center of the scapula, at the crevice in the first third of the distance between the inferior border of the scapular spine and the inferior border of the scapula"
+find_anatomically = true
+functions = ["Locally, moves Qi at the shoulder and Scapula"]
+indications = ["Shoulder Pain"]
+comments = "The point we will prefer for pain in both shoulder and scapula. Sometimes called 'The Sleep Point', because it may also sooth and help fall asleep"
+
+[SI12]
+chinese_name = "Bing Feng"
+number = 12
+characters = []
+location = "At the center of the Supra-scapular crevice, directly above SI11"
+find_anatomically = true
+functions = ["Extracts external wind (Tai Yang)", "Locally"]
+indications = ["Pathogen, Cold, Shoulder and Back Muscle Pain", "Shoulder Pain"]
+comments = "The translation of the chinese name is 'Grasping Wind'"
+
+[SI13]
+chinese_name = "Qu Yuan"
+number = 13
+characters = []
+location = "At the crevice superior to the end of the medial border of the scapular spine, midway between SI10 and the spinous process of T2"
+find_anatomically = true
+functions = ["Locally, moves Qi at the shoulder"]
+indications = ["Shoulder Pain"]
+
+[SI16]
+chinese_name = "Tian Chuang"
+number = 16
+characters = ["WINDOW OF HEAVEN"]
+location = "At the posterior border of the SCM, at the height of the Adam's apple"
+find_anatomically = true
+functions = ["Does well with the ears, the tongue and the voice"]
+indications = ["Sudden Loss of Voice"]
+comments = "There are better points for ear problems. This point is a window of heaven point, but is less useful for treating the mind and emotions"
+
+[SI17]
+chinese_name = "Tian Rong"
+number = 17
+characters = ["WINDOW OF HEAVEN"]
+location = "At the crevice between the angle of the Mandible and the anterior border of the SCM"
+find_anatomically = true
+functions = ["Does well with the throat"]
+indications = ["Scrofula", "Goiter", "Throat Pain"]
+comments = "Scrofula is a swelling of the lymph nodes in the throat"
+
+[SI18]
+chinese_name = "Quan Liao"
+number = 18
+characters = []
+location = "Directly beneath the external cantos of the eye, at the crevice below the Zygomatic bone"
+find_anatomically = true
+functions = ["Extracts wind", "Soothes facial pain"]
+indications = ["Tooth Pain", "Facialis"]
+comments = "We will use this point a lot for teeth pain, especially pain in the upper teeth"
+
+[SI19]
+chinese_name = "Ting Gong"
+number = 19
+characters = []
+location = "When the mouth is open, at the crevice between the Tragus and the Condyloid Process of the Mandible"
+find_anatomically = true
+functions = ["Does well with the ears"]
+indications = ["Ear Pain", "Blocked Ears", "Tinitus"]

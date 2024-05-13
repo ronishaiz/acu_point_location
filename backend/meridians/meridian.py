@@ -156,7 +156,7 @@ HT_MERIDIAN = ZangFuMeridian(_stage=Stage.shao_yin, _name=MeridianName.HT, _elem
 
 SI_MERIDIAN = ZangFuMeridian(_stage=Stage.tai_yang, _name=MeridianName.SI, _element=Element.FIRE, _limb=Limb.HAND,
                              _yin_yang_partner_organ=MeridianName.HT, _stage_partner_organ=MeridianName.BL, _hours=(13, 15),
-                             _number_of_learned_points=8)
+                             _number_of_learned_points=17)
 
 
 def get_meridian_by_name(name: MeridianName):
