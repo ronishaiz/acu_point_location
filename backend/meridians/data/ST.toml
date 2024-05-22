@@ -18,7 +18,7 @@ find_anatomically = true
 functions = ["Extracts heat from the ST", "Extracts heat from the Yang Ming"]
 indications = ["Excessive Hunger", "Lesions in the Mouth and Gums", "The 4 Bigs"]
 comments = "It also affects the face, as a distal point on ST. Can help with face heat in general. We can use with LI4 for this function"
-use_with = ["LI4"]
+use_with = ["LI2"]
 poem = "Even a subtle\nTouch\nAt the web\nBetween the toes\nMay remind us -\nOnce upon a time, we knew how to swim.\nThe big void\nThat tore through the center\nMay also be filled\nWith water.\nThe hunger\nBurning\nIn our soul\nMay be soothed\nWith salt.\nWe can rinse the lesions once again\nAnd find remedy."
 
 [ST43]
@@ -150,7 +150,7 @@ poem = "Hold your horses\nAt the stables\nKeep the pigs\nOn the ground\nSuddenly
 chinese_name = "Shui Dao"
 number = 28
 characters = []
-location = "2 cun lateral to the midline, 2 cun superior to ST38 (at the height of CV4)"
+location = "2 cun lateral to the midline, 2 cun superior to ST30 (at the height of CV4)"
 find_anatomically = false
 functions = ["Extracts humidity from the lower burner (Uterus and Bladder)"]
 indications = ["Excessive Vaginal Lubrication", "Polycystic Ovary", "Bladder Inflammation"]
