@@ -79,6 +79,8 @@ class PointCharacter(Enum):
 
     sea_of_water_and_grain: str = 'SEA OF WATER AND GRAIN'
 
+    sea_of_marrow: str = 'SEA OF MARROW'
+
     lower_sea: str = 'LOWER SEA'
 
     forbidden_in_pregnancy: str = 'FORBIDDEN IN PREGNANCY'
