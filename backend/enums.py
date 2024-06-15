@@ -11,6 +11,22 @@ class Stage(Enum):
     jue_yin: str = "JUE YIN"
 
 
+class Organ(Enum):
+
+    LIV: str = 'LIV'
+    GB: str = 'GB'
+    HT: str = 'HT'
+    SI: str = 'SI'
+    PC: str = 'PC'
+    TW: str = 'TW'
+    SP: str = 'SP'
+    ST: str = 'ST'
+    LU: str = 'LU'
+    LI: str = 'LI'
+    KID: str = 'KID'
+    BL: str = 'BL'
+
+
 class MeridianName(Enum):
 
     LIV: str = 'LIV'
@@ -66,6 +82,7 @@ class PointCharacter(Enum):
     xi: str = 'XI'  # Hitstabrut
 
     mu: str = 'MU'  # Hatra'a
+    back_shu: str = 'BACK SHU'
 
     special_meridian_opening: str = 'SPECIAL MERIDIAN OPENING'
 

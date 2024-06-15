@@ -6,7 +6,7 @@ from typing import List
 
 import toml
 
-from backend.enums import MeridianName, Stage, Element, Limb
+from backend.enums import MeridianName, Stage, Element, Limb, Organ
 from backend.points.point import Point
 from pages_backend.flashcards.flashcard import FlashCardObject
 
@@ -50,8 +50,8 @@ class ZangFuMeridian(MeridianBase):
     _element: Element = None
     _limb: Limb = None
 
-    _yin_yang_partner_organ: MeridianName = None
-    _stage_partner_organ: MeridianName = None
+    _yin_yang_partner_organ: Organ = None
+    _stage_partner_organ: Organ = None
 
     _hours: tuple = None
 
@@ -72,11 +72,11 @@ class ZangFuMeridian(MeridianBase):
         return self._limb
 
     @property
-    def yin_yang_partner_organ(self) -> MeridianName:
+    def yin_yang_partner_organ(self) -> Organ:
         return self._yin_yang_partner_organ
 
     @property
-    def stage_partner_organ(self) -> MeridianName:
+    def stage_partner_organ(self) -> Organ:
         return self._stage_partner_organ
 
     @property
@@ -132,34 +132,38 @@ class SpecialMeridian(MeridianBase):
 
 
 LU_MERIDIAN = ZangFuMeridian(_stage=Stage.tai_yin, _name=MeridianName.LU, _element=Element.METAL, _limb=Limb.HAND,
-                             _yin_yang_partner_organ=MeridianName.LI, _stage_partner_organ=MeridianName.SP, _hours=(3, 5),
+                             _yin_yang_partner_organ=Organ.LI, _stage_partner_organ=Organ.SP, _hours=(3, 5),
                              _number_of_learned_points=9)
 
 LI_MERIDIAN = ZangFuMeridian(_stage=Stage.yang_ming, _name=MeridianName.LI, _element=Element.METAL, _limb=Limb.LEG,
-                             _yin_yang_partner_organ=MeridianName.LU, _stage_partner_organ=MeridianName.ST, _hours=(5, 7),
+                             _yin_yang_partner_organ=Organ.LU, _stage_partner_organ=Organ.ST, _hours=(5, 7),
                              _number_of_learned_points=12)
 
 CV_MERIDIAN = SpecialMeridian(_name=MeridianName.CV, _number_of_learned_points=17, _opening_point='LU7', _closing_point='KID6',
                               _region='Front', _yin_yang='Yin')
 
 ST_MERIDIAN = ZangFuMeridian(_stage=Stage.yang_ming, _name=MeridianName.ST, _element=Element.EARTH, _limb=Limb.LEG,
-                             _yin_yang_partner_organ=MeridianName.SP, _stage_partner_organ=MeridianName.LI, _hours=(7, 9),
+                             _yin_yang_partner_organ=Organ.SP, _stage_partner_organ=Organ.LI, _hours=(7, 9),
                              _number_of_learned_points=28)
 
 SP_MERIDIAN = ZangFuMeridian(_stage=Stage.tai_yin, _name=MeridianName.SP, _element=Element.EARTH, _limb=Limb.LEG,
-                             _yin_yang_partner_organ=MeridianName.ST, _stage_partner_organ=MeridianName.LU, _hours=(9, 11),
+                             _yin_yang_partner_organ=Organ.ST, _stage_partner_organ=Organ.LU, _hours=(9, 11),
                              _number_of_learned_points=11)
 
 HT_MERIDIAN = ZangFuMeridian(_stage=Stage.shao_yin, _name=MeridianName.HT, _element=Element.FIRE, _limb=Limb.HAND,
-                             _yin_yang_partner_organ=MeridianName.SI, _stage_partner_organ=MeridianName.KID, _hours=(11, 13),
+                             _yin_yang_partner_organ=Organ.SI, _stage_partner_organ=Organ.KID, _hours=(11, 13),
                              _number_of_learned_points=8)
 
 SI_MERIDIAN = ZangFuMeridian(_stage=Stage.tai_yang, _name=MeridianName.SI, _element=Element.FIRE, _limb=Limb.HAND,
-                             _yin_yang_partner_organ=MeridianName.HT, _stage_partner_organ=MeridianName.BL, _hours=(13, 15),
+                             _yin_yang_partner_organ=Organ.HT, _stage_partner_organ=Organ.BL, _hours=(13, 15),
                              _number_of_learned_points=17)
 
 GV_MERIDIAN = SpecialMeridian(_name=MeridianName.GV, _number_of_learned_points=14, _opening_point='SI3', _closing_point='BL62',
                               _region='Back', _yin_yang='Yang')
+
+BL_MERIDIAN = ZangFuMeridian(_stage=Stage.tai_yang, _name=MeridianName.BL, _element=Element.WATER, _limb=Limb.LEG,
+                             _yin_yang_partner_organ=Organ.KID, _stage_partner_organ=Organ.SI, _hours=(15, 17),
+                             _number_of_learned_points=43)
 
 
 def get_meridian_by_name(name: MeridianName):
@@ -187,6 +191,9 @@ def get_meridian_by_name(name: MeridianName):
     elif name == MeridianName.GV:
         return GV_MERIDIAN
 
+    elif name == MeridianName.BL:
+        return BL_MERIDIAN
+
     else:
         raise Exception("Non supported meridian")
 
@@ -204,5 +211,5 @@ def get_point_by_identifier(identifier: str) -> Point:
     return possible_points[0]
 
 
-ALL_MERIDIANS = [LU_MERIDIAN, LI_MERIDIAN, CV_MERIDIAN, ST_MERIDIAN, SP_MERIDIAN, HT_MERIDIAN, SI_MERIDIAN, GV_MERIDIAN]
+ALL_MERIDIANS = [LU_MERIDIAN, LI_MERIDIAN, CV_MERIDIAN, ST_MERIDIAN, SP_MERIDIAN, HT_MERIDIAN, SI_MERIDIAN, GV_MERIDIAN, BL_MERIDIAN]
 ALL_POINTS = [item for sublist in [meridian.points for meridian in ALL_MERIDIANS] for item in sublist]
