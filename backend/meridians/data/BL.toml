@@ -183,9 +183,9 @@ characters = ["BACK SHU"]
 location = "1.5 cun lateral to the inferior border of the spinous process of L4"
 find_anatomically = true
 functions = ["Strengthens all the LI functions in states of chronic lack, weakness"]
-indications = ["Hemorrhage", "Diarrhea", "Constipation", "Lower Back Pain"]
+indications = ["Hemorrhoids", "Diarrhea", "Constipation", "Lower Back Pain"]
 use_with = ["GV1", "SP3", "BL20", "GV20"]
-comments = "LI Back Shu. Combination for hemorrhage: BL25 (for LI), GV1 (locally), SP3 or BL20 (to treat the root of the problem) and GV20 (to raise Yang)"
+comments = "LI Back Shu. Combination for hemorrhoids: BL25 (for LI), GV1 (locally), SP3 or BL20 (to treat the root of the problem) and GV20 (to raise Yang)"
 
 [BL26]
 chinese_name = "Guan Yuan Shu"
@@ -234,9 +234,9 @@ characters = []
 location = "At the height of the tip of the Coccyx, 0.5 cun lateral to the GV (very close to GV1)"
 find_anatomically = true
 functions = ["Locally"]
-indications = ["Hemorrhage", "Chronic Coccyx Pain"]
+indications = ["Hemorrhoids", "Chronic Coccyx Pain"]
 use_with = ["SP3", "BL20", "GV20", "BL25"]
-comments = "Combination for hemorrhage: BL25 (for LI), BL35 or GV1 (locally), SP3 or BL20 (to treat the root of the problem) and GV20 (to raise Yang)"
+comments = "Combination for hemorrhoids: BL25 (for LI), BL35 or GV1 (locally), SP3 or BL20 (to treat the root of the problem) and GV20 (to raise Yang)"
 
 [BL36]
 chinese_name = "Cheng Fu"

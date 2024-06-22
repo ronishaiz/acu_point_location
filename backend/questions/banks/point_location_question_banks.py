@@ -1,7 +1,7 @@
 import glob
 import os.path
 
-PICTURES_PATH = os.path.join(os.path.dirname(__file__), 'pictures')
+PICTURES_PATH = os.path.join(os.path.dirname(__file__), 'point_location_pictures')
 ALL_PICTURES = glob.glob(os.path.join(PICTURES_PATH, '*', '*.png'))
 
 POINT_TO_PICTURE_PATH = {

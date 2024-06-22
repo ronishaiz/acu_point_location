@@ -2,7 +2,7 @@ import streamlit as st
 
 from pages_backend.practice.base_practice import BasePractice
 from pages_backend.practice.practice_factory import get_practice
-from pages_backend.practice.practice_type import PRACTICE_TYPES
+from pages_backend.practice.practice_type import PracticeType
 
 practice = BasePractice()
 
@@ -13,7 +13,7 @@ st.set_page_config(
 
 practice_type = st.selectbox(
     label="Select Practice Type",
-    options=PRACTICE_TYPES,
+    options=[practice_type.value for practice_type in PracticeType],
     on_change=practice.regenerate
 )
 
