@@ -35,11 +35,21 @@ class BasePractice(Generic[QUESTION_T]):
             st.session_state.pop(cls._PRACTICE_STATE_KEY)
 
     @classmethod
+    def next(cls, questions_q: Queue[QUESTION_T]):
+        questions_q.get_top().reset()
+        questions_q.next()
+
+    @classmethod
+    def prev(cls, questions_q: Queue[QUESTION_T]):
+        questions_q.get_top().reset()
+        questions_q.prev()
+
+    @classmethod
     def show_questions(cls):
         q = st.session_state[cls._PRACTICE_STATE_KEY]
 
         if not q.empty:
             q.get_top().display()
 
-            st.button("Previous", on_click=lambda: q.prev(), key="previous_question")
-            st.button("Next", on_click=lambda: q.next(), key="next_question")
+            st.button("Previous", on_click=cls.prev, kwargs={"questions_q": q}, key="previous_question")
+            st.button("Next", on_click=cls.next, kwargs={"questions_q": q}, key="next_question")

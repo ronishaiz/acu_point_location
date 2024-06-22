@@ -1,5 +1,5 @@
 from abc import ABCMeta, abstractmethod
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from random import shuffle
 from typing import List, Dict
 
@@ -13,6 +13,20 @@ class Question:
 
     _answer: str
     _question_str: str
+    _feedback: str = ""
+
+    def set_feedback(self, answer: str) -> None:
+        if answer == self.answer:
+            self._feedback = "Correct! :white_check_mark:"
+
+        else:
+            self._feedback = f"Wrong! :x: The Correct Answer: {self.answer}"
+
+    def reset_feedback(self) -> None:
+        self._feedback = ""
+
+    def get_feedback(self) -> str:
+        return self._feedback
 
     @property
     def answer(self) -> str:
@@ -66,19 +80,44 @@ class DisplayableQuestion(metaclass=ABCMeta):
 
         st.button("Submit", key="Submit Answer", on_click=lambda: self.submit_answer(answer))
 
-    def submit_answer(self, answer: str):
-        if answer == self._question.answer:
-            st.write("Correct! :white_check_mark:")
+        feedback = self._question.get_feedback()
+        if feedback:
+            for f in feedback.split('\n'):
+                st.write(f)
 
-        else:
-            st.write("Wrong! :x:")
-            st.write(f"The Correct Answer: {self._question.answer}")
+    def reset(self):
+        self._question.reset_feedback()
+
+    def submit_answer(self, answer: str):
+        self._question.set_feedback(answer)
 
 
 @dataclass
 class MultipleAnswerQuestion(Question):
 
-    _answer_to_explanation: dict
+    _answer_to_explanation: dict = field(default_factory=dict)
+    _already_submitted = []
+
+    def set_feedback(self, answer: str) -> None:
+        if answer in self.possible_answers:
+            self._feedback = f"Correct! :white_check_mark:\n{self.answer_to_explanation[answer]}\n"
+
+            self._already_submitted.append(answer)
+
+            left_possible_answers = set(self.possible_answers) - set(self._already_submitted)
+
+            if left_possible_answers:
+                self._feedback += f"There are {len(left_possible_answers)} possible answers left"
+
+            else:
+                self._feedback += "Congrats! You found all the points we could think about :white_check_mark: :white_check_mark: :white_check_mark:"
+
+        else:
+            self._feedback = "The answer you gave is not one of those we regarded :x:"
+
+    def reset_feedback(self) -> None:
+        super().reset_feedback()
+        self._already_submitted = []
 
     @property
     def possible_answers(self) -> List[str]:
@@ -104,27 +143,10 @@ class MultipleAnswerQuestion(Question):
 class MultipleAnswerDisplayableQuestion(DisplayableQuestion, metaclass=ABCMeta):
 
     _question: MultipleAnswerQuestion
-    _already_submitted = []
 
     def submit_answer(self, answer: str):
         answer = answer.upper()
-
-        if answer in self._question.possible_answers:
-            st.write("Correct! :white_check_mark:")
-            self._already_submitted.append(answer)
-
-            st.write(self._question.answer_to_explanation[answer])
-
-            left_possible_answers = set(self._question.possible_answers) - set(self._already_submitted)
-
-            if left_possible_answers:
-                st.write(f"There are {len(left_possible_answers)} possible answers left")
-
-            else:
-                st.write("Congrats! You found all the points we could think about :white_check_mark: :white_check_mark: :white_check_mark:")
-
-        else:
-            st.write("The answer you gave is not one of those we regarded :x:")
+        self._question.set_feedback(answer)
 
     def show_answers(self):
 
