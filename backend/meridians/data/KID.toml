@@ -1,0 +1,152 @@
+
+[KID1]
+chinese_name = "Yong Quan"
+number = 1
+characters = ["WELL", "SEDATION"]
+element = "WOOD"
+location = "On the sole of the foot, between the 2nd and 3rd metatarsal bones, a third of the way between the base of the second toe and the heel"
+find_anatomically = true
+functions = ["Feeds Yin to the head and downs Yang"]
+indications = ["High Blood Pressure", "Migraines", "Dizziness"]
+comments = "Also very soothing because it connects to the ground"
+
+[KID2]
+chinese_name = "Ran Gu"
+number = 2
+characters = ["SPRING"]
+element = "FIRE"
+location = "On the medial part of the foot, in the crevice distal and inferior to the Navicular tuberosity"
+find_anatomically = true
+functions = ["Treats empty heat"]
+indications = ["Heat Waves", "Heat in the 5 Palms"]
+comments = "Also used to balance water and fire (with HT3)"
+use_with = ["HT3"]
+
+[KID3]
+chinese_name = "Tai Xi"
+number = 3
+characters = ["STREAM", "YUAN"]
+element = "EARTH"
+location = "In the depression between the medial malleolus and the Achilles tendon"
+find_anatomically = true
+functions = ["Strengthens KID Qi", "Strengthens KID Yang", "Strengthens KID Yin"]
+indications = ["Chronic Weakness at the Low Back", "Urgent and Frequent, Leaking Urine"]
+use_with = ["BL60", "BL23", "GV4", "CV4", "SP6"]
+comments = "To strengthen the back - use with BL60. To strengthen KID: use with BL23, GV4. To strengthen Yin: use with CV4, SP6"
+
+[KID4]
+chinese_name = "Da Zhong"
+number = 4
+characters = ["LUO"]
+location = "Midway between KID3 and KID5, on the anterior border of the Achilles tendon"
+find_anatomically = true
+functions = ["Anchors LU Qi", "Feeds the Zhi", "Soothes fear"]
+indications = ["KID Failing to Receive Qi", "Breathing Issues - Trouble Inhaling", "Asthma", "Lack of Motivation", "Fear"]
+use_with = ["LU7", "LU9"]
+comments = "For breathing issues, helps to use with points that strengthen the LU, to support the LU-KID dynamic"
+poem = "I\nDon't\nHave\nA\nBreath\nIn\nMe.\nNo\nInspiration\nIn\nMy\nInhalation.\nTomorrow\nIs\nFar.\nOpen\nMy\nStomach.\nHelp\nMe\nSee\nStars."
+
+[KID5]
+chinese_name = "Shi Quan"
+number = 5
+characters = ["XI"]
+location = "Directly beneath KID3, in the crevice anterior and inferior to the Calcaneal tuberosity"
+find_anatomically = true
+functions = ["Controls the menstrual cycle"]
+indications = ["Dysmenorrhea", "Amenorrhea", "Fertility Issues", "KID Yin Xu", "KID Jing Xu"]
+comments = "Good for chronic cases"
+
+[KID6]
+chinese_name = "Zhao Hai"
+number = 6
+characters = ["SPECIAL MERIDIAN OPENING"]
+location = "1 cun below the medial malleolus peak, in the crevice created between the two sets of ligaments"
+find_anatomically = true
+functions = ["Strengthens KID Yin", "Does well with the throat", "Activates the Yin Qiao"]
+indications = ["Insomnia", "Dry Throat", "KID Yin Xu"]
+use_with = ["CV4", "SP6", "BL1", "BL62"]
+comments = "Opens the Yin Qiao. Best point for strengthening KID Yin. For sleepiness or over-wakefulness use with BL1, BL62 with the matching technique. For strengthening Yin use with CV4 or SP6"
+
+[KID7]
+chinese_name = "Fu Liu"
+number = 7
+characters = ["RIVER", "TONIFICATION"]
+element = "METAL"
+location = "In the medial aspect of the leg, in the crevice 2 cun superior to KID3, on the anterior border of the Achilles tendon"
+find_anatomically = false
+functions = ["Strengthens Yang", "Controls sweat", "Treats edema"]
+indications = ["Edema", "Night Sweating", "Spontaneous Sweating", "Diarrhea with Food Leftovers"]
+use_with = ["HT6", "LU7", "LU9"]
+comments = "For night sweating - use with HT6. For spontaneous sweating - use with LU7 or LU9"
+
+[KID9]
+chinese_name = "Zhu Bin"
+number = 9
+characters = ["XI"]
+location = "In the medial aspect of the leg, 5 cun superior to KID3, on the line connecting KID3 and KID10"
+find_anatomically = false
+functions = ["Soothes the soul and opens the sensory openings", "Opens the chest", "Strengthens KID Yin"]
+indications = ["Insomnia", "Anxiety"]
+comments = "XI of the Yin Wei meridian"
+
+[KID10]
+chinese_name = "Yin Gu"
+number = 10
+characters = ["SEA", "HORARY"]
+element = "WATER"
+location = "In the medial side of the popliteal cleft, between the Semitendinosus and the Semimembranosus tendons"
+find_anatomically = true
+functions = ["Strengthens KID Yin", "Does well with the lower burner"]
+indications = ["Difficulty Passing Urine", "Lubrication"]
+comments = "Treats the BL and the uterus"
+
+[KID11]
+chinese_name = "Heng Gu"
+number = 11
+characters = ["MEETING"]
+location = "In the lower belly, 5 cun inferior to the umbilicus, in the superior border of the Pubic Symphysis, 0.5 cun lateral to the midline, at the height of CV2"
+find_anatomically = true
+functions = []
+indications = []
+comments = "We only learned the location. Meeting with the Chong MAI, like all points between KID11-KID16"
+
+[KID13]
+chinese_name = "Qi Xue"
+number = 13
+characters = ["MEETING"]
+location = "In the lower belly, 3 cun inferior to the umbilicus, 0.5 cun lateral to the midline, at the height of CV4"
+find_anatomically = false
+functions = ["Does well with the Chong and the CV"]
+indications = ["Fertility Issues", "Amenorrhea"]
+comments = "Meeting with the Chong MAI, like all points between KID11-KID16. Good for problems related to lack in feeding of blood or Jing"
+use_with = ["CV4"]
+
+[KID16]
+chinese_name = "Huang Shu"
+number = 16
+characters = ["MEETING"]
+location = "At the height of the umbilicus, 0.5 cun lateral to the midline"
+find_anatomically = false
+functions = ["Controls the intestines", "Balances water and fire"]
+indications = ["Constipation (originating from Yin Xu)", "KID & HT not Harmonized"]
+comments = "Meeting with the Chong MAI, like all points between KID11-KID16"
+use_with = ["HT3", "KID2"]
+
+[KID25]
+chinese_name = "Shen Cang"
+number = 25
+characters = []
+location = "In the 2nd intercostal space, 2 cun lateral to the midline"
+find_anatomically = true
+functions = ["Soothes the soul", "Balances water and fire"]
+indications = ["Trouble Breathing due to Anxiety", "Chest Distress due to Anxiety"]
+
+[KID27]
+chinese_name = "Shu Fu"
+number = 27
+characters = []
+location = "Beneath the lower border of the Clavicle bone, 2 cun lateral to the midline"
+find_anatomically = false
+functions = ["Downs LU Qi"]
+indications = ["Asthma (originating from LU-KID connection)", "KID Failing to Receive Qi"]
+use_with = ["LU7", "LU9", "KID4", "CV17"]
