@@ -1,0 +1,18 @@
+[1]
+inner = true
+sections = [
+    "ST (RN12)", "LI", "LU", "Throat", "Delto-Pectoral Triangle"
+]
+
+[2]
+inner = false
+sections = [
+    "Anterior part of the arm", "Anterior-radial part of the forearm", "Styloid of Radius", "The root of the palm",
+    "The radial side of the first metacarpal", "Ends in the radial part of the thumbnail"
+]
+
+[3]
+inner = true
+sections = [
+    "LU7", "Radial part of the second fingernail, meeting with the LI meridian"
+]

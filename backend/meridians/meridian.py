@@ -7,8 +7,11 @@ from typing import List
 import toml
 
 from backend.enums import MeridianName, Stage, Element, Limb, Organ
+from backend.meridians.meridian_trajectory import MeridianTrajectory
 from backend.points.point import Point
 from pages_backend.flashcards.flashcard import FlashCardObject
+
+from PIL import Image
 
 
 @dataclass
@@ -19,8 +22,25 @@ class MeridianBase(FlashCardObject, metaclass=ABCMeta):
 
     _number_of_learned_points: int = None
 
+    _trajectory: MeridianTrajectory = None
+
     def __post_init__(self):
         self._points = self._get_points()
+
+    @property
+    def trajectory(self) -> MeridianTrajectory:
+        if not self._trajectory:
+            self._trajectory = MeridianTrajectory.from_toml(self.name)
+
+        return self._trajectory
+
+    @property
+    def trajectory_str(self) -> str:
+        return self.trajectory.str_rep
+
+    @property
+    def trajectory_image(self) -> Image:
+        return self.trajectory.image
 
     @property
     def number_of_learned_points(self) -> int:
@@ -33,6 +53,12 @@ class MeridianBase(FlashCardObject, metaclass=ABCMeta):
     @property
     def points(self) -> List[Point]:
         return self._points
+
+    @classmethod
+    def get_property_name_to_flash_card_property_name(cls) -> dict:
+        return {'name': 'Name',
+                'trajectory_str': 'Trajectory',
+                'trajectory_image': 'Trajectory Image'}
 
     def _get_points(self) -> List[Point]:
         path_to_toml = os.path.join(os.path.dirname(__file__), 'data', self.name.value + '.toml')
@@ -85,18 +111,19 @@ class ZangFuMeridian(MeridianBase):
 
     @classmethod
     def get_property_name_to_flash_card_property_name(cls) -> dict:
-        return {'name': 'Organ',
-                'stage': 'Stage',
-                'element': 'Element',
-                'limb': 'Limb',
-                'yin_yang_partner_organ': 'Partner in Yin-Yang Relationship',
-                'stage_partner_organ': 'Partner in Same Stage',
-                'hours': 'Hours'}
+        d = super().get_property_name_to_flash_card_property_name()
+        d.update({'stage': 'Stage',
+                  'element': 'Element',
+                  'limb': 'Limb',
+                  'yin_yang_partner_organ': 'Partner in Yin-Yang Relationship',
+                  'stage_partner_organ': 'Partner in Same Stage',
+                  'hours': 'Hours'})
+
+        return d
 
 
 @dataclass
 class SpecialMeridian(MeridianBase):
-
     _opening_point: str = None
     _closing_point: str = None
     _region: str = None
@@ -124,11 +151,13 @@ class SpecialMeridian(MeridianBase):
 
     @classmethod
     def get_property_name_to_flash_card_property_name(cls) -> dict:
-        return {'name': 'Name',
-                'opening_point': 'Opening Point',
-                'closing_point': 'Closing Point',
-                'region': 'Region',
-                'yin_yang': 'Yin Yang'}
+        d = super().get_property_name_to_flash_card_property_name()
+        d.update({'opening_point': 'Opening Point',
+                  'closing_point': 'Closing Point',
+                  'region': 'Region',
+                  'yin_yang': 'Yin Yang'})
+
+        return d
 
 
 LU_MERIDIAN = ZangFuMeridian(_stage=Stage.tai_yin, _name=MeridianName.LU, _element=Element.METAL, _limb=Limb.HAND,

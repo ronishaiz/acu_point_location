@@ -1,0 +1,20 @@
+[1]
+inner = false
+sections = [
+    "The medial side of the first toenail", "The medial part of the foot", "The anterior part of the medial malleolus",
+    "Up on the posterior side of the Tibia", "Medial-anterior part of the knee and thigh", "The crotch", "Meets with CV3 and CV4",
+    "Lower stomach, 4 cun lateral to the midline", "CV10", "Up the chest, 6 cun lateral to the midline", "Meets with LU1",
+    "Down to the 6th or 7th intercostal space"
+]
+
+[2]
+inner = true
+sections = [
+    "CV10", "SP", "ST", "Base of the tongue"
+]
+
+[3]
+inner = true
+sections = [
+    "ST", "HT"
+]

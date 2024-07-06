@@ -1,0 +1,38 @@
+[1]
+inner = true
+sections = [
+    "The lateral side of the nose", "The medial cantos of the eye"
+]
+
+[2]
+inner = false
+sections = [
+    "The infra orbital ridge", "Circles the lips", "Lateral part of the cheek", "The angle of the mandible", "Up the anterior part of the ear",
+    "The corner of the forehead", "DU24"
+]
+
+[3]
+inner = false
+sections = [
+    "ST5", "Anterior part of the SCM", "ST12", "DU14", "Down the chest, 4 cun lateral to the midline",
+    "Down the stomach, 2 cun lateral to the midline, to the crotch", "Anterior-lateral part of the thigh", "Anterior-lateral side of the Tibia",
+    "The dorsal part of the foot", "Ends in the lateral side of the second toenail"
+]
+
+[4]
+inner = true
+sections = [
+    "ST12", "ST", "SP", "The low opening of the ST", "ST30"
+]
+
+[5]
+inner = true
+sections = [
+    "ST36", "The third toe"
+]
+
+[6]
+inner = true
+sections = [
+    "ST42", "The medial part of the first tow, meets with SP meridian"
+]

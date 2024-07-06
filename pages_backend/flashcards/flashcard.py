@@ -2,6 +2,7 @@ from abc import ABCMeta, abstractmethod
 from dataclasses import dataclass
 
 import streamlit as st
+from PIL.Image import Image
 
 from pages_backend.utils import format_displayable_object
 
@@ -44,5 +45,9 @@ class FlashCard:
             if isinstance(attribute_value, list):
                 for item in attribute_value:
                     st.write(item)
+
+            elif isinstance(attribute_value, Image):
+                st.image(attribute_value)
+
             else:
                 st.write(attribute_value)

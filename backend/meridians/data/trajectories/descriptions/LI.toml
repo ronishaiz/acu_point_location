@@ -1,0 +1,13 @@
+[1]
+inner = false
+sections = [
+    "The radial side of the index finger", "Between the 1st and 2nd metacarpal bones", "Radial part of the forearm", "Lateral side of the elbow",
+    "Anterior part of the shoulder", "DU14", "ST12", "Lateral part of the neck", "Cheek", "Around the lips", "Crossing to the other side of the body",
+    "Ends in the side of the nostril and meets with the ST meridian"
+]
+
+[2]
+inner = true
+sections = [
+    "ST12", "LU", "LI", "ST37"
+]
