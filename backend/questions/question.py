@@ -110,7 +110,7 @@ class MultipleAnswerQuestion(Question):
                 self._feedback += f"There are {len(left_possible_answers)} possible answers left"
 
             else:
-                self._feedback += "Congrats! You found all the points we could think about :white_check_mark: :white_check_mark: :white_check_mark:"
+                self._feedback += "Congrats! You found all the answers we could think about :white_check_mark: :white_check_mark: :white_check_mark:"
 
         else:
             self._feedback = "The answer you gave is not one of those we regarded :x:"
@@ -153,4 +153,5 @@ class MultipleAnswerDisplayableQuestion(DisplayableQuestion, metaclass=ABCMeta):
         st.write("The possible answers are:")
 
         for answer, explanation in self._question.answer_to_explanation.items():
-            st.write(f"{answer}: {explanation}")
+            str_to_show = f"{answer}: {explanation}" if explanation else answer
+            st.write(str_to_show)
