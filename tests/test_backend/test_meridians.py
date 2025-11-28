@@ -27,7 +27,7 @@ class TestMeridians(unittest.TestCase):
         expected_point = Point(
             _identifier='SP15', _chinese_name='Da Heng', _number=15, _characters=[],
             _location='4 cun lateral to the umbilicus, at the lateral border of the Rectus Abdominus muscle (at the height of CV8 and ST25)',
-            _find_anatomically=False, _functions=['Harmonizes the intestines'],
+            _functions=['Harmonizes the intestines'],
             _indications=['LI Damp Heat', 'Soft Stool', 'Pencil-like Stool', 'Going to the toilets many times',
                           'Constipation (based on SP Qi Xu)'])
 

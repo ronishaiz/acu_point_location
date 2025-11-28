@@ -89,6 +89,7 @@ class PointCharacter(Enum):
     command: str = 'COMMAND'
 
     meeting: str = 'MEETING'
+    hui: str = 'HUI'
 
     sea_of_qi: str = 'SEA OF QI'
 

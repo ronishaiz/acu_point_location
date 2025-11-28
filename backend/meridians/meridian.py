@@ -198,6 +198,13 @@ KID_MERIDIAN = ZangFuMeridian(_stage=Stage.shao_yin, _name=MeridianName.KID, _el
                               _yin_yang_partner_organ=Organ.BL, _stage_partner_organ=Organ.HT, _hours=(17, 19),
                               _number_of_learned_points=14)
 
+LIV_MERIDIAN = ZangFuMeridian(_stage=Stage.jue_yin, _name=MeridianName.LIV, _element=Element.WOOD, _limb=Limb.LEG,
+                              _yin_yang_partner_organ=Organ.GB, _stage_partner_organ=Organ.PC, _hours=(1, 3),
+                              _number_of_learned_points=10)
+
+GB_MERIDIAN = ZangFuMeridian(_stage=Stage.shao_yang, _name=MeridianName.GB, _element=Element.WOOD, _limb=Limb.LEG,
+                             _yin_yang_partner_organ=Organ.LIV, _stage_partner_organ=Organ.TW, _hours=(23, 1),
+                             _number_of_learned_points=31)
 
 def get_meridian_by_name(name: MeridianName):
     for meridian in ALL_MERIDIANS:
@@ -221,5 +228,5 @@ def get_point_by_identifier(identifier: str) -> Point:
     return possible_points[0]
 
 
-ALL_MERIDIANS = [LU_MERIDIAN, LI_MERIDIAN, CV_MERIDIAN, ST_MERIDIAN, SP_MERIDIAN, HT_MERIDIAN, SI_MERIDIAN, GV_MERIDIAN, BL_MERIDIAN, KID_MERIDIAN]
+ALL_MERIDIANS = [LU_MERIDIAN, LI_MERIDIAN, CV_MERIDIAN, ST_MERIDIAN, SP_MERIDIAN, HT_MERIDIAN, SI_MERIDIAN, GV_MERIDIAN, BL_MERIDIAN, KID_MERIDIAN, LIV_MERIDIAN, GB_MERIDIAN]
 ALL_POINTS = [item for sublist in [meridian.points for meridian in ALL_MERIDIANS] for item in sublist]

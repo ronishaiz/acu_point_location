@@ -14,7 +14,6 @@ class Point(FlashCardObject):
 
     _characters: List[str]
     _location: str
-    _find_anatomically: bool
     _functions: List[str]
     _indications: List[str]
 
@@ -51,10 +50,6 @@ class Point(FlashCardObject):
         return self._location
 
     @property
-    def find_anatomically(self) -> bool:
-        return self._find_anatomically
-
-    @property
     def functions(self) -> List[str]:
         return self._functions
 
@@ -79,7 +74,7 @@ class Point(FlashCardObject):
 
     @classmethod
     def get_point_from_dict(cls, point_dict: dict, identifier: str) -> 'Point':
-        required_keys = ['chinese_name', 'number', 'characters', 'location', 'find_anatomically', 'functions', 'indications']
+        required_keys = ['chinese_name', 'number', 'characters', 'location', 'functions', 'indications']
         bonus_keys = ['element', 'use_with', 'comments', 'poem']
 
         missing_required_keys = set(required_keys) - set(point_dict)
@@ -99,7 +94,6 @@ class Point(FlashCardObject):
                    _location=point_dict['location'],
                    _functions=point_dict['functions'],
                    _indications=point_dict['indications'],
-                   _find_anatomically=point_dict['find_anatomically'],
                    _element=point_dict.get('element', None),  # noqa: ok to set string as None
                    _use_with=point_dict.get('use_with', None),  # noqa: ok to set string as None
                    _comments=point_dict.get('comments', None),  # noqa: ok to set string as None
@@ -111,7 +105,6 @@ class Point(FlashCardObject):
                 'characters': 'Characters',
                 'element': 'Element',
                 'location': 'Location',
-                'find_anatomically': 'Should Find Anatomically?',
                 'functions': 'Functions',
                 'indications': 'Indications',
                 'use_with': 'Use With',

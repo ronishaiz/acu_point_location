@@ -1,0 +1,274 @@
+[GB44]
+chinese_name = "Zu Qiao Yin"
+number = 44
+characters = ["WELL"]
+element = "METAL"
+location = "0.1 cun proximal to the lateral corner of the 4th toe nail"
+functions = ["TMM", "Disposes of acute heat and does well with the head"]
+indications = ["Headaches, Dizziness, High Tinitus", "Pain Along the Meridian"]
+comments = "Can also be very useful as the Metal on Wood point according to the 5 elements method"
+
+[GB43]
+chinese_name = "Xia Xi"
+number = 43
+characters = ["SPRING", "TONIFICATION"]
+element = "WATER"
+location = "In the dorsal part of the foot, between the 4th and 5th toes, 0.5 cun proximal to the WEB margin"
+functions = ["Extracts heat and does well with the head, the eyes and the ears"]
+indications = ["Eye Infection", "Migranes", "High Tinitus"]
+
+[GB42]
+chinese_name = "Di Wu Hui"
+number = 42
+characters = []
+location = "Between the 4th and 5th metatarsal bones, in the crevice proximal to the head of the bones, medial to the Extensor Digitorum Longus tendon"
+functions = []
+indications = []
+
+[GB41]
+chinese_name = "Zu Lin Qi"
+number = 41
+characters = ["STREAM", "HORARY", "SPECIAL MERIDIAN OPENING"]
+element = "WOOD"
+location = "In the crevice between the 4th and 5th metatarsal bones, lateral to the Extensor Digitorum Longus tendon"
+functions = ["Moves LIV Qi", "Does well with the chest and the ribs", "Purifies the head and does well with the eyes", "Opens the DAI MAI"]
+indications = ["Migranes, Dizziness, High Tinitus, Eye Inflammation, Ear Inflammation", "Chest Pains, Breast Pains", "PMS", "Pain Along the Meridian"]
+use_with = ["LIV14", "TW5"]
+comments = "THE point for treating Migranes, and also very good for eye issues. Opens the DAI MAI with TW5. Use with TW5 for Migranes, with LIV14 for breathing issues in LIV Qi STG"
+
+[GB40]
+chinese_name = "Qiu Xu"
+number = 40
+characters = ["YUAN"]
+location = "At the ankle joint, in the crevice anterior and inferior to the lateral malleolus"
+functions = ["Strengthens the GB functions"]
+indications = ["Indecisiveness, Hesitation, Shyness"]
+poem = "Left or right?\nNorth or south?When you hesitate,\nGo back to the origin,\nAnd start!"
+
+[GB39]
+chinese_name = "Xuan Zhong"
+number = 39
+characters = ["HUI", "MEETING"]
+location = "At the lateral aspect of the leg, 3 cun superior to the bulge of the lateral malleolus, between the posterior border of the Fibula and the Peroneus Longus and Brevis tendons"
+functions = ["Does well with the bones", "Treats tense neck"]
+indications = ["Tense Neck"]
+comments = "HUI of Marrow, Meeting of 3 Yang leg meridians"
+
+[GB38]
+chinese_name = "Yang Fu"
+number = 38
+characters = ["RIVER", "SEDATION"]
+element = "FIRE"
+location = "At the lateal aspect of the leg, 4 cun superior to the bulge of the lateral malleolus, at the anterior border of the Fibula"
+functions = ["Purifies fire or heat from the GB"]
+indications = ["Headache, Migranes", "Bitter Taste in Mouth"]
+comments = "Less useful in TCM because we would usually prefer GB41. Is useful in 5 elements as a sedation point"
+
+[GB37]
+chinese_name = "Guang Ming"
+number = 37
+characters = ["LUO"]
+location = "At the lateal aspect of the leg, 5 cun superior to the bulge of the lateral malleolus, at the anterior border of the Fibula"
+functions = ["Does well with the eyes"]
+indications = ["Eye Issues"]
+use_with = ["GB11", "LIV8", "LIV2", "LIV3"]
+comments = "Serves as a pointer towards the eye region, would probably add more points to be more specific as to the function that should be done there (any of the points mentioned above may be added to specify a different function)"
+
+[GB36]
+chinese_name = "Wai Qiu"
+number = 36
+characters = ["XI"]
+location = "At the lateal aspect of the leg, 7 cun superior to the bulge of the lateral malleolus, at the anterior border of the Fibula"
+functions = ["Activates the Meridian"]
+indications = ["Pain along the Meridian"]
+comments = "Less useful in TCM as we will usually prefer other points that do the same function better (such as GB34)"
+
+[GB35]
+chinese_name = "Yang Jiao"
+number = 35
+characters = []
+location = "At the lateal aspect of the leg, 7 cun superior to the bulge of the lateral malleolus, at the posterior border of the Fibula"
+functions = []
+indications = []
+
+[GB34]
+chinese_name = "Yang Ling Quan"
+number = 34
+characters = ["SEA", "HUI"]
+element = "EARTH"
+location = "At the lateral aspect of the knee, approximately 1 cun anterior and inferior to the head of the Fibula"
+functions = ["Moves LIV Qi", "Extracts hot humidity from the LIV-GB and the LJ", "Does well with the tendons, ligaments and joints"]
+indications = ["PMS, Anger, Constipation, Stomach Aches, Rib Pain", "Chron, Collitis, Chronic Diarrhea", "Issues with Tendons, Ligaments and Joints"]
+use_with = ["ST44", "LI2", "LI11", "SP9", "ST25", "SP15", "LI4"]
+comments = "Is a very useful point because it may be used to treat any orthopedic pain"
+
+[GB31]
+chinese_name = "Feng Shi"
+number = 31
+characters = []
+location = "At the lateral aspect of the thigh, directly beneath the Greater Trauchanter, 7 cun superior to the popliteal fossa"
+functions = ["Subdues wind and stops itch"]
+indications = ["Weakness", "Tremor", "Angry Leg Syndrome"]
+poem = "Some people have been stamped\nby the wind's\nRed and tickly stamp.\nOccasionally, their foot starts trembling\nOn its own accord\nSeeking ground\nIn which to drown\nA small muddy hut\nWhere they may lie down"
+
+[GB30]
+chinese_name = "Huan Tioa"
+number = 30
+characters = ["MEETING"]
+location = "At the lateral-posterior aspect of the thigh joint, at the lateral third of the way between the Greater Trauchanter and DU2"
+functions = ["Does well with the thigh joint and the leg", "Moves Qi to the leg and stops pain"]
+indications = ["Siatica, Lack of Feeling and Pain", "Leg Paralysis"]
+
+[GB29]
+chinese_name = "Ju Liao"
+number = 29
+characters = []
+location = "At the lateral aspect of the thigh joint, midway between the ASIS and the Greater Trauchanter"
+functions = ["Does well with the thigh joint"]
+indications = ["Thigh Joint Inflammation"]
+
+[GB27]
+chinese_name = "Wu Shu"
+number = 27
+characters = []
+location = "In the crevice anterior to the ASIS, at the heigh of CV4"
+functions = []
+indications = []
+
+[GB26]
+chinese_name = "Dai Mai"
+number = 26
+characters = ["MEETING"]
+location = "Anterior and inferior to the end of the 11th rib, at the height of the umbilicus"
+functions = ["Moves Qi at the DAI MAI and extracts humidity at the LJ"]
+indications = ["Excessive Vaginal Lubrication", "LJ Pains and Inflammation", "Fungi", "Hernia", "Uterus Hernia", "Irregular Menstruation"]
+comments = "This point is part of the DAI MAI meridian, hence its name and the functions"
+
+[GB25]
+chinese_name = "Jing Men"
+number = 25
+characters = ["MU"]
+location = "At the lateral aspect of the ribs, anterior and inferior to the free end of the 12th rib"
+functions = ["Strengthens the KID (Yang) and regulates water passages"]
+indications = ["KID Stones", "Difficulty Passing Urine"]
+use_with = ["SP9", "CV9"]
+comments = "MU of the KID, and as such treats acute KID issues (strengthens the KID Yang aspect). May also look like a back ache"
+
+[GB24]
+chinese_name = "Ri Yue"
+number = 24
+characters = ["MU"]
+location = "In the anterior aspect of the chest, at the 7th intercostal space, directly below the nipple, 4 cun lateral to the midline"
+functions = ["Does well with the GB, moves LIV Qi", "Distributes hot humidity"]
+indications = ["GB Stones, GB Inflammation", "Hypochondrium Pain", "Mental Weakness of the GB"]
+comments = "MU of the GB. The translation of the chinese name is 'Sun Moon'"
+
+[GB21]
+chinese_name = "Jian Jing"
+number = 21
+characters = ["MEETING", "FORBIDDEN IN PREGNANCY"]
+location = "Midway between DU14 and the tip of the acromion, at the high border of the Trapezius"
+functions = ["Downs Qi and Yang"]
+indications = ["High Blood Pressure, Shortness of Breath, Headache", "Tension in Shoulders", "Encourages Labor", "Encourages Placenta Exit"]
+use_with = ["KID4", "KID7"]
+comments = "Meeting of the Yang Wei, TW, ST, LI. The translation of the chinese name is 'Shoulder Well'"
+poem = "Falling\nShould be done from the top\nOf the mountain\nTo the bottom of the well\nSometimes there's no choice\nBut to leap, head first\nWhen we've gone too far\nAnd took flight\nToo clost to the sun"
+
+[GB20]
+chinese_name = "Feng Chi"
+number = 20
+characters = []
+location = "Beneath the Occiput, in the crevice between the roots of the SCM and the Trapezius"
+functions = ["Subdues wind", "Does well with the head and the ears"]
+indications = ["Inner/Outer Wind - Neck Ache, Head Ache, Dizziness", "Eye Issues"]
+use_with = ["BL10", "GB12", "GV16"]
+
+[GB15]
+chinese_name = "Tou Lin Qi"
+number = 15
+characters = []
+location = "On the forehead, 0.5 cun into the hairline, midline between GV24 and ST8"
+functions = []
+indications = []
+
+[GB14]
+chinese_name = "Yang Bai"
+number = 14
+characters = ["MEETING"]
+location = "On the forehead, 1 cun above the eyebrow, directly above the pupil when the eye is looking forward"
+functions = ["Subdues wind", "Treats headache", "Does well with the eyes"]
+indications = ["Facialis", "Headaches", "Sinusitis"]
+comments = "Meeting of ST, Yang Wei, TW and LI"
+
+[GB13]
+chinese_name = "Ben Shen"
+number = 13
+characters = []
+location = "On the forehead, 0.5 cun into the hairline, at the lateral third of the way between GV24 and ST8"
+functions = ["Extracts inner wind"]
+indications = ["Insomnia (Shen-Hun)", "Daydreaming", "Epilepsy", "Memory Issues (long term)"]
+comments = "The translation of the chinese name is 'Root Spirit'"
+
+[GB12]
+chinese_name = "Wan Gu"
+number = 12
+characters = []
+location = "At the crevice posterior and inferior to the Mastoid process"
+functions = ["Soothes the soul"]
+indications = ["Insomnia"]
+
+[GB8]
+chinese_name = "Shuai Gu"
+number = 8
+characters = []
+location = "At the temporal aspect of the head, in the crevice 1 cun above the apex of the ear"
+functions = ["Does well with the head"]
+indications = ["Headache", "Dizziness"]
+
+[GB7]
+chinese_name = "Qu Bin"
+number = 7
+characters = []
+location = "At the temporal aspect of the head, within the hairline, a finger anterior to TW20 (the apex of the ear)"
+functions = ["Locally"]
+indications = ["Temporal Headache", "Migrane"]
+
+[GB6]
+chinese_name = "Xuan Li"
+number = 6
+characters = []
+location = "At the temporal aspect of the head, within the hairline, at the third quarter of the way between ST8 and GB7"
+functions = ["Locally"]
+indications = ["Temporal Headache", "Migrane"]
+
+[GB5]
+chinese_name = "Xuan Lu"
+number = 5
+characters = []
+location = "At the temporal aspect of the head, within the hairline, at the middle of the way between ST8 and GB7"
+functions = ["Locally"]
+indications = ["Temporal Headache", "Migrane"]
+
+[GB4]
+chinese_name = "Han Yan"
+number = 4
+characters = []
+location = "At the temporal aspect of the head, within the hairline, at the first quarter of the way between ST8 and GB7"
+functions = ["Locally"]
+indications = ["Temporal Headache", "Migrane"]
+
+[GB2]
+chinese_name = "Ting Hui"
+number = 2
+characters = []
+location = "At the crevice between the Inertragic Notch and the Condyloid Process of the Mandible"
+functions = ["Does well with the ears"]
+indications = ["Tinitus", "Decrease in Hearing", "Ear Pain", "Ear Inflammation"]
+
+[GB1]
+chinese_name = "Tong Zi Liao"
+number = 1
+characters = []
+location = "At the crevice lateral to the eye socket bridge, 0.5 cun lateral to the outer cantos of the eye"
+functions = ["Does well with the eyes"]
+indications = ["Red Eyes", "Dry Eyes", "Eye Burn", "Eye Itch"]

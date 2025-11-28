@@ -1,0 +1,95 @@
+
+[LIV1]
+chinese_name = "Da Bun"
+number = 1
+characters = ["WELL", "HORARY"]
+element = "WOOD"
+location = "0.1 cun proximal to the lateral corner of the first toe nail"
+functions = ["Does well with the genitalia", "Regulates LIV Qi which causes uterus bleeding"]
+indications = ["Uterus Bleed (menorrhagia, metrorrhagia)", "Heavy Bleed (e.g., hemorrhoids)"]
+
+[LIV2]
+chinese_name = "Xing Jian"
+number = 2
+characters = ["SPRING", "SEDATION"]
+element = "FIRE"
+location = "In the dorsal part of the foot, between the first and second toes, 0.5 cun proximal to the WEB margin"
+functions = ["Pures LIV Fire", "Subdues LIV Wind"]
+indications = ["Red Face", "Red, Burning Eyes", "Migrane", "Anger Tantrums", "High Tinitus", "Bitter Taste in Mouth", "Epilepsy", "CVA", "Convulsions"]
+use_with = ["HT8"]
+comments = "Will only treat wind that originates from full heat (not in cases of wind that originates from lack of blood or Yin). Can also help with heat in the face and the UJ, as a distal point"
+
+[LIV3]
+chinese_name = "Tai Chong"
+number = 3
+characters = ["STREAM", "YUAN"]
+element = "EARTH"
+location = "At the dorsal aspect of the foot, in the crevice distal to the meeting of the first and second metatarsal bones, at the height of SP3"
+functions = ["Moves LIV Qi", "Downs LIV Yang and subdues wind", "Regulates the menstruation", "Feeds LIV Yin and Blood"]
+indications = ["Headache", "Dizziness", "High Blood Pressure", "Pain in the Chest and Ribs", "Difficuly Takind Deep Breaths", "Unclear Vision, Black Points in Sight", "Menstruation Pains", "Irregular Menstruation", "PMS", "Amenorrhea"]
+use_with = ["LI4"]
+comments = "Will only treat wind that originates from lack of blood or Yin (or LIV Qi issues)"
+
+[LIV4]
+chinese_name = "Zhong Feng"
+number = 4
+characters = ["RIVER"]
+element = "METAL"
+location = "Anterior to the bulge of the medial malleolus, in the crevice medial to the Tibialis Anterior tendon"
+functions = ["Moves LIV Qi and regulates the LJ"]
+indications = ["Pain in the Lower Abdominus", "Genitalia Pain or Issues"]
+comments = "Especially useful as a 5 elemets Metal on Wood point, not as useful in TCM"
+
+[LIV5]
+chinese_name = "Li Gou"
+number = 5
+characters = ["LUO"]
+location = "5 cun superior to the bulge of the medial malleolus, posterior to the medial border of the Tibia, in the crevice between the medial border of the Tibia and the Gastrocnemius"
+functions = ["Moves and distributes LIV Qi, and does well with the Genitalia", "Extracts humidity and heat from the LJ", "Treats Plum Pit syndrom"]
+indications = ["Issues in the External Genitals - Emissions, Fungi, Herpes, Varicocele, Pain in the Testicles, etc."]
+
+[LIV6]
+chinese_name = "Zhong Du"
+number = 6
+characters = ["XI"]
+location = "7 cun superior to the bulge of the medial malleolus, posterior to the medial border of the Tibia, in the crevice between the medial border of the Tibia and the Gastrocnemius"
+functions = []
+indications = []
+comments = "Less useful in TCM"
+
+[LIV8]
+chinese_name = "Qu Quan"
+number = 8
+characters = ["SEA", "TONIFICATION"]
+element = "WATER"
+location = "Superior to the medial border of the popliteal fossa, in the crevice anterior to the Semitendinosus and Semimembranosus, 1 cun anterior and superior to KID10"
+functions = ["Strengthens and feeds LIV Yin and Blood", "Extracts humidity and heat from the LJ"]
+indications = ["Amenorrhea", "Few Bleeding in Menstruation", "Dizziness", "High Tinitus", "Dry Eyes", "Polycystic Ovary", "Cysts", "Prostate Issues"]
+use_with = ["KID6", "LIV3", "SP6", "CV4"]
+
+[LIV9]
+chinese_name = "Yin Bao"
+number = 9
+characters = []
+location = "Superior to the medial epicondyle of the Femur, 4 cun superior to LIV8, in the crevice between the Vastus Medialis and Sartorius muscles"
+functions = ["Regulates the menstruation and moves Qi at the LJ"]
+indications = ["Late Menstruation", "Menstruation Pain", "Ovulation Pain"]
+use_with = ["LIV8", "LIV3", "SP8"]
+
+[LIV13]
+chinese_name = "Zhang Men"
+number = 13
+characters = ["MU", "HUI", "MEETING"]
+location = "Anterior and slightly inferior to the free end of the 11th rib"
+functions = ["Harmonizes LIV-SP"]
+indications = ["Diarrhea and Constipation Alternatingly", "Gas", "PMS"]
+comments = "MU of SP, HUI of Zang organs, Meeting of LIV-GB"
+
+[LIV14]
+chinese_name = "Qi Men"
+number = 14
+characters = ["MU", "MEETING"]
+location = "In the 6th intercostal space, 4 cun lateral to the midline"
+functions = ["Harmonizes LIV-ST-LU", "Moves and regulates Qi at the LJ and MJ"]
+indications = ["Nausea, Puking, Heartburn", "Breathing Issues, Chest Pain"]
+comments = "We only learned the location. Meeting with the Chong MAI, like all points between KID11-KID16"
