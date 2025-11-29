@@ -43,7 +43,7 @@ characters = ["YUAN"]
 location = "At the ankle joint, in the crevice anterior and inferior to the lateral malleolus"
 functions = ["Strengthens the GB functions"]
 indications = ["Indecisiveness, Hesitation, Shyness"]
-poem = "Left or right?\nNorth or south?When you hesitate,\nGo back to the origin,\nAnd start!"
+poem = "Left or right?\nNorth or south?\nWhen you hesitate,\nGo back to the origin,\nAnd start!"
 
 [GB39]
 chinese_name = "Xuan Zhong"
@@ -172,7 +172,7 @@ functions = ["Downs Qi and Yang"]
 indications = ["High Blood Pressure, Shortness of Breath, Headache", "Tension in Shoulders", "Encourages Labor", "Encourages Placenta Exit"]
 use_with = ["KID4", "KID7"]
 comments = "Meeting of the Yang Wei, TW, ST, LI. The translation of the chinese name is 'Shoulder Well'"
-poem = "Falling\nShould be done from the top\nOf the mountain\nTo the bottom of the well\nSometimes there's no choice\nBut to leap, head first\nWhen we've gone too far\nAnd took flight\nToo clost to the sun"
+poem = "Falling\nOught to be done from the top\nOf the mountain\nTo the bottom of the well\nSometimes there's no choice\nBut to leap, head first\nWhen we've gone too far\nAnd took flight\nToo clost to the sun"
 
 [GB20]
 chinese_name = "Feng Chi"
