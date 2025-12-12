@@ -1,0 +1,74 @@
+[PC9]
+chinese_name = "Zhong Chong"
+number = 9
+characters = ["WELL", "TONIFICATION"]
+element = "WOOD"
+location = "at the center of the tip of the middle fingernail"
+functions = ["Brings back to consciousness", "Extracts heat from the heart"]
+indications = ["Heart Attack", "Heatstroke"]
+comments = "used for very severe situations, and in that sense less useful in the clinic"
+
+[PC8]
+chinese_name = "Lao Gong"
+number = 8
+characters = ["SPRING", "HORARY"]
+element = "FIRE"
+location = "In the center of the palm, between the 2nd and 3rd metacarpal bones, proximal to the metacarpophalangial joints"
+functions = ["Extracts heat from the heart and the PC", "Calms the spirit"]
+indications = ["Bi-polar", "Pericarditis", "Out of Context Laughing"]
+comments = "used for pretty severe heat in HT and PC"
+
+[PC7]
+chinese_name = "Da Ling"
+number = 7
+characters = ["STREAM", "YUAN", "SEDATION"]
+element = "EARTH"
+location = "In the center of the wrist crease, between the tendons of Palmaris Longus and Flexor Carpi Radialis"
+functions = ["Extracts heat from the HT and calms the spirit", "Harmonizes stomach and intestines"]
+indications = ["Restlessness, Insomnia", "Spasm-like Stomach Pain", "Puking", "Intestine Spasms"]
+poem = "When the fire burnt out\nAll there's left is ash\nWhat shall we do now\nWith all this ash?\nWe remember -\nAfter all, even ash is\nSoil.\nWe'll mix, till, stir,\nSet foundations\nAnd from this ash, eventually,\nWill rise a family"
+
+[PC6]
+chinese_name = "Nei Guan"
+number = 6
+characters = ["LUO", "SPECIAL MERIDIAN OPENING", "COMMAND"]
+location = "2 cun proximal to PC7, between the tendons of Palmaris Longus and Flexor Carpi Radialis"
+functions = ["Moves Qi at the chest", "Calms the spirit", "Harmonizes the stomach and calms Nausea and puking", "Opens the Yin Wei"]
+indications = ["Palpitation", "Chest Pain and Distress", "Stomach Pain", "Nausea", "Vomiting", "Insomnia, Restlessness"]
+use_with = ["LIV3"]
+comments = "Opens the Yin Wei meridian, commands the chest. When used with LIV3 treats stagnant feelings ('emotional 4 gates')"
+
+[PC5]
+chinese_name = "Jian Shi"
+number = 5
+characters = ["RIVER"]
+element = "METAL"
+location = "3 cun proximal to PC7, between the tendons of Palmaris Longus and Flexor Carpi Radialis"
+functions = ["Calms the spirit", "Transforms phlegm, especially at the UJ"]
+indications = ["Restlessness, Confusion, Mental Vagueness", "Nausea", "Plum Pit Syndrome", "Chest Distress"]
+use_with = ["ST40", "LIV5"]
+
+[PC4]
+chinese_name = "Xi Men"
+number = 4
+characters = ["XI"]
+location = "5 cun proximal to PC7, between the tendons of Palmaris Longus and Flexor Carpi Radialis"
+functions = ["Moves Qi and Blood at the chest"]
+indications = ["Acute Chest Pain", "Irregular Heartbeat", "Angina Pectoris"]
+
+[PC3]
+chinese_name = "Qu Ze"
+number = 3
+characters = ["SEA"]
+element = "WATER"
+location = "At the cubital crease, at the ulnar side of the Biceps Brachii tendon"
+functions = ["Extracts heat from all levels - Qi, Xue, Ying", "Harmonizes the stomach and intestines and stops puking"]
+indications = ["Heat Diseases", "Skin Heat Issues", "Restlessness", "Dry Mouth", "Bleeding", "Heat Convulsions", "Mania", "Vomiting (especially bloody vomit)", "Acute Intestine Inflammation"]
+
+[PC1]
+chinese_name = "Tian Chi"
+number = 1
+characters = ["WINDOW OF HEAVEN"]
+location = "1 cun lateral and slightly superior to the nipple, at the height of the 4th intercostal space"
+functions = ["Does well with the chest", "Calms the spirit"]
+indications = ["Mastitis"]
