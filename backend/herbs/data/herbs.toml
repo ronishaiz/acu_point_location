@@ -1,0 +1,31 @@
+["Chai Hu"]
+flavor = "BITTER"
+temperature = "MILD"
+temperature_accent = ""
+herb_group = "MOVE_QI"
+functions = ["Releases the exterior", "Harmonizes the Shao Yang", "Raises Yang Qi", "Soothes Liver Qi"]
+counter_indications = ["Yin deficiency", "Liver Yang rising"]
+
+["Bai Shao"]
+flavor = "SOUR"
+temperature = "MILD"
+temperature_accent = ""
+herb_group = "TONIFY_YIN"
+functions = ["Nourishes Blood", "Preserves Yin", "Soothes Liver", "Relaxes muscles"]
+counter_indications = ["Cold deficiency"]
+
+["Rou Gui"]
+flavor = "SPICY"
+temperature = "HOT"
+temperature_accent = "++"
+herb_group = "TONIFY_YANG"
+functions = ["Warms the Kidneys", "Tonifies Yang", "Disperses Cold", "Promotes circulation"]
+counter_indications = ["Yin deficiency with heat", "Pregnancy"]
+
+["Fu Zi"]
+flavor = "SPICY"
+temperature = "HOT"
+temperature_accent = "++"
+herb_group = "TONIFY_YANG"
+functions = ["Rescues Yang", "Disperses Cold", "Warms the interior", "Strengthens Kidney Yang"]
+counter_indications = ["Heat patterns", "Pregnancy"]

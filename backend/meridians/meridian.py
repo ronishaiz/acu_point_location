@@ -216,7 +216,7 @@ def get_meridian_by_name(name: MeridianName):
             return meridian
 
     else:
-        raise Exception("Non supported meridian")
+        raise ValueError(f"Non supported meridian: {name}")
 
 
 def get_point_by_identifier(identifier: str) -> Point:

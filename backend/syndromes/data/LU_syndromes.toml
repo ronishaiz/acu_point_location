@@ -1,0 +1,413 @@
+["LU Qi Xu"]
+organ = "LU"
+ethiology = [
+    "Weak Constitution",
+    "Emotional Stress",
+    "Lifestyle",
+    "After Exterior Body Invasion"
+]
+
+["LU Qi Xu".diagnosis]
+symptoms = [
+    "Mild Shortness of Breath",
+    "Mild Cough",
+    "Mild, Watery Phlegm",
+    "Tendency to Catch Cold",
+    "Weak Voice",
+    "Spontaneous Sweating",
+    "Speech Aversion",
+    "Bright Pale, Sometimes Shining, Especially Below the Eyes",
+    "Fatigue",
+    "Cold Aversion"
+]
+key_symptoms = [
+    "Mild Shortness of Breath",
+    "Weak Voice",
+    "Tendency to Catch Cold",
+    "Weak Pulse"
+]
+
+["LU Qi Xu".diagnosis.pulse]
+strength = "V-"
+positions = [
+    {yin_yang = "YIN", jiao = "UJ", left_right = "RIGHT"},
+    {yin_yang = "YANG", jiao = "UJ", left_right = "RIGHT"}
+]
+
+["LU Qi Xu".diagnosis.tongue]
+body_color = "PALE"
+body_shapes = ["SWOLLEN", "SUNKEN"]
+region = "UJ"
+
+
+["LU Qi Xu".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+
+
+["LU Qi Xu".treatment]
+points = ["LU9", "LU7", "CV6", "BL13", "GV12", "ST36", "CV12"]
+acupuncture_techniques = ["TONIFY", "MOXA"]
+herbs = ["Huang Qi"]
+principle = "Tonify LU Qi and Warm Yang"
+
+
+
+
+["LU Yin Xu"]
+organ = "LU"
+ethiology = [
+    "Weak Constitution",
+    "Emotional Stress",
+    "Lifestyle"
+]
+
+["LU Yin Xu".diagnosis]
+symptoms = [
+    "Dry Cough or Phlegm Cough",
+    "Yellow, Sticky Phlegm",
+    "Dry Mouth",
+    "Dry and Tickly Throat",
+    "Weak or Hoarse Voice",
+    "Night Sweating",
+    "Speech Aversion",
+    "Thin Body or Chest",
+    "Fatigue",
+    "Sometimes - Evening Heat, Sweating in the 5 Palms, Blush"
+]
+key_symptoms = [
+    "Dry Cough",
+    "Weak or Hoarse Voice",
+    "Dry Throat",
+    "Night Sweating"
+]
+
+["LU Yin Xu".diagnosis.pulse]
+depth = "FLOATING"
+quality = "EMPTY"
+positions = [
+    {yin_yang = "YIN", jiao = "UJ", left_right = "RIGHT"},
+    {yin_yang = "YANG", jiao = "UJ", left_right = "RIGHT"}
+]
+
+["LU Yin Xu".diagnosis.tongue]
+coating_thickness = "ABSENT"
+moisture = "DRY"
+region = "UJ"
+
+["LU Yin Xu".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+yin_yang = "YIN-"
+
+["LU Yin Xu".treatment]
+points = ["LU9", "CV17", "BL43", "BL13", "GV12", "CV4", "KID6", "CV12", "SP6", "LU10", "LU11"]
+acupuncture_techniques = ["TONIFY", "SEDATE"]
+herbs = ["Mai Men Dong", "Mai Men Dong Tang"]
+principle = "Tonify LU Yin, Feed Body Fluids and if Necessary - Clear Heat"
+
+
+
+
+
+["LU Dryness"]
+organ = "LU"
+ethiology = [
+    "Dry Climate",
+    "Unsteady Diet"
+]
+
+["LU Dryness".diagnosis]
+symptoms = [
+    "Dry Cough",
+    "Dry Skin",
+    "Dry Mouth",
+    "Dry Throat",
+    "Thirst",
+    "Hoarse Voice"
+]
+key_symptoms = [
+    "Dry Cough",
+    "Hoarse Voice",
+    "Dry Throat",
+    "Dry, Non-Red Tongue"
+]
+
+["LU Dryness".diagnosis.pulse]
+quality = "EMPTY"
+positions = [
+    {yin_yang = "YIN", jiao = "UJ", left_right = "RIGHT"},
+    {yin_yang = "YANG", jiao = "UJ", left_right = "RIGHT"}
+]
+
+["LU Dryness".diagnosis.tongue]
+moisture = "DRY"
+region = "UJ"
+
+["LU Dryness".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+
+["LU Dryness".treatment]
+points = ["LU9", "CV4", "KID6", "SP6", "CV12", "ST36"]
+acupuncture_techniques = ["TONIFY"]
+herbs = ["Mai Men Dong"]
+principle = "Moisten the LU, Feed Body Fluids"
+
+
+
+
+
+["Wind Cold Invading the LU"]
+organ = "LU"
+ethiology = [
+    "Exposure to Cold Exterior Body, Cold Wind"
+]
+
+["Wind Cold Invading the LU".diagnosis]
+symptoms = [
+    "Cold Aversion",
+    "Mild Fever",
+    "Cough",
+    "Tickly Throat",
+    "Mild Shortness of Breath",
+    "Clogged Nasal Passages / Runny Nose",
+    "Sneezing",
+    "Occipital Headache",
+    "Body Aches",
+    
+]
+key_symptoms = [
+    "Cold Aversion",
+    "Sneezing",
+    "Flooding Pulse"
+]
+
+["Wind Cold Invading the LU".diagnosis.pulse]
+depth = "SHALLOW"
+quality = ["FLOODING", "TENSE"]
+
+
+["Wind Cold Invading the LU".diagnosis.tongue]
+coating_color = "WHITE"
+
+
+["Wind Cold Invading the LU".diagnosis.eight_principles]
+internal_external = "EXTERNAL"
+full_empty = "FULL"
+hot_cold = "COLD"
+yin_yang = "YIN+"
+
+
+["Wind Cold Invading the LU".treatment]
+points = ["GB20", "LU7", "LI4", "BL12", "BL13", "SI12", "LU1", "LI20", "GV23", "GV16"]
+herbs = ["Ma Huang", "Gui Zi", "Sheng Jiang", "Gan Mao Ling"]
+principle = "Release Exterior, Encourage LU Function of Qi Downing and Distributing"
+
+
+
+
+
+["Wind Heat Invading the LU"]
+organ = "LU"
+ethiology = [
+    "Exposure to Cold Exterior Body, Cold Wind, Which had Transformed to Wind Heat",
+    "Climate",
+    "Hot Air Conditioning"
+]
+
+["Wind Heat Invading the LU".diagnosis]
+symptoms = [
+    "Cough",
+    "Fever",
+    "Sweating",
+    "Cold Aversion",
+    "Clogged Nasal Passages / Yellow, Sticky Discharge",
+    "Tickly Throat / Red, Aching Throat",
+    "Difficulty Swallowing",
+    "Headache",
+    "Muscle Ache",
+    "Slight Thirst",
+    "Swollen Tonsils"
+]
+key_symptoms = [
+    "Fever",
+    "Cold Aversion",
+    "Aching Throat",
+    "Flooding, Rapid Pulse"
+]
+
+["Wind Heat Invading the LU".diagnosis.pulse]
+depth = "SHALLOW"
+speed = "RAPID"
+quality = "FLOODING"
+
+
+["Wind Heat Invading the LU".diagnosis.tongue]
+coating_color = "YELLOW"
+
+
+["Wind Heat Invading the LU".diagnosis.eight_principles]
+internal_external = "EXTERNAL"
+full_empty = "FULL"
+hot_cold = "HOT"
+yin_yang = "YANG+"
+
+
+["Wind Heat Invading the LU".treatment]
+points = ["LI11", "TW5", "GV14", "LU10", "LU11", "TW2", "TW3", "LI1", "LI2", "LI4", "BL12", "GV16", "GB20", "LU7", "BL13", "LU6", "LU5"]
+herbs = ["Ju Hua", "Bo He", "Yin Qiao San", "Ban Lan Gen"]
+principle = "Release Exterior, Distribute Heat, Encourage LU Function of Qi Downing and Distributing"
+
+
+
+
+
+["Phlegm Fluids Obstructing the LU"]
+organ = "LU"
+ethiology = [
+    "Age",
+    "Chronic, Elongated, Severe Disease",
+    "Smoking",
+    "SP Yang Xu",
+    "KID Yang Xu"
+]
+
+["Phlegm Fluids Obstructing the LU".diagnosis]
+symptoms = [
+    "White, Frothy, Transparent, Watery Phlegm",
+    "Occasional Vomit of White, Frothy Fluids",
+    "Cold and Shivering",
+    "Water in the LU, LU Edema",
+    "Chest Wheezing and Crackles",
+    "Difficulty Lying Down"
+]
+key_symptoms = [
+    "Cough with White, Frothy, Watery Phlegm Fluids"
+]
+
+["Phlegm Fluids Obstructing the LU".diagnosis.pulse]
+depth = "DEEP"
+strength = "V-"
+quality = "SLIPPERY"
+
+
+["Phlegm Fluids Obstructing the LU".diagnosis.tongue]
+coating_color = "WHITE"
+coating_thickness = "THICK"
+moisture = "STICKY"
+body_color = "PALE"
+
+
+["Phlegm Fluids Obstructing the LU".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+hot_cold = "COLD"
+yin_yang = "YANG-"
+
+
+["Phlegm Fluids Obstructing the LU".treatment]
+points = ["LU5", "ST40", "SP5", "CV17", "BL43", "CV9", "CV12", "ST36", "GV4", "CV6", "BL23", "KID7"]
+herbs = ["Er Chen Tang", "Xing Ren"]
+principle = "Dispel Phlegm and Tonify SP, LU Yang or KID Yang"
+
+
+
+
+
+["Damp Phlegm Obstructing the LU"]
+organ = "LU"
+ethiology = [
+    "Asthma",
+    "Smoking",
+    "Air Pollution",
+    "Nutrition - Cold Foods"
+]
+
+["Damp Phlegm Obstructing the LU".diagnosis]
+symptoms = [
+    "Chronic Cough",
+    "White Phlegm, Easy to Discharge",
+    "Pale White Exterior, Sometimes with Edema",
+    "Breath Wheezing",
+    "Shortness of Breath, Worsened When Lying Down",
+    "Chest Congestion",
+    "Symptoms are Worsened During Exercise"
+]
+key_symptoms = [
+    "Chronic Cough with White Phlegm, Easy to Discharge",
+    "Tongue with Thich, White, Sticky Coating"
+]
+
+["Damp Phlegm Obstructing the LU".diagnosis.pulse]
+strength = "V-"
+quality = "SLIPPERY"
+
+
+["Damp Phlegm Obstructing the LU".diagnosis.tongue]
+coating_color = "WHITE"
+coating_thickness = "THICK"
+moisture = "STICKY"
+body_color = "PALE"
+body_shapes = ["TEETH MARKS"]
+
+
+["Damp Phlegm Obstructing the LU".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+
+
+["Damp Phlegm Obstructing the LU".treatment]
+points = ["LU5", "ST40", "SP5", "CV17", "BL43", "CV9", "CV12", "ST36", "GV4", "CV6", "BL23", "KID7"]
+herbs = ["Er Chen Tang", "Xing Ren"]
+principle = "Dispel Phlegm, Encourage LU Function of Qi Downing and Distributing"
+
+
+
+["Phlegm Heat Obstructing the LU"]
+organ = "LU"
+ethiology = [
+    "Asthma",
+    "Smoking",
+    "Air Pollution",
+    "Nutrition - Cold Foods"
+]
+
+["Phlegm Heat Obstructing the LU".diagnosis]
+symptoms = [
+    "Bark-like Cough",
+    "Sticky, Yellow-Green Phlegm, Sometimes with Smell",
+    "Chest Congestion",
+    "Shortness of Breath",
+    "Breath Wheezing and Crackles",
+    "Difficulty Lying Down"
+]
+key_symptoms = [
+    "Cough with Sticky Yellow-Green Phlegm",
+    "Thick, Yellow, Sticky Coating",
+    "Rapid, Slippery Pulse"
+]
+
+["Phlegm Heat Obstructing the LU".diagnosis.pulse]
+speed = "RAPID"
+quality = "SLIPPERY"
+
+
+["Phlegm Heat Obstructing the LU".diagnosis.tongue]
+coating_color = "YELLOW"
+coating_thickness = "THICK"
+moisture = "STICKY"
+body_color = "RED"
+
+
+["Phlegm Heat Obstructing the LU".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+hot_cold = "HOT"
+yin_yang = "YANG+"
+
+
+["Phlegm Heat Obstructing the LU".treatment]
+points = ["LU10", "LU11", "LU5", "ST40", "CV17", "CV22", "LI11", "LI2", "BL13", "LU7", "LU6"]
+herbs = ["Qing Qi Hua Tan Tang"]
+principle = "Dispel Phlegm and Heat, Encourage LU Function of Qi Downing and Distributing"
