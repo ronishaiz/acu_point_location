@@ -336,7 +336,7 @@ symptoms = [
 ]
 key_symptoms = [
     "Chronic Cough with White Phlegm, Easy to Discharge",
-    "Tongue with Thich, White, Sticky Coating"
+    "Tongue with Thick, White, Sticky Coating"
 ]
 
 ["Damp Phlegm Obstructing the LU".diagnosis.pulse]

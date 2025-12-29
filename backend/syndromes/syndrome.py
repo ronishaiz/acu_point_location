@@ -217,14 +217,14 @@ class Syndrome(FlashCardObject):
         """Format diagnosis as a readable string."""
         parts = []
         if self._diagnosis.symptoms:
-            symptoms_str = ', '.join(self._diagnosis.symptoms)
+            symptoms_str = "* " + '\n* '.join(self._diagnosis.symptoms)
             if self._diagnosis.key_symptoms:
                 # Highlight key symptoms
-                key_symptoms_str = ', '.join(self._diagnosis.key_symptoms)
-                parts.append(f"Symptoms: {symptoms_str}\n")
-                parts.append(f"Key Symptoms: {key_symptoms_str}\n")
+                key_symptoms_str = "* " + '\n* '.join(self._diagnosis.key_symptoms)
+                parts.append(f"Symptoms:\n{symptoms_str}\n")
+                parts.append(f"Key Symptoms:\n{key_symptoms_str}\n")
             else:
-                parts.append(f"Symptoms: {symptoms_str}\n")
+                parts.append(f"Symptoms:\n{symptoms_str}\n")
         if self._diagnosis.pulse:
             pulse_parts = []
             if self._diagnosis.pulse._speed:
@@ -251,7 +251,8 @@ class Syndrome(FlashCardObject):
                 if position_strs:
                     pulse_parts.append(f"Positions: {', '.join(position_strs)}\n")
             if pulse_parts:
-                parts.append(f"Pulse: {', '.join(pulse_parts)}\n")
+                parts.append(f"Pulse:\n")
+                parts.append(f"{', '.join(pulse_parts)}\n")
         if self._diagnosis.tongue:
             tongue_parts = []
             if self._diagnosis.tongue.body_color:
@@ -267,19 +268,21 @@ class Syndrome(FlashCardObject):
             if self._diagnosis.tongue.region:
                 tongue_parts.append(f"Region: {self._diagnosis.tongue.region.value}\n")
             if tongue_parts:
-                parts.append(f"Tongue: {', '.join(tongue_parts)}\n")
+                parts.append(f"Tongue:\n")
+                parts.append(f"{', '.join(tongue_parts)}\n")
         if self._diagnosis.eight_principles:
             ep_parts = []
             if self._diagnosis.eight_principles.intenal_external:
-                ep_parts.append(f"Internal/External: {self._diagnosis.eight_principles.intenal_external.value}\n")
+                ep_parts.append(f"{self._diagnosis.eight_principles.intenal_external.value}\n")
             if self._diagnosis.eight_principles.full_empty:
-                ep_parts.append(f"Full/Empty: {self._diagnosis.eight_principles.full_empty.value}\n")
+                ep_parts.append(f"{self._diagnosis.eight_principles.full_empty.value}\n")
             if self._diagnosis.eight_principles.hot_cold:
-                ep_parts.append(f"Hot/Cold: {self._diagnosis.eight_principles.hot_cold.value}\n")
+                ep_parts.append(f"{self._diagnosis.eight_principles.hot_cold.value}\n")
             if self._diagnosis.eight_principles.yin_yang:
-                ep_parts.append(f"Yin/Yang: {self._diagnosis.eight_principles.yin_yang.value}\n")
+                ep_parts.append(f"{self._diagnosis.eight_principles.yin_yang.value}\n")
             if ep_parts:
-                parts.append(f"Eight Principles: {', '.join(ep_parts)}\n")
+                parts.append(f"Eight Principles:\n")
+                parts.append(f"{', '.join(ep_parts)}\n")
         return "\n".join(parts) if parts else "No diagnosis information available"
 
     @property
@@ -303,7 +306,7 @@ class Syndrome(FlashCardObject):
     def ethiology_str(self) -> str:
         """Format ethiology as a readable string."""
         if self._ethiology:
-            return ', '.join(self._ethiology)
+            return "* " + '\n* '.join(self._ethiology)
         return "No ethiology information available"
 
     @classmethod
