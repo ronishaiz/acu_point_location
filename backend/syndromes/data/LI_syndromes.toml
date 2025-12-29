@@ -1,0 +1,201 @@
+["Damp Heat in the LI"]
+organ = "LI"
+ethiology = [
+    "Food Poisoning",
+    "Virus, Intestine Bacteria, Parasites",
+    "Chron, Ulcerative Collitis",
+    "Nutrition - Hot, Greasy, Fried",
+    "Emotions - Anger, Fear, Stress, Untreated and Stuck"
+]
+
+["Damp Heat in the LI".diagnosis]
+symptoms = [
+    "Hot Diarrhea, Errupting, with Strong Smell or with Mocus or Blood",
+    "Blood in Stool",
+    "Strong Pain in the Abdomen",
+    "Gas (with Fluids and Smell)",
+    "Burning Anus",
+    "Internal Heat and Sweating in Proximity to the Bowel Movement",
+    "When Caused by an External Pathogen, Fever",
+    "Lack of Appetite",
+    "Feeling of Congestion in Stomach and Heaviness",
+    "Few, Dark Urine"
+]
+key_symptoms = [
+    "Pain in Abdomen",
+    "Diarrhea with Mocus",
+    "Blood in Stool"
+]
+
+["Damp Heat in the LI".diagnosis.pulse]
+speed = "RAPID"
+quality = "SLIPPERY"
+
+["Damp Heat in the LI".diagnosis.tongue]
+body_color = "RED"
+coating_thickness = "THICK"
+coating_color = "YELLOW"
+moisture = "STICKY"
+region = "LJ"
+
+
+["Damp Heat in the LI".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+hot_cold = "HOT"
+yin_yang = "YANG+"
+
+
+["Damp Heat in the LI".treatment]
+points = ["ST25", "SP15", "LI11", "LI2", "ST44", "ST37", "BL25", "SP10", "BL17", "CV3", "CV9", "BL22", "BL39", "SP6", "SP9", "CV6", "CV12", "BL20"]
+herbs = ["Shao Yang Tang", "Huang Lian", "Mu Xiang", "Rou Gui", "Da Huang"]
+nutrition = ["Conji Rice", "Pearl Barley", "Millet", "Basmatic Rice", "Potato (less preferable but possible)"]
+principle = "Dispel Heat and Humidity, Stop Diarrhea (pnly in chronic cases, in acute cases do NOT stop diarrhea)"
+
+
+
+
+
+["Heat in the LI"]
+organ = "LI"
+ethiology = [
+    "Chronic ST Fire",
+    "Nutrition - Hot and Dry - Grilled, Meats, Alcohol"
+]
+
+["Heat in the LI".diagnosis]
+symptoms = [
+    "Chronic Constipation",
+    "Hard and Dry Stool, Rock-like",
+    "Strong Smell of Stool",
+    "Burn in the Anus - During the Bowel Movement or Before it",
+    "Few, Dark Urine",
+    "Thirst, Increased Appetite, Legions in Mouth, Heartburn, Burn in Mouth"
+]
+key_symptoms = [
+    "Dry Stool",
+    "Burn in Anus",
+    "Thick, Yellow Tongue Coating"
+]
+
+["Heat in the LI".diagnosis.pulse]
+speed = "RAPID"
+strength = "V+"
+
+["Heat in the LI".diagnosis.tongue]
+body_color = "RED"
+coating_thickness = "THICK"
+coating_color = "YELLOW"
+moisture = "DRY"
+
+
+["Heat in the LI".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+hot_cold = "HOT"
+yin_yang = "YANG+"
+
+
+["Heat in the LI".treatment]
+points = ["TW6", "ST44", "LI2", "LI11", "CV12", "ST25", "ST37", "SP6", "KID6", "CV4", "CV12", "BL25", "LI4"]
+herbs = ["Hou Ma Ren", "Da Huang", "Xing Ren", "Ma Zi Ren Wan"]
+nutrition = ["Vegetables", "Fruits", "Shakes", "Plums", "Beet", "Spinach", "Green Leaves", "Lettuce", "Seaweed"]
+principle = "Dispel Heat from the Yang Ming, Feed Body Fluids, Move Bowels"
+
+
+
+
+
+["Heat Obstructing the LI"]
+organ = "LI"
+ethiology = [
+    "After Acute Fever-Diseases",
+    "After Labor",
+    "After Surgery",
+    "Intestial Adhesions"
+]
+
+["Heat Obstructing the LI".diagnosis]
+symptoms = [
+    "Constipation Followed by Vomitting",
+    "Strong Thirst",
+    "High Fever",
+    "Heavy Sweating",
+    "Strong Stomach Pain which is Worsened by Touch, Stiff Stomach",
+    "Fever Dillusions",
+    "Burn in Anus"
+]
+key_symptoms = [
+    "Constipation",
+    "Strong Stomach Pain",
+    "Fever",
+    "Thick, Dry, Yellow Tongue Coating"
+]
+
+["Heat Obstructing the LI".diagnosis.pulse]
+speed = "RAPID"
+quality = "FLOODING"
+
+["Heat Obstructing the LI".diagnosis.tongue]
+body_color = "RED"
+coating_thickness = "THICK"
+coating_color = "YELLOW"
+moisture = "DRY"
+
+
+["Heat Obstructing the LI".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+hot_cold = "HOT"
+yin_yang = "YANG+"
+
+
+["Heat Obstructing the LI".treatment]
+points = ["LI11", "ST44", "LI4", "ST25", "TW6", "LIV3", "SP15", "SP6", "BL25"]
+principle = "Refer to Acute Medicinal Treatment (Hospital)"
+
+
+
+
+
+
+["Cold Invading the LI"]
+organ = "LI"
+ethiology = [
+    "Exposure to External Cold - Sitting on Cold Surface, Exposing the Stomach, Air Conditioning, Ice Baths, Cold Climate",
+    "Cold Stomach Virus"
+]
+
+["Cold Invading the LI".diagnosis]
+symptoms = [
+    "Cold, Watery Diarrhea",
+    "Spasmic Stomach Pain - Sudden and Sharp, Relieved by the Bowel Movement (and sometimes by heat)",
+]
+key_symptoms = [
+    "Sudden Stomach Pain",
+    "Diarrhea",
+    "Feeling of Cold"
+]
+
+["Cold Invading the LI".diagnosis.pulse]
+speed = "SLOW"
+depth = "DEEP"
+quality = ["TENSE", "WIRY"]
+
+["Cold Invading the LI".diagnosis.tongue]
+coating_thickness = "THICK"
+coating_color = "WHITE"
+
+
+["Cold Invading the LI".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+hot_cold = "COLD"
+yin_yang = "YIN+"
+
+
+["Cold Invading the LI".treatment]
+points = ["CV8", "SP15", "ST25", "CV6", "ST27", "LIV3", "SP6", "BL31", "BL32", "ST37", "ST36"]
+acupuncture_techniques = ["MOXA"]
+herbs = ["Shao Yang Tang", "Huang Lian", "Mu Xiang", "Rou Gui", "Da Huang"]
+principle = "Dispel Cold from the LI and Warm the LI"
