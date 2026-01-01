@@ -4,7 +4,7 @@ chinese_name = "Shao Shang"
 number = 11
 characters = ["WELL"]
 element = "WOOD"
-location = "0.1 proximal to the corner of the thumb nail on the radial side"
+location = "0.1 cun proximal to the corner of the thumb nail on the radial side"
 functions = ["Heat extraction in acute cases"]
 indications = ["Acute sore throat", "Acute blockage of Airways"]
 

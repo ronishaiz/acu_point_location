@@ -5,7 +5,7 @@ characters = ["WELL"]
 element = "METAL"
 location = "0.1 cun proximal to the lateral corner of the 4th toe nail"
 functions = ["TMM", "Disposes of acute heat and does well with the head"]
-indications = ["Headaches, Dizziness, High Tinitus", "Pain Along the Meridian"]
+indications = ["Headaches, Dizziness, High Tinnitus", "Pain Along the Meridian"]
 comments = "Can also be very useful as the Metal on Wood point according to the 5 elements method"
 
 [GB43]
@@ -15,7 +15,7 @@ characters = ["SPRING", "TONIFICATION"]
 element = "WATER"
 location = "In the dorsal part of the foot, between the 4th and 5th toes, 0.5 cun proximal to the WEB margin"
 functions = ["Extracts heat and does well with the head, the eyes and the ears"]
-indications = ["Eye Infection", "Migranes", "High Tinitus"]
+indications = ["Eye Infection", "Migranes", "High Tinnitus"]
 
 [GB42]
 chinese_name = "Di Wu Hui"
@@ -32,7 +32,7 @@ characters = ["STREAM", "HORARY", "SPECIAL MERIDIAN OPENING"]
 element = "WOOD"
 location = "In the crevice between the 4th and 5th metatarsal bones, lateral to the Extensor Digitorum Longus tendon"
 functions = ["Moves LIV Qi", "Does well with the chest and the ribs", "Purifies the head and does well with the eyes", "Opens the DAI MAI"]
-indications = ["Migranes, Dizziness, High Tinitus, Eye Inflammation, Ear Inflammation", "Chest Pains, Breast Pains", "PMS", "Pain Along the Meridian"]
+indications = ["Migranes, Dizziness, High Tinnitus, Eye Inflammation, Ear Inflammation", "Chest Pains, Breast Pains", "PMS", "Pain Along the Meridian"]
 use_with = ["LIV14", "TW5"]
 comments = "THE point for treating Migranes, and also very good for eye issues. Opens the DAI MAI with TW5. Use with TW5 for Migranes, with LIV14 for breathing issues in LIV Qi STG"
 
@@ -263,7 +263,7 @@ number = 2
 characters = []
 location = "At the crevice between the Inertragic Notch and the Condyloid Process of the Mandible"
 functions = ["Does well with the ears"]
-indications = ["Tinitus", "Decrease in Hearing", "Ear Pain", "Ear Inflammation"]
+indications = ["Tinnitus", "Decrease in Hearing", "Ear Pain", "Ear Inflammation"]
 
 [GB1]
 chinese_name = "Tong Zi Liao"

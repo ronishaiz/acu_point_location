@@ -15,7 +15,7 @@ characters = ["SPRING", "SEDATION"]
 element = "FIRE"
 location = "In the dorsal part of the foot, between the first and second toes, 0.5 cun proximal to the WEB margin"
 functions = ["Pures LIV Fire", "Subdues LIV Wind"]
-indications = ["Red Face", "Red, Burning Eyes", "Migrane", "Anger Tantrums", "High Tinitus", "Bitter Taste in Mouth", "Epilepsy", "CVA", "Convulsions"]
+indications = ["Red Face", "Red, Burning Eyes", "Migrane", "Anger Tantrums", "High Tinnitus", "Bitter Taste in Mouth", "Epilepsy", "CVA", "Convulsions"]
 use_with = ["HT8"]
 comments = "Will only treat wind that originates from full heat (not in cases of wind that originates from lack of blood or Yin). Can also help with heat in the face and the UJ, as a distal point"
 
@@ -64,7 +64,7 @@ characters = ["SEA", "TONIFICATION"]
 element = "WATER"
 location = "Superior to the medial border of the popliteal fossa, in the crevice anterior to the Semitendinosus and Semimembranosus, 1 cun anterior and superior to KID10"
 functions = ["Strengthens and feeds LIV Yin and Blood", "Extracts humidity and heat from the LJ"]
-indications = ["Amenorrhea", "Few Bleeding in Menstruation", "Dizziness", "High Tinitus", "Dry Eyes", "Polycystic Ovary", "Cysts", "Prostate Issues"]
+indications = ["Amenorrhea", "Few Bleeding in Menstruation", "Dizziness", "High Tinnitus", "Dry Eyes", "Polycystic Ovary", "Cysts", "Prostate Issues"]
 use_with = ["KID6", "LIV3", "SP6", "CV4"]
 
 [LIV9]

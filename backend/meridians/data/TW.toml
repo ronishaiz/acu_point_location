@@ -1,0 +1,250 @@
+[TW1]
+chinese_name = "Guan Chong"
+number = 1
+element = "METAL"
+characters = [
+    "WELL"
+]
+location = "0.1 cun proximal to the ulnar corner of the 4th fingernail"
+functions = [
+    "TMM"
+]
+indications = [
+    "Pain along the meridian"
+]
+
+[TW2]
+chinese_name = "Ye Men"
+number = 2
+element = "WATER"
+characters = [
+    "SPRING"
+]
+location = "Between the 4th and 5th phalangas, 0.5 cun proximal to the web margin"
+functions = [
+    "Regulates body fluids",
+    "Does well with the ears",
+]
+indications = [
+    "Ear Fluids",
+]
+
+[TW3]
+chinese_name = "Zhong Zhu"
+number = 3
+element = "WOOD"
+characters = [
+    "STREAM", "TONIFICATION"
+]
+location = "In the dorsal hand, in the depression just proximal to the 4th and 5th metacarpophalangeal joints"
+functions = [
+    "Dispels external wind from the Shao Yang",
+    "Does well with the ears",
+    "Activates the meridian and soothes pain"
+]
+indications = [
+    "Pain Along the Meridian", "Ear Infections", "Tinnitus"
+]
+
+[TW4]
+chinese_name = "Yang Chi"
+number = 4
+characters = [
+    "Yuan"
+]
+location = "In the groove on the dorsal wrist crease, between the tendons of the Extensor Digitorum Communis and Extensor Digiti Minimi"
+functions = [
+    "Strengthens the TW functions",
+    "Distributes Yuan Qi in the body"
+]
+indications = [
+    "Hypo-Thiroidism",
+    "General Fatigue, Chronic Illness"
+]
+poem = "I forgot where I put\nThe key\nThe origin\nSo many duplicates\nDismangled me\nAnd wiped me out.\nNow I'm in need\nOf a restart."
+use_with = ["BL43"]
+
+[TW5]
+chinese_name = "Wai Guan"
+number = 5
+characters = [
+    "LUO", "SPECIAL MERIDIAN OPENING"
+]
+location = "On the dorsal forearm, 2 cun proximal to TW4, ath the groove between the radius and ulna, just radial to the Extensor Digitorum Communis tendon"
+functions = [
+    "Dispels wind and releases the exterior",
+    "Does well with the head and ears",
+    "Opens the Yang Wei Mai",
+    "Clears heat (and fever)"
+]
+indications = [
+    "Fever",
+    "Headache",
+    "Yellow Discharge from the Ears or Nose",
+    "Swollen Lymph Nodes",
+    "Pain in the Upper Body Along the Shao Yang"
+]
+use_with = ["GB41", "LU7"]
+comments = "Opens the Yang Wei meridian together with GB41"
+
+[TW6]
+chinese_name = "Zhi Gou"
+number = 6
+element = "FIRE"
+characters = [
+    "RIVER", "HORARY"
+]
+location = "On the dorsal forearm, 3 cun proximal to TW4, in the groove between the radius and ulna, just radial to the Extensor Digitorum Communis tendon"
+functions = [
+    "Moves Qi and extracts heat from the 3 burners",
+    "Does well with the ribs",
+    "Moves the bowels"
+]
+indications = [
+    "Constipation (Due to Heat)",
+    "Rib Pain",
+    "Herpes Zoster"
+]
+
+[TW7]
+chinese_name = "Hui Zhong"
+number = 7
+characters = [
+    "XI"
+]
+location = "On the dorsal forearm, 3 cun proximal to TW4, ulnar to TW6, in the groove between the Ulna and the Extensor Digitorum Communis tendon"
+functions = [
+]
+indications = [
+]
+comments = "Less useful in TCM"
+
+[TW8]
+chinese_name = "San Yang Luo"
+number = 8
+characters = [
+    "MEETING"
+]
+location = "On the dorsal forearm, 4 cun proximal to TW4, in the groove between the radius and ulna, just radial to the Extensor Digitorum Communis tendon"
+functions = [
+]
+indications = [
+]
+comments = "Meeting of the three hand Yang meridians (TW, LI, SI). Less used in TCM"
+
+[TW10]
+chinese_name = "Tian Jing"
+number = 10
+element = "EARTH"
+characters = [
+    "SEA", "SEDATION"
+]
+location = "When the elbow is flexed, on the posterior arm, 1 cun proximal to the olecranon"
+functions = [
+    "Transforms phlegm and dampness and treats lumps"
+]
+indications = [
+    "Cysts", "Goiter", "Swollen Lymph Nodes", "Benign Tumors"
+]
+poem = "There is that which grows\nIn the dark\nBehind the mountain\nOut of sight\nStagnantly fermenting\nWaiting to ignite\nDon't pull\nThe wrong wire -\nOnly soil\nCan tame the fire."
+
+[TW14]
+chinese_name = "Jian Liao"
+number = 14
+characters = [
+]
+location = "On the shoulder, in the depression posterior and inferior to the lateral edge of the acromion, the origin of the Deltoid muscle"
+functions = [
+    "Locally for the shoulder"
+]
+indications = [
+    "Shoulder pain"
+]
+
+[TW15]
+chinese_name = "Tian Liao"
+number = 15
+characters = [
+]
+location = "On the trapezius muscle, at the midpoint of the line connecting GB21 and SI13"
+functions = [
+    "Moves Qi and soothes pain"
+]
+indications = [
+    "Shoulder pain",
+    "Trapezius muscle pain",
+]
+comments = "Can be used in cases where GB21 is too extreme, but is only effective for the local pain in the area"
+
+[TW16]
+chinese_name = "Tian You"
+number = 16
+characters = [
+    "WINDOW OF HEAVEN"
+]
+location = "On the posterior border of the SCM, at the level of the Mandible angle"
+functions = [
+    "Treats swollen lymph nodes"
+]
+indications = [
+    "Swollen Lymph Nodes"
+]
+use_with = "TW5"
+
+[TW17]
+chinese_name = "Yi Feng"
+number = 17
+characters = [
+    "MEETING"
+]
+location = "Behind the ear lobe, between the Ramus of the Mandible and the Mastoid process"
+functions = [
+    "Extracts wind (especially from the face)",
+    "Does well with the ears",
+]
+indications = [
+    "Ear Pain",
+    "Tinnitus",
+    "Facial Paralysis"
+]
+comments = "Meeting with the GB"
+
+[TW20]
+chinese_name = "Jiao Sun"
+number = 20
+characters = [
+]
+location = "On the temple, at the apex of the ear, when the ear is folded forward"
+functions = [
+]
+indications = [
+]
+comments = "Less useful in TCM"
+
+[TW21]
+chinese_name = "Er Men"
+number = 21
+characters = [
+]
+location = "In front of the ear, in the depression anterior to the Supratragic notch and just inferior to the Condyloid process of the mandible"
+functions = [
+    "Does well with the ears"
+]
+indications = [
+    "Tinnitus",
+    "Ear pain"
+]
+
+[TW23]
+chinese_name = "Shi Zhu Kong"
+number = 23
+characters = [
+]
+location = "At the lateral end of the eyebrow, in the depression on the Supraorbital margin"
+functions = [
+    "Does well with the eyes"
+]
+indications = [
+    "Facial Paralysis",
+    "Eye Twitching"
+]

@@ -146,7 +146,7 @@ number = 23
 characters = ["BACK SHU"]
 location = "1.5 cun lateral to the inferior border of the spinous process of L2"
 functions = ["Strengthens all the KID functions in states of chronic lack, weakness"]
-indications = ["Lower Back Pain", "Low Tinitus", "Edema", "Urinary Incontinence", "Asthma", "Exhale Issues", "KID Yin Xu", "KID Yang Xu"]
+indications = ["Lower Back Pain", "Low Tinnitus", "Edema", "Urinary Incontinence", "Asthma", "Exhale Issues", "KID Yin Xu", "KID Yang Xu"]
 use_with = ["GV4", "BL13", "BL17", "BL18", "BL20"]
 comments = "KID Back Shu. For asthma and breathing trouble, we will use with BL13 to strengthen LU and KID. For KID Yang strengthening: with GV4. For Blood strengthening: six flowers - BL17 or BL18, BL20 and BL23"
 
