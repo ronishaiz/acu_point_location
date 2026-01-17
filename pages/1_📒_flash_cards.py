@@ -1,7 +1,7 @@
 import streamlit as st
 
 from backend.enums import MeridianName, Organ
-from backend.herbs.herb import ALL_HERBS
+from backend.herbs.herb import ALL_HERBS, get_herb_group_options, filter_herbs_by_groups
 from backend.meridians.meridian import ALL_POINTS, ALL_MERIDIANS, get_meridian_by_name
 from backend.syndromes.syndrome import ALL_SYNDROMES
 from pages_backend.flashcards.flashcard import FlashCard
@@ -117,7 +117,24 @@ elif flashcard_topic == 'Syndromes':
     flashcard_objects = ALL_SYNDROMES if organ_selection == 'ALL' else [syndrome for syndrome in ALL_SYNDROMES if syndrome.organ == Organ(organ_selection)]
 
 else:  # Herbs
-    flashcard_objects = ALL_HERBS
+    # Herb group selector (single selection). Options come from get_herb_group_options().
+    herb_group_opts = get_herb_group_options()  # [{'label': ..., 'value': ...}, ...]
+    option_labels = ['ALL'] + [opt['label'] for opt in herb_group_opts]
+    default_group = st.session_state.get('herb_group_selection', 'ALL')
+    herb_group_selection = st.selectbox(
+        'Choose Herb Group',
+        option_labels,
+        index=option_labels.index(default_group) if default_group in option_labels else 0,
+        on_change=restack
+    )
+    st.session_state['herb_group_selection'] = herb_group_selection
+
+    if herb_group_selection == 'ALL':
+        flashcard_objects = ALL_HERBS
+    else:
+        # find the enum value for the selected label and filter herbs by that value
+        selected_value = next((opt['value'] for opt in herb_group_opts if opt['label'] == herb_group_selection), None)
+        flashcard_objects = filter_herbs_by_groups([selected_value]) if selected_value else []
 
 flashcards = [FlashCard(flashcard_object) for flashcard_object in flashcard_objects]
 st.session_state['all_flashcards'] = flashcards

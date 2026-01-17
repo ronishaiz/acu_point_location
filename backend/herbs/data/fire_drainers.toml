@@ -1,0 +1,39 @@
+["Shi Gao"]
+flavors = ["SWEET", "SPICY"]
+temperature = "COLD"
+temperature_accent = "'+'"
+herb_group = "FIRE_DRAINERS"
+functions = [
+    "Clears Heat and Drains Fire. From the Qi level, and especially from the LU (excess heat) and ST (fire)",
+    "Treats eczema, burns, and skin infections with topical and oral administration"
+]
+counter_indications = ["No heat present or empty heat (weak pulse)"]
+affected_organs = ["LU", "ST"]
+use_with = ["Ma Huang", "Xi Xin"]
+
+["Zhi Mu"]
+flavors = ["BITTER"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "FIRE_DRAINERS"
+functions = [
+    "Clears Heat - empty or full, especially in the LU and ST",
+    "Nourishes Yin - moistens the dryness caused by Yin deficiency"
+]
+counter_indications = ["Weak SP with Diarrhea", "Dampness"]
+affected_organs = ["LU", "ST", "KID"]
+use_with = ["Shi Gao"]
+
+["Zhi Zi"]
+flavors = ["BITTER"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "FIRE_DRAINERS"
+functions = [
+    "Drains fire and reduces irritability in the HT and LIV",
+    "Expels heat and dampness from the three burners - HT, LIV, GB",
+    "Urinates"
+]
+counter_indications = ["Cold and weak SP with soft stool"]
+affected_organs = ["HT", "LIV", "LU", "ST", "TW"]
+use_with = ["Dan Dou Chi"]

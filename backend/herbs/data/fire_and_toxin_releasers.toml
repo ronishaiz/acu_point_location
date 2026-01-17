@@ -1,0 +1,13 @@
+["Jin Yin Hua"]
+flavors = ["SWEET"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "FIRE_AND_TOXIN_RELEASERS"
+functions = [
+    "Clears Heat and resolves Toxicity",
+    "Expels Wind Heat",
+    "Clears Damp Heat from the Lower Burner"
+]
+counter_indications = ["Weak SP or ST with Diarrhea", "Skin ulcers without heat and toxins"]
+affected_organs = ["LI", "LU", "ST"]
+use_with = ["Niu Bang Zi"]

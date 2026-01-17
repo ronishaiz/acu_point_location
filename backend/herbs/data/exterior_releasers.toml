@@ -1,0 +1,132 @@
+["Fang Feng"]
+flavors = ["SPICY", "SWEET"]
+temperature = "HOT"
+temperature_accent = "'--'"
+herb_group = "EXTERIOR_RELEASERS"
+functions = [
+    "Releases the exterior and expels Wind Cold - treats body aches and can be used to prevent frequent colds",
+    "Expels Wind Damp - treats Bi syndrome with joint pain and stiffness",
+    "Expels internal Wind - treats tremors"
+]
+counter_indications = ["Pain due to Heat or Blood deficiency", "Yin deficiency"]
+affected_organs = ["BL", "LIV", "SP"]
+use_with = ["Jing Jie", "Qiang Huo"]
+
+["Jing Jie"]
+flavors = ["SPICY", "AROMATIC"]
+temperature = "HOT"
+temperature_accent = "'--'"
+herb_group = "EXTERIOR_RELEASERS"
+functions = [
+    "Releases the exterior and expels Wind Cold or Wind Heat",
+    "Soothes itching skin conditions and rashes",
+    "Stops bleeding"
+]
+counter_indications = ["Itch due to internal wind", "Severe rash"]
+affected_organs = ["LIV", "LU"]
+use_with = ["Fang Feng", "Ju Hua"]
+notes = ["The strength of this herb is quite balanced - not too strong nor too mild. Therefore, fits most clinical cases of exterior wind in Israel and the West"]
+
+["Zi Su Ye"]
+flavors = ["SPICY", "AROMATIC"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "EXTERIOR_RELEASERS"
+functions = [
+    "Treats rebellious ST Qi - nausea, puking",
+    "Releases the exterior and expels Wind Cold",
+    "Calms the fetus - for morning sickness or restless fetus"
+]
+counter_indications = ["Damp Heat", "Puking due to Heat"]
+affected_organs = ["LU", "SP"]
+use_with = ["Hou Xing", "Sheng Jiang", "Xing Ren"]
+
+["Qiang Huo"]
+flavors = ["SPICY", "BITTER", "AROMATIC"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "EXTERIOR_RELEASERS"
+functions = [
+    "Releases the exterior and expels Wind Cold - also when dampness is present (Bi Cold)",
+    "Releases painfull stagnation and reduces Bi Syndrome pain - especially in the upper body (neck, shoulders, upper back, BL region, Tai Yang)"
+]
+counter_indications = ["Yin deficiency with heat", "Bi Heat"]
+affected_organs = ["KID", "BL"]
+use_with = ["Fang Feng", "Du Huo"]
+notes = ["Goes well with his long lost brother Du Huo, who treats the lower body Bi syndrome"]
+
+["Bo He"]
+western_name = "Mint Leaf"
+flavors = ["SPICY", "AROMATIC"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "EXTERIOR_RELEASERS"
+functions = [
+    "Expels Wind Heat - purifies and benefits the head, the eyes, and the throat and opens the orifices",
+    "Evaporates rashes",
+    "Expels turbid filth",
+    "Enables smooth flow of Liver Qi"
+]
+counter_indications = ["Empty Heat", "Breasfeeding - depresses milk discharge"]
+affected_organs = ["LIV", "LU"]
+use_with = ["Bai Zhi"]
+
+["Chai Hu"]
+flavors = ["SWEET", "SALTY"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "EXTERIOR_RELEASERS"
+functions = [
+    "Most important herb for moving Liver Qi",
+    "Treats Shao Yang Syndrome - stuck exterior in the Shao Yang (alternating chills and fever, bitter taste, hypochondriac pain)",
+    "Raises Yang Qi (for cases of prolapse)"
+]
+counter_indications = ["Yin deficiency with Yang rising"]
+affected_organs = ["LIV", "LU"]
+use_with = ["Sheng Ma"]
+notes = ["Moderately raises Liver Qi when there's stagnant Qi that obstructs the SP's function of raising Qi"]
+
+["Niu Bang Zi"]
+flavors = ["SPICY", "BITTER"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "EXTERIOR_RELEASERS"
+functions = [
+    "Expels Wind Heat - benefits the throat (sore, swollen, red throat)",
+    "Releases toxicity that manifests on the skin and in the throat. Exaporates early eashes that have not yet fully surfaced",
+    "Moistens the Intestines, makes them greasier"
+]
+counter_indications = ["Weak SP with Diarrhea", "No exterior pathogen"]
+affected_organs = ["LU", "ST"]
+use_with = ["Bo He"]
+
+["Ju Hua"]
+flavors = ["SWEET", "BITTER"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "EXTERIOR_RELEASERS"
+functions = [
+    "Expels Wind and purifies Heat - also from the LU",
+    "Benefits the eyes - soothes the Liver and purifies the eyes. Good for almost all eye conditions - dryness, redness, swelling, pain",
+    "Expels Wind from the Liver and downs Liver Yang",
+]
+counter_indications = ["Weak SP with Diarrhea"]
+affected_organs = ["LU", "LIV"]
+use_with = ["Sang Ye"]
+notes = ["It is less common to pick this herb for expelling Liver Wind, but it is possible"]
+
+["Sheng Ma"]
+flavors = ["SWEET", "SPICY"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "EXTERIOR_RELEASERS"
+functions = [
+    "Releases the exterior and evaporates rashes",
+    "Clears Heat and detoxifies toxins - gums inflammation. Sking conditions - clears heat from the ST meridian",
+    "Raises Yang Qi - for prolapse of organs"
+]
+counter_indications = ["Empty Heat", "Excess above and deficiency below"]
+affected_organs = ["ST", "SP", "LU", "LI"]
+use_with = ["Ge Gen", "Chai Hu"]
+notes = ["We would not select this herb for Wind Heat without rash"]
+

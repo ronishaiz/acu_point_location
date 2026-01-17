@@ -1,0 +1,30 @@
+["Da Huang"]
+flavors = ["BITTER"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "DOWNWARD_DRAINERS"
+functions = [
+    "Drains Heat and purges accumulation - for constipation due to heat accumulation in the Yang Ming",
+    "Purifies Fire from the ST and LI through the stool. Also clears heat from other organs similarly",
+    "Expels heat and dampness through the urine",
+    "Drains heat from the Blood and moves the Blood",
+    "Purifies heat, fire and toxins - also for skin infections and inflammations"
+]
+counter_indications = ["Exterior Pathogen", "Pregnancy", "Breastfeeding"]
+affected_organs = ["LI", "ST"]
+use_with = ["Mang Xiao"]
+
+["Mang Xiao"]
+flavors = ["SPICY", "BITTER", "SALTY"]
+temperature = "COLD"
+temperature_accent = "'+'"
+herb_group = "DOWNWARD_DRAINERS"
+functions = [
+    "Drains, melts and softens accumulation",
+    "Purifies Heat and drains Fire",
+    "Purifies heat and expels toxins from skin infections when used topically - Bi Heat, Rheumatism, lesions"
+]
+counter_indications = ["Weak patients", "Pregnancy", "Breastfeeding", "Coldness in SP or ST"]
+affected_organs = ["ST", "LI"]
+use_with = ["Da Huang"]
+notes = ["Usually used together with Da Huang to enhance the effect of purging heat accumulation through the stool, it completes Da Huang with its melting and softening properties"]
