@@ -29,10 +29,16 @@ class FlashCard:
     def show_identifier(self):
         st.write(f"# {self.object.identifier}")
 
-    def show_content(self, on_herb_click=None, on_point_click=None):
+    def show_content(self, on_herb_click=None, on_point_click=None, property_filter=None):
         st.write(f"# {self.object.identifier}")
 
-        for property_name, header_name in self.object.get_property_name_to_flash_card_property_name().items():
+        properties_to_show = self.object.get_property_name_to_flash_card_property_name()
+        
+        # Filter properties if a filter is provided
+        if property_filter:
+            properties_to_show = {k: v for k, v in properties_to_show.items() if k in property_filter}
+
+        for property_name, header_name in properties_to_show.items():
             attribute_value = self.object.__getattribute__(property_name)
 
             if attribute_value is None:

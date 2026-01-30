@@ -20,6 +20,11 @@ def show_flashcards(flashcard_topic):
 
     hide_content = st.checkbox('Hide Content', value=True, key='hide_flashcard_content')
     
+    # Add option to show only location for Point flashcards
+    show_only_location = False
+    if flashcard_topic == 'Points':
+        show_only_location = st.checkbox('Show Only Location', value=False, key='show_only_location')
+    
     # Check if we need to jump to a point
     if 'jump_to_point' in st.session_state and st.session_state['jump_to_point']:
         point = st.session_state['jump_to_point']
@@ -72,19 +77,25 @@ def show_flashcards(flashcard_topic):
         restack()
         st.rerun()
     
+    # Determine property filter for Point flashcards
+    property_filter = None
+    if flashcard_topic == 'Points' and show_only_location:
+        property_filter = ['location']
+    
     show_flashcard(stack.get_top(), hide_content, 
                    on_herb_click if flashcard_topic == 'Syndromes' else None,
-                   on_point_click if flashcard_topic == 'Syndromes' else None)
+                   on_point_click if flashcard_topic == 'Syndromes' else None,
+                   property_filter)
 
     st.button("Previous", on_click=lambda: stack.prev(), key="previous_flashcard")
     st.button("Next", on_click=lambda: stack.next(), key="next_flashcard")
 
 
-def show_flashcard(flashcard: FlashCard, hide_content: bool, on_herb_click=None, on_point_click=None):
+def show_flashcard(flashcard: FlashCard, hide_content: bool, on_herb_click=None, on_point_click=None, property_filter=None):
     if hide_content:
         flashcard.show_identifier()
     else:
-        flashcard.show_content(on_herb_click, on_point_click)
+        flashcard.show_content(on_herb_click, on_point_click, property_filter)
 
 
 st.set_page_config(
