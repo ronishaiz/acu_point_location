@@ -15,7 +15,7 @@ western_name = "Cow Horn"
 flavors = ["BITTER", "SALTY"]
 temperature = "COLD"
 temperature_accent = ""
-herb_group = "BLOOD_COOLERS_AND_EMPTY_HEAT_RELEASERS
+herb_group = "BLOOD_COOLERS_AND_EMPTY_HEAT_RELEASERS"
 functions = [
     "Clears Heat and toxins and cools the Blood"
 ]
@@ -27,7 +27,7 @@ western_name = "Rehmannia Root (Raw)"
 flavors = ["SWEET", "BITTER"]
 temperature = "COLD"
 temperature_accent = ""
-herb_group = "BLOOD_COOLERS_AND_EMPTY_HEAT_RELEASERS
+herb_group = "BLOOD_COOLERS_AND_EMPTY_HEAT_RELEASERS"
 functions = [
     "Clears Heat and cools the Blood",
     "Nourishes Yin and generates fluids",
@@ -42,7 +42,7 @@ western_name = "Scrophularia Root"
 flavors = ["SALTY", "SWEET", "BITTER"]
 temperature = "COLD"
 temperature_accent = ""
-herb_group = "BLOOD_COOLERS_AND_EMPTY_HEAT_RELEASERS
+herb_group = "BLOOD_COOLERS_AND_EMPTY_HEAT_RELEASERS"
 functions = [
     "Clears Heat and cools the Blood",
     "Nourishes Yin and generates fluids",
@@ -88,7 +88,7 @@ western_name = "Lycii Cortex"
 flavors = ["SWEET"]
 temperature = "COLD"
 temperature_accent = ""
-herb_group = "BLOOD_COOLERS_AND_EMPTY_HEAT_RELEASERS
+herb_group = "BLOOD_COOLERS_AND_EMPTY_HEAT_RELEASERS"
 functions = [
     "Expels Fire or empty Heat - especially from the LU - cough and whizzing, thirst and sweating. also due to LIV or KID Yin Xu",
     "Clears Heat and cools the Blood - especially for bleeding due to Heat in the Blood",

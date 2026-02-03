@@ -179,7 +179,10 @@ class Herb(FlashCardObject):
     @classmethod
     def from_toml(cls, toml_file_path: str) -> List['Herb']:
         with open(toml_file_path, 'r') as f:
-            herbs_dict = toml.load(f)
+            try:
+                herbs_dict = toml.load(f)
+            except toml.TomlDecodeError as e:
+                raise ValueError(f"Error parsing TOML file {toml_file_path}: {e}")
 
         return [cls.from_dict(herb_dict, name) for name, herb_dict in herbs_dict.items()]
 

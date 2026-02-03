@@ -60,3 +60,4 @@ functions = [
 ]
 counter_indications = ["SP and ST deficiency"]
 use_with = ["Huang Qin", "Chai Hu"]
+focus_remark = "Heat and Damp in LIV and GB"

@@ -14,7 +14,7 @@ affected_organs = ["KID", "BL"]
 focus_remark = "Bi Cold - and especially Wind. Treats LJ without harming the Yin"
 
 ["Qin Jiao"]
-western_name = ["Angelicae Pubescentis Radix"]
+western_name = "Angelicae Pubescentis Radix"
 flavors = ["BITTER", "SPICY"]
 temperature = "COLD"
 temperature_accent = "'--'"
