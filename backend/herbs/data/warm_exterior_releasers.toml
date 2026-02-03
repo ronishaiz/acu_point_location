@@ -1,0 +1,60 @@
+["Fang Feng"]
+flavors = ["SPICY", "SWEET"]
+temperature = "HOT"
+temperature_accent = "'--'"
+herb_group = "EXTERIOR_RELEASERS"
+functions = [
+    "Releases the exterior and expels Wind Cold - treats body aches and can be used to prevent frequent colds",
+    "Expels Wind Damp - treats Bi syndrome with joint pain and stiffness",
+    "Expels internal Wind - treats tremors"
+]
+counter_indications = ["Pain due to Heat or Blood deficiency", "Yin deficiency"]
+affected_organs = ["BL", "LIV", "SP"]
+use_with = ["Jing Jie", "Qiang Huo"]
+focus_remark = "Master of winds - wind sheild - Wind Cold"
+
+["Jing Jie"]
+flavors = ["SPICY", "AROMATIC"]
+temperature = "HOT"
+temperature_accent = "'--'"
+herb_group = "EXTERIOR_RELEASERS"
+functions = [
+    "Releases the exterior and expels Wind Cold or Wind Heat",
+    "Soothes itching skin conditions and rashes",
+    "Stops bleeding"
+]
+counter_indications = ["Itch due to internal wind", "Severe rash"]
+affected_organs = ["LIV", "LU"]
+use_with = ["Fang Feng", "Ju Hua"]
+notes = ["The strength of this herb is quite balanced - not too strong nor too mild. Therefore, fits most clinical cases of exterior wind in Israel and the West"]
+focus_remark = "Skin conditions - Wind Cold"
+
+["Zi Su Ye"]
+flavors = ["SPICY", "AROMATIC"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "EXTERIOR_RELEASERS"
+functions = [
+    "Treats rebellious ST Qi - nausea, puking",
+    "Releases the exterior and expels Wind Cold",
+    "Calms the fetus - for morning sickness or restless fetus"
+]
+counter_indications = ["Damp Heat", "Puking due to Heat"]
+affected_organs = ["LU", "SP"]
+use_with = ["Hou Xing", "Sheng Jiang", "Xing Ren"]
+focus_remark = "Stomach Virus"
+
+["Qiang Huo"]
+flavors = ["SPICY", "BITTER", "AROMATIC"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "EXTERIOR_RELEASERS"
+functions = [
+    "Releases the exterior and expels Wind Cold - also when dampness is present (Bi Cold)",
+    "Releases painfull stagnation and reduces Bi Syndrome pain - especially in the upper body (neck, shoulders, upper back, BL region, Tai Yang)"
+]
+counter_indications = ["Yin deficiency with heat", "Bi Heat"]
+affected_organs = ["KID", "BL"]
+use_with = ["Fang Feng", "Du Huo"]
+notes = ["Goes well with his long lost brother Du Huo, who treats the lower body Bi syndrome"]
+focus_remark = "Occiput and upper body pain - Wind Cold"

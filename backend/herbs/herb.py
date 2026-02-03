@@ -33,7 +33,8 @@ class TemperatureAccent(Enum):
 
 
 class HerbGroup(Enum):
-    EXTERIOR_RELEASERS = 'EXTERIOR_RELEASERS'
+    WARM_EXTERIOR_RELEASERS = 'WARM_EXTERIOR_RELEASERS'
+    COLD_EXTERIOR_RELEASERS = 'COLD_EXTERIOR_RELEASERS'
     HEAT_PURIFIERS_AND_DAMP_DRYERS = 'HEAT_PURIFIERS_AND_DAMP_DRYERS'
     DOWNWARD_DRAINERS = 'DOWNWARD_DRAINERS'
     FIRE_DRAINERS = 'FIRE_DRAINERS'
@@ -75,9 +76,10 @@ class Herb(FlashCardObject):
     _affected_organs: List[Organ] = None
     _use_with: List[str] = None
     _notes: List[str] = None
+    _focus_remark: str = None
 
     @property
-    def identifier(self):
+    def identifier(self) -> str:
         return self._name
 
     @property
@@ -109,20 +111,24 @@ class Herb(FlashCardObject):
         return self._herb_group
 
     @property
-    def affected_organs(self):
+    def affected_organs(self) -> List[Organ]:
         return self._affected_organs or []
 
     @property
-    def use_with(self):
+    def use_with(self) -> List[str]:
         return self._use_with or []
 
     @property
-    def western_name(self):
+    def western_name(self) -> Optional[str]:
         return self._western_name
 
     @property
-    def notes(self):
+    def notes(self) -> List[str]:
         return self._notes or []
+
+    @property
+    def focus_remark(self) -> Optional[str]:
+        return self._focus_remark
 
     @classmethod
     def get_property_name_to_flash_card_property_name(cls) -> dict:
@@ -137,7 +143,8 @@ class Herb(FlashCardObject):
             'counter_indications': 'Counter Indications',
             'affected_organs': 'Affected Organs',
             'use_with': 'Use With',
-            'notes': 'Notes'
+            'notes': 'Notes',
+            'focus_remark': 'Focus Remark'
         }
 
     @classmethod
@@ -164,7 +171,8 @@ class Herb(FlashCardObject):
             _herb_group=HerbGroup(herb_dict['herb_group']) if 'herb_group' in herb_dict and herb_dict['herb_group'] else None,
             _affected_organs=[Organ(org) for org in herb_dict.get('affected_organs', [])],
             _use_with=herb_dict.get('use_with', []),
-            _notes=herb_dict.get('notes', [])
+            _notes=herb_dict.get('notes', []),
+            _focus_remark=herb_dict.get('focus_remark', None)
         )
 
     @classmethod
