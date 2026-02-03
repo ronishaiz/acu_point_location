@@ -1,0 +1,113 @@
+["Xi Jiao"]
+western_name = "Rhinoceros Horn"
+flavors = ["BITTER", "SALTY"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "BLOOD_COOLERS_AND_EMPTY_HEAT_RELEASERS"
+functions = [
+    "Clears Heat and toxins and cools the Blood"
+]
+notes = ["Due to the endangered status of rhinos, Xi Jiao is now replaced by Shui Niu Jiao (Water Buffalo Horn) in modern TCM practice (can no longer be sourced ethically)"]
+focus_remark = "Not useful - Rhino Horn - Strongest in group"
+
+["Shui Niu Jiao"]
+western_name = "Cow Horn"
+flavors = ["BITTER", "SALTY"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "BLOOD_COOLERS_AND_EMPTY_HEAT_RELEASERS
+functions = [
+    "Clears Heat and toxins and cools the Blood"
+]
+notes = ["Modern substitute for Xi Jiao (Rhinoceros Horn) due to endangered status of rhinos, still not widely used"]
+focus_remark = "Not useful - Cow Horn - stronger than the herbs in this group"
+
+["Sheng Di Huang"]
+western_name = "Rehmannia Root (Raw)"
+flavors = ["SWEET", "BITTER"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "BLOOD_COOLERS_AND_EMPTY_HEAT_RELEASERS
+functions = [
+    "Clears Heat and cools the Blood",
+    "Nourishes Yin and generates fluids",
+    "Good for HT Fire (especially that which is due to Yin deficiency)"
+]
+counter_indications = ["SP and ST deficiency with Dampness"]
+affected_organs = ["HT", "LIV", "KID"]
+focus_remark = "Cools blood, feeds Yin, Expels empty heat - Main herb in the group"
+
+["Xuan Shen"]
+western_name = "Scrophularia Root"
+flavors = ["SALTY", "SWEET", "BITTER"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "BLOOD_COOLERS_AND_EMPTY_HEAT_RELEASERS
+functions = [
+    "Clears Heat and cools the Blood",
+    "Nourishes Yin and generates fluids",
+    "Expels Fire and toxins - especially from the eyes and the troat",
+    "Dissipates nodules and reduces swellings"
+]
+counter_indications = ["SP and ST deficiency with Diarrhea"]
+affected_organs = ["KID", "LU", "ST"]
+focus_remark = "Like Sheng Di Huang (but milder) + dissipates nodules (softens hard swellings)"
+
+["Mu Dan Pi"]
+western_name = "Cortex Moutan Radicis"
+flavors = ["SPICY", "BITTER"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "BLOOD_COOLERS_AND_EMPTY_HEAT_RELEASERS"
+functions = [
+    "Clears Heat and cools the Blood - generally, and also clears empty heat especially when there isn't much sweat",
+    "Moves the Blood",
+    "Downs LIV Yang",
+    "Drains pus and reduces swelling"
+]
+counter_indications = ["SP and ST deficiency", "Qi Xu with Sweating"]
+affected_organs = ["LIV", "HT", "KID"]
+focus_remark = "Directly moves LIV due to its spicy flavor - cools and moves blood"
+
+["Chi Shao"]
+western_name = "Radix Paeoniae Rubrae"
+flavors = ["SOUR", "BITTER"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "BLOOD_COOLERS_AND_EMPTY_HEAT_RELEASERS"
+functions = [
+    "Clears Heat and cools the Blood",
+    "Moves the Blood and dispels stasis"
+]
+use_with = ["Mu Dan Pi"]
+counter_indications = []
+focus_remark = "Indirectly moves LIV due to its sour flavor - cools and moves blood"
+
+["Di Gu Pi"]
+western_name = "Lycii Cortex"
+flavors = ["SWEET"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "BLOOD_COOLERS_AND_EMPTY_HEAT_RELEASERS
+functions = [
+    "Expels Fire or empty Heat - especially from the LU - cough and whizzing, thirst and sweating. also due to LIV or KID Yin Xu",
+    "Clears Heat and cools the Blood - especially for bleeding due to Heat in the Blood",
+]
+counter_indications = ["SP and ST deficiency with Diarrhea", "Exterior conditions"]
+use_with = ["Sheng Di Huang"]
+focus_remark = "Similar to Sheng Di Huang but focuses on LU empty heat"
+
+["Qing Hao"]
+western_name = "Artemisiae Annuae Herba"
+flavors = ["BITTER"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "BLOOD_COOLERS_AND_EMPTY_HEAT_RELEASERS"
+functions = [
+    "Clears empty Heat - especially when there's night fever with morning coolness",
+    "Clears Summer Heat - especially from the Shao Yang",
+    "Cools Blood - especially in cases of heat in the blood that causes rashes"
+]
+counter_indications = ["SP and ST deficiency with Cold"]
+notes = ["Especially good for malaria - Shao Yang disorder with alternating chills and fever"]
+focus_remark = "Cools blood, expels empty heat, feeds Yin - especially for malaria"

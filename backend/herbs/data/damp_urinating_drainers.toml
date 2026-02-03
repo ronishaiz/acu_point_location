@@ -1,0 +1,134 @@
+["Fu Ling"]
+western_name = "Poria"
+flavors = ["SWEET", "BLAND"]
+temperature = "MILD"
+temperature_accent = ""
+herb_group = "DAMP_URINATING_DRAINERS"
+functions = [
+    "Promotes urination and leaches out Dampness",
+    "Strengthens the SP",
+    "Calms the HT and Spirit"
+]
+counter_indications = ["Frequent, excessive urination"]
+affected_organs = ["SP", "HT", "LU"]
+notes = ["The only one in the group with urinator qualities - sweet, tasteless, neutal temperature"]
+focus_remark = "Ultimative urinator, drains damp without heat with bonuses - Shen soother and SP booster"
+
+["Zhu Ling"]
+western_name = "Polyporus"
+flavors = ["SWEET", "BLAND"]
+temperature = "COLD"
+temperature_accent = "'--'"
+herb_group = "DAMP_URINATING_DRAINERS"
+functions = [
+    "Promotes urination and leaches out Dampness - the strongest urinator in the group"
+]
+counter_indications = ["Yin deficiency", "Lack of fluids"]
+affected_organs = ["BL", "SP", "KID"]
+focus_remark = "Strongest urinator (also in comparison to Fu Ling) - but without any bonuses"
+
+["Yi Yi Ren"]
+western_name = "Coix Seed"
+flavors = ["SWEET", "BLAND"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "DAMP_URINATING_DRAINERS"
+functions = [
+    "Promotes urination and leaches out Dampness",
+    "Strengthens the SP (especially when there's diarrhea or diarrhea with dampness)",
+    "Expels Wind Dampness - especially Wind Heat Dampness",
+    "Clears Damp Heat from the skin - pus, abcesses, sores",
+    "Expels Damp Heat from the LJ - Lin Syndrome or Genytals"
+]
+counter_indications = ["Forbidden in pregnancy"]
+use_with = ["Fu Ling"]
+affected_organs = ["SP", "LU", "KID"]
+focus_remark = "Expels dampness which had warmened up - cold in comparison to neutral Fu Ling. Weak in comparison to Fu Ling. Good for Bi Syndrome and skin problems."
+
+["Mu Tong"]
+western_name = "Caulis"
+flavors = ["BITTER"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "DAMP_URINATING_DRAINERS"
+functions = [
+    "Promotes urination and leaches out Dampness",
+    "Clears HT Heat through SI and BL",
+    "Unblocks Blood Stasis (and this way encourages lactation - breast milk emission)"
+]
+affected_organs = ["HT", "SI", "BL"]
+counter_indications = ["Yin deficiency", "When there isn't dampness", "Forbidden in pregnancy"]
+use_with = ["Dan Zhu Ye", "Hua Shi", "Sheng Di Huang"]
+focus_remark = "Drains Damp Heat and especially through HT, SI, BL"
+
+["Hua Shi"]
+western_name = "Talcum"
+flavors = ["SWEET", "BLAND"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "DAMP_URINATING_DRAINERS"
+functions = [
+    "Promotes urination and leaches out Damp Heat - especially damp heat in BL - Lin Syndrome",
+    "Treats external dampness on the skin"
+]
+counter_indications = ["Yin deficiency", "Lack of fluids", "Excessive urination", "Pregnancy"]
+affected_organs = ["BL", "ST"]
+use_with = ["Mu Tong"]
+focus_remark = "More focused on damp than on heat"
+
+["Han Fang Ji"]
+western_name = "Stephania Root"
+flavors = ["BITTER", "SPICY"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "DAMP_URINATING_DRAINERS"
+functions = [
+    "Promotes urination and leaches out Dampness - especially from the LJ",
+    "Expels Wind Dampness - Bi Syndrome"
+]
+use_with = ["Huang Qi"]
+focus_remark = "Edema"
+
+["Che Qian Zi"]
+western_name = "Plantago Seed"
+flavors = ["SWEET"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "DAMP_URINATING_DRAINERS"
+functions = [
+    "Promotes urination and leaches out Damp Heat - especially from the LJ, edema or Lin Syndrome, and Damp Heat in LIV or GB",
+    "Hardens the stool - for rare cases of constipation due to dampness",
+    "Clears the eyes - especially when due to LIV Heat",
+    "Expels Phlegm Heat and stops cough"
+]
+affected_organs = ["KID", "BL", "LIV", "LU"]
+counter_indications = ["Forbidden in pregnancy"]
+focus_remark = "Excess agreement between LI and BL - moves fluids from LI to BL when fluids are scant in BL but abundant in LI"
+
+["Ze Xie"]
+western_name = "Alisma Rhizome"
+flavors = ["SWEET", "BLAND"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "DAMP_URINATING_DRAINERS"
+functions = [
+    "Promotes urination and leaches out Dampness - especially for Damp Heat in the LJ",
+    "Drains KID Fire (due to empty heat)"
+]
+counter_indications = ["Cold"]
+affected_organs = ["KID", "BL"]
+focus_remark = "For turbid urination - rice water urine"
+
+["Shi Wei"]
+western_name = "Folium Pyrrosiae"
+flavors = ["BITTER", "SWEET"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "DAMP_URINATING_DRAINERS"
+functions = [
+    "Promotes urination and leaches out Damp Heat - especially for Lin Syndrome with heat, dampness, blood and stones",
+    "Expels heat from the Blood and stops bleeding, especially urinary bleeding, vomit with blood or uterus bleeding",
+    "Clears LU Heat and expels Phlegm from the LU - stops cough and wheezing"
+]
+affected_organs = ["LU", "BL"]
+focus_remark = "Lin Syndrome with stones and blood"

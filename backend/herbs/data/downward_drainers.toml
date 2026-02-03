@@ -13,6 +13,7 @@ functions = [
 counter_indications = ["Exterior Pathogen", "Pregnancy", "Breastfeeding"]
 affected_organs = ["LI", "ST"]
 use_with = ["Mang Xiao"]
+focus_remark = "Purge heat accumulation from the Yang Ming"
 
 ["Mang Xiao"]
 flavors = ["SPICY", "BITTER", "SALTY"]
@@ -28,3 +29,33 @@ counter_indications = ["Weak patients", "Pregnancy", "Breastfeeding", "Coldness 
 affected_organs = ["ST", "LI"]
 use_with = ["Da Huang"]
 notes = ["Usually used together with Da Huang to enhance the effect of purging heat accumulation through the stool, it completes Da Huang with its melting and softening properties"]
+focus_remark = "Not as good as Da Huang but useful to soften stool"
+
+["Huo Ma Ren"]
+western_name = "Semen Cannabis Sativae"
+flavors = ["SWEET"]
+temperature = "MILD"
+herb_group = "DOWNWARD_DRAINERS"
+functions = [
+    "Moistens the Intestines",
+    "Supports Yin"
+]
+affected_organs = ["LI", "ST", "SP"]
+use_with = []
+counter_indications = []
+focus_remark = "Fiercely moistens the intestines"
+
+["Yu Li Ren"]
+western_name = "Semen Pruni"
+flavors = ["SPICY", "BITTER", "SWEET"]
+temperature = "MILD"
+herb_group = "DOWNWARD_DRAINERS"
+functions = [
+    "Moistens the Intestines and moves the bowels",
+    "Promotes urination and reduces edema"
+]
+notes = ["Good for cases of both constipation and urination problems due to water retention"]
+affected_organs = ["LI", "SI", "SP"]
+counter_indication = ["Pregnancy", "Yin Xu"]
+use_with = []
+focus_remark = "Mildly moistenst the intestines (less than Huo Ma Ren) and also moves the intestines"

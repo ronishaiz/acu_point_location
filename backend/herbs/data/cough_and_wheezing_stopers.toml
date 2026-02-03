@@ -1,0 +1,59 @@
+["Xing Ren"]
+western_name = "Apricot Seed"
+flavors = ["BITTER"]
+temperature = "HOT"
+temperature_accent = "'--'"
+herb_group = "COUGH_AND_WHEEZING_STOPERS"
+functions = [
+    "Stops cough and calms wheezing - descends LU Qi",
+    "Moistens the Intestines - for constipation due to dryness"
+]
+affected_organs = ["LU", "LI"]
+counter_indications = ["Diarrhea"]
+use_with = ["Ma Huang", "Sang Ye", "Shi Gao", "Hou Ma Ren"]
+notes = ["Toxic in large doses - contains amygdalin which converts to cyanide in the body"]
+focus_remark = "Good for any cough type (except very wet cough with phlegm fluids) + moistens the intestines"
+
+["Su Zi"]
+western_name = "Perilla Seed"
+flavors = ["SPICY"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "COUGH_AND_WHEEZING_STOPERS"
+functions = [
+    "Descends LU Qi and stops cough and wheezing - expels phlegm (for cough with wheezing and phlegm, and difficulcy breathing out)",
+    "Moistens the Intestines - for constipation due to dryness"
+]
+affected_organs = ["LU", "LI"]
+counter_indications = ["Diarrhea"]
+use_with = ["Bei Jie Zi"]
+focus_remark = "Wet cough - opposite of Xing Ren - good for phlegm fluids"
+
+["Sang Bai Pi"]
+western_name = "Mulberry Root Bark"
+flavors = ["SWEET"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "COUGH_AND_WHEEZING_STOPERS"
+functions = [
+    "Clears LU Heat and stops cough and wheezing - for cough with LU Heat",
+    "Promotes urination and reduces edema - for (facial) edema due to LU Heat"
+]
+affected_organs = ["LU", "SP"]
+counter_indications = ["Cold Cough", "Excessive Urination"]
+use_with = ["Di Gu Pi", "Fu Ling Pi"]
+focus_remark = "Cough with LU Heat"
+
+["Zi Wan"]
+western_name = "Aster Root"
+flavors = ["BITTER"]
+temperature = "HOT"
+temperature_accent = "'--'"
+herb_group = "COUGH_AND_WHEEZING_STOPERS"
+functions = [
+    "Stops cough and expels Phlegm - for various types of cough, in the chronic case and with Coldness in the background"
+]
+affected_organs = ["LU"]
+counter_indications = ["Heat conditions"]
+use_with = ["Zhi Mu", "Chuan Bei Mu"]
+focus_remark = "Cough with cold phlegm (including when due to exterior pathogen)"

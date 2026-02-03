@@ -1,0 +1,30 @@
+["He Ye"]
+western_name = "Lotus Leaf"
+flavors = ["BITTER", "SWEET"]
+temperature = "MILD"
+temperature_accent = ""
+herb_group = "SUMMER_HEAT_RELEASERS"
+functions = [
+    "Clears Summer Heat - heat, thirst, irritability, scanty dark urine, diarrhea",
+    "Separates the clear from the turbid - by raising SP Yang Qi",
+    "Stops bleeding - due to Heat or stagnation"
+]
+counter_indications = []
+use_with = ["Bian Dou"]
+affected_organs = ["HT", "LIV", "SP"]
+focus_remark = "Lotus Leaf for Damp Summer Heat"
+
+["Xi Gua"]
+western_name = "Watermelon"
+flavors = ["SWEET"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "SUMMER_HEAT_RELEASERS"
+functions = [
+    "Clears Summer Heat and generates fluids - for thirst, irritability, scanty dark urine",
+    "Promotes urination"
+]
+counter_indications = ["Damp in the MJ"]
+use_with = []
+affected_organs = ["BL", "HT", "ST"]
+focus_remark = "Watermelon for Dry Summer Heat"

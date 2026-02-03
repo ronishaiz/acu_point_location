@@ -10,6 +10,7 @@ functions = [
 counter_indications = ["No heat present or empty heat (weak pulse)"]
 affected_organs = ["LU", "ST"]
 use_with = ["Ma Huang", "Xi Xin"]
+focus_remark = "Fire, 4 bigs, clears fire from the Qi Level"
 
 ["Zhi Mu"]
 flavors = ["BITTER"]
@@ -23,6 +24,7 @@ functions = [
 counter_indications = ["Weak SP with Diarrhea", "Dampness"]
 affected_organs = ["LU", "ST", "KID"]
 use_with = ["Shi Gao"]
+focus_remark = "For cases of excess or lack (full or empty heat)"
 
 ["Zhi Zi"]
 flavors = ["BITTER"]
@@ -37,3 +39,48 @@ functions = [
 counter_indications = ["Cold and weak SP with soft stool"]
 affected_organs = ["HT", "LIV", "LU", "ST", "TW"]
 use_with = ["Dan Dou Chi"]
+focus_remark = "Expels heat and dampness from the three burners"
+
+["Dan Zhu Ye"]
+western_name = "Herba Lophatheri"
+flavors = ["SWEET", "BLAND"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "FIRE_DRAINERS"
+functions = [
+    "Clears Fire and Heat from the HT by urintation through SI and BL"
+]
+counter_indications = ["Pregnancy"]
+affected_organs = ["HT", "SI", "ST"]
+use_with = ["Lu Gen"]
+focus_remark = "Clears HT Fire through urination"
+
+["Lu Gen"]
+western_name = "Rhizoma Phragmitis"
+flavors = ["SWEET"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "FIRE_DRAINERS"
+functions = [
+    "Clears Heat and generates fluids - especially in the LU and ST",
+    "Promotes urination and clears Heat from the Bladder",
+    "Encourages rashes to surface"
+]
+counter_indications = ["Cold and weak SP or ST"]
+use_with = ["Shi Gao", "Dan Zhu Ye"]
+notes = ["Can also go well with cold exterior releasers, when the heat damages the fluids"]
+focus_remark = "Feeds Fluids"
+
+["Xia Ku Cao"]
+western_name = "Spica Prunellae"
+flavors = ["BITTER", "SPICY"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "FIRE_DRAINERS"
+functions = [
+    "Clears LIV Fire and brightens the eyes",
+    "Dissipates nodules and reduces swelling"
+]
+counter_indications = ["Weak SP or ST"]
+affected_organs = ["LIV", "GB"]
+focus_remark = "Clears LIV Fire and brightens the eyes. Dissipates nodules"

@@ -11,3 +11,62 @@ functions = [
 counter_indications = ["Weak SP or ST with Diarrhea", "Skin ulcers without heat and toxins"]
 affected_organs = ["LI", "LU", "ST"]
 use_with = ["Niu Bang Zi"]
+focus_remark = "Releases toxic Heat in the throat, the skin (due to exterior) and the genytals"
+
+["Lian Qiao"]
+western_name = "Fructus Forsythiae Suspensae"
+flavors = ["BITTER", "SPICY"]
+temperature = "COLD"
+temperature_accent = "'--'"
+herb_group = "FIRE_AND_TOXIN_RELEASERS"
+functions = [
+    "Clears Heat and Toxicity and dissipates nodules - carbuncles, abscesses, swellings",
+    "Expels Wind Heat"
+]
+counter_indications = ["Weak SP or ST with Diarrhea", "Yin deficiency with Heat"]
+affected_organs = ["HT", "LIV", "GB"]
+use_with = ["Jin Yin Hua", "Da Qing Ye", "Niu Bang Zi"]
+focus_remark = "Dissolves toxicity in the throat and skin - is not good for the genytals (in comparison to Jin Yin Hua)"
+
+["Da Qing Ye"]
+western_name = "Woad Leaf, Indigo"
+flavors = ["BITTER"]
+temperature = "COLD"
+temperature_accent = "'+'"
+herb_group = "FIRE_AND_TOXIN_RELEASERS"
+functions = [
+    "Clears Heat and resolves Toxicity - especially in the upper burner (but not only)",
+    "Cools the Blood and dispels maculae (skin eruptions)"
+]
+counter_indications = ["Weak SP or ST with Cold"]
+affected_organs = ["HT", "LU", "ST"]
+use_with = ["Jin Yin Hua"]
+focus_remark = "Expels toxic and cools Blood - throat and skin"
+
+["Pu Gong Ying"]
+western_name = "Dandelion"
+flavors = ["BITTER", "SWEET"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "FIRE_AND_TOXIN_RELEASERS"
+functions = [
+    "Clears Heat and resolves Toxicity - especially affects the LIV - eyes, abcesses and pus on the skin or the intestines or the chest",
+    "Treats Damp Heat - including Jondice and Lin Syndrome"
+]
+counter_indications = ["Diarrhea"]
+affected_organs = ["LIV", "ST"]
+use_with = []
+focus_remark = "Pus (heat and toxins especially on the skin)"
+
+["Bai Tou Weng"]
+western_name = "Pulsatilla Root"
+flavors = ["BITTER"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "FIRE_AND_TOXIN_RELEASERS"
+functions = [
+    "Clears Heat and resolves Toxicity - especially in the Yang Ming, at acute Dysentery"
+]
+counter_indications = ["Chronic Dysentery with Qi Xu"]
+use_with = ["Qin Pi", "Huang Qin", "Huang Lian"]
+focus_remark = "Acute Dysentery with Heat and Toxins in the intestines"

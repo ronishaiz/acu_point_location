@@ -1,0 +1,84 @@
+["Du Huo"]
+western_name = "Angelicae Pubescentis Radix"
+flavors = ["BITTER", "SPICY"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "WARM_EXTERIOR_RELEASERS"
+functions = [
+    "Releases Wind Damp Cold - especially in the LJ - Bi Syndrome - in acute and chronic cases",
+    "Headache induced from KID deficiency"
+]
+counter_indications = ["Yin deficiency with Heat"]
+use_with = ["Qiang Huo", "Sang Ji Sheng"]
+affected_organs = ["KID", "BL"]
+focus_remark = "Bi Cold - and especially Wind. Treats LJ without harming the Yin"
+
+["Qin Jiao"]
+western_name = ["Angelicae Pubescentis Radix"]
+flavors = ["BITTER", "SPICY"]
+temperature = "COLD"
+temperature_accent = "'--'"
+herb_group = "WIND_DAMP_RELEASERS"
+functions = [
+    "Expels Wind Dampness - Bi Syndrome - for heat or cold, acute or chronic",
+    "Clears Deficiency Heat",
+    "Treats Jaundice",
+    "Moistens the Intestines and unblocks the bowels"
+]
+use_with = ["Du Huo"]
+affected_organs = ["LIV", "GB", "ST"]
+focus_remark = "Bi Cold, especially for Dampness. Treats LJ without harming the Yin"
+
+["Wei Ling Xian"]
+western_name = "Clematidis Radix"
+flavors = ["SPICY", "SALTY"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "WIND_DAMP_RELEASERS"
+functions = [
+    "Expels Wind Dampness - Bi Syndrome - opens the channels and collaterals and stops pain",
+    "Expels accumulation of Dampness or Pathologic Fluids in the MJ and alleviates MJ distress"
+]
+counter_indications = ["Blood or Qi deficiency"]
+focus_remark = "Strong, moves Qi strongly in the body. For Bi Syndrome with stagnation and pain"
+
+["Mu Gua"]
+western_name = "Chaenomelis Fructus"
+flavors = ["SOUR"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "WIND_DAMP_RELEASERS"
+functions = [
+    "Treats Bi Syndrome and opens the channels and collaterals - especially in the tendons and ligaments",
+    "Harmonizes the ST and transforms Dampness - for crippling ST pains and food retention in the MJ"
+]
+counter_indications = ["Exterior pathogen"]
+affected_organs = ["LIV", "SP", "ST"]
+focus_remark = "Tendons and ligaments - sour - LIV"
+
+["Guang Fang Ji"]
+western_name = "Radix Aristolochiae Fangchi"
+flavors = ["BITTER", "SPICY"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "WIND_DAMP_RELEASERS"
+functions = [
+    "Expels Wind Dampness with Heat - Bi Heat",
+    "Urinates and leaches out Dampness - for superficial edema, systemic edema"
+]
+affected_organs = ["BL", "KID", "SP"]
+focus_remark = "Bi Heat, disposes of Dampness and edema"
+
+["Wu Jia Pi"]
+western_name = "Acanthopanacis Cortex"
+flavors = ["SPICY", "BITTER"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "WIND_DAMP_RELEASERS"
+functions = [
+    "Treats Bi Syndrome (wind, damp, cold) with emphasis on LIV and KID - tendons, ligaments and bones",
+    "Expels Dampness and reduces swelling - for edema, urination issues"
+]
+affected_organs = ["LIV", "KID"]
+counter_indications = ["Yin deficiency with Heat"]
+focus_remark = "Bi resulting from Yin deficiency"

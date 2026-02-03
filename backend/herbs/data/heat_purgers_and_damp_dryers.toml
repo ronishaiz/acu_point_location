@@ -1,0 +1,62 @@
+["Huang Lian"]
+western_name = "Coptis Rhizome"
+flavors = ["BITTER"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "HEAT_PURGERS_AND_DAMP_DRYERS"
+functions = [
+    "Expels fire and toxicity - everywhere and especially through the MJ",
+    "Expels heat and dampness",
+    "Expels heat and stops bleeding",
+    "Clears HT Fire"
+]
+counter_indications = ["Yin deficiency", "Qi deficiency"]
+affected_organs = ["HT", "LIV", "ST", "LI"]
+use_with = ["Shi Gao", "Xi Xin", "Sheng Di Huang"]
+notes = ["VERY bitter", "Main herb in this group"]
+focus_remark = "Yang Ming, strongest in the group, affects the HT, the MJ, stops bleeding"
+
+["Huang Qin"]
+western_name = "Scutellaria Root"
+flavors = ["BITTER"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "HEAT_PURGERS_AND_DAMP_DRYERS"
+functions = [
+    "Expels heat especially from the UJ - LU",
+    "Expels damp heat from the MJ and LJ",
+    "Clears Heat and calm the Fetus"
+]
+use_with = ["Chai Hu"]
+counter_indication = []
+notes = ["Also stops bleeding", "Milder than Huang Lian (in taste and in strength)"]
+affected_organs = ["LU", "GB", "ST", "LI"]
+focus_remark = "Yang Ming, less strong than Huang Lian, affects the LU, the UJ, the Fetus, the GB and the Shao Yang, stops bleeding"
+
+["Huang Bai"]
+western_name = "Phellodendron Bark"
+flavors = ["BITTER"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "HEAT_PURGERS_AND_DAMP_DRYERS"
+functions = [
+    "Expels heat and dries dampness - from the LJ",
+    "Drains KID Fire (due to empty heat)",
+    "For toxicity and damp sores and skin lesions"
+]
+counter_indications = ["Weak SP or ST"]
+use_with = ["Huang Qin", "Huang Lian", "Zhi Zi", "Zhi Mu"]
+affected_organs = ["KID", "BL"]
+focus_remark = "Heat and Dampness in the LJ"
+
+["Long Dan Cao"]
+western_name = "Gentiana Root"
+flavors = ["BITTER"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "HEAT_PURGERS_AND_DAMP_DRYERS"
+functions = [
+    "Expels Heat and Dampness from the LIV and GB - from the organs and the channels"
+]
+counter_indications = ["SP and ST deficiency"]
+use_with = ["Huang Qin", "Chai Hu"]

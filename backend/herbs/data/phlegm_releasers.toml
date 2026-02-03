@@ -1,0 +1,127 @@
+["Chuan Bei Mu"]
+western_name = "Fritillaria Bulb (Sichuan)"
+flavors = ["BITTER", "SWEET"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "PHLEGM_RELEASERS"
+functions = [
+    "Clears Phlegm Heat - especially in the LU, especially in the chronic case (based on Qi or Yin Xu)",
+    "Clears Heat and dissolves nodules - especially in the LU and the breast and the neck"
+]
+affected_organs = ["LU", "HT"]
+use_with = ["Zhi Mu"]
+notes = ["Some say it should not be combined with Wu Tou or Qin Jiao"]
+focus_remark = "Cough"
+
+["Zhe Bei Mu"]
+western_name = "Fritillaria Bulb (Thunbergii)"
+flavors = ["BITTER"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "PHLEGM_RELEASERS"
+functions = [
+    "Clears Phlegm Heat - especially in the LU, especially in the acute case",
+    "Clears Heat and dissolves nodules - especially in the LU and the breast and the neck, including chest abcesses"
+]
+notes = ["Similar to Chuan Bei Mu but cheaper", "Has similar notes about combination with Wu Tou or Qin Jiao"]
+affected_organs = ["LU", "HT"]
+use_with = ["Xuan Shen", "Xia Ku Cao", "Lian Qiao", "Niu Bang Zi", "Gua Lou"]
+focus_remark = "Nodules"
+
+["Gua Lou Pi"]
+western_name = "Pericarpium Trichosanthis"
+flavors = ["SWEET"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "PHLEGM_RELEASERS"
+functions = [
+    "Clears Heat and Phlegm Heat from the LU",
+    "Expands the chest and expels nodules",
+    "Moves and regulates Qi at the chest",
+    "Good for phlegm that is hard to expectorate, with dryness"
+]
+affected_organs = ["LU", "ST", "LI"]
+notes = ["Some say it should not be combined with Wu Tou or Gan Jiang or Niu Xi"]
+counter_indications = ["Cold Dampness", "Cold Phlegm"]
+use_with = ["Bei Mu"]
+focus_remark = "Chest pain - moves Qi at chest"
+
+["Gua Lou Ren"]
+western_name = "Semen Trichosanthis"
+flavors = ["SWEET"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "PHLEGM_RELEASERS"
+functions = [
+    "Expels Phlegm Heat from the LU",
+    "Expands the chest - for hot phlegm that causes pain and fullness in the chest",
+    "Moistens the Intestines - for constipation due to dryness",
+    "Encourages and promotes healing of sores - especially for chest abcesses"
+]
+affected_organs = ["LU", "ST", "LI"]
+counter_indications = ["Cold Phlegm", "Cold Diarrhea"]
+focus_remark = "Cough - moistens"
+
+["Tian Hua Fen"]
+western_name = "Trichosanthes Root"
+flavors = ["BITTER", "SWEET"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "PHLEGM_RELEASERS"
+functions = [
+    "Clears Dry Phlegm Heat from the LU",
+    "Clears Heat and Generates fluids - for thirst due to heat conditions and especially Yin deficiency that caused dryness",
+    "Resolves toxicity and expels pus - especially for LU and chest abscesses"
+]
+notes = ["Also called Gua Lou Gen, originates from the root of the same plant as Gua Lou Pi and Gua Lou Ren"]
+affected_organs = ["LU", "ST"]
+use_with = ["Lu Gen", "Ge Gen"]
+focus_remark = "Feeds Fluids"
+
+["Zhu Ru"]
+western_name = "Bamboo Shavings"
+flavors = ["SWEET"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "PHLEGM_RELEASERS"
+functions = [
+    "Clears Phlegm Heat from the LU",
+    "Clears Heat and stops vomiting - for nausea and vomiting due to ST Heat or Phlegm Heat"
+]
+affected_organs = ["LU", "ST", "GB"]
+counter_indications = ["Cold Vomiting"]
+use_with = ["Gua Lou", "Huang Qin"]
+focus_remark = "Good for LU and ST rebellious Qi - Cold -> good for phlegm heat"
+
+["Ban Xia"]
+western_name = "Pinellia Rhizome (Prepared)"
+flavors = ["SPICY"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "PHLEGM_RELEASERS"
+functions = [
+    "Dries Dampness, expels Phlegm and downs LU Qi - for cough with cold phlegm",
+    "Harmonizes the ST and stops vomiting",
+    "Dissipates nodules and reduces distensions - for clumps and phlegm nodules in the neck, chest and MJ"
+]
+counter_indications = ["Yin deficiency with Heat", "Dryness", "Heat conditions"]
+notes = ["Some say it should not be combined with Wu Tou"]
+use_with = ["Chen Pi", "Hou Po"]
+focus_remark = "Good for LU and ST rebellious Qi - Hot -> good for phlegm cold"
+
+["Jie Geng"]
+western_name = "Platycodon Root"
+flavors = ["BITTER", "SPICY"]
+temperature = "MILD"
+temperature_accent = ""
+herb_group = "PHLEGM_RELEASERS"
+functions = [
+    "Expels Phlegm Cold and opens and distributes the LU",
+    "Points other herbs to the LU and the throat - energetically points upward",
+    "Benefits the throat - for sore throat, loss of voice",
+    "Encourages the discharge of pus - especially in the LU and throat"
+]
+affected_organs = ["LU"]
+counter_indications = ["Cough due to Cold and Deficiency"]
+use_with = ["Sang Ye", "Ju Hua", "Ban Xia", "Xing Ren", "Zi Su Ye", "Gua Lou", "Bei Mu"]
+focus_remark = "Throat Pointer"

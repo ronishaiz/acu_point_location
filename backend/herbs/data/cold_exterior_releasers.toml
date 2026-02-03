@@ -4,7 +4,7 @@ western_name = "Mint Leaf"
 flavors = ["SPICY", "AROMATIC"]
 temperature = "COLD"
 temperature_accent = "'-'"
-herb_group = "EXTERIOR_RELEASERS"
+herb_group = "COLD_EXTERIOR_RELEASERS"
 functions = [
     "Expels Wind Heat - purifies and benefits the head, the eyes, and the throat and opens the orifices",
     "Evaporates rashes",
@@ -14,12 +14,13 @@ functions = [
 counter_indications = ["Empty Heat", "Breasfeeding - depresses milk discharge"]
 affected_organs = ["LIV", "LU"]
 use_with = ["Bai Zhi"]
+focus_remark = "Treats all Wind Heat symptoms - especially the gory ones. 'Blanket Shaker'"
 
 ["Chai Hu"]
 flavors = ["SWEET", "SALTY"]
 temperature = "COLD"
 temperature_accent = "'-'"
-herb_group = "EXTERIOR_RELEASERS"
+herb_group = "COLD_EXTERIOR_RELEASERS"
 functions = [
     "Most important herb for moving Liver Qi",
     "Treats Shao Yang Syndrome - stuck exterior in the Shao Yang (alternating chills and fever, bitter taste, hypochondriac pain)",
@@ -29,12 +30,13 @@ counter_indications = ["Yin deficiency with Yang rising"]
 affected_organs = ["LIV", "LU"]
 use_with = ["Sheng Ma"]
 notes = ["Moderately raises Liver Qi when there's stagnant Qi that obstructs the SP's function of raising Qi"]
+focus_remark = "Moves LIV Qi, raises Yang - Wind Heat - especially for Shao Yang Syndrome"
 
 ["Niu Bang Zi"]
 flavors = ["SPICY", "BITTER"]
 temperature = "COLD"
 temperature_accent = ""
-herb_group = "EXTERIOR_RELEASERS"
+herb_group = "COLD_EXTERIOR_RELEASERS"
 functions = [
     "Expels Wind Heat - benefits the throat (sore, swollen, red throat)",
     "Releases toxicity that manifests on the skin and in the throat. Exaporates early eashes that have not yet fully surfaced",
@@ -43,12 +45,13 @@ functions = [
 counter_indications = ["Weak SP with Diarrhea", "No exterior pathogen"]
 affected_organs = ["LU", "ST"]
 use_with = ["Bo He"]
+focus_remark = "Throat ache - Wind Heat"
 
 ["Ju Hua"]
 flavors = ["SWEET", "BITTER"]
 temperature = "COLD"
 temperature_accent = "'-'"
-herb_group = "EXTERIOR_RELEASERS"
+herb_group = "COLD_EXTERIOR_RELEASERS"
 functions = [
     "Expels Wind and purifies Heat - also from the LU",
     "Benefits the eyes - soothes the Liver and purifies the eyes. Good for almost all eye conditions - dryness, redness, swelling, pain",
@@ -58,12 +61,27 @@ counter_indications = ["Weak SP with Diarrhea"]
 affected_organs = ["LU", "LIV"]
 use_with = ["Sang Ye"]
 notes = ["It is less common to pick this herb for expelling Liver Wind, but it is possible"]
+focus_remark = "Eye conditions - Wind Heat - especially for LIV (but also for LU)"
+
+["Sang Ye"]
+flavors = ["SWEET", "BITTER"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "COLD_EXTERIOR_RELEASERS"
+functions = [
+    "Expels Wind Heat and LU Heat - especially when there's cough - dry cough or cough with yellow phlegm",
+    "Clears the Liver and benefits the eyes - especially for cases caused by Wind Heat, but also for inner heat conditions",
+    "Cools the Blood and stops bleeding - especially for phlegm with blood"
+]
+counter_indications = []
+use_with = []
+focus_remark = "Dry cough - moistens and clears the LU - Wind Heat - especially for LU (but also for LIV)"
 
 ["Sheng Ma"]
 flavors = ["SWEET", "SPICY"]
 temperature = "COLD"
 temperature_accent = "'-'"
-herb_group = "EXTERIOR_RELEASERS"
+herb_group = "COLD_EXTERIOR_RELEASERS"
 functions = [
     "Releases the exterior and evaporates rashes",
     "Clears Heat and detoxifies toxins - gums inflammation. Sking conditions - clears heat from the ST meridian",
@@ -73,4 +91,21 @@ counter_indications = ["Empty Heat", "Excess above and deficiency below"]
 affected_organs = ["ST", "SP", "LU", "LI"]
 use_with = ["Ge Gen", "Chai Hu"]
 notes = ["We would not select this herb for Wind Heat without rash"]
+focus_remark = "Heat in the ST, raises Yang - Wind Heat"
 
+["Ge Gen"]
+western_name = "Radix Puerariae Lobatae"
+flavors = ["SWEET", "SPICY"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "COLD_EXTERIOR_RELEASERS"
+functions = [
+    "Expels Wind Heat - especially for neck and upper back stiffness",
+    "Feeds body fluids and alleviates thirst",
+    "Raises Yang and fluids",
+    "Encourages the release of rashes",
+    "Treats diarrhea (dysentery) due to Wind Heat in the ST"
+]
+counter_indications = []
+affected_organs = ["SP", "ST"]
+focus_remark = "Feeds Fluids, raises Yang - Wind Heat"

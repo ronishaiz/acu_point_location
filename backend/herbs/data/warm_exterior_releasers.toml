@@ -2,7 +2,7 @@
 flavors = ["SPICY", "SWEET"]
 temperature = "HOT"
 temperature_accent = "'--'"
-herb_group = "EXTERIOR_RELEASERS"
+herb_group = "WARM_EXTERIOR_RELEASERS"
 functions = [
     "Releases the exterior and expels Wind Cold - treats body aches and can be used to prevent frequent colds",
     "Expels Wind Damp - treats Bi syndrome with joint pain and stiffness",
@@ -17,7 +17,7 @@ focus_remark = "Master of winds - wind sheild - Wind Cold"
 flavors = ["SPICY", "AROMATIC"]
 temperature = "HOT"
 temperature_accent = "'--'"
-herb_group = "EXTERIOR_RELEASERS"
+herb_group = "WARM_EXTERIOR_RELEASERS"
 functions = [
     "Releases the exterior and expels Wind Cold or Wind Heat",
     "Soothes itching skin conditions and rashes",
@@ -33,7 +33,7 @@ focus_remark = "Skin conditions - Wind Cold"
 flavors = ["SPICY", "AROMATIC"]
 temperature = "HOT"
 temperature_accent = "'-'"
-herb_group = "EXTERIOR_RELEASERS"
+herb_group = "WARM_EXTERIOR_RELEASERS"
 functions = [
     "Treats rebellious ST Qi - nausea, puking",
     "Releases the exterior and expels Wind Cold",
@@ -48,7 +48,7 @@ focus_remark = "Stomach Virus"
 flavors = ["SPICY", "BITTER", "AROMATIC"]
 temperature = "HOT"
 temperature_accent = "'-'"
-herb_group = "EXTERIOR_RELEASERS"
+herb_group = "WARM_EXTERIOR_RELEASERS"
 functions = [
     "Releases the exterior and expels Wind Cold - also when dampness is present (Bi Cold)",
     "Releases painfull stagnation and reduces Bi Syndrome pain - especially in the upper body (neck, shoulders, upper back, BL region, Tai Yang)"
@@ -58,3 +58,42 @@ affected_organs = ["KID", "BL"]
 use_with = ["Fang Feng", "Du Huo"]
 notes = ["Goes well with his long lost brother Du Huo, who treats the lower body Bi syndrome"]
 focus_remark = "Occiput and upper body pain - Wind Cold"
+
+["Ma Huang"]
+western_name = "Herba Ephedrae"
+flavors = ["SPICY", "BITTER"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "WARM_EXTERIOR_RELEASERS"
+functions = [
+    "Releases the exterior and expels Wind Cold - especially when there's no sweating - starts massive sweating to release the exterior",
+    "Downs LU Qi and relieves breath distress - for wheezing and shortness of breath, due to asthma or LU Wind Cold",
+    "Promotes urination - especially for edema due to exterior Wind Cold"
+]
+counter_indications = ["Weak patients", "When there's already sweat", "Weak Qi or Yin"]
+affected_organs = ["LU", "BL"]
+use_with = ["Gui Zhi", "Xing Ren", "Shi Gao", "Fu Ling"]
+notes = [
+    "Has many side effects such as palpitations, puking, dry mouth, insomnia and headaches, and can be toxic in high doses",
+    "Forbidden for use and import in many countries including Israel"
+]
+focus_remark = "Massive sweat-inducer - for extreme cases of Wind Cold"
+
+["Gui Zhi"]
+western_name = "Ramulus Cinnamomi"
+flavors = ["SPICY", "SWEET"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "WARM_EXTERIOR_RELEASERS"
+functions = [
+    "Releases the exterior and expels Wind Cold - especially when there's some sweating but it is not enough to release the exterior - weak patient",
+    "Treats Bi Cold+Damp, warms the channels and collaterals - for joint pain with some swelling (and even for menstrual pain)",
+    "Treats chest pain and palpitations due to Cold in the Heart",
+    "Moves the Blood and unblocks the menstruation",
+    "Treats edema"
+]
+counter_indications = ["Any condition involving heat (empty or full)"]
+affected_organs = ["HT", "LU", "BL"]
+use_with = ["Ma Huang", "Bao Shao", "Dan Shen", "Fu Ling"]
+notes = ["Though weaker than Ma Huang, it should still be used with caution in weak patients, still too strong for most because it creates a lot of heat"]
+focus_remark = "Wind Cold - with excess or lack - (relatively) weak patient"

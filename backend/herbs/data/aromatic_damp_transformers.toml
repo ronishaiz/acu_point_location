@@ -1,0 +1,62 @@
+["Cang Zhu"]
+western_name = "Atractylodis Rhizoma"
+flavors = ["SPICY", "BITTER", "AROMATIC"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "AROMATIC_DAMP_TRANSFORMERS"
+functions = [
+    "Strongly Expels Dampness - through aroma and drying capabilities - and strengthens the SP",
+    "Expels Wind Dampness - Bi Syndrome"
+]
+counter_indications = ["Yin deficiency with Heat"]
+use_with = ["Yi Yi Ren", "Huang Bai", "Hou Po"]
+affected_organs = ["SP", "ST"]
+focus_remark = "Transforms and dries Dampness"
+
+["Hou Po"]
+western_name = "Magnolia Bark"
+flavors = ["BITTER", "SPICY", "AROMATIC"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "AROMATIC_DAMP_TRANSFORMERS"
+functions = [
+    "Expels Dampness via its aroma and moves Qi",
+    "Transforms Hot Phlegm and Downs Qi (especially in the LU)"
+]
+counter_indications = ["Pregnancy"]
+use_with = ["Ma Huang", "Xing Ren", "Da Huang"]
+affected_organs = ["LU", "SP", "ST", "LI"]
+focus_remark = "Transforms Dampness and moves Qi (downwards)"
+
+["Huo Xiang"]
+western_name = "Agastache"
+flavors = ["SPICY"]
+temperature = "HOT"
+temperature_accent = "'--'"
+herb_group = "AROMATIC_DAMP_TRANSFORMERS"
+functions = [
+    "Expels Dampness via its aroma and harmonizes the MJ",
+    "Harmonizes the ST and stops nausea and vomiting",
+    "Releases the exterior - for early stage Wind Cold with Dampness"
+]
+counter_indications = ["Yin deficiency with Heat"]
+affected_organs = ["SP", "ST", "LU"]
+use_with = ["Zi Su Ye"]
+focus_remark = "Stomach Virus - acute and chronic (dampness in MJ and rebeliious ST Qi)"
+
+["Sha Ren"]
+western_name = "Amomum Fruit"
+flavors = ["SPICY", "AROMATIC"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "AROMATIC_DAMP_TRANSFORMERS"
+functions = [
+    "Warms the MJ and stops diarrhea",
+    "Strengthens and balances ST Qi",
+    "Calms the fetus - for restless fetus or morning sickness",
+    "Promotes the movement of Qi - especially in the presence of dampness"
+]
+counter_indications = ["Yin deficiency with Heat"]
+use_with = ["Huo Xiang"]
+affected_organs = ["SP", "ST"]
+focus_remark = "Chronic ST Qi rebellion and Dampness"
