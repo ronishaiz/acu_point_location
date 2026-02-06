@@ -186,7 +186,7 @@ class Syndrome(FlashCardObject):
     _organ: Organ
     _diagnosis: Diagnosis
     _treatment: Treatment
-    _ethiology: List[str] = None
+    _etiology: List[str] = None
 
     @property
     def identifier(self):
@@ -209,8 +209,8 @@ class Syndrome(FlashCardObject):
         return self._treatment
 
     @property
-    def ethiology(self) -> List[str]:
-        return self._ethiology or []
+    def etiology(self) -> List[str]:
+        return self._etiology or []
 
     @property
     def diagnosis_str(self) -> str:
@@ -303,18 +303,18 @@ class Syndrome(FlashCardObject):
         return "\n".join(parts) if parts else "No treatment information available"
 
     @property
-    def ethiology_str(self) -> str:
-        """Format ethiology as a readable string."""
-        if self._ethiology:
-            return "* " + '\n* '.join(self._ethiology)
-        return "No ethiology information available"
+    def etiology_str(self) -> str:
+        """Format etiology as a readable string."""
+        if self._etiology:
+            return "* " + '\n* '.join(self._etiology)
+        return "No etiology information available"
 
     @classmethod
     def get_property_name_to_flash_card_property_name(cls) -> dict:
         return {
             'name': 'Name',
             'organ': 'Organ',
-            'ethiology_str': 'Ethiology',
+            'etiology_str': 'Ethiology',
             'diagnosis_str': 'Diagnosis',
             'treatment_str': 'Treatment'
         }
@@ -326,7 +326,7 @@ class Syndrome(FlashCardObject):
             _organ=Organ(syndrome_dict['organ']),
             _diagnosis=Diagnosis.from_dict(syndrome_dict.get('diagnosis', {})),
             _treatment=Treatment.from_dict(syndrome_dict.get('treatment', {})),
-            _ethiology=syndrome_dict.get('ethiology', [])
+            _etiology=syndrome_dict.get('etiology', [])
         )
 
     @classmethod

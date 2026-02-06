@@ -1,6 +1,6 @@
 ["Damp Heat in the LI"]
 organ = "LI"
-ethiology = [
+etiology = [
     "Food Poisoning",
     "Virus, Intestine Bacteria, Parasites",
     "Chron, Ulcerative Collitis",
@@ -50,7 +50,7 @@ yin_yang = "YANG+"
 points = ["ST25", "SP15", "LI11", "LI2", "ST44", "ST37", "BL25", "SP10", "BL17", "CV3", "CV9", "BL22", "BL39", "SP6", "SP9", "CV6", "CV12", "BL20"]
 herbs = ["Shao Yang Tang", "Huang Lian", "Mu Xiang", "Rou Gui", "Da Huang"]
 nutrition = ["Conji Rice", "Pearl Barley", "Millet", "Basmatic Rice", "Potato (less preferable but possible)"]
-principle = "Dispel Heat and Humidity, Stop Diarrhea (pnly in chronic cases, in acute cases do NOT stop diarrhea)"
+principle = "Dispel Heat and Humidity, Stop Diarrhea (only in chronic cases, in acute cases do NOT stop diarrhea)"
 
 
 
@@ -58,7 +58,7 @@ principle = "Dispel Heat and Humidity, Stop Diarrhea (pnly in chronic cases, in 
 
 ["Heat in the LI"]
 organ = "LI"
-ethiology = [
+etiology = [
     "Chronic ST Fire",
     "Nutrition - Hot and Dry - Grilled, Meats, Alcohol"
 ]
@@ -108,7 +108,7 @@ principle = "Dispel Heat from the Yang Ming, Feed Body Fluids, Move Bowels"
 
 ["Heat Obstructing the LI"]
 organ = "LI"
-ethiology = [
+etiology = [
     "After Acute Fever-Diseases",
     "After Labor",
     "After Surgery",
@@ -161,7 +161,7 @@ principle = "Refer to Acute Medicinal Treatment (Hospital)"
 
 ["Cold Invading the LI"]
 organ = "LI"
-ethiology = [
+etiology = [
     "Exposure to External Cold - Sitting on Cold Surface, Exposing the Stomach, Air Conditioning, Ice Baths, Cold Climate",
     "Cold Stomach Virus"
 ]

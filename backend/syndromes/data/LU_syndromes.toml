@@ -1,6 +1,6 @@
 ["LU Qi Xu"]
 organ = "LU"
-ethiology = [
+etiology = [
     "Weak Constitution",
     "Emotional Stress",
     "Lifestyle",
@@ -56,7 +56,7 @@ principle = "Tonify LU Qi and Warm Yang"
 
 ["LU Yin Xu"]
 organ = "LU"
-ethiology = [
+etiology = [
     "Weak Constitution",
     "Emotional Stress",
     "Lifestyle"
@@ -112,7 +112,7 @@ principle = "Tonify LU Yin, Feed Body Fluids and if Necessary - Clear Heat"
 
 ["LU Dryness"]
 organ = "LU"
-ethiology = [
+etiology = [
     "Dry Climate",
     "Unsteady Diet"
 ]
@@ -160,7 +160,7 @@ principle = "Moisten the LU, Feed Body Fluids"
 
 ["Wind Cold Invading the LU"]
 organ = "LU"
-ethiology = [
+etiology = [
     "Exposure to Cold Exterior Body, Cold Wind"
 ]
 
@@ -210,7 +210,7 @@ principle = "Release Exterior, Encourage LU Function of Qi Downing and Distribut
 
 ["Wind Heat Invading the LU"]
 organ = "LU"
-ethiology = [
+etiology = [
     "Exposure to Cold Exterior Body, Cold Wind, Which had Transformed to Wind Heat",
     "Climate",
     "Hot Air Conditioning"
@@ -265,7 +265,7 @@ principle = "Release Exterior, Distribute Heat, Encourage LU Function of Qi Down
 
 ["Phlegm Fluids Obstructing the LU"]
 organ = "LU"
-ethiology = [
+etiology = [
     "Age",
     "Chronic, Elongated, Severe Disease",
     "Smoking",
@@ -317,7 +317,7 @@ principle = "Dispel Phlegm and Tonify SP, LU Yang or KID Yang"
 
 ["Damp Phlegm Obstructing the LU"]
 organ = "LU"
-ethiology = [
+etiology = [
     "Asthma",
     "Smoking",
     "Air Pollution",
@@ -366,7 +366,7 @@ principle = "Dispel Phlegm, Encourage LU Function of Qi Downing and Distributing
 
 ["Phlegm Heat Obstructing the LU"]
 organ = "LU"
-ethiology = [
+etiology = [
     "Asthma",
     "Smoking",
     "Air Pollution",

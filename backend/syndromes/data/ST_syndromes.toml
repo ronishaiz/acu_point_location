@@ -1,0 +1,458 @@
+["ST Qi Xu"]
+organ = "ST"
+etiology = [
+    "Nutrition (many diets, quality, amount of food, habits)",
+    "Chronic Diseases",
+    "Constitution",
+    "Weak Earth Element"
+]
+
+["ST Qi Xu".diagnosis]
+symptoms = [
+    "Epigastric Distress - Relieved by Eating and Drinking",
+    "Fatigue, Especially in the Morning (7:00 to 9:00)",
+    "If Already Affected the SP: Low Appetite, Soft Stool, Weak Taste Sense, Fatigue Throughout the Day, Weak and Occasionally Cold Limbs"
+]
+key_symptoms = [
+    "Epigastric Distress",
+    "Fatigue, Especially in the Morning"
+]
+
+["ST Qi Xu".diagnosis.pulse]
+strength = "V-"
+positions = [
+    {yin_yang = "YANG", jiao = "MJ", left_right = "RIGHT"}
+]
+
+
+["ST Qi Xu".diagnosis.tongue]
+body_color = "PALE"
+body_shapes = ["SWOLLEN"]
+
+["ST Qi Xu".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+
+["ST Qi Xu".treatment]
+points = ["ST36", "CV12", "BL21", "CV6", "LI10", "SP3", "SP15", "ST25"]
+herbs = ["Mai Men Dong", "Bei Shai Shen", "Si Jun Zi Tang"]
+principle = "Strengthen ST Qi"
+
+
+["ST Xu and Cold"]
+organ = "ST"
+etiology = [
+    "Nutrition - Cold or Scant",
+    "Chronic Disease",
+    "Cold Climate",
+    "SP Yang Xu"
+]
+
+["ST Xu and Cold".diagnosis]
+symptoms = [
+    "Epigastric Distress - Relieved by Eating and Drinking (especially warm foods) or Heat and Touch, Worsened by Bowel Movement",
+    "Soft Stool",
+    "Preference for Warm Drinks and Foods",
+    "Vomit of Clear Fluids",
+    "Cold Limbs",
+    "Fatigue",
+    "Pale Appearance"
+]
+key_symptoms = [
+    "Preference for Warm Drinks and Foods",
+    "Epigastric Distress"
+]
+
+["ST Xu and Cold".diagnosis.pulse]
+strength = "V-"
+depth = "DEEP"
+positions = [
+    {yin_yang = "YANG", jiao = "MJ", left_right = "RIGHT"}
+]
+
+["ST Xu and Cold".diagnosis.tongue]
+body_color = "PALE"
+body_shapes = ["SWOLLEN"]
+
+
+["ST Xu and Cold".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+hot_cold = "COLD"
+yin_yang = "YANG-"
+
+
+["ST Xu and Cold".treatment]
+points = ["ST36", "CV12", "BL21", "CV6", "LI10", "SP3", "SP15", "ST25"]
+herbs = ["Ding Xiang Shi Di Tang", "Wu Zhu Yu Tang"]
+nutrition = ["Vegetables", "Fruits", "Shakes", "Plums", "Beet", "Spinach", "Green Leaves", "Lettuce", "Seaweed"]
+principle = "Strengthen and Warm ST-SP Qi"
+acupuncture_techniques = ["MOXA"]
+
+
+["ST Yin Xu"]
+organ = "ST"
+etiology = [
+    "Bad Food Habits - Late Night Eating, Dry Foods, Lack of Fluids, Hot Spices",
+    "Alcohol Consumption"
+]
+
+["ST Yin Xu".diagnosis]
+symptoms = [
+    "Lack of Appetite",
+    "Snacking (eating small portions), Especially in the Afternoon and Evening (the appetite grows)",
+    "Epigastric Pain",
+    "Dry Mouth and Throat (especially in the afternoon and evening)",
+    "Thirst - Drinking with Small Sips, to Moisten the Mouth. Water by the Bed",
+    "Fullness after a Meal",
+    "Mild Fever or Warmth Feeling at the Afternoon and Evening",
+    "Lite Heartburn",
+    "Dry Stool",
+    "Constipation"
+]
+key_symptoms = [
+    "Dry Stool or Constipation",
+    "Epigastric Pain",
+    "Feeling of Warmth"
+]
+
+["ST Yin Xu".diagnosis.pulse]
+speed = "RAPID"
+quality = "FLOODING"
+
+["ST Yin Xu".diagnosis.tongue]
+body_color = "RED"
+coating_thickness = "ABSENT"
+body_shapes = ["MIDLINE CRACK"]
+
+
+["ST Yin Xu".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+hot_cold = "HOT"
+yin_yang = "YIN-"
+
+
+["ST Yin Xu".treatment]
+points = ["CV12", "ST36", "SP6", "SP3", "CV4", "KID6"]
+principle = "Feed Fluids and Strengthen ST Yin"
+herbs = "Mai Men Dong Tang"
+nutrition = "Fluids - drink more water and avoid dry foods"
+
+
+["Retention of Food in ST"]
+organ = "ST"
+etiology = [
+    "Excessive Eating",
+    "Bad Food Habits - Rapid Eating, Eating with a Troubled Mind or with Distractions, Emotional Eating",
+    "More Common for Children"
+]
+
+["Retention of Food in ST".diagnosis]
+symptoms = [
+    "Lack of Appetite",
+    "Epigastric Distress - Relieved by Vomitting, Fullness and Stagnation",
+    "Vomit with Bad Smell",
+    "Bad Breath",
+    "Nausea, Heartburn, Hiccups",
+    "Insomnia"
+]
+key_symptoms = [
+    "Epigastric Fullness and Stagnation"
+]
+
+["Retention of Food in ST".diagnosis.pulse]
+strength = "V+"
+quality = ["WIRY", "SLIPPERY"]
+positions = [
+    {yin_yang = "YANG", jiao = "MJ", left_right = "RIGHT"}
+]
+
+["Retention of Food in ST".diagnosis.tongue]
+coating_thickness = "THICK"
+
+
+["Retention of Food in ST".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+
+
+["Retention of Food in ST".treatment]
+points = ["CV10", "CV13", "SP4", "PC6", "ST21", "CV12", "CV11", "ST34", "ST44", "ST45"]
+herbs = ["Shan Zha", "Bao He Wan", "Zhi Zhu Wan"]
+principle = "Remove Food Blockage, Down Rebellious ST Qi"
+nutrition = "In the chronic case, nutrition changes must be applied"
+
+
+
+["Cold Invading the ST"]
+organ = "ST"
+etiology = [
+    "Cold Nutrition",
+    "Cold Climate (especially after exposure of the stomach in such climate)",
+    "Ice Baths"
+]
+
+["Cold Invading the ST".diagnosis]
+symptoms = [
+    "Sudden and Fierce Epigastric Pain",
+    "Aversion of Touch",
+    "Feeling of Cold (local or systemic)",
+    "Cold Worsens the Symptoms and Heat Relieves",
+    "Vomit of Clear Fluids",
+    "Diarrhea"
+]
+key_symptoms = [
+    "Feeling of Cold",
+    "Sudden and Fierce Epigastric Pain"
+]
+
+["Cold Invading the ST".diagnosis.pulse]
+speed = "SLOW"
+depth = "DEEP"
+quality = ["TENSE"]
+
+["Cold Invading the ST".diagnosis.tongue]
+coating_thickness = "THICK"
+coating_color = "WHITE"
+
+
+["Cold Invading the ST".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+hot_cold = "COLD"
+yin_yang = "YIN+"
+
+
+["Cold Invading the ST".treatment]
+points = ["ST21", "CV12", "CV13", "CV10", "PC6", "ST34", "SP4", "PC6"]
+herbs = ["Shan Zha", "Bao He Wan", "Zhi Zhu Wan"]
+principle = "Expel Cold, Heat the ST, Enforce the ST Qi Lowering Functionality of the ST"
+nutrition = "Warm foods and beverages"
+acupuncture_techniques = ["MOXA"]
+
+
+["ST Heat"]
+organ = "ST"
+etiology = [
+    "Nutrition - Meat, Warm Foods, Spicy Foods",
+    "Smoking",
+    "Alcohol",
+    "Hot Herbs",
+    "Stagnation of Feelings (over time)"
+]
+
+["ST Heat".diagnosis]
+symptoms = [
+    "Thirst Throughout the Day",
+    "Constipation, Dry Stool",
+    "Slight Burn and Epigastric Distress",
+    "Lesions in the Mouth"
+]
+key_symptoms = [
+    "Constipation, Dry Stool",
+    "Slight Burn and Epigastric Distress",
+    "Thirst Throughout the Day"
+]
+
+["ST Heat".diagnosis.pulse]
+strength = "V+"
+speed = "RAPID"
+positions = [
+    {yin_yang = "YANG", jiao = "MJ", left_right = "RIGHT"}
+]
+
+["ST Heat".diagnosis.tongue]
+body_color = "RED"
+coating_thickness = "THICK"
+coating_color = "YELLOW"
+moisture = "DRY"
+
+
+["ST Heat".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+hot_cold = "HOT"
+yin_yang = "YANG+"
+
+
+["ST Heat".treatment]
+points = ["ST44", "ST34", "ST21", "CV13", "LI11", "LI4", "CV11", "SP15"]
+principle = "Expel Heat from ST, Enforce the ST Qi Lowering Functionality of the ST"
+
+
+["ST Fire"]
+organ = "ST"
+etiology = [
+    "Nutrition - Meat, Warm Foods, Spicy Foods",
+    "Smoking",
+    "Alcohol",
+    "Hot Herbs",
+    "Stagnation of Feelings (over time)"
+]
+
+["ST Fire".diagnosis]
+symptoms = [
+    "Thirst Throughout the Day for Cold Drinks",
+    "Constipation, Dry Stool",
+    "Constant Hunger",
+    "Burn and Epigastric Distress (Worsened after Eating)",
+    "Heartburn",
+    "Bad Breath",
+    "Lesions in the Mouth",
+    "Vomit (right after a meal)",
+    "Scant, Dark Yellow Urine",
+    "Burn in the Anus",
+    "Insomnia",
+    "Restlessness",
+    "Red Face",
+    "Gum Inflammation or Bloody Gums"
+]
+key_symptoms = [
+    "Epigastric Burn and Pain",
+    "Constant Hunger",
+    "Heartburn, Vomit"
+]
+
+["ST Fire".diagnosis.pulse]
+strength = "V+"
+speed = "RAPID"
+positions = [
+    {yin_yang = "YANG", jiao = "MJ", left_right = "RIGHT"},
+    {yin_yang = "YANG", jiao = "UJ", left_right = "RIGHT"}
+]
+
+["ST Fire".diagnosis.tongue]
+body_color = "RED"
+coating_thickness = "THICK"
+coating_color = "YELLOW"
+moisture = "DRY"
+
+
+["ST Fire".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+hot_cold = "HOT"
+yin_yang = "YANG+"
+
+
+["ST Fire".treatment]
+points = ["ST44", "LI2", "ST45", "ST34", "ST21", "CV12", "SP4", "CV13", "CV11", "LI11", "ST25", "PC6", "TW6", "ST4", "LI4", "CV23", "SP6"]
+principle = "Expel Heat from ST, Enforce the ST Qi Lowering Functionality of the ST, Feed Body Fluids"
+herbs = ["Shi Gao", "Bai Hu Tang"]
+
+
+["ST Phlegm Fire"]
+organ = "ST"
+etiology = [
+    "Nutrition - Meat, Warm Foods, Spicy Foods and also Fried and Greasy Food",
+    "Smoking",
+    "Alcohol",
+    "Hot Herbs",
+    "Stagnation of Feelings (over time)",
+    "Constitution",
+    "Trauma"
+]
+
+["ST Phlegm Fire".diagnosis]
+symptoms = [
+    "ST Fire Symptoms",
+    "Pressure in the Epigastrium",
+    "Mucus in Stool",
+    "Thirst Without Desire to Drink",
+    "Mental Disorientation and Confusion"
+]
+key_symptoms = [
+    "ST Fire Symptoms",
+    "Mucus in Stool",
+    "Pressure in the Epigastrium"
+]
+
+["ST Phlegm Fire".diagnosis.pulse]
+strength = "V+"
+speed = "RAPID"
+quality = ["SLIPPERY"]
+positions = [
+    {yin_yang = "YANG", jiao = "MJ", left_right = "RIGHT"},
+    {yin_yang = "YANG", jiao = "UJ", left_right = "RIGHT"}
+]
+
+["ST Phlegm Fire".diagnosis.tongue]
+body_color = "RED"
+coating_thickness = "THICK"
+coating_color = "YELLOW"
+moisture = "STICKY"
+
+
+["ST Phlegm Fire".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+hot_cold = "HOT"
+yin_yang = "YANG+"
+
+
+["ST Phlegm Fire".treatment]
+points = ["ST44", "LI2", "ST45", "ST34", "ST21", "CV12", "SP4", "CV13", "CV11", "LI11", "ST25", "PC6", "TW6", "ST4", "LI4", "CV23", "PC5", "ST40", "SP9"]
+principle = "Expel Heat from ST, Expel Phlegm, Enforce the ST Qi Lowering Functionality of the ST"
+
+
+
+["ST Qi Rebelling Upwards"]
+organ = "ST"
+etiology = [
+    "Worry, Anxiety, Frustration, Anger"
+]
+
+["ST Qi Rebelling Upwards".diagnosis]
+symptoms = [
+    "Heartburn, Vomit, Hiccups",
+    "Additional Symptoms Vary by the Other Syndrome that Joins"
+]
+key_symptoms = [
+    "Heartburn, Vomit, Hiccups"
+]
+
+
+["ST Qi Rebelling Upwards".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+
+
+["ST Qi Rebelling Upwards".treatment]
+points = ["ST21", "CV12", "CV13", "CV10", "PC6", "SP4", "ST34"]
+principle = "Down Rebellious ST Qi, Enforce the ST Qi Lowering Functionality of the ST"
+herbs = ["Sheng Jiang", "Ban Xia"]
+
+
+["Stasis of Blood in ST"]
+organ = "ST"
+etiology = [
+    "Worsening of Food Stagnation or ST Fire",
+    "LIV Qi Stagnation"
+]
+
+["Stasis of Blood in ST".diagnosis]
+symptoms = [
+    "Strong, Piercing Epigastric Pain - Worsened with Touch, Heat or Eating",
+    "Vomit with Dark Blood",
+    "Dark Blood in Stool"
+]
+key_symptoms = [
+    "Strong, Piercing Epigastric Pain - Worsened with Touch, Heat or Eating"
+]
+
+["Stasis of Blood in ST".diagnosis.pulse]
+quality = ["WIRY", "CHOPPY"]
+
+["Stasis of Blood in ST".diagnosis.tongue]
+body_color = "PURPLE"
+
+
+["Stasis of Blood in ST".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+
+
+["Stasis of Blood in ST".treatment]
+points = ["SP10", "BL17", "LIV3", "BL18", "CV12", "ST21", "ST34", "PC6"]
+principle = "Red Flag - Send to Hospital!   * Move Blood Stagnation, Enforce the ST Qi Lowering Functionality of the ST, Strengthen Blood"

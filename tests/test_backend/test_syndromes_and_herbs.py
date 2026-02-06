@@ -113,7 +113,7 @@ class TestSyndromesAndHerbs(unittest.TestCase):
                     _ = syndrome.treatment
                     _ = syndrome.diagnosis_str
                     _ = syndrome.treatment_str
-                    _ = syndrome.ethiology_str
+                    _ = syndrome.etiology_str
                 except Exception as e:
                     self.fail(f"Error accessing properties of syndrome '{syndrome.name}': {str(e)}")
 
