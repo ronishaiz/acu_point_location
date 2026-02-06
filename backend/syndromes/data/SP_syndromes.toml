@@ -1,0 +1,272 @@
+["SP Qi Xu"]
+organ = "SP"
+etiology = [
+    "Nutrition - Cold, Unorganized, Excessive, Unnourishing, Too Sweet, Too Moist, Too Dry, Many Diets",
+    "Worry, Overthinking, Unsupportive Family, Parenthood and Lack of Sleep",
+    "Intense Physical Labor - Carrying Weights, Prolonged Standing, Sports",
+    "Chronic Disease"
+]
+
+["SP Qi Xu".diagnosis]
+symptoms = [
+    "General Fatigue, Worsened After a Meal",
+    "Passing Soft Stool Multiple Times a Day",
+    "Lack of Appetite - Snacking, Unorganized Eating, Craving Carbs and Sweets",
+    "Uneasy Stomach, Bloating Stomach, Long Digestion Time",
+    "Weakness in Limbs, Low Tonus and Mobility"
+]
+key_symptoms = [
+    "General Fatigue",
+    "Uneasy Stomach",
+    "Soft Stool"
+]
+
+["SP Qi Xu".diagnosis.pulse]
+strength = "V-"
+quality = ["SLIPPERY"]
+
+
+["SP Qi Xu".diagnosis.tongue]
+body_color = "PALE"
+body_shapes = ["SWOLLEN", "TEETH MARKS"]
+
+["SP Qi Xu".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+
+["SP Qi Xu".treatment]
+points = ["SP3", "ST36", "LI10", "CV12", "SP6", "BL20", "BL21", "CV6", "SP15", "LU9"]
+herbs = ["Si Jun Zi Tang", "Ren Shen", "Shan Yao", "Bu Zhong Yi Qi Tang"]
+principle = "Strengthen SP Qi"
+nutrition = "Create a long term plan for SP Qi enforcement. Require a 3 day food Journal to locate the flaws. Start with small portions of easily digestible, warm food. Make sure not to work or study while eating"
+
+["SP Yang Xu"]
+organ = "SP"
+etiology = [
+    "SP Qi Xu (and its etiology)",
+    "Cold Chinese Herbs",
+    "Cold Medicine",
+    "Cold Climate",
+    "KID Yang Xu"
+]
+
+["SP Yang Xu".diagnosis]
+symptoms = [
+    "SP Qi Xu Symptoms",
+    "Diarrhea or Stool with Undigested Food",
+    "Vague Stomach Ache (Alleviated by Heat or Touch)",
+    "Feeling of Cold at the Stomach and the Limbs",
+    "Bright Pale Complexion",
+    "Edema (especially in the MJ)"
+]
+key_symptoms = [
+    "Preference for Warm Drinks and Foods",
+    "Epigastric Distress"
+]
+
+["SP Yang Xu".diagnosis.pulse]
+strength = "V-"
+depth = "DEEP"
+speed = "SLOW"
+
+["SP Yang Xu".diagnosis.tongue]
+body_color = "PALE"
+body_shapes = ["SWOLLEN"]
+moisture = "WET"
+
+
+["SP Yang Xu".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+hot_cold = "COLD"
+yin_yang = "YANG-"
+
+
+["SP Yang Xu".treatment]
+points = ["SP3", "ST36", "LI10", "CV12", "SP6", "BL20", "BL21", "CV6", "SP15", "LU9", "SP2", "CV8", "CV4", "CV9", "BL22", "ST28", "SP9", "GV4", "KID7", "BL23", "GV20"]
+herbs = ["Gan Jiang", "Sheng Jiang", "Li Zhong Wan"]
+principle = "Strengthen and Warm SP Yang"
+acupuncture_techniques = ["MOXA"]
+
+
+["SP Qi Sinking"]
+organ = "SP"
+etiology = [
+    "SP Qi Xu (and its etiology)",
+    "Emphasis on the Prolonged Physical Labor Etiology (Prolonged Standing, Carrying, Sports)"
+]
+
+["SP Qi Sinking".diagnosis]
+symptoms = [
+    "SP Qi Xu Symptoms",
+    "Feeling of Being Drawn Towards the Ground",
+    "Hernia, Hemorrhoids, Varicose Veins",
+    "Natural Abortions",
+    "Frequent and Urgent Urination",
+    "Urinary Incontinence",
+    "Mentally - Feeling Down - Slight Sadness"
+]
+key_symptoms = [
+    "Hernia, Hemorrhoids, Varicose Veins",
+    "SP Qi Xu Symptoms"
+]
+
+["SP Qi Sinking".diagnosis.pulse]
+strength = "V-"
+quality = ["SLIPPERY"]
+
+
+["SP Qi Sinking".diagnosis.tongue]
+body_color = "PALE"
+body_shapes = ["SWOLLEN", "TEETH MARKS"]
+
+
+["SP Qi Sinking".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+
+
+["SP Qi Sinking".treatment]
+points = ["SP3", "ST36", "LI10", "CV12", "SP6", "BL20", "BL21", "CV6", "SP15", "LU9", "GV20", "Si Shen Cong", "CV6", "GV6", "CV1", "GV1", "GV2", "BL57", "Er Bai", "ST21"]
+principle = "Strengthen SP Qi and Enforce the Raising and Lifting Function of the SP"
+herbs = ["Bu Zhong Yi Qi Tang", "Huang Qi"]
+
+
+["SP Not Controlling Blood"]
+organ = "SP"
+etiology = [
+    "Nutrition - Cold, Unorganized, Excessive, Unnourishing, Too Sweet, Too Moist, Too Dry, Many Diets",
+    "Worry, Overthinking, Unsupportive Family, Parenthood and Lack of Sleep",
+    "Intense Physical Labor - Carrying Weights, Prolonged Standing, Sports",
+    "Chronic Disease"
+]
+
+["SP Not Controlling Blood".diagnosis]
+symptoms = [
+    "SP Qi Xu Symptoms",
+    "Elongated Menstruation, Extensive Bleeding, Bleeding Between Menstruations",
+    "Spontaneous Hemorrhages",
+    "Blood in the Urine or Stool",
+    "Bleeding Hemorrhoids",
+    "Varicode Veins",
+    "Pale Complexion"
+]
+key_symptoms = [
+    "Gneral Signs of Bleeding",
+    "SP Qi Xu Symptoms"
+]
+
+["SP Not Controlling Blood".diagnosis.pulse]
+strength = "V-"
+quality = ["CHOPPY", "THIN"]
+
+["SP Not Controlling Blood".diagnosis.tongue]
+body_color = "PALE"
+body_shapes = ["SWOLLEN", "TEETH MARKS"]
+
+
+["SP Not Controlling Blood".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+
+
+["SP Not Controlling Blood".treatment]
+points = ["SP3", "ST36", "LI10", "CV12", "SP6", "BL20", "BL21", "CV6", "SP15", "LU9", "SP1", "CV4", "SP10", "BL17", "BL19"]
+herbs = ["E Jiao", "Ai Ye", "Huang Tu Tang"]
+principle = "Strengthen SP Qi and Enforce SP's Function of Keeping the Blood in its Vessels"
+
+
+["Damp Heat Invading the SP"]
+organ = "SP"
+etiology = [
+    "Hot and Humid Climate",
+    "Nutrition - Hot, Spicy, Fried and Greasy",
+    "Acute Food Poisoning"
+]
+
+["Damp Heat Invading the SP".diagnosis]
+symptoms = [
+    "Fullness and Heaviness at the Epigastrium and Lower Abdomen",
+    "Lack of Appetite",
+    "Thirst Without Desire to Drink",
+    "Scant, Dark Yellow, Smelly Urine (May Also be Turbid)",
+    "Burn in the Anus",
+    "Extremely Soft, Errupting, Smelly Stool",
+    "Occasional Mild Fever",
+    "Heavy Headache",
+    "Yellow Vaginal Emission with Smell"
+]
+key_symptoms = [
+    "Extremely Soft, Errupting, Smelly Stool",
+    "Fullness and Heaviness at the Epigastrium and Lower Abdomen"
+]
+
+["Damp Heat Invading the SP".diagnosis.pulse]
+speed = "RAPID"
+strength = "V+"
+quality = ["SLIPPERY"]
+
+["Damp Heat Invading the SP".diagnosis.tongue]
+coating_thickness = "THICK"
+coating_color = "YELLOW"
+moisture = "STICKY"
+
+
+["Damp Heat Invading the SP".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+hot_cold = "HOT"
+yin_yang = "YANG+"
+
+
+["Damp Heat Invading the SP".treatment]
+points = ["SP9", "SP6", "GB34", "LI11", "CV12", "ST21", "GV9", "BL20", "ST37", "ST25", "SP15", "BL21"]
+herbs = ["Da Cheng Qi Tang"]
+principle = "Transform Dampness and Expel Heat"
+
+
+["Damp Cold invading the SP"]
+organ = "SP"
+etiology = [
+    "Humid Climate or Humid and Cold Climate",
+    "Nutrition - Cold and Damp",
+    "SP Yang Xu"
+]
+
+["Damp Cold invading the SP".diagnosis]
+symptoms = [
+    "Mental Heaviness",
+    "Physical Heaviness in Body and Head",
+    "Soft Stool or Diarrhea or Mucus in Stool",
+    "Lack of Thirst, Sticky Mouth, Sweet Metallic Taste in Mouth, Decrease in Taste Sense",
+    "Shlomo Pillars",
+    "Fullness, Heaviness and Bloating in the Epigastrium",
+    "Heavy Headaches"
+]
+key_symptoms = [
+    "Heaviness",
+    "Soft Stool or Diarrhea or Mucus in Stool"
+]
+
+["Damp Cold invading the SP".diagnosis.pulse]
+speed = "SLOW"
+quality = ["SLIPPERY"]
+
+["Damp Cold invading the SP".diagnosis.tongue]
+coating_thickness = "THICK"
+coating_color = "WHITE"
+moisture = "STICKY"
+
+
+["Damp Cold invading the SP".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+hot_cold = "COLD"
+yin_yang = "YIN+"
+
+
+["Damp Cold invading the SP".treatment]
+points = ["ST8", "SP9", "SP6", "CV12", "SP3", "ST40", "ST28", "CV9", "GB26", "SP5", "Shi Shen Cong", "SP15", "LIV5", ""]
+principle = "Expel Cold Damp"
+herbs = ["Ping Wei San", "Sheng Jiang", "Er Chen Tang"]
+acupuncture_techniques = ["MOXA"]

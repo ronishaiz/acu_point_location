@@ -85,7 +85,6 @@ yin_yang = "YANG-"
 ["ST Xu and Cold".treatment]
 points = ["ST36", "CV12", "BL21", "CV6", "LI10", "SP3", "SP15", "ST25"]
 herbs = ["Ding Xiang Shi Di Tang", "Wu Zhu Yu Tang"]
-nutrition = ["Vegetables", "Fruits", "Shakes", "Plums", "Beet", "Spinach", "Green Leaves", "Lettuce", "Seaweed"]
 principle = "Strengthen and Warm ST-SP Qi"
 acupuncture_techniques = ["MOXA"]
 
@@ -136,7 +135,7 @@ yin_yang = "YIN-"
 ["ST Yin Xu".treatment]
 points = ["CV12", "ST36", "SP6", "SP3", "CV4", "KID6"]
 principle = "Feed Fluids and Strengthen ST Yin"
-herbs = "Mai Men Dong Tang"
+herbs = ["Mai Men Dong Tang"]
 nutrition = "Fluids - drink more water and avoid dry foods"
 
 
