@@ -1,0 +1,30 @@
+[1]
+inner = false
+sections = [
+    "Outer cantos of the eye", "Anterior part of the ear", "Ascends anterior and superior to the ear", "Rounds the ear to the edge of the mastoid process",
+    "Rounds upwards in the lateral head until the corner of the forehead, to the supraorbital region",
+    "Ascends through the head and then descends to the occiput", "High part of the shoulder", "DU14", "ST12"
+]
+
+[2]
+inner = true
+sections = [
+    "Inner ear", "SI19", "Outer cantos of the eye", "Corner of the mandible", "Infraorbital region (BL1)", "Neck",
+    "ST12", "Descends to the chest and meets with PC1", "LIV", "GB", "Inguinal region and around the genitals",
+    "Enters the sacrum and meets with the BL channel in the foramens", "Meets with the DU MAI in DU1 and exits at GB30"
+]
+
+[3]
+inner = false
+sections = [
+    "ST12", "Anterior part of the armpit", "Exits at GB22 and descends through the ribs", "Meets with the LIV at LIV13",
+    "Descends to the crotch area", "Hip joint", "Lateral part of the thigh and knee", "Lateral part of the leg",
+    "Anterior part of the lateral malleulos", "Dorsal foot between the 4th and 5th metatarsal bones",
+    "Lateral part of the 4th toe"
+]
+
+[4]
+inner = true
+sections = [
+    "GB41", "Lateral part of the first toe (meets with the LIV meridian)"
+]

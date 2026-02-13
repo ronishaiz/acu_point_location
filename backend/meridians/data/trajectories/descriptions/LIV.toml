@@ -1,0 +1,27 @@
+[1]
+inner = false
+sections = [
+    "Lateral part of the first toe", "Dorsal foot between the 1st and 2nd metatarsal bones",
+    "Anterior aspect of the medial malleolus", "Medial aspect of the leg intersects with SP6", "Ascends anterior to the SP channel and then posterior to it",
+    "Medial part of the tigh", "Crotch", "Rounds the genitals", "Ascends the abdomen, intersects with CV2, CV3, CV4",
+    "Ascends through the ribs and ends in the 6th intercostal space"
+]
+
+[2]
+inner = true
+sections = [
+    "LIV13", "Rounds (and enters) the ST", "LIV", "GB", "Distributes in the hypochondriac region", "Ascends through the throat and reaches the eye tissue",
+    "Ascends through the forehead to the vertex and meets GV20"
+]
+
+[3]
+inner = true
+sections = [
+    "Eye", "Cheek", "Around the lips"
+]
+
+[4]
+inner = true
+sections = [
+    "LIV", "LU", "PC1"
+]

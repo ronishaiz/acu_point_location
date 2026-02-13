@@ -1,0 +1,30 @@
+[1]
+inner = false
+sections = [
+    "Ulnar part of the 4th finger", "Dorsal hand between the 4th and 5th metacarpal bones", "Posterior aspect of the forearm, between the radius and the ulna",
+    "Olecranon", "Posterior lateral aspect of the arm", "Posterior aspect of the shoulder", "DU14", "ST12", "Enters to CV17"
+]
+
+[2]
+inner = true
+sections = [
+    "PC", "Middle Jiao (CV12)", "Lower Jiao", "Descends to BL39 (lower sea of the TW)"
+]
+
+[3]
+inner = true
+sections = [
+    "CV17", "Supraclavicular fossa"
+]
+
+[4]
+inner = false
+sections = [
+    "Supraclavicular fossa", "Neck", "Behind the ear and around it"
+]
+
+[5]
+inner = true
+sections = [
+    "Enters the ear", "Exits in the front of the ear", "Cheek", "Outer cantos of the eye and meets with the GB meridian"
+]

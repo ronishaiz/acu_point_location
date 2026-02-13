@@ -1,14 +1,24 @@
 [1]
 inner = true
 sections = [
-    "ST (RN12)", "PC1", "Breast area", "Exits at PC1 in the 4th intercostal space"
+    "PC", "Descends through the abdomen accross the three jiaos"
 ]
 
 [2]
-inner = false
+inner = true
 sections = [
-    "From PC1, descends to the axilla", "Travels along the medial aspect of the upper arm", "Passes through PC2 and PC3 in the cubital fossa",
-    "Continues down the center of the forearm between the tendons", "Passes through PC4, PC5, PC6, PC7",
-    "Enters the palm at PC8", "Terminates at PC9 at the tip of the middle finger"
+    "PC", "4th intercostal space, 1 cun above the nipple, 5 cun lateral to the anterior midline"
 ]
 
+[3]
+inner = false
+sections = [
+    "Around the axilar fossa", "Descends in the anterior part of the arm between the HT and LU channels",
+    "Between the tendons of Palmaris Longus and the Flexor Carpi Radialis", "Center of the palm", "Tip of the middle finger"
+]
+
+[4]
+inner = true
+sections = [
+    "PC8", "Edge of the 4th finger, meeting with the TW meridian"
+]

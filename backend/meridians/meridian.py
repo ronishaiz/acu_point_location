@@ -75,6 +75,11 @@ class ZangFuMeridian(MeridianBase):
     _name: MeridianName = None
     _element: Element = None
     _limb: Limb = None
+    _inner_organs_in_trajectory: List[Organ] = None
+    _key_areas_of_trajectory: List[str] = None
+    _number_of_inner_trajectories: int = None
+    _number_of_external_trajectories: int = None
+    _points_from_other_meridians_on_trajectory: List[str] = None
 
     _yin_yang_partner_organ: Organ = None
     _stage_partner_organ: Organ = None
@@ -109,6 +114,26 @@ class ZangFuMeridian(MeridianBase):
     def hours(self) -> tuple:
         return self._hours
 
+    @property
+    def inner_organs_in_trajectory(self) -> List[Organ]:
+        return self._inner_organs_in_trajectory
+
+    @property
+    def key_areas_in_trajectory(self) -> List[str]:
+        return self._key_areas_of_trajectory
+
+    @property
+    def number_of_inner_trajectories(self) -> int:
+        return self._number_of_inner_trajectories
+
+    @property
+    def number_of_external_trajectories(self) -> int:
+        return self._number_of_external_trajectories
+
+    @property
+    def points_from_other_meridians_on_trajectory(self) -> List[str]:
+        return self._points_from_other_meridians_on_trajectory or []
+
     @classmethod
     def get_property_name_to_flash_card_property_name(cls) -> dict:
         d = super().get_property_name_to_flash_card_property_name()
@@ -117,6 +142,11 @@ class ZangFuMeridian(MeridianBase):
                   'limb': 'Limb',
                   'yin_yang_partner_organ': 'Partner in Yin-Yang Relationship',
                   'stage_partner_organ': 'Partner in Same Stage',
+                  'inner_organs_in_trajectory': 'Inner Organs in Trajectory',
+                  'key_areas_in_trajectory': 'Key Areas in Trajectory',
+                  'number_of_inner_trajectories': 'Number of Inner Trajectories',
+                  'number_of_external_trajectories': 'Number of External Trajectories',
+                  'points_from_other_meridians_on_trajectory': 'Points from Other Meridians on Trajectory',
                   'hours': 'Hours'})
 
         return d
@@ -162,57 +192,93 @@ class SpecialMeridian(MeridianBase):
 
 LU_MERIDIAN = ZangFuMeridian(_stage=Stage.tai_yin, _name=MeridianName.LU, _element=Element.METAL, _limb=Limb.HAND,
                              _yin_yang_partner_organ=Organ.LI, _stage_partner_organ=Organ.SP, _hours=(3, 5),
-                             _number_of_learned_points=9)
+                             _number_of_learned_points=9, _inner_organs_in_trajectory=[Organ.LU, Organ.LI, Organ.ST],
+                             _key_areas_of_trajectory=['Anterior radial part of the hand and arm', 'Chest', 'Throat'],
+                             _number_of_inner_trajectories=2, _number_of_external_trajectories=1,
+                             _points_from_other_meridians_on_trajectory=["CV12"])
 
 LI_MERIDIAN = ZangFuMeridian(_stage=Stage.yang_ming, _name=MeridianName.LI, _element=Element.METAL, _limb=Limb.LEG,
                              _yin_yang_partner_organ=Organ.LU, _stage_partner_organ=Organ.ST, _hours=(5, 7),
-                             _number_of_learned_points=12)
+                             _number_of_learned_points=12, _inner_organs_in_trajectory=[Organ.LU, Organ.LI],
+                             _key_areas_of_trajectory=['Posterior radial part of the hand and arm', 'Anterior shoulder', 'Neck', 'Face', 'Nose'],
+                             _number_of_inner_trajectories=1, _number_of_external_trajectories=1,
+                             _points_from_other_meridians_on_trajectory=["GV14", "ST12", "ST37"])
 
 CV_MERIDIAN = SpecialMeridian(_name=MeridianName.CV, _number_of_learned_points=17, _opening_point='LU7', _closing_point='KID6',
                               _region='Front', _yin_yang='Yin')
 
 ST_MERIDIAN = ZangFuMeridian(_stage=Stage.yang_ming, _name=MeridianName.ST, _element=Element.EARTH, _limb=Limb.LEG,
                              _yin_yang_partner_organ=Organ.SP, _stage_partner_organ=Organ.LI, _hours=(7, 9),
-                             _number_of_learned_points=28)
+                             _number_of_learned_points=28, _inner_organs_in_trajectory=[Organ.ST, Organ.SP],
+                             _key_areas_of_trajectory=['Dorsal part of foot', 'Anterior lateral leg', 'Abdomen', 'Neck', 'Face'],
+                             _number_of_inner_trajectories=4, _number_of_external_trajectories=2,
+                             _points_from_other_meridians_on_trajectory=["GV14", "GV24"])
 
 SP_MERIDIAN = ZangFuMeridian(_stage=Stage.tai_yin, _name=MeridianName.SP, _element=Element.EARTH, _limb=Limb.LEG,
                              _yin_yang_partner_organ=Organ.ST, _stage_partner_organ=Organ.LU, _hours=(9, 11),
-                             _number_of_learned_points=11)
+                             _number_of_learned_points=11, _inner_organs_in_trajectory=[Organ.ST, Organ.SP, Organ.HT],
+                             _key_areas_of_trajectory=['Medial part of foot', 'Medial leg', 'Medial Crotch', 'Abdomen', 'Chest', 'Base of the tongue'],
+                             _number_of_inner_trajectories=2, _number_of_external_trajectories=1,
+                             _points_from_other_meridians_on_trajectory=["CV3", "CV4", "CV10", "LU1"])
 
 HT_MERIDIAN = ZangFuMeridian(_stage=Stage.shao_yin, _name=MeridianName.HT, _element=Element.FIRE, _limb=Limb.HAND,
                              _yin_yang_partner_organ=Organ.SI, _stage_partner_organ=Organ.KID, _hours=(11, 13),
-                             _number_of_learned_points=8)
+                             _number_of_learned_points=8, _inner_organs_in_trajectory=[Organ.HT, Organ.SI, Organ.LU],
+                             _key_areas_of_trajectory=['Armpit', 'Anterior medial arm and hand', 'Throat', 'Cheek', 'Eye tissue'],
+                             _number_of_inner_trajectories=3, _number_of_external_trajectories=1,
+                             _points_from_other_meridians_on_trajectory=[])
 
 SI_MERIDIAN = ZangFuMeridian(_stage=Stage.tai_yang, _name=MeridianName.SI, _element=Element.FIRE, _limb=Limb.HAND,
                              _yin_yang_partner_organ=Organ.HT, _stage_partner_organ=Organ.BL, _hours=(13, 15),
-                             _number_of_learned_points=17)
+                             _number_of_learned_points=17, _inner_organs_in_trajectory=[Organ.SI, Organ.HT, Organ.ST],
+                             _key_areas_of_trajectory=["Posterior medial arm and hand", "Posterior shoulder and scapula", 'Posterior lateral neck', 'Face', 'Ear', 'Eye (inner and outer cantos)'],
+                             _number_of_external_trajectories=1, _number_of_inner_trajectories=2,
+                             _points_from_other_meridians_on_trajectory=["GV14", "ST12", "ST39"])
 
 GV_MERIDIAN = SpecialMeridian(_name=MeridianName.GV, _number_of_learned_points=14, _opening_point='SI3', _closing_point='BL62',
                               _region='Back', _yin_yang='Yang')
 
 BL_MERIDIAN = ZangFuMeridian(_stage=Stage.tai_yang, _name=MeridianName.BL, _element=Element.WATER, _limb=Limb.LEG,
                              _yin_yang_partner_organ=Organ.KID, _stage_partner_organ=Organ.SI, _hours=(15, 17),
-                             _number_of_learned_points=43)
+                             _number_of_learned_points=43, _inner_organs_in_trajectory=[Organ.BL, Organ.KID],
+                             _key_areas_of_trajectory=['Posterior lateral leg', 'Posterior lateral thigh', 'Sacrum', 'Buttock', 'Lower back', 'Upper back', 'Neck', 'Head', 'Eye (inner cantos)', 'Vertex'],
+                             _number_of_inner_trajectories=2, _number_of_external_trajectories=3,
+                             _points_from_other_meridians_on_trajectory=["GV14", "GB30"])
 
 KID_MERIDIAN = ZangFuMeridian(_stage=Stage.shao_yin, _name=MeridianName.KID, _element=Element.WATER, _limb=Limb.LEG,
                               _yin_yang_partner_organ=Organ.BL, _stage_partner_organ=Organ.HT, _hours=(17, 19),
-                              _number_of_learned_points=14)
+                              _number_of_learned_points=14, _inner_organs_in_trajectory=[Organ.BL, Organ.KID, Organ.LIV, Organ.LU, Organ.HT],
+                              _key_areas_of_trajectory=['Sole of the foot', 'Posterior medial leg', 'Posterior medial knee', 'Medial thigh', 'Coccyx', 'Abdomen', 'Chest', 'Throat', 'Base of the tongue'],
+                              _number_of_inner_trajectories=2, _number_of_external_trajectories=2,
+                              _points_from_other_meridians_on_trajectory=["SP6", "CV3", "CV4", "CV17"])
 
 LIV_MERIDIAN = ZangFuMeridian(_stage=Stage.jue_yin, _name=MeridianName.LIV, _element=Element.WOOD, _limb=Limb.LEG,
                               _yin_yang_partner_organ=Organ.GB, _stage_partner_organ=Organ.PC, _hours=(1, 3),
-                              _number_of_learned_points=10)
+                              _number_of_learned_points=10, _inner_organs_in_trajectory=[Organ.LIV, Organ.GB, Organ.ST, Organ.LU],
+                              _key_areas_of_trajectory=['Dorsal part of the foot', 'Anterior medial leg', 'Medial thigh', 'Genitals', 'Abdomen', 'Chest', 'Hypochondrium', 'Throat', 'Cheek', 'Around the lips', 'Eye tissue', 'Vertex'],
+                              _number_of_inner_trajectories=3, _number_of_external_trajectories=1,
+                              _points_from_other_meridians_on_trajectory=["SP6", "CV2", "CV3", "CV4", "PC1", "GV20"])
 
 GB_MERIDIAN = ZangFuMeridian(_stage=Stage.shao_yang, _name=MeridianName.GB, _element=Element.WOOD, _limb=Limb.LEG,
                              _yin_yang_partner_organ=Organ.LIV, _stage_partner_organ=Organ.TW, _hours=(23, 1),
-                             _number_of_learned_points=31)
+                             _number_of_learned_points=31, _inner_organs_in_trajectory=[Organ.LIV, Organ.GB],
+                             _key_areas_of_trajectory=["Lateral dorsal part of the foot", "Lateral leg", "Lateral thigh", "Hip", "Genitals", "Sacrum", "Coccyx", "Ribs and hypochondrium", "Lateral Neck", "Occiput", "Lateral head", "Eye (outer cantos)", 'Ear'],
+                             _number_of_inner_trajectories=2, _number_of_external_trajectories=2,
+                             _points_from_other_meridians_on_trajectory=["GV14", "ST12", "LIV13", "SI19", "BL1", "PC1", "GV1"])
 
 PC_MERIDIAN = ZangFuMeridian(_stage=Stage.jue_yin, _name=MeridianName.PC, _element=Element.FIRE, _limb=Limb.HAND,
                              _yin_yang_partner_organ=Organ.TW, _stage_partner_organ=Organ.LIV, _hours=(19, 21),
-                             _number_of_learned_points=8)
+                             _number_of_learned_points=8, _inner_organs_in_trajectory=[Organ.PC, Organ.TW],
+                             _key_areas_of_trajectory=["Chest", "Stomach", "Axilar fossa", "Anterior center of arm and palm", "Middle finger"],
+                             _number_of_inner_trajectories=3, _number_of_external_trajectories=1,
+                             _points_from_other_meridians_on_trajectory=[])
 
 TW_MERIDIAN = ZangFuMeridian(_stage=Stage.shao_yang, _name=MeridianName.TW, _element=Element.FIRE, _limb=Limb.HAND,
                              _yin_yang_partner_organ=Organ.PC, _stage_partner_organ=Organ.GB, _hours=(21, 23),
-                             _number_of_learned_points=23)
+                             _number_of_learned_points=23, _inner_organs_in_trajectory=[Organ.PC, Organ.TW],
+                             _key_areas_of_trajectory=["Posterior center of arm and dorsum of the hand", "Three burners, abdomen (inner trajectory)", "Posterior lateral shoulder", "Lateral neck", "Temporal region", "Ear", "Outer canthus of the eye"],
+                             _number_of_inner_trajectories=3, _number_of_external_trajectories=2,
+                             _points_from_other_meridians_on_trajectory=["GV14", "ST12", "CV17", "BL39", "GB21", "SI12"])
 
 def get_meridian_by_name(name: MeridianName):
     for meridian in ALL_MERIDIANS:
