@@ -1,5 +1,20 @@
 [1]
 inner = false
 sections = [
-    "WIP"
+    "Ulnar aspect of the 5th finger", "Ulnar aspect of the palm", "Ulna's styloid", "medial aspect of the olecranon",
+    "Posterior aspect of the arm", "Posterior aspect of the shoulder",
+    "Zig zags from the scapula's inferior fossa to the medial part of the scapular spine", "DU14", "ST12", "Neck", "Cheek",
+    "Outer cantos of the eye", "Ear"
+]
+
+[2]
+inner = true
+sections = [
+    "Cheek", "Inner cantos of the eye and meets with the BL meridian"
+]
+
+[3]
+inner = true
+sections = [
+    "ST12", "HT", "ST", "SI", "Descends to ST39"
 ]

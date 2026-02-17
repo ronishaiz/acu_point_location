@@ -1,5 +1,27 @@
 [1]
+inner = true
+sections = [
+    "Inner cantos of the eye", "Vertex", "Splits to two: one goes into the ear, the other goes to BL10"
+]
+
+[2]
 inner = false
 sections = [
-    "WIP"
+    "Inner cantos of the eye", "Forehead", "Posterior aspect of the head", "Splits to two in BL10"
+]
+
+[3]
+inner = false
+sections = [
+    "BL10", "Posterior aspect of the neck", "DU14", "Descends across the back, 1.5 cun lateral to the midline",
+    "Enters in BL23 to the KID", "BL", "Sacrum", "Posterior part of thigh", "Popliteal fossa (BL40)"
+]
+
+[4]
+inner = false
+sections = [
+    "BL10", "Posterior aspect of the neck", "Descends across the back, 3 cun lateral to the midline",
+    "Buttock and meets with GB30", "Posterior aspect of the thigh", "Popliteal fossa (BL40)",
+    "Posterior aspect of the leg", "Posterior aspect of the lateral malleolus", "Lateral aspect of the foot",
+    "Lateral side of the 5th toe, meets with the KID meridian"
 ]

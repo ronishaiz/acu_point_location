@@ -1,5 +1,19 @@
 [1]
+inner = true
+sections = [
+    "Lower abdomen (Dan Tian, uterus)", "Descends to the perineum (meets with CV and KID)"
+]
+
+[2]
 inner = false
 sections = [
-    "WIP"
+    "Ascends through the midline of the posterior aspect of the body, through the sacrum",
+    "Lower back, mid back, upper back", "Neck", "Posterior aspect of the head", "Vertex", "Forehead",
+    "Descends through the midline of the face to the philtrum", "Ends in the border between the upper lip and the gums"
+]
+
+[3]
+inner = true
+sections = [
+    "DU16", "Enters the brain"
 ]

@@ -1,5 +1,17 @@
 [1]
+inner = true
+sections = [
+    "Starts at the lower belly (Dan Tian, uterus)", "Descends to the perineum"
+]
+
+[2]
 inner = false
 sections = [
-    "WIP"
+    "Ascends along the midline of the lower abdomen", "Upper abdomen", "Chest", "Throat", "Ends below the lower lip"
+]
+
+[3]
+inner = true
+sections = [
+    "Around the mouth", "Below the eye"
 ]

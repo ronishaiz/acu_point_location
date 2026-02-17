@@ -1,5 +1,26 @@
 [1]
 inner = false
 sections = [
-    "WIP"
+    "Underneat the 5th toe", "Sole of the foot", "The navicular bone", "Posterior part of the medial malleolus",
+    "Corner of the heel", "Inferior part of the medial malleolus", "Medial aspect of the leg", "SP6",
+    "Posterior-medial aspect of the knee", "Posterior-medial aspect of the thigh", "Coccyx (meets with the CV and GV) and enters"
+]
+
+[2]
+inner = true
+sections = [
+    "Spine", "KID", "BL"
+]
+
+[2]
+inner = true
+sections = [
+    "KID", "LIV", "LU", "HT", "CV17", "Throat", "Base of the tongue"
+]
+
+[3]
+inner = false
+sections = [
+    "Lower abdomen, 0.5 cun lateral to the midline", "CV3, CV4", "Upper abdomen, 0.5 cun lateral to the midline",
+    "Chest, 2 cun lateral to the midline", "Ends below the clavicle, 2 cun lateral to the midline"
 ]

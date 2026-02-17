@@ -1,5 +1,24 @@
 [1]
+inner = true
+sections = [
+    "HT", "SI"
+]
+
+[2]
+inner = true
+sections = [
+    "HT", "Throat", "Cheek", "Eye tissue"
+]
+
+[3]
+inner = true
+sections = [
+    "HT", "LU"
+]
+
+[4]
 inner = false
 sections = [
-    "WIP"
+    "Axilla", "Anterior-medial aspect of the arm", "Anterior-medial aspect of the forearm", "Pisiform bone",
+    "Palm, between the 4th and 5th metacarpal bones", "Radial aspect of the 5th finger, meets SI meridian"
 ]
