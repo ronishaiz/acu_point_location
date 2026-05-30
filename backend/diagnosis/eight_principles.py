@@ -10,6 +10,7 @@ class InternalExternalPrinciple(Enum):
 class FullEmptyPrinciple(Enum):
     FULL = "FULL"
     EMPTY = "EMPTY"
+    FULL_EMPTY = "FULL+EMPTY"
 
 
 class HotColdPrinciple(Enum):

@@ -1,0 +1,395 @@
+["KID Qi Xu"]
+organ = "KID"
+etiology = [
+]
+
+["KID Qi Xu".diagnosis]
+symptoms = [
+    "Sensitivity in the Low Back, Reduced by Rest (Not Affected by Temperature)",
+    "Weak Knees",
+    "Tendency to Urinate Frequently, Mild Urinary Incontinence"
+]
+key_symptoms = [
+]
+
+["KID Qi Xu".diagnosis.pulse]
+strength = "V-"
+positions = [
+    {yin_yang = "YIN", jiao = "LJ", left_right = "RIGHT"},
+]
+
+
+["KID Qi Xu".diagnosis.tongue]
+
+["KID Qi Xu".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+
+["KID Qi Xu".treatment]
+points = ["KID3", "KID10", "BL23", "BL52", "CV6", "ST36"]
+herbs = ["Jin Gui Shen Qi Wan"]
+principle = "Strengthen KID Qi"
+
+["KID Yang Xu"]
+organ = "KID"
+etiology = [
+    "Age",
+    "Chronic Disease",
+    "Cold Medicine (E.g., Some of the Antibiotics)",
+    "Cold Nutrition (Raw Food, Cold Drinks, Ice Cream)",
+    "SP Yang Xu",
+    "Cold Climate",
+    "Exposure to Cold after Sexual Activity",
+    "For Women - Excessive Sexual Activity at Adolescence",
+    "Overwork and Prolonged Standing"
+]
+
+["KID Yang Xu".diagnosis]
+symptoms = [
+    "Bright Pale Complexion",
+    "Cold Feeling in Bones",
+    "Weak and Cold Legs",
+    "Knee Pain that is Worse with Cold and Better with Heat",
+    "Feet and Leg Edema",
+    "Low Libido, Sexual Dysfunction, Impotence",
+    "Infertility, Late Menstruation, Amenorrhea",
+    "Fatigue",
+    "Depression, Apathy",
+    "No Sleep Problems, But Tendency to Sleep More. Waking up after a long sleep - still feeling tired",
+    "Cold Aversion",
+    "Frequent, Urgent, and Clear Urination, Possible Incontinence or Retention, Uncontinuous Urination",
+    "Soft Stool or Diarrhea without Smell",
+    "Lack of Appetite, Lack of Thirst",
+    "Low Tinnitus"
+]
+key_symptoms = [
+]
+
+["KID Yang Xu".diagnosis.pulse]
+strength = "V-"
+depth = "DEEP"
+speed = "SLOW"
+
+["KID Yang Xu".diagnosis.tongue]
+body_color = "PALE"
+body_shapes = ["SWOLLEN"]
+moisture = "WET"
+
+
+["KID Yang Xu".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+hot_cold = "COLD"
+yin_yang = "YANG-"
+
+
+["KID Yang Xu".treatment]
+points = ["GV4", "KID3", "KID7", "BL23", "BL52", "CV8", "CV6", "CV4", "BL43", "TW4"]
+principle = "Strengthen and Warm KID Yang, Possible Change of Lifestyle and Nutrition (based on the etiology)"
+herbs = ["Ba Ji Tian", "Rou Gui", "You Gui Wan", "Jin Gui Shen Qi Wan", "Jing Gong", "Zi Gong", "San Jiao Jiu"]
+acupuncture_techniques = ["MOXA"]
+
+
+["KID Qi Not Firm"]
+organ = "KID"
+etiology = [
+    "Excessive Sexual Activity",
+    "Multiple Childbirths or Elongated Labor",
+    "Excessive Physical Labor",
+    "Strong Cough or Effort in Passing Stool",
+    "KID Qi Xu and its Etiology"
+]
+
+["KID Qi Not Firm".diagnosis]
+symptoms = [
+    "Weakness in Low Back or Knees (and for women, Pelvic Floor)",
+    "Tendency to Urinate Frequently and Urgently, with Clear Urine",
+    "Weak Urine Stream, Dribbling After Urination",
+    "Urinary Incontinence (e.g. with Cough, Sneeze)",
+    "Night Urinary Incontinence",
+    "Premature Ejaculation, Spermatorrhea (at night, without dreaming)",
+    "Mobility Issues of Sperm",
+    "For women - Uterine Prolapse, White or Clear Vaginal Emission"
+]
+key_symptoms = [
+]
+
+["KID Qi Not Firm".diagnosis.pulse]
+strength = "V-"
+depth = "DEEP"
+
+
+["KID Qi Not Firm".diagnosis.tongue]
+body_color = "PALE"
+
+
+["KID Qi Not Firm".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+
+
+["KID Qi Not Firm".treatment]
+points = ["GV4", "KID3", "KID7", "BL23", "BL52", "CV8", "CV6", "CV4", "BL43", "TW4", "Jing Gong", "Si Shen Cong", "GV20", "CV3", "CV6", "BL28", "BL32", "GB26", "KID13", "KID14", "KID15"]
+principle = "Strengthen and Stabilize KID Qi"
+herbs = ["Tu Si Zi Wan"]
+acupuncture_techniques = ["MOXA"]
+
+
+["KID Yin Xu"]
+organ = "KID"
+etiology = [
+    "Lifestyle - Overwork (Physical or Mental), Lack of Sleep, Excessive Sexual Activity",
+    "Age",
+    "Chronic Disease (especially Heat Disease)",
+    "Disease that Causes Excessive Night Sweating",
+    "Dry and Hot Nutrition",
+    "Medicine or Herbs that Heat and Dry the Body (e.g., Reacutan, Jinseng)",
+    "Massive Loss of Blood",
+    "Sudden Trauma, Shock or Fear",
+    "LIV Yin Xu, LIV Blood Xu"
+]
+
+["KID Yin Xu".diagnosis]
+symptoms = [
+    "Red Complexion",
+    "Empty-Head Dizziness, or Mild Dizziness",
+    "Low Tinnitus",
+    "Hearing Deterioration",
+    "Memory Deterioration",
+    "Thirst with Small Sips of Water (and desire for tepid drinks)",
+    "Night Sweating",
+    "Dryness - Mouth, Throat, Skin, Eyes, Vagina, Hair, Bowels",
+    "Especially during the Afternoon, Evening and Night - Heat Waves, Sweating in the 5 Palms",
+    "Dark, Scant Urine",
+    "Low Libido or Excessive Libido",
+    "Fatigue after Sexual Activity",
+    "Premature Ejaculation, Spermatorrhea (at night, without dreaming)",
+    "Deterioration in Quality of Sperm or Eggs - Infertility",
+    "Vague Headaches after Ejaculation",
+    "Restlessness, Irritability",
+    "Insomnia - Quick to Fall Asleep, but Waking Up a lot Through the Night"
+]
+key_symptoms = [
+]
+
+["KID Yin Xu".diagnosis.pulse]
+depth = "FLOATING"
+quality = ["EMPTY"]
+speed = "RAPID"
+
+["KID Yin Xu".diagnosis.tongue]
+body_color = "RED"
+body_shapes = ["THIN", "HORIZONTAL CRACKS", "VERTICAL CRACKS", "MIDLINE CRACK", "PATCHY"]
+coating_thickness = "ABSENT"
+moisture = "DRY"
+
+
+["KID Yin Xu".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+hot_cold = "HOT"
+yin_yang = "YIN-"
+
+
+["KID Yin Xu".treatment]
+points = ["CV4", "CV12", "ST36", "KID3", "KID6", "KID9", "KID10", "SP6", "TW2", "CV1", "KID2", "BL23", "KID7", "HT6", "SP6", "HT7", "An Mian", "SI11"]
+herbs = ["Liu Wei Di Huang Wan", "Zuo Gui Wan"]
+principle = "Feed Yin, Treat Biao if Needed, Feed Fluids if Needed"
+nutrition = "Avoid Dry and Hot Food, Avoid Smoking, Alcohol, Drugs, Coffee, Spices, Night Snacks. Eat: Soy, Pears, Zucchini, Okra, Seaweed, Miso, Chia, Black Lentils, Porridge, Tahini, Omega 3, Dairy (without Hormones or Antibiotics)"
+
+
+["KID Fire Blazing"]
+organ = "KID"
+etiology = [
+    "KID Yin Xu and its Etiology",
+    "Additional Heat from Emotional Stress"
+]
+
+["KID Fire Blazing".diagnosis]
+symptoms = [
+    "Restlessness, Anxiety, Fear, Emotional Turmoil",
+    "Excessive Night Sweating - Must Change Clothes and Sheets, Multiple times a Night",
+    "Insomnia (Multiple wakings at Night), Wild Dreaming",
+    "Increased Libido, sometimes Uncontrollable",
+    "Sexual Dreaming, Spermatorrhea (at night, with dreaming)",
+    "Strong Blush and Feeling of Heat in the Face, especially at the Cheekbones",
+    "Thirst for Cold Drinks with Small Sips, Dry Throat at Night",
+    "Dark, Scant Urine, Sometimes with Blood",
+    "Dry Stool, Possible Constipation",
+    "Empty Dizziness",
+    "Deteriorated Hearing and Memory",
+    "Lower Back Pain, Alleviated at Rest. Sometimes, there is Bone Pain or Burn",
+    "Sometimes, High Energy Levels (because of the empty heat)"
+]
+key_symptoms = [
+]
+
+["KID Fire Blazing".diagnosis.pulse]
+speed = "RAPID"
+depth = "FLOATING"
+quality = ["EMPTY"]
+
+["KID Fire Blazing".diagnosis.tongue]
+body_color = "RED"
+body_shapes = ["MIDLINE CRACK", "VERTICAL CRACKS", "HORIZONTAL CRACKS"]
+coating_thickness = "ABSENT"
+moisture = "DRY"
+
+
+["KID Fire Blazing".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+hot_cold = "HOT"
+yin_yang = "YIN-"
+
+
+["KID Fire Blazing".treatment]
+points = ["KID2", "HT3", "HT8", "LU10", "CV4", "CV12", "HT5", "KID3", "KID6", "KID9", "KID10", "SP6", "HT6", "Yin Tang"]
+herbs = ["Zhi Bai Di Huang Wan"]
+principle = "Feed KID Yin, Expel Empty Heat and Fire, Soothe the Shen. Also Treat Biao if Needed"
+
+
+["KID Jing Xu"]
+organ = "KID"
+etiology = [
+    "In children - DNA and Inherited Issues - moment of Conception, Pregnancy, Birth Trauma, Age of Parents, Physical and Mental Condition of Parents",
+    "In Adults - Poor Maintenance of Post-Heaven Qi, Constitution, Trauma, Age"
+]
+
+["KID Jing Xu".diagnosis]
+symptoms = [
+    "Irregular Sensory or Motor Development (in Children)",
+    "Irregular Development of Bones and Skeleton (in Children)",
+    "Birth Defects",
+    "Intellectual Disability",
+    "Dyslexia",
+    "Rickets",
+    "Extreme Weakness in the Low Back and Knees",
+    "Bone Pain",
+    "Severe Deterioration in Short-Term Memory (Dementia, Alzheimer)",
+    "Sudden Balding, White Hair or Hair Loss",
+    "Early Menopause, Amenorrhea, Infertility",
+    "Extremely Low Libido, Sexual Dysfunction",
+    "Multiple Miscarriages"
+]
+
+key_symptoms = [
+]
+
+["KID Jing Xu".diagnosis.pulse]
+
+["KID Jing Xu".diagnosis.tongue]
+
+["KID Jing Xu".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+
+
+["KID Jing Xu".treatment]
+points = ["GB39", "BL11", "GV20", "Si Shen Cong", "GV14", "BL15", "BL23", "GV4", "GV16", "HT7", "KID3", "KID6", "CV4", "KID7", "CV6", "GV26"]
+principle = "Maintain Jing, Stengthen KID Yin or Yang (based on the etiology)"
+herbs = ["Shan Zhu Yu", "Lian Zi"]
+nutrition = "Spirolina, Seaweed, Walnuts, Fish Oil, Omega 3, Internal Organs, Chia Seeds, Flax Seeds, Beans"
+
+
+["KID Yang Xu + Water Overflow"]
+organ = "KID"
+etiology = [
+    "KID Yang Xu and its Etiology",
+    "SP Yang Xu and its Etiology",
+    "LU Qi Xu",
+    "HT Yang Xu"
+]
+
+["KID Yang Xu + Water Overflow".diagnosis]
+symptoms = [
+    "Pain and Cold Feeling (and Aversion) in the Back and Legs",
+    "Low Libido, Sexual Dysfunction, Infertility",
+    "Scant, Clear Urine",
+    "Fatigue, Apathy",
+    "Edema, Especially in the Ankles",
+    "Fullness in the Abdomen",
+    "Possible Mobility Restriction in the Joints",
+    "LU Phlegm Fluids Symptoms",
+    "HT Yang Xu Symptoms"
+]
+key_symptoms = [
+]
+
+["KID Yang Xu + Water Overflow".diagnosis.pulse]
+speed = "SLOW"
+strength = "V-"
+depth = "DEEP"
+quality = ["SLIPPERY"]
+
+["KID Yang Xu + Water Overflow".diagnosis.tongue]
+body_color = "PALE"
+body_shapes = ["SWOLLEN"]
+moisture = "WET"
+coating_color = "WHITE"
+coating_thickness = "THICK"
+
+["KID Yang Xu + Water Overflow".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL+EMPTY"
+hot_cold = "COLD"
+yin_yang = "YANG-"
+
+
+["KID Yang Xu + Water Overflow".treatment]
+points = ["GV4", "BL23", "BL52", "CV8", "KID3", "KID7", "KID10", "TW4", "BL15", "HT7", "LU5", "GV12", "LU7", "BL13", "LU9", "CV17", "PC6", "ST40", "CV3", "SP6", "SP9", "CV9", "BL22", "BL39"]
+principle = "Heat KID Yang and SP Yang, Strengthen HT Yang and LU Qi (and LU function of Downing and Distributing), Open Water Passages and Urinate"
+herbs = []
+acupuncture_techniques = ["MOXA"]
+
+
+["KID Failing to Receive LU Qi"]
+organ = "KID"
+etiology = [
+    "Weak LU or Weak KID by Constitution",
+    "Weak LU or Weak KID - due to C-section, Smoking, Disease, Old Age, Posture, Sadness, Grief, Childhood Trauma",
+    "Chronic Diseases that Originate from the LU and over time damage the KID (e.g., Chronic Cough, Asthma, COPD)",
+    "Water in LU over time damages the KID",
+    "Overwork, Excessive Physical Labor, Lifting of Heavy Weights"
+]
+
+["KID Failing to Receive LU Qi".diagnosis]
+symptoms = [
+    "Difficulty Inhaling",
+    "Shortness of Breath at Exertion",
+    "Shallow Breathing, Tachipnea",
+    "Spontaneous Coughing",
+    "Spontaneous Sweating",
+    "Cold Limbs after Sweating",
+    "Sweating in the Face",
+    "Excessive, Clear Urination",
+    "Possible Diarrhea",
+    "During Asthma Attack - Clear Urine and Lower Back Pain",
+    "Possible Tinnitus and Dizziness"
+]
+key_symptoms = [
+    "Difficulty Inhaling"
+]
+
+["KID Failing to Receive LU Qi".diagnosis.pulse]
+depth = "DEEP"
+strength = "V-"
+speed = "SLOW"
+
+["KID Failing to Receive LU Qi".diagnosis.tongue]
+body_shapes = ["SWOLLEN"]
+body_color = "PALE"
+moisture = "WET"
+
+
+["KID Failing to Receive LU Qi".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+hot_cold = "COLD"
+yin_yang = "YANG-"
+
+
+["KID Failing to Receive LU Qi".treatment]
+points = ["KID3", "KID4", "KID25", "KID27", "CV17", "ST36", "CV6", "BL13", "GV12", "LU6", "KID7", "BL23", "GV4", "LU9", "KID1", "LU7", "KID6"]
+principle = "Strengthen KID and LU Qi, Heat, Strengthen the Function of the KID in Receiving LU Qi, Strengthen the Function of the LU Downing and Distributing"
+herbs = ["Hu Tao Ren"]

@@ -28,6 +28,7 @@ class BodyShape(Enum):
     HEART_SHAPED = "HEART SHAPED"
     RED_DOTS = "RED DOTS"
     DRAGON = "DRAGON"
+    PATCHY = "PATCHY"
 
 
 class CoatingColor(Enum):
