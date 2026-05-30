@@ -32,7 +32,9 @@ class Quality(Enum):
     TENSE = "TENSE"
     HIDDEN = "HIDDEN"
     EMPTY = "EMPTY"
-
+    KNOTTED = "KNOTTED"
+    IRREGULAR = "IRREGULAR"
+    FADING = "FADING"
 
 class PositionYinYang(Enum):
     YIN = "YIN"

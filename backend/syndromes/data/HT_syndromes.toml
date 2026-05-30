@@ -1,0 +1,438 @@
+["HT Qi Xu"]
+organ = "HT"
+etiology = [
+    "Loss of Blood",
+    "Chronic Blood Xu",
+    "Chronic Disease",
+    "Emotional Stress - Worry, Overthinking, Anxiety, Fear, Sadness - Any Emotion That is Prolonged and Not Expressed",
+    "Anything that generally consumes Qi - Over work, Excessive Physical Labor"
+
+]
+
+["HT Qi Xu".diagnosis]
+symptoms = [
+    "Palpitations throughout the Day, Especially with Mild Exertion",
+    "Shortness of Breath with Mild Exertion",
+    "Sweating with Mild Exertion",
+    "Fatigue (Many times, emotional fatigue)",
+    "Pale Complexion",
+    "Melancholy (Apathy, Mild Depression, Lack of Joy)"
+]
+key_symptoms = [
+]
+
+["HT Qi Xu".diagnosis.pulse]
+strength = "V-"
+quality = ["EMPTY"]
+
+
+["HT Qi Xu".diagnosis.tongue]
+body_color = "PALE"
+body_shapes = ["SWOLLEN"]
+
+["HT Qi Xu".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+
+["HT Qi Xu".treatment]
+points = ["HT7", "BL15", "BL17", "CV17", "PC6", "CV6", "ST36", "CV14"]
+herbs = ["FU Xiao Mai", "Zhi Gan Cao Tang"]
+principle = "Strengthen HT Qi"
+nutrition = "Wheat"
+
+["HT Yang Xu"]
+organ = "HT"
+etiology = [
+    "KID Yang Xu",
+    "SP Yang Xu",
+    "HT Qi Xu and its Etiology",
+    "Cold Nutrition"
+]
+
+["HT Yang Xu".diagnosis]
+symptoms = [
+    "Spontaneous Palpitations (not necessarily with exertion)",
+    "Chest Distress - Suffocating Feeling of Excess in Chest",
+    "Shortness of Breath",
+    "Sweating with Mild Exertion",
+    "Cold Hands and Feet",
+    "Bright Pale Complexion",
+    "Mental Fatigue - Lack of Joy - Melancholy, Apathy, Communication Difficulties",
+    "Fatigue",
+    "Lack of Shen Ming - Dull Eyes"
+]
+key_symptoms = [
+]
+
+["HT Yang Xu".diagnosis.pulse]
+strength = "V-"
+depth = "DEEP"
+speed = "SLOW"
+quality = ["KNOTTED", "IRREGULAR"]
+
+["HT Yang Xu".diagnosis.tongue]
+body_color = "PALE"
+body_shapes = ["SWOLLEN"]
+moisture = "WET"
+
+
+["HT Yang Xu".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+hot_cold = "COLD"
+yin_yang = "YANG-"
+
+
+["HT Yang Xu".treatment]
+points = ["HT7", "BL15", "BL17", "CV17", "PC6", "CV6", "ST36", "CV14", "GV4", "BL23", "BL52", "CV8", "KID7", "CV15", "GV14"]
+principle = "Strengthen and Warm HT Yang"
+herbs = []
+acupuncture_techniques = ["MOXA"]
+
+
+["HT Yang Collapse"]
+organ = "HT"
+etiology = [
+    "Prolonged HT Yang Xu",
+    "Excessive Loss of Blood"
+]
+
+["HT Yang Collapse".diagnosis]
+symptoms = [
+    "Weak, Shallow Breathing",
+    "Spontaneous, Cold, Excessive Sweating without Smell",
+    "Cold Limbs",
+    "Blueish Lips and Tongue",
+    "Severe Anxiety",
+    "Lack of Consciousness"
+]
+key_symptoms = [
+]
+
+["HT Yang Collapse".diagnosis.pulse]
+strength = "V--"
+quality = ["FADING", "KNOTTED", "IRREGULAR"]
+
+
+["HT Yang Collapse".diagnosis.tongue]
+body_color = "PURPLE"
+body_shapes = ["SHRUNKEN", "STIFF"]
+
+
+["HT Yang Collapse".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+hot_cold = "COLD"
+yin_yang = "YANG-"
+
+
+["HT Yang Collapse".treatment]
+points = ["HT9", "PC9", "GV26"]
+principle = "Refer to Acute Medicinal Treatment (Hospital)"
+herbs = []
+
+
+["HT Blood Xu"]
+organ = "HT"
+etiology = [
+    "SP Qi Xu and its Etiology",
+    "Chronic Blood Loss",
+    "Chronic Disease",
+    "Emotional Stress - Worry, Overthinking, Anxiety, Fear",
+    "LIV Blood Xu",
+    "More frequent in Women and Young Girls"
+]
+
+["HT Blood Xu".diagnosis]
+symptoms = [
+    "Palpitations - Especially at Night or While Lying Down",
+    "Anxiety - Which Causes the Palpitations, or Palpitations that Cause Anxiety",
+    "Tending to be Easily Startled",
+    "Insomnia - Difficulty Falling Asleep, Difficulty Staying Asleep, Restless Sleep",
+    "Long-Term Memory Deterioration",
+    "Unclear Thinking, Difficulty Concentrating, People that can't Finish things",
+    "Dizziness (Changing Positions)",
+    "Pale Complexion and Lips",
+    "Cold Aversion",
+    "Dry Stool"
+]
+key_symptoms = [
+]
+
+["HT Blood Xu".diagnosis.pulse]
+strength = "V-"
+depth = "DEEP"
+quality = ["THIN", "CHOPPY"]
+positions = [
+    {yin_yang = "YIN", jiao = "MJ", left_right = "RIGHT"},  # SP
+    {yin_yang = "YIN", jiao = "MJ", left_right = "LEFT"},  # LIV
+    {yin_yang = "YIN", jiao = "UJ", left_right = "LEFT"},  # HT
+]
+
+["HT Blood Xu".diagnosis.tongue]
+body_color = "PALE"
+body_shapes = ["THIN"]
+moisture = "DRY"
+
+
+["HT Blood Xu".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+
+
+["HT Blood Xu".treatment]
+points = ["HT6", "HT7", "PC6", "BL15", "BL17", "BL19", "BL20", "CV4", "SP10", "SP6", "BL21", "ST36", "CV12", "ST37", "ST39", "KID3", "BL23", "An Mian", "Yin Tang"]
+herbs = ["Long Yan Rou", "Gui Pi Tang", "Shu Di"]
+principle = "Strengthen HT Blood and Soothe the Shen"
+nutrition = "Bone Broth, Chicken Liver, Red Meat (and internal organs), Black Beans, Azuki Beans, Black Lentils (for those with weaker digestion), Goji Berries, Molasses, Black Tahini, Beetroot, Raspberries, Blueberries, Steak, Pomegranate, Sunflower seeds"
+
+
+["HT Yin Xu"]
+organ = "HT"
+etiology = [
+    "HT Blood Xu and its Etiology",
+    "Unbalanced Lifestyle - Excessive Physical Labor, Overwork, Lack of Sleep, Excessive Sexual Activity",
+    "KID Yin Xu",
+    "LIV Fire or LIV Yin Xu",
+    "Emotional Stress - Worry, Overthinking, Anxiety, Fear, Sadness",
+    "Exterior Pathogen - Heat or Dryness, That Damages the Yin Fluids (was more common in the past, now not so much)",
+    "Drugs"
+]
+
+["HT Yin Xu".diagnosis]
+symptoms = [
+    "Palpitation - Especially in the Afternoon and Evening. At night, the Palpitations Can Cause Insomnia and Wake from Sleep",
+    "Insomnia - Waking up in the Middle of the Night with Difficulty to Fall Back to Sleep due to Wakefulness",
+    "Long-Term Memory Deterioration",
+    "Anxiety and Tending to be Easily Startled",
+    "Restlessness, Irritability",
+    "Sweating in the 5 Palms",
+    "Warm Hands and Sweaty During Stress",
+    "Red Cheeks",
+    "Dryness - Dry Mouth, Dry Throat",
+    "Feeling of Heat, Especially in the Afternoon and Evening, Sometimes with Night Sweating",
+    "Restless Dreaming"
+]
+key_symptoms = [
+]
+
+["HT Yin Xu".diagnosis.pulse]
+speed = "RAPID"
+depth = "FLOATING"
+quality = ["THIN", "EMPTY"]
+
+["HT Yin Xu".diagnosis.tongue]
+body_color = "RED"
+body_shapes = ["MIDLINE CRACK", "HEART SHAPED", "RED DOTS"]
+coating_thickness = "ABSENT"
+moisture = "DRY"
+region = "TIP"
+
+
+["HT Yin Xu".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+hot_cold = "HOT"
+yin_yang = "YIN-"
+
+
+["HT Yin Xu".treatment]
+points = ["HT6", "HT7", "CV14", "CV15", "CV17", "PC6", "SP6", "KID6", "CV4", "KID7", "HT3", "KID2", "KID10", "BL44"]
+herbs = ["Suan Zao Ren"]
+principle = "Strengthen HT Yin and Soothe the Shen, Feed Fluids. If Necessary, Clear Empty Heat"
+
+
+["HT Fire Blazing"]
+organ = "HT"
+etiology = [
+    "LIV Fire",
+    "ST Fire",
+    "Malnutrition - Hot, Dry, Spicy",
+    "Alcohol, Drugs, Smoking",
+    "Emotional Stress - Any Prolonged and Unexpressed Emotion",
+    "Constitution and Character"
+]
+
+["HT Fire Blazing".diagnosis]
+symptoms = [
+    "Palpitation - Throughout the Day, Sometimes Worsened by Anger or Excitement",
+    "Feeling of Heat Throughout the Day, Red Face",
+    "Sweating with Strong Smell",
+    "Insomnia with Wild Dreaming, Restlessness",
+    "Thirst with Desire to Drink Cold Drinks",
+    "Tongue Lesions",
+    "Dark Urine, Sometimes with Blood",
+    "Bitter Taste in the Mouth and Bad Breath (Especially in the Morning)",
+    "Bladder Inflammation (Sterile)",
+    "Possible Constipation",
+    "Mania, Insanity",
+    "Restlessness, Irritability, Impulsiveness",
+    "Fidgeting Eyes"
+]
+key_symptoms = [
+]
+
+["HT Fire Blazing".diagnosis.pulse]
+speed = "RAPID"
+strength = "V+"
+quality = ["FLOODING"]
+
+["HT Fire Blazing".diagnosis.tongue]
+coating_thickness = "THICK"
+coating_color = "YELLOW"
+body_color = "RED"
+body_shapes = ["RED DOTS", "DRAGON"]
+moisture = "DRY"
+region = "TIP"
+
+
+["HT Fire Blazing".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+hot_cold = "HOT"
+yin_yang = "YANG+"
+
+
+["HT Fire Blazing".treatment]
+points = ["HT9", "HT8", "PC8", "PC9", "HT5", "CV14", "PC7", "HT7", "SP6", "KID6", "LIV2", "HT3", "PC3", "SI5", "GV24", "GV14", "LI11"]
+principle = "Expel Fire from the HT, Soothe the Shen, Feed Fluids"
+herbs = ["Huang Lian", "Lian Zi Xin"]
+
+
+["Phlegm Fire Agitating the HT"]
+organ = "HT"
+etiology = [
+    "Severe Trauma - Mental or Physical",
+    "Prolonged Depression",
+    "Drugs, Medicine",
+    "Greasy and Hot Nutrition",
+    "LIV Fire, ST Fire"
+]
+
+["Phlegm Fire Agitating the HT".diagnosis]
+symptoms = [
+    "Palpitation - Throughout the Day",
+    "Incoherent Speech and Self-Talking",
+    "Uncontrollable Laughter",
+    "Tendency to Startle Easily",
+    "Alternating Laughter and Crying",
+    "Impulsiveness, Aggressiveness",
+    "Insomnia with Wild Dreaming, Restlessness",
+    "Dizziness",
+    "Bitter Taste in the Mouth and Bad Breath (Especially in the Morning)",
+    "Depression or Mental Confusion",
+    "Tourette Syndrome"
+]
+key_symptoms = [
+]
+
+["Phlegm Fire Agitating the HT".diagnosis.pulse]
+speed = "RAPID"
+strength = "V+"
+quality = ["SLIPPERY"]
+
+["Phlegm Fire Agitating the HT".diagnosis.tongue]
+coating_thickness = "THICK"
+coating_color = "YELLOW"
+body_color = "RED"
+body_shapes = ["RED DOTS"]
+moisture = "STICKY"
+region = "TIP"
+
+
+["Phlegm Fire Agitating the HT".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+hot_cold = "HOT"
+yin_yang = "YANG+"
+
+
+["Phlegm Fire Agitating the HT".treatment]
+points = ["PC5", "ST40", "HT9", "HT8", "PC8", "PC9", "HT5", "PC7", "HT7", "BL15", "BL14", "CV14", "LIV2", "GB13", "GB15", "GV24", "CV12", "SP3", "SP6", "BL20", "Si Shen Cong"]
+principle = "Expel Fire and Phlegm from the HT, Soothe the Shen"
+herbs = []
+
+
+["Phlegm Misting the Mind"]
+organ = "HT"
+etiology = [
+    "Constitution",
+    "Brain Damage",
+    "Greasy Food",
+    "Emotional Trauma or Prolonged Emotional Stress"
+]
+
+["Phlegm Misting the Mind".diagnosis]
+symptoms = [
+    "Mental Confusion",
+    "Incoherent Speech",
+    "Lack of Communication",
+    "Aphasia",
+    "Orifices Blockage - Tendency to be Unresponsive, Unconsciousness, Coma",
+    "Puking and Nausea"
+]
+key_symptoms = [
+]
+
+["Phlegm Misting the Mind".diagnosis.pulse]
+strength = "V+"
+quality = ["SLIPPERY"]
+
+["Phlegm Misting the Mind".diagnosis.tongue]
+coating_thickness = "THICK"
+body_shapes = ["MIDLINE CRACK"]
+moisture = "STICKY"
+region = "TIP"
+
+
+["Phlegm Misting the Mind".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+
+
+["Phlegm Misting the Mind".treatment]
+points = ["PC5", "ST40", "SP9", "CV9", "BL22", "CV12", "BL20", "GV20", "Si Shen Cong", "Yin Tang", "GV24", "HT9", "GV26", "CV17", "HT5", "GV15"]
+principle = "Expel Phlegm from the HT, Open the HT Orifices"
+herbs = ["Shi Chang Pu", "Yuan Zhi"]
+
+
+["HT Blood Stagnation"]
+organ = "HT"
+etiology = [
+    "HT Fire",
+    "HT Yang Collapse",
+    "HT Blood Xu",
+    "LIV Qi Stagnation"
+]
+
+["HT Blood Stagnation".diagnosis]
+symptoms = [
+    "Palpitation",
+    "Stabbing Chest Pain that may Radiate to the Left Arm or Shoulder",
+    "Chest Distress, or Upper Back Pain",
+    "Purple Lips and Nails",
+    "Cold Feeling",
+    "Cold Hands",
+    "Sometimes, Unconsciousness",
+    "For Women - Puking, Heartburn, Upper Back Pain, Dizziness and Weakness, Distress in the Lower Jaw"
+]
+
+key_symptoms = [
+]
+
+["HT Blood Stagnation".diagnosis.pulse]
+quality = ["IRREGULAR", "KNOTTED"]
+
+["HT Blood Stagnation".diagnosis.tongue]
+body_color = "PURPLE"
+
+
+["HT Blood Stagnation".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+
+
+["HT Blood Stagnation".treatment]
+points = ["HT9", "PC4", "PC9", "PC6", "CV17"]
+principle = "Refer to Acute Medicinal Treatment (Hospital)"
+herbs = ["Dan Shen"]

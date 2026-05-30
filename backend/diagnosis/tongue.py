@@ -24,6 +24,10 @@ class BodyShape(Enum):
     DEVIATED = "DEVIATED"
     SUNKEN = "SUNKEN"
     REGULAR = "REGULAR"
+    SHRUNKEN = "SHRUNKEN"
+    HEART_SHAPED = "HEART SHAPED"
+    RED_DOTS = "RED DOTS"
+    DRAGON = "DRAGON"
 
 
 class CoatingColor(Enum):
