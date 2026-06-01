@@ -21,6 +21,8 @@ class Strength(Enum):
     V = "V"
     FULL = "V+"
     WEAK = "V-"
+    VERY_WEAK = "V--"
+    VERY_FULL = "V++"
 
 
 class Quality(Enum):
