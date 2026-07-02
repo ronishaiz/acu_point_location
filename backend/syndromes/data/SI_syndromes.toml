@@ -1,0 +1,169 @@
+["SI Xu and Cold"]
+organ = "SI"
+comment = "Many times comes with SP Yang Xu, the difference between the two is the borborigmos"
+etiology = [
+    "Cold Nutrition"
+]
+
+["SI Xu and Cold".diagnosis]
+symptoms = [
+    "Diarrhea with Undigested Food (without smell)",
+    "Excessive, Bright Urination",
+    "Borborigmos",
+    "Abdominal Pain and Distention, Alleviated by Warmth and Touch",
+    "Cold Belly",
+    "Stomach Edema"
+]
+key_symptoms = [
+]
+
+["SI Xu and Cold".diagnosis.pulse]
+strength = "V-"
+depth = "DEEP"
+speed = "SLOW"
+positions = [
+    {yin_yang = "YANG", jiao = "LJ", left_right = "LEFT"},
+    {yin_yang = "YIN", jiao = "MJ", left_right = "RIGHT"},
+]
+
+
+["SI Xu and Cold".diagnosis.tongue]
+body_color = "PALE"
+moisture = "WET"
+coating_color = "WHITE"
+body_shapes = ["SWOLLEN"]
+
+["SI Xu and Cold".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+hot_cold = "COLD"
+yin_yang = "YANG-"
+
+["SI Xu and Cold".treatment]
+points = ["CV8", "CV4", "CV6", "ST25", "SP15", "ST36", "SP3", "ST36", "ST39", "BL20", "BL27", "SP2", "ST27", "ST28", "ST29", "GV4"]
+principle = "Strengthen and Heat SI and SP"
+acupuncture_techniques = ["MOXA"]
+
+["SI Qi Tied"]
+organ = "SI"
+comment = "Acute! Red Flag! Refer to ER. If the patient is back from the ER and they said everything is fine, treat as SI Qi Tied"
+etiology = [
+    "Worsening of SI Qi Pain",
+    "Cold Nutrition"
+]
+
+["SI Qi Tied".diagnosis]
+symptoms = [
+    "Severe Stomach Ache",
+    "Aversion from Touch",
+    "Vomiting or Nausea",
+    "Constipation",
+    "Without Passing Gas"
+]
+key_symptoms = [
+]
+
+["SI Qi Tied".diagnosis.pulse]
+quality = ["WIRY", "TENSE"]
+
+["SI Qi Tied".diagnosis.tongue]
+
+["SI Qi Tied".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+
+
+["SI Qi Tied".treatment]
+points = ["CV6", "GB34", "SP6", "CV4", "LIV3"]
+principle = "Refer to acute medical care. Move SI Qi and relieve pain"
+
+["SI Qi Pain"]
+organ = "SI"
+comment = "Always comes with LIV Qi STG. There is a chronic case and an acute case. The acute case is usual for babies."
+etiology = [
+    "LIV Qi Disturbs the SI and creates Stagnation of Qi and Fluids",
+    "Feelings like Anger and Frustration (which create LIV Qi Stagnation)",
+    "Cold Nutrition",
+    "Problem with SP function of Transforming and Transporting"
+]
+
+["SI Qi Pain".diagnosis]
+symptoms = [
+    "Lower Stomach Ache, Tense and Cramping",
+    "Aversion from Touch",
+    "Swollen Belly",
+    "Trapped Gas, Mostly without Smell, with Relief after Passing Gas",
+    "Lower Back Pressure or Testicle Pain",
+    "Goat Stool",
+    "Borborigmos"
+]
+key_symptoms = [
+]
+
+["SI Qi Pain".diagnosis.pulse]
+quality = ["WIRY", "TENSE"]
+
+["SI Qi Pain".diagnosis.tongue]
+body_color = "PURPLE"
+body_shapes = ["TEETH MARKS", "LIV HILLS", "ALLEVIATED BORDERS"]
+
+["SI Qi Pain".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL+EMPTY"
+
+
+["SI Qi Pain".treatment]
+points = ["CV6", "GB34", "LIV13", "ST27", "ST29", "SP6", "CV4", "LIV3", "ST39"]
+principle = "Move SI and LIV Qi, Strengthen SP if Weak"
+nutrition = ["Avoid Dairy", "Avoid Crucifers Plants (Like Broccoli, Cauliflower, Cabbage, etc.)", "Camomile Tea", "Fennel", "Caraway Seeds"]
+other_recommendations = ["Eat Calmly, Slowly", "Avoid Extreme Hunger", "Eat Fruit only on an Empty Stomach", "Massage with 2-3 Spoons of Eterial Oil"]
+
+["Full Heat in the SI"]
+organ = "SI"
+comment = "Always comes with HT Fire. The SI is Evacuating the Heat from the HT, and due to its Layer Connection to the BL, Heat Symptoms will Appear There. May see a Sterile BL Inflammation. Refer to Medical Care to see if Antibiotics are Required."
+etiology = [
+    "Prolonged Feelings (Anxiety, Excessive Happiness, Stress)",
+    "Spicy, Hot, Fried, Greasy Nutrition",
+    "Alcohol Consumption"
+]
+
+["Full Heat in the SI".diagnosis]
+symptoms = [
+    "Lesions on the Tongue",
+    "Fullness and Distress or Burning Sensation in the Chest Area",
+    "Thirst",
+    "Throat Pain",
+    "Sudden Deafness",
+    "Dark, Scant, Smelly Urine",
+    "Pain and Burn while Passing Urine",
+    "Pain or Distress in the Lower Abdomen",
+    "Bloody Urine",
+    "Stomach Ache"
+]
+key_symptoms = [
+]
+
+["Full Heat in the SI".diagnosis.pulse]
+quality = ["FLOODING", "WIRY"]
+speed = "RAPID"
+
+
+["Full Heat in the SI".diagnosis.tongue]
+body_color = "RED"
+coating_color = "YELLOW"
+coating_thickness = "THICK"
+moisture = "DRY"
+body_shapes = ["RED DOTS", "SWOLLEN TIP", "DRAGON"]
+
+
+["Full Heat in the SI".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+hot_cold = "HOT"
+yin_yang = "YANG+"
+
+["Full Heat in the SI".treatment]
+points = ["HT5", "HT8", "SI2", "SI7", "SI5", "ST39", "CV3", "CV4", "BL32", "BL28", "BL63", "BL66", "BL67", "SI19", "SI1", "CV14", "KID10", "PC8", "PC9", "HT9"]
+principle = "Clear Fire from the HT and the SI or BL"
+herbs = ["Dianthus"]
+nutrition = "D-Mannose"

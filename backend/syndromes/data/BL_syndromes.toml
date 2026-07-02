@@ -1,0 +1,141 @@
+["Urinary Bladder Xu and Cold"]
+organ = "BL"
+comment = "Always comes with KID Yang Xu, but here the main complain will be BL issues. In modern medicine it will be diagnosed as repeated sterile BL inflammation"
+etiology = [
+    "Prolonged Exposure to Cold",
+    "Exposure to Cold during the Period or shortly after Childbirth",
+    "Excessive Sexual Activity"
+]
+
+["Urinary Bladder Xu and Cold".diagnosis]
+symptoms = [
+    "Frequent, Urgent Urination",
+    "Urinary Incontinence",
+    "Sleep Urination",
+    "Lower Back Pain",
+    "Knee Pain",
+    "Lower Abdomen Pain",
+    "Bright Urine"
+]
+key_symptoms = [
+]
+
+["Urinary Bladder Xu and Cold".diagnosis.pulse]
+strength = "V-"
+depth = "DEEP"
+speed = "SLOW"
+
+
+["Urinary Bladder Xu and Cold".diagnosis.tongue]
+body_color = "PALE"
+moisture = "WET"
+body_shapes = ["SWOLLEN"]
+
+["Urinary Bladder Xu and Cold".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+hot_cold = "COLD"
+yin_yang = "YANG-"
+
+["Urinary Bladder Xu and Cold".treatment]
+points = ["BL23", "GV4", "BL28", "CV4", "CV3", "CV6", "CV8", "KID3", "KID7"]
+herbs = []
+nutrition = "Water with Parsley, Drink a lot, Cranberries"
+principle = "Strengthen and Heat BL and KID Yang"
+acupuncture_techniques = ["MOXA"]
+
+["Damp Cold in Urinary Bladder"]
+organ = "BL"
+comment = "BL Inflammation without Heat, Especially in Elderly Women, due to Decrease in Estrogen."
+etiology = [
+    "Exposure to External Pathogen - Cold or Damp",
+    "Seating on Cold Surfaces",
+    "Exposure of the Belly in Cold Weather (Tank Tops)"
+]
+
+["Damp Cold in Urinary Bladder".diagnosis]
+symptoms = [
+    "Frequent, Urgent Urination",
+    "Pain and Difficulty Passing Urine",
+    "Scant Urine",
+    "Bright, Turbid Urine",
+    "Pain or Fullness in the Bladder and or Lower Abdomen",
+    "Lack of Thirst",
+    "General Feeling of Cold"
+]
+key_symptoms = [
+]
+
+["Damp Cold in Urinary Bladder".diagnosis.pulse]
+quality = ["SLIPPERY", "WIRY"]
+speed = "SLOW"
+positions = [
+    {yin_yang = "YANG", jiao = "LJ", left_right = "RIGHT"},
+    {yin_yang = "YANG", jiao = "LJ", left_right = "LEFT"},
+    {yin_yang = "YIN", jiao = "LJ", left_right = "RIGHT"},
+    {yin_yang = "YIN", jiao = "LJ", left_right = "LEFT"},
+]
+
+["Damp Cold in Urinary Bladder".diagnosis.tongue]
+moisture = "STICKY"
+coating_thickness = "THICK"
+coating_color = "WHITE"
+
+["Damp Cold in Urinary Bladder".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+hot_cold = "COLD"
+
+
+["Damp Cold in Urinary Bladder".treatment]
+points = ["SP9", "CV9", "ST28", "KID10", "CV3", "CV4", "CV6", "BL22", "BL28"]
+principle = "Expel Damp and Cold, Heat the BL and Open the Water Passages at the LJ"
+acupuncture_techniques = ["MOXA"]
+
+["Damp Heat in the Urinary Bladder"]
+organ = "BL"
+etiology = [
+    "Excessive Sexual Activity (And Urination After Sex)",
+    "Climate - Hot, Damp, also Cold",
+    "Prolonged, Fierce Emotions of Jealousy and Suspicion",
+    "Poor Hygiene"
+]
+
+["Damp Heat in the Urinary Bladder".diagnosis]
+symptoms = [
+    "Frequent, Urgent Urination",
+    "Pain or Burn or Pulsing Sensation while Passing Urine",
+    "Difficulty Passing Urine",
+    "Uncontinuous Urinating",
+    "Dark, Smelly, Turbid, Scant Urine",
+    "Blood or Stones in Urine",
+    "Fever",
+    "Thirst without Desire to Drink",
+    "Low Abdomen Pain"
+]
+key_symptoms = [
+]
+
+["Damp Heat in the Urinary Bladder".diagnosis.pulse]
+quality = ["SLIPPERY", "WIRY"]
+speed = "RAPID"
+
+
+["Damp Heat in the Urinary Bladder".diagnosis.tongue]
+body_color = "RED"
+moisture = "STICKY"
+coating_thickness = "THICK"
+coating_color = "YELLOW"
+body_shapes = ["RED DOTS"]
+
+
+["Damp Heat in the Urinary Bladder".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+hot_cold = "HOT"
+yin_yang = "YANG+"
+
+["Damp Heat in the Urinary Bladder".treatment]
+points = ["SP9", "SP6", "CV3", "BL63", "BL66", "CV9", "BL67", "BL32", "BL28", "BL22", "ST28", "ST29", "LI11", "SI5", "SI7", "GB34", "HT7", "HT5"]
+principle = "Expel Damp and Heat, Open Water Passages at the LJ"
+nutrition = "D-Mannose, Water with a tablespoon of Sodium Bicarbonate, Sugarless Cranberries, Cornsilk, Coriander"

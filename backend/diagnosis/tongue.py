@@ -29,6 +29,9 @@ class BodyShape(Enum):
     RED_DOTS = "RED DOTS"
     DRAGON = "DRAGON"
     PATCHY = "PATCHY"
+    LIV_HILLS = "LIV HILLS"
+    ALLEVIATED_BORDERS = "ALLEVIATED BORDERS"
+    SWOLLEN_TIP = "SWOLLEN TIP"
 
 
 class CoatingColor(Enum):

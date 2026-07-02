@@ -26,8 +26,9 @@ class Treatment:
     _principle: str
     _points: List[Union[Point, str]] = None
     _acupuncture_techniques: List[AcupunctureTechnique] = None
-    _nutrition: List[str] = None
+    _nutrition: List[str] | str = None
     _herbs: List[Union[Herb, str]] = None
+    _other_recommendations: List[str] = None
 
     @property
     def points(self) -> List[Point]:
@@ -35,7 +36,9 @@ class Treatment:
 
     @property
     def nutrition(self) -> List[str]:
-        return self._nutrition or []
+        if not self._nutrition:
+            return []
+        return self._nutrition if isinstance(self._nutrition, list) else self._nutrition.split(', ')
 
     @property
     def herbs(self) -> List[Union[Herb, str]]:
@@ -46,6 +49,9 @@ class Treatment:
         return self._acupuncture_techniques or []
 
     @property
+    def other_recommendations(self) -> List[str]:
+        return self._other_recommendations or []
+    
     def principle(self) -> str:
         return self._principle
 
@@ -73,7 +79,8 @@ class Treatment:
             _points=points,
             _nutrition=d.get('nutrition', []),
             _herbs=herbs,
-            _acupuncture_techniques=acupuncture_techniques
+            _acupuncture_techniques=acupuncture_techniques,
+            _other_recommendations=d.get('other_recommendations', [])
         )
 
     @classmethod
@@ -187,6 +194,7 @@ class Syndrome(FlashCardObject):
     _diagnosis: Diagnosis
     _treatment: Treatment
     _etiology: List[str] = None
+    _comment: str = None
 
     @property
     def identifier(self):
@@ -211,6 +219,10 @@ class Syndrome(FlashCardObject):
     @property
     def etiology(self) -> List[str]:
         return self._etiology or []
+
+    @property
+    def comment(self) -> str:
+        return self._comment or ""
 
     @property
     def diagnosis_str(self) -> str:
@@ -316,7 +328,8 @@ class Syndrome(FlashCardObject):
             'organ': 'Organ',
             'etiology_str': 'Ethiology',
             'diagnosis_str': 'Diagnosis',
-            'treatment_str': 'Treatment'
+            'treatment_str': 'Treatment',
+            'comment': 'Comment'
         }
 
     @classmethod
@@ -326,7 +339,8 @@ class Syndrome(FlashCardObject):
             _organ=Organ(syndrome_dict['organ']),
             _diagnosis=Diagnosis.from_dict(syndrome_dict.get('diagnosis', {})),
             _treatment=Treatment.from_dict(syndrome_dict.get('treatment', {})),
-            _etiology=syndrome_dict.get('etiology', [])
+            _etiology=syndrome_dict.get('etiology', []),
+            _comment=syndrome_dict.get('comment', "")
         )
 
     @classmethod

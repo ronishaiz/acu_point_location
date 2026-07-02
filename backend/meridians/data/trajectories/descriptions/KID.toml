@@ -12,13 +12,13 @@ sections = [
     "Spine", "KID", "BL"
 ]
 
-[2]
+[3]
 inner = true
 sections = [
     "KID", "LIV", "LU", "HT", "CV17", "Throat", "Base of the tongue"
 ]
 
-[3]
+[4]
 inner = false
 sections = [
     "Lower abdomen, 0.5 cun lateral to the midline", "CV3, CV4", "Upper abdomen, 0.5 cun lateral to the midline",

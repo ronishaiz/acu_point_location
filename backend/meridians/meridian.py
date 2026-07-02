@@ -275,7 +275,7 @@ PC_MERIDIAN = ZangFuMeridian(_stage=Stage.jue_yin, _name=MeridianName.PC, _eleme
 
 TW_MERIDIAN = ZangFuMeridian(_stage=Stage.shao_yang, _name=MeridianName.TW, _element=Element.FIRE, _limb=Limb.HAND,
                              _yin_yang_partner_organ=Organ.PC, _stage_partner_organ=Organ.GB, _hours=(21, 23),
-                             _number_of_learned_points=23, _inner_organs_in_trajectory=[Organ.PC, Organ.TW],
+                             _number_of_learned_points=16, _inner_organs_in_trajectory=[Organ.PC, Organ.TW],
                              _key_areas_of_trajectory=["Posterior center of arm and dorsum of the hand", "Three burners, abdomen (inner trajectory)", "Posterior lateral shoulder", "Lateral neck", "Temporal region", "Ear", "Outer canthus of the eye"],
                              _number_of_inner_trajectories=3, _number_of_external_trajectories=2,
                              _points_from_other_meridians_on_trajectory=["GV14", "ST12", "CV17", "BL39", "GB21", "SI12"])
