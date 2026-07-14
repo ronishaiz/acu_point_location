@@ -1,0 +1,61 @@
+["Fu Zi"]
+western_name = "Aconiti Lateralis Radix Praeparata"
+flavors = ["SPICY"]
+temperature = "HOT"
+temperature_accent = ""
+herb_group = "INTERIOR_HEATERS"
+functions = [
+    "Saves collapsed Yang",
+    "Warms and opens the channels"
+]
+counter_indications = ["Heat Conditions", "Pregnancy"]
+use_with = ["Ren Shen", "Gui Zhi", "Gan Jiang", "Rou Gui"]
+affected_organs = ["SP", "KID", "HT"]
+focus_remark = "Toxic - forbidden. Strongest, instant blast and enduring fire"
+
+["Rou Gui"]
+western_name = "Cinnamomi Cortex"
+flavors = ["SPICY", "SWEET"]
+temperature = "HOT"
+temperature_accent = ""
+herb_group = "INTERIOR_HEATERS"
+functions = [
+    "Heats the KID and tonifies the Yang",
+    "Returns fire to its source (ming men, dan tian)",
+    "Warms and opens the channels",
+]
+counter_indications = ["Heat Conditions"]
+use_with = []
+affected_organs = ["SP", "LIV", "KID", "HT"]
+focus_remark = "Less strong than Fu Zi. Enduring fire only, no blast"
+
+["Gan Jiang"]
+western_name = "Zingiberis Rhizoma"
+flavors = ["SPICY"]
+temperature = "HOT"
+temperature_accent = ""
+herb_group = "INTERIOR_HEATERS"
+functions = [
+    "Warms and tonifies the MJ",
+    "Warms and expels cold phlegm from LU",
+    "Warms the channels and stops bleeding"
+]
+counter_indications = ["Heat Conditions"]
+affected_organs = ["SP", "ST", "LU", "HT"]
+use_with = []
+focus_remark = "Warms and tonifies SP Yang"
+
+["Wu Zhu Yu"]
+western_name = "Evodiae Fructus"
+flavors = ["SPICY", "BITTER"]
+temperature = "HOT"
+temperature_accent = ""
+herb_group = "INTERIOR_HEATERS"
+functions = [
+    "Warms ST, SP and LIV",
+    "Lesions on the mouth and tongue"
+]
+counter_indications = ["Empty Heat Conditions"]
+use_with = []
+affected_organs = ["ST", "SP", "LIV", "KID"]
+focus_remark = "Heats ST and LIV channel"

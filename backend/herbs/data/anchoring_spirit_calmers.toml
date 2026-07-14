@@ -1,0 +1,49 @@
+["Long Gu"]
+western_name = "Os Draconis"
+flavors = ["SWEET"]
+temperature = "MILD"
+temperature_accent = ""
+herb_group = "ANCHORING_SPIRIT_CALMERS"
+functions = [
+    "Calms the spirit",
+    "Calms the LIV",
+    "Absorbs fluids",
+    "Treats the skin"
+]
+counter_indications = ["Damp Heat", "Exterior Pathogen"]
+use_with = []
+affected_organs = ["HT", "KID", "LIV"]
+focus_remark = "Treats mostly full conditions, absorbs, but does not dissolve masses like Mu Li"
+
+["Mu Li"]
+western_name = "Ostreae Concha"
+flavors = ["SALTY"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "ANCHORING_SPIRIT_CALMERS"
+functions = [
+    "Calms the spirit",
+    "Feeds the Yin and downs Yang",
+    "Absorbs fluids",
+    "Dissolves masses"
+]
+counter_indications = ["Full Heat without Sweating"]
+use_with = ["Long Gu", "Qian Shi", "Xuan Shen", "Bie Jia", "Fu Xiao Mai"]
+affected_organs = ["KID", "LIV"]
+focus_remark = "Absorbs and dissolves masses (unlike Long Gu)"
+
+["Zu Sha"]
+western_name = "Cinnabaris"
+flavors = ["SWEET"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "ANCHORING_SPIRIT_CALMERS"
+functions = [
+    "Calms the spirit",
+    "Can be applied externally on the skin"
+]
+counter_indications = ["Weakness (especially in the SP)"]
+use_with = []
+affected_organs = ["HT"]
+focus_remark = "Phlegm Fire Mistying the Mind"
+

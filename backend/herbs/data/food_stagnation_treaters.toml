@@ -1,0 +1,43 @@
+["Shan Zha"]
+western_name = "Crataegi Fructus"
+flavors = ["SOUR", "SWEET"]
+temperature = "HOT"
+temperature_accent = "'--'"
+herb_group = "FOOD_STAGNATION_TREATERS"
+functions = [
+    "Promotes digestion and relieves food stagnation",
+    "Moves the blood and disperses stasis (and masses)",
+]
+counter_indications = ["Weakness", "Lack of food stagnation", "Acidic ST"]
+use_with = ["Chuan Xiong"]
+affected_organs = ["LIV", "SP", "ST"]
+focus_remark = "Food stagnation due to stagnation (full condition)"
+
+["Shen Qu"]
+western_name = "Massa Fermentata"
+flavors = ["SWEET", "SPICY"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "FOOD_STAGNATION_TREATERS"
+functions = [
+    "Promotes digestion and relieves food stagnation, harmonizes the ST",
+]
+counter_indications = ["Pregnancy", "ST Heat"]
+use_with = []
+affected_organs = ["SP", "ST"]
+focus_remark = "Food stagnation due to deficiency (empty condition)"
+
+["Lai Fu Zi"]
+western_name = "Raphani Semen"
+flavors = ["SPICY", "SWEET"]
+temperature = "MILD"
+temperature_accent = ""
+herb_group = "FOOD_STAGNATION_TREATERS"
+functions = [
+    "Promotes digestion and relieves food stagnation",
+    "Descends Qi and expels phlegm",
+]
+counter_indications = ["Qi Xu"]
+use_with = []
+affected_organs = ["SP", "ST", "LU"]
+focus_remark = "Food stagnation due to phlegm"

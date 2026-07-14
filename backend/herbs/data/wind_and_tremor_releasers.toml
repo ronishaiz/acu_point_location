@@ -1,0 +1,64 @@
+["Ling Yang Jiao"]
+western_name = "Cornu Saigae Tataricae"
+flavors = ["SALTY"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "WIND_AND_TREMOR_RELEASERS"
+functions = [
+    "Expels wind and stops spasms",
+    "Downs Yang or Liver Fire and clears the eyes",
+    "Clears heat and toxicity",
+    "Treats Bi Wind and Damp Heat",
+]
+counter_indications = []
+use_with = []
+affected_organs = ["LIV", "HT"]
+focus_remark = "Antilope horn, cold, for fire"
+
+["Gou Teng"]
+western_name = "Uncariae Ramulus cum Uncis"
+flavors = ["SWEET"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "WIND_AND_TREMOR_RELEASERS"
+functions = [
+    "Expels wind and stops spasms",
+    "Expels LIV Heat - LIV Fire or LIV Yang Rising",
+    "Releases exterior"
+]
+counter_indications = []
+use_with = ["Ling Yang Jiao"]
+affected_organs = ["LIV", "HT"]
+focus_remark = "Cool, for Yang Rising"
+
+["Tian Ma"]
+western_name = "Gastrodiae Rhizoma"
+flavors = ["SWEET"]
+temperature = "MILD"
+temperature_accent = ""
+herb_group = "WIND_AND_TREMOR_RELEASERS"
+functions = [
+    "Expels LIV Wind",
+    "Stops pain"
+]
+counter_indications = []
+use_with = ["Gou Teng", "Ban Xia"]
+affected_organs = ["LIV"]
+focus_remark = "Neutral for wind"
+
+["Di Long"]
+western_name = "Pheretima"
+flavors = ["SALTY"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "WIND_AND_TREMOR_RELEASERS"
+functions = [
+    "Clears heat and stops spasms",
+    "Opens the channels",
+    "Stops wheezing and asthma",
+    "Promotes urination"
+]
+counter_indications = []
+use_with = []
+affected_organs = ["LIV", "LU", "BL", "SP"]
+focus_remark = "Expels wind especially from the channels (post cva)"

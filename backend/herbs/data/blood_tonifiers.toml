@@ -1,0 +1,66 @@
+["Shu Di Huang"]
+western_name = "Rehmanniae Radix Preparata"
+flavors = ["SWEET"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "BLOOD_TONIFIERS"
+functions = [
+    "Nourishes and tonifies the Blood",
+    "Supports Yin and essence",
+    "Feeds the Jing"
+]
+counter_indications = ["SP-ST Weakness with Stagnation and Dampness"]
+use_with = ["Bai Shao", "Dang Gui"]
+affected_organs = ["HT", "KID", "LIV"]
+focus_remark = "Best for tonifying both Blood and Yin"
+
+["Dang Gui"]
+western_name = "Angelica Sinensis"
+flavors = ["SWEET", "SPICY", "BITTER"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "BLOOD_TONIFIERS"
+functions = [
+    "Tonifies the blood and regulates the menstruation",
+    "Moves the blood",
+    "Moistens the intestines and unblocks the bowels (dry constipation due to Blood deficiency)",
+]
+counter_indications = ["Dampness and Diarrhea", "Empty Heat with Yin deficiency"]
+use_with = ["Huang Qi", "Bai Shao", "Shu Di Huang", "Gui Zhi"]
+affected_organs = ["HT", "LIV", "SP"]
+focus_remark = "Moves and tonifies the blood - The spicy one in comparison to Bai Shao"
+
+["Bai Shao"]
+western_name = "Paeoniae Radix Alba"
+flavors = ["BITTER", "SOUR"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "BLOOD_TONIFIERS"
+functions = [
+    "Nourishes the Blood and regulates menstruation",
+    "Calms the Liver and relieves pain",
+    "Preserves the Yin and adjusts the Ying and Wei"
+]
+counter_indications = ["Qi Xu with Cold and Diarrhea"]
+affected_organs = ["SP", "LIV"]
+use_with = ["Gui Zhi", "Zhi Gan Cao", "Chai Hu", "Shu Di Huang", "Dang Gui"]
+focus_remark = "Nourishes the Blood, moves blood, and calms the Liver - The sour one in comparison to Dang Gui"
+
+["He Shou Wu"]
+western_name = "Polygonum Multiflorum Radix"
+flavors = ["BITTER", "SWEET"]
+temperature = "HOT"
+temperature_accent = "'--'"
+herb_group = "BLOOD_TONIFIERS"
+functions = [
+    "Tonifies the Liver and Kidney Yin and Bladder",
+    "Absorbs KID Jing",
+    "Dispels wind, fire and toxins from the skin",
+    "Treats chronic Malaria",
+    "Treats the hair and scalp",
+    "Moistens and moves the intestines"
+]
+counter_indications = ["SP Weakness with Diarrhea"]
+use_with = []
+affected_organs = ["LIV", "KID"]
+focus_remark = "Nourishes blood in skin and hair"

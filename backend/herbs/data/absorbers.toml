@@ -1,0 +1,81 @@
+["Shan Zhu Yu"]
+western_name = "Corni Fructus"
+flavors = ["SOUR", "SWEET"]
+temperature = "HOT"
+temperature_accent = "'--'"
+herb_group = "ABSORBERS"
+functions = [
+    "Absorbs Jing and the menstruation",
+    "Helps the Yang - in cases of collapse with sweating",
+    "Good for KID and LIV deficiency",
+]
+counter_indications = []
+use_with = ["Shu Di Huang", "Shan Yao"]
+affected_organs = ["LIV", "KID"]
+focus_remark = "Absorbs KID"
+
+["Wu Wei Zi"]
+western_name = "Schisandrae Fructus"
+flavors = ["SOUR"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "ABSORBERS"
+functions = [
+    "Absorbs the LU",
+    "Absorbs and nourishes the KID",
+    "Nourishes and calms the HT and spirit",
+]
+counter_indications = ["Exterior Pathogen", "Full Internal Heat"]
+use_with = ["Ren Shen", "Main Men Dong", "Sheng Di Huang"]
+affected_organs = ["LU", "KID", "HT"]
+focus_remark = "Absorbs all the world and its wife (LU, KID, HT)"
+
+["Wu Mei"]
+western_name = "Mume Fructus"
+flavors = ["SOUR"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "ABSORBERS"
+functions = [
+    "Absorbs the LU",
+    "Absorbs the intestines and stops diarrhea",
+    "Stops bleeding",
+    "Kills parasites and worms",
+    "Feeds fluids"
+]
+counter_indications = ["Exterior Pathogen", "Full Internal Heat", "Stagnation"]
+use_with = ["Ren Shen", "He Zi", "Bing Lang", "Mai Men Dong"]
+affected_organs = ["LU", "LI", "LIV", "SP"]
+focus_remark = "Absorbs, feeds fluids and kills parasites"
+
+["Qian Shi"]
+western_name = "Euryales Semen"
+flavors = ["SWEET"]
+temperature = "MILD"
+temperature_accent = ""
+herb_group = "ABSORBERS"
+functions = [
+    "Absorbs the SP, KID and Jing",
+    "Dispels dampness",
+    "Stops diarrhea"
+]
+counter_indications = []
+use_with = []
+affected_organs = ["SP", "KID"]
+focus_remark = "Absorbs and dispels dampness and discharge"
+
+["Sang Piao Xiao"]
+western_name = "Mantidis Ootheca"
+flavors = ["SWEET", "SALTY"]
+temperature = "MILD"
+temperature_accent = ""
+herb_group = "ABSORBERS"
+functions = [
+    "Absorbs the KID and Jing",
+    "Absorbs urine to stop incontinence",
+]
+counter_indications = ["Yin Xu with Heat", "Heat and Dampness"]
+use_with = []
+affected_organs = ["KID", "LIV"]
+focus_remark = "Absorbs especially urine"
+

@@ -1,0 +1,95 @@
+["Lu Rong"]
+western_name = "Cervi Cornu Pantotrichum"
+flavors = ["SWEET", "SALTY"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "YANG_TONIFIERS"
+functions = [
+    "Tonifies KID Yang",
+    "Warms the womb and controls the Chong and Ren Mai",
+    "Tonifies the Jing and blood",
+]
+counter_indications = ["Heat Conditions"]
+use_with = []
+affected_organs = ["KID", "LIV"]
+focus_remark = "Strongest Yang tonifier, horn, forbidden for use"
+
+["Bu Gu Zhi"]
+western_name = "Psoraleae Fructus"
+flavors = ["SPICY", "BITTER"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "YANG_TONIFIERS"
+functions = [
+    "Tonifies KID Yang, maintains Jing and urine",
+    "Strengthens the SP Yang",
+    "Helps KID grasp the LU Qi"
+]
+counter_indications = ["Heat Conditions", "Constipation"]
+use_with = []
+affected_organs = ["KID", "SP"]
+focus_remark = "Helps KID Yang grasp LU Qi"
+
+["Du Zhong"]
+western_name = "Eucommiae Cortex"
+flavors = ["SWEET", "SPICY"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "YANG_TONIFIERS"
+functions = [
+    "Tonifies KID Yang",
+    "Moves BL Qi",
+    "Calms the womb and prevents miscarriage",
+]
+counter_indications = ["Heat Conditions"]
+affected_organs = ["LIV", "KID"]
+use_with = []
+focus_remark = "Calms the womb and treats LBP"
+
+["Tu Si Zi"]
+western_name = "Cuscutae Semen"
+flavors = ["SPICY", "SWEET"]
+temperature = "MILD"
+temperature_accent = ""
+herb_group = "YANG_TONIFIERS"
+functions = [
+    "Tonifies KID Yang and Yin",
+    "Tonifies SP Yang",
+    "Tonifies LIV Yin",
+    "Calms the fetus and prevents miscarriage",
+]
+counter_indications = ["Heat Conditions"]
+use_with = []
+affected_organs = ["LIV", "KID"]
+focus_remark = "כלבויניק, KID, SP and LIV, fetus"
+
+["Rou Cong Rong"]
+western_name = "Cistanches Herba"
+flavors = ["SWEET", "SALTY"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "YANG_TONIFIERS"
+functions = [
+    "Strengthens and warms KID Yang",
+    "Heats and moistens the Intestines and unblocks the bowels",
+]
+counter_indications = ["Diarrhea", "Heat Conditions"]
+use_with = []
+affected_organs = ["KID", "LI"]
+focus_remark = "Old man's constipation"
+
+["Yin Yang Hou"]
+western_name = "Epimedii Herba"
+flavors = ["SPICY", "SWEET"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "YANG_TONIFIERS"
+functions = [
+    "Tonifies KID Yang",
+    "Treats Bi Syndrome - Wind and Dampness",
+    "Strengthens Yin and disrupts Yang from rising"
+]
+counter_indications = ["Empty Heat Conditions"]
+use_with = []
+affected_organs = ["KID", "LIV"]
+focus_remark = "Impotence"

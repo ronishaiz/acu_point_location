@@ -1,0 +1,106 @@
+["Mai Men Dong"]
+western_name = "Ophiopogonis Radix"
+flavors = ["SWEET", "BITTER"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "YIN_TONIFIERS"
+functions = [
+    "Nourishes the LU, ST and HT Yin",
+    "Moistens the intestines and unblocks the bowels",
+]
+counter_indications = ["Cold diarrhea"]
+use_with = ["Sha Shen", "Ren Shen", "Sheng Di Huang"]
+affected_organs = ["ST", "LU", "HT"]
+focus_remark = "for ST, LU and HT yin. Strong enough to affect the HT (in comparison to Sha Shen)"
+
+["Sha Shen"]
+western_name = "Glehniae Radix"
+flavors = ["SWEET", "BITTER", "BLAND"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "YIN_TONIFIERS"
+functions = [
+    "Moistens the LU and stops cough",
+    "Nourishes and moistens the ST, creates fluids and clears heat"
+]
+counter_indications = ["SP Qi sinking with Cold"]
+use_with = ["Chuan Bei Mu", "Mai Men Dong"]
+affected_organs = ["ST", "LU"]
+focus_remark = "Tonifies ST and LU yin only - not the HT (in comparison to Mai Men Dong)"
+
+["Gui Ban"]
+western_name = "Plastrum Testudinis"
+flavors = ["SALTY", "SWEET"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "YIN_TONIFIERS"
+functions = [
+    "Nourishes the LIV and KID Yin and downs Yang",
+    "Nourishes the blood and strengthens the HT (the blood tonification may induce healing of wounds)",
+    "Cools blood and stops bleeding"
+]
+counter_indications = ["Dampness", "Weakness and Coldness in the MJ", "Pregnancy"]
+affected_organs = ["LIV", "KID", "HT"]
+use_with = []
+focus_remark = "A tortoise shell, forbidden. Cools the blood"
+
+["Bie Jia"]
+western_name = "Trionycis Carapax"
+flavors = ["SALTY"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "YIN_TONIFIERS"
+functions = [
+    "Feeds yin and downs yang",
+    "Moves the blood and disperses masses",
+]
+counter_indications = ["Cold and Weakness", "Pregnancy", "Exterior Pathogen"]
+use_with = ["Qing Hao"]
+affected_organs = ["LIV", "SP"]
+focus_remark = "Tortoise shell, forbidden. Disperses masses"
+
+["Gou Qi Zi"]
+western_name = "Fructus Lycii"
+flavors = ["SWEET"]
+temperature = "MILD"
+temperature_accent = ""
+herb_group = "YIN_TONIFIERS"
+functions = [
+    "Tonifies KID, LIV and LU Yin",
+    "Improves vision and Jing",
+    "Treats cough due to LU Yin deficiency",
+]
+counter_indications = ["Exterior Pathogen", "Dampness", "SP Weakness"]
+use_with = ["Ju Hua"]
+affected_organs = ["KID", "LIV", "LU"]
+focus_remark = "Strengthens Yin, good for eyes"
+
+["Sang Ji Sheng"]
+western_name = "Taxilli Herba"
+flavors = ["BITTER"]
+temperature = "MILD"
+temperature_accent = ""
+herb_group = "YIN_TONIFIERS"
+functions = [
+    "Tonifies LIV and KID Yin",
+    "Calms the womb and prevents miscarriage",
+]
+counter_indications = []
+use_with = ["Du Huo"]
+affected_organs = ["KID", "LIV"]
+focus_remark = "Calms the womb and orthopedic"
+
+
+["Nu Zhen Zi"]
+western_name = "Ligustri Lucidi Fructus"
+flavors = ["BITTER", "SWEET"]
+temperature = "MILD"
+temperature_accent = ""
+herb_group = "YIN_TONIFIERS"
+functions = [
+    "Tonifies LIV and KID Yin",
+]
+counter_indications = ["SP-ST Weakness with diarrhea and Yang Xu"]
+use_with = []
+affected_organs = ["KID", "LIV"]
+focus_remark = "Gynecological"

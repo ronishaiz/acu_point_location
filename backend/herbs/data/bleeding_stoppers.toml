@@ -1,0 +1,74 @@
+["Ce Bai Ye"]
+western_name = "Cacumen Biotae Orientalis"
+flavors = ["BITTER"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "BLEEDING_STOPPERS"
+functions = [
+    "Cools blood to stop bleeding",
+    "Stops cough and expels phlegm heat",
+    "Encourages healing of burns",
+    "Absorbs"
+]
+counter_indications = []
+use_with = ["Sheng Di Huang", "Gan Jiang"]
+affected_organs = ["LIV", "HT", "LI"]
+focus_remark = "Stops bleeding by cooling the blood"
+
+["Di Yu"]
+western_name = "Sanguisorba Officinalis"
+flavors = ["BITTER", "SOUR"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "BLEEDING_STOPPERS"
+functions = [
+    "Cools blood to stop bleeding",
+    "Clears heat and encourages healing of wounds"
+]
+counter_indications = ["Cold and Weakness"]
+use_with = []
+affected_organs = ["LIV", "LI", "ST"]
+focus_remark = "Stops bleeding by cooling the blood, in the LI"
+
+["San Qi"]
+western_name = "Notoginseng Radix"
+flavors = ["SWEET", "BITTER"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "BLEEDING_STOPPERS"
+functions = [
+    "Stops bleeding and transforms blood stasis"
+]
+counter_indications = ["Pregnancy", "Lack of blood stasis"]
+use_with = []
+affected_organs = ["LIV", "ST", "LI"]
+focus_remark = "Stops bleeding by moving blood, also for external appliance"
+
+["Pu Huang"]
+western_name = "Typhae Pollen"
+flavors = ["SWEET", "SPICY"]
+temperature = "MILD"
+temperature_accent = ""
+herb_group = "BLEEDING_STOPPERS"
+functions = [
+    "Stops bleeding and transforms blood stasis"
+]
+counter_indications = ["Pregnancy"]
+use_with = ["Wu Ling Zhi", "Xiao Ji", "Pao Jiang"]
+affected_organs = ["LIV", "HT", "SP"]
+focus_remark = "Stops bleeding by moving blood"
+
+["Ai Ye"]
+western_name = "Artemisiae Argyi Folium"
+flavors = ["BITTER", "SPICY"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "BLEEDING_STOPPERS"
+functions = [
+    "Stops bleeding and warms the womb",
+    "Calms the fetus"
+]
+counter_indications = ["Heat Conditions"]
+use_with = ["E Jiao", "Pao Jiang"]
+affected_organs = ["LIV", "SP", "KID"]
+focus_remark = "Stops bleeding by warmth"

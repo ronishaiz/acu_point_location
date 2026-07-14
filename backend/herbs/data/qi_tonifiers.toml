@@ -1,0 +1,99 @@
+["Ren Shen"]
+western_name = "Ginseng Radix"
+flavors = ["SWEET", "BITTER"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "QI_TONIFIERS"
+functions = [
+    "Tonifies the Qi",
+    "Strengthens the Spleen and Lung",
+    "Generates fluids and stops thirst",
+    "Calms the spirit and nourishes HT Qi"
+]
+counter_indications = ["Heat Conditions (High Blood Pressure)"]
+use_with = ["Fu Zi", "Bai Zhu", "Long Yan Rou", "Zhi Gan Cao", "Gui Zhi"]
+affected_organs = ["SP", "LU"]
+focus_remark = "Best for tonifying Qi, from KID to HT"
+
+["Dang Shen"]
+western_name = "Radix Codonopsis"
+flavors = ["SWEET"]
+temperature = "MILD"
+temperature_accent = ""
+herb_group = "QI_TONIFIERS"
+functions = [
+    "Tonifies SP and LU Qi",
+    "Tonifies Qi and creates fluids"
+]
+counter_indications = []
+use_with = ["Fu Zi", "Bai Zhu", "Long Yan Rou", "Zhi Gan Cao", "Gui Zhi"]
+affected_organs = ["SP", "LU"]
+focus_remark = "Tonifies SP (only SP) and LU - not as strong as Ren Shen"
+
+["Huang Qi"]
+western_name = "Radix Astragali"
+flavors = ["SWEET"]
+temperature = "HOT"
+temperature_accent = "'--'"
+herb_group = "QI_TONIFIERS"
+functions = [
+    "Tonifies the Spleen Qi",
+    "Raises Yang Qi",
+    "Tonifies the LU and Wei Qi",
+    "Promotes urination and reduces edema",
+    "Promotes tissue regeneration and healing of wounds (and discharge of pus)",
+    "Encourages Qi flow"
+]
+counter_indications = ["Exterior Pathogen", "Yin Deficiency with Heat", "Dampness Stagnation", "Skin Infections"]
+affected_organs = ["SP", "LU"]
+use_with = ["Ren Shen", "Chai Hu", "Bai Zhu", "Fang Feng", "Fang Ji", "Dang Gui", "Sheng Ma"]
+focus_remark = "Tonifies Qi with emphasis on the LU"
+
+["Shan Yao"]
+western_name = "Dioscorea Opposita Rhizoma"
+flavors = ["SWEET"]
+temperature = "MILD"
+temperature_accent = ""
+herb_group = "QI_TONIFIERS"
+functions = [
+    "Tonifies the Spleen and LU",
+    "Tonifies the Kidney Qi and absorbs Yin"
+]
+counter_indications = ["Dampness"]
+use_with = ["Dang Shen", "Bai Zhu", "Fu Ling"]
+affected_organs = ["SP", "LU", "KID"]
+focus_remark = "Tonifies and absorbs"
+
+["Bai Zhu"]
+western_name = "Atractylodis Macrocephalae Rhizoma"
+flavors = ["BITTER", "SWEET"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "QI_TONIFIERS"
+functions = [
+    "Tonifies the Spleen Qi - Calms the fetus, nourishes Wei Qi and dries Dampness",
+]
+counter_indications = ["Yin Deficiency with Heat or Dryness"]
+use_with = ["Ren Shen", "Fu Ling", "Fang Feng", "Huang Qi", "Huang Qin", "Cang Zhu"]
+affected_organs = ["SP", "ST"]
+focus_remark = "Tonifies and gets rid of dampness"
+
+["Gan Cao"]
+western_name = "Glycyrrhizae Radix"
+flavors = ["SWEET"]
+temperature = "MILD"
+temperature_accent = ""
+herb_group = "QI_TONIFIERS"
+functions = [
+    "Tonifies the Spleen Qi",
+    "Moistens the LU and stops cough",
+    "Clears heat and resolves fire toxicity",
+    "Moderates and harmonizes the characteristics of other herbs",
+    "Relieves spasms and pain",
+    "Enters all 12 meridians and is used for many conditions"
+]
+counter_indications = ["Significant Dampness"]
+use_with = ["Ren Shen", "Gui Zhi", "Jin Yin Hua", "Pu Gong Ying", "Bai Shao"]
+affected_organs = ["SP", "LU", "HT"]
+focus_remark = "Harmonizes and balances flavors, the ultimate butler"
+

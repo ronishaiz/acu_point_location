@@ -1,0 +1,47 @@
+["Suan Zao Ren"]
+western_name = "Ziziphi Spinosae Semen"
+flavors = ["SOUR", "SWEET"]
+temperature = "MILD"
+temperature_accent = ""
+herb_group = "TONIFYING_SPIRIT_CALMERS"
+functions = [
+    "Feeds HT Yin and LIV Blood to calm the spirit",
+    "Absorbs sweat"
+]
+counter_indications = ["Diarrhea", "Full Heat", "Exterior Pathogen"]
+use_with = []
+affected_organs = ["LIV", "GB", "HT", "SP"]
+focus_remark = "Treats also the LIV significantly"
+
+["Bai Zi Ren"]
+western_name = "Platycladi Semen Orientalis"
+flavors = ["SWEET"]
+temperature = "MILD"
+temperature_accent = ""
+herb_group = "TONIFYING_SPIRIT_CALMERS"
+functions = [
+    "Nourishes the HT and calms the spirit",
+    "Moistens and unblocks the intestines",
+    "Treats night sweats due to Yin Xu"
+]
+counter_indications = ["Diarrhea or Soft Stool due to SP Xu", "Phlegm Conditions"]
+use_with = []
+affected_organs = ["HT", "KID", "LI"]
+focus_remark = "Moistens the intestines"
+
+["Yuan Zhi"]
+western_name = "Polygalae Radix"
+flavors = ["BITTER", "SPICY"]
+temperature = "HOT"
+temperature_accent = "'--'"
+herb_group = "TONIFYING_SPIRIT_CALMERS"
+functions = [
+    "Nourishes the HT and calms the spirit",
+    "Expels phlegm and opens the orifices",
+    "Expels phlegm from the LU and stops cough",
+    "Can apply externally on the skin",
+]
+counter_indications = ["Yin Xu with Heat", "Gastritis", "Ulcer"]
+use_with = ["Suan Zao Ren", "Shi Chang Pu"]
+affected_organs = ["HT", "LU"]
+focus_remark = "Motivation - expels dampness and fear"

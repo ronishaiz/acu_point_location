@@ -1,0 +1,120 @@
+["Chuan Xiong"]
+western_name = "Chuanxiong Rhizoma"
+flavors = ["SPICY"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "BLOOD_MOVERS"
+functions = [
+    "Moves blood and Qi",
+    "Expels wind",
+]
+counter_indications = ["Yin Xu with Heat that Rises"]
+use_with = ["Chai Hu", "Dang Gui", "Qiang Huo", "Yi Mu Cao"]
+affected_organs = ["LIV", "GB", "PC"]
+focus_remark = "Moves blood and expels wind"
+
+["Dan Shen"]
+western_name = "Salviae Miltiorrhizae Radix"
+flavors = ["BITTER"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "BLOOD_MOVERS"
+functions = [
+    "Moves blood and stops pain",
+    "Clears heat and calms the Shen",
+    "Does well with the chest area (pain, distress)"
+]
+counter_indications = ["No blood stagnation"]
+use_with = ["Tan Xiang", "Dang Gui", "Suan Zo Ren"]
+affected_organs = ["HT", "LIV", "PC"]
+focus_remark = "Moves blood and cools - especially in the chest area"
+
+["Niu Xi"]
+western_name = "Achyranthis Bidentatae Radix"
+flavors = ["BITTER", "SOUR"]
+temperature = "MILD"
+temperature_accent = ""
+herb_group = "BLOOD_MOVERS"
+functions = [
+    "Moves blood and strengthens the sinews and bones",
+    "Guides blood downward",
+    "Clears damp-heat in the LJ"
+]
+counter_indications = ["Pregnancy", "Much Blood in Period", "SP Xu"]
+use_with = ["Dang Gui", "Sang Ji Sheng", "Huang Bai", "Jin Qian Cao"]
+affected_organs = ["LIV", "KID"]
+focus_remark = "Moves blood, down and downward"
+
+["Yan Hu Suo"]
+western_name = "Corydalis Rhizoma"
+flavors = ["BITTER", "SPICY"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "BLOOD_MOVERS"
+functions = [
+    "Moves blood and stops pain",
+    "Moves Qi"
+]
+counter_indications = ["Pregnancy"]
+use_with = ["Chuan Lian Zi"]
+affected_organs = ["LIV", "HT", "LU", "ST"]
+focus_remark = "Strongest of the moderate blood movers"
+
+["Yu Jin"]
+western_name = "Curcumae Radix"
+flavors = ["SPICY", "BITTER"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "BLOOD_MOVERS"
+functions = [
+    "Moves blood and Qi and stops pain",
+    "Clears heat from the HT and cools the blood",
+]
+counter_indications = ["Pregnancy"]
+use_with = []
+affected_organs = ["LIV", "HT", "LU"]
+focus_remark = "Moves blood - LIV Depression"
+
+["Tao Ren"]
+western_name = "Persicae Semen"
+flavors = ["BITTER", "SWEET"]
+temperature = "MILD"
+temperature_accent = ""
+herb_group = "BLOOD_MOVERS"
+functions = [
+    "Moves blood",
+    "Moistens the intestines and unblocks the bowels",
+]
+counter_indications = ["Pregnancy"]
+use_with = ["Hong Hua", "Da Huang", "Huo Ma Ren", "Dong Gua Ren"]
+affected_organs = ["LIV", "LI", "HT", "LU"]
+focus_remark = "Moves blood and moistens the intestines"
+
+["Hong Hua"]
+western_name = "Carthami Flos"
+flavors = ["SPICY"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "BLOOD_MOVERS"
+functions = [
+    "Moves blood and treats the skin",
+]
+counter_indications = ["Pregnancy"]
+use_with = ["Tao Ren"]
+affected_organs = ["LIV", "HT"]
+focus_remark = "Moves blood and treats the skin"
+
+["Yi Mu Cao"]
+western_name = "Leonuri Herba"
+flavors = ["BITTER"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "BLOOD_MOVERS"
+functions = [
+    "Moves blood and regulates menstruation",
+    "Urinates",
+]
+counter_indications = ["Pregnancy"]
+use_with = []
+affected_organs = ["LIV", "HT", "BL"]
+focus_remark = "Gynecological herb - for before and after (childbirth)"

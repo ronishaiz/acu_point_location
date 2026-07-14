@@ -1,0 +1,119 @@
+["Chen Pi"]
+western_name = "Citri Reticulatae Pericarpium"
+flavors = ["SPICY", "BITTER", "AROMATIC"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "QI_MOVERS"
+functions = [
+    "Moves Qi in the MJ",
+    "Dries dampness and transforms phlegm",
+    "Tonifies the SP"
+]
+counter_indications = ["Heat Conditions", "Yin or Qi Xu"]
+use_with = []
+affected_organs = ["LU", "SP", "ST"]
+focus_remark = "Moves Qi + Bonuses: dries dampness and supports SP"
+
+["Qing Pi"]
+western_name = "Citri Reticulatae Viride Pericarpium"
+flavors = ["SPICY", "BITTER"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "QI_MOVERS"
+functions = [
+    "Spreads Liver and ST Qi",
+    "Dries dampness and transforms phlegm"
+]
+counter_indications = ["Qi Xu", "Lack of Qi Stagnation"]
+use_with = []
+affected_organs = ["GB", "LIV", "ST"]
+focus_remark = "Moves Qi stronger than Chen Pi but without bonuses"
+
+["Zhi Shi"]
+western_name = "Aurantii Fructus Immaturus"
+flavors = ["BITTER", "SPICY"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "QI_MOVERS"
+functions = [
+    "Moves Qi Strongly, especially downwards"
+]
+counter_indications = ["Pregnancy", "Qi Xu and Cold", "Lack of Qi Stagnation"]
+affected_organs = ["LI", "SP", "ST"]
+use_with = []
+focus_remark = "Moves Qi, stronger than Zhi Ke"
+
+["Zhi Ke"]
+western_name = "Aurantii Fructus"
+flavors = ["BITTER", "SPICY"]
+temperature = "COLD"
+temperature_accent = "'-'"
+herb_group = "QI_MOVERS"
+functions = [
+    "Moves Qi, especially downwards"
+]
+counter_indications = ["Pregnancy", "Qi Xu and Cold", "Lack of Qi Stagnation"]
+affected_organs = ["SP", "ST"]
+use_with = []
+focus_remark = "Moves Qi, weaker than Zhi Shi"
+
+["Xiang Fu"]
+western_name = "Cyperi Rhizoma"
+flavors = ["SPICY", "BITTER", "SWEET"]
+temperature = "MILD"
+temperature_accent = ""
+herb_group = "QI_MOVERS"
+functions = [
+    "Spreads Liver Qi",
+]
+counter_indications = ["Weakness", "Lack of Qi Stagnation", "Yin Xu"]
+use_with = []
+affected_organs = ["LIV", "TW"]
+focus_remark = "LIV QI STG"
+
+["Mu Xiang"]
+western_name = "Aucklandiae Radix"
+flavors = ["BITTER", "SPICY"]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "QI_MOVERS"
+functions = [
+    "Moves Qi in the MJ",
+    "Moves LIV Qi",
+    "Strengthens the SP"
+]
+counter_indications = ["Yin Xu"]
+use_with = []
+affected_organs = ["GB", "LI", "SP", "ST"]
+focus_remark = "Tenesmus"
+
+["Wu Yao"]
+western_name = "Linderae Radix"
+flavors = ["SPICY",]
+temperature = "HOT"
+temperature_accent = "'-'"
+herb_group = "QI_MOVERS"
+functions = [
+    "Moves Qi and stops pain",
+    "Warms KID and BL"
+]
+counter_indications = ["Qi Xu and Heat"]
+use_with = ["Yi Zhi Ren", "Xiang Fu"]
+affected_organs = ["KID", "LIV"]
+focus_remark = "Moves and warms the BL"
+
+["Chuan Lian Zi"]
+western_name = "Toosendan Fructus"
+flavors = ["BITTER"]
+temperature = "COLD"
+temperature_accent = ""
+herb_group = "QI_MOVERS"
+functions = [
+    "Spreads Liver Qi",
+    "Dispels heat and dampness",
+    "Kills parasites and stops pain"
+]
+counter_indications = ["Cold and Weakness"]
+use_with = []
+affected_organs = ["BL", "SI", "LIV", "ST"]
+focus_remark = "Moves and cools the LIV"
