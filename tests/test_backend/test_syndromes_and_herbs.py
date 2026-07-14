@@ -117,6 +117,18 @@ class TestSyndromesAndHerbs(unittest.TestCase):
                 except Exception as e:
                     self.fail(f"Error accessing properties of syndrome '{syndrome.name}': {str(e)}")
 
+    def test_syndrome_treatment_principle_is_renderable_text(self):
+        """Regression test: treatment principle must be text, not a bound method repr."""
+        if not IMPORTS_SUCCESSFUL:
+            self.skipTest(f"Cannot test treatment rendering - imports failed: {IMPORT_ERROR}")
+
+        syndrome_with_principle = next((s for s in ALL_SYNDROMES if s.treatment.principle), None)
+        self.assertIsNotNone(syndrome_with_principle, "Expected at least one syndrome with treatment principle")
+
+        treatment_line = syndrome_with_principle.treatment_str.split('\n')[0]
+        self.assertIn("Principle:", treatment_line)
+        self.assertNotIn("bound method", treatment_line)
+
     def test_herbs_have_valid_structure(self):
         """Test that all loaded herbs have valid structure and can access their properties."""
         if not IMPORTS_SUCCESSFUL:

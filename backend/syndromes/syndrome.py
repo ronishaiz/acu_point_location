@@ -51,7 +51,8 @@ class Treatment:
     @property
     def other_recommendations(self) -> List[str]:
         return self._other_recommendations or []
-    
+
+    @property
     def principle(self) -> str:
         return self._principle
 
