@@ -22,45 +22,67 @@ if 'herb_practice_score' not in st.session_state:
     st.session_state.herb_practice_score = {'correct': 0, 'total': 0}
 if 'herb_practice_answered' not in st.session_state:
     st.session_state.herb_practice_answered = False
-if 'herb_practice_group_labels' not in st.session_state:
+if 'herb_practice_group_values' not in st.session_state:
     all_group_options = get_herb_group_options()
-    st.session_state.herb_practice_group_labels = [opt['label'] for opt in all_group_options]
+    st.session_state.herb_practice_group_values = [opt['value'] for opt in all_group_options]
 
 # Herb group selection
 st.subheader("Herb Group Filter")
 group_options = get_herb_group_options()
-group_labels = [opt['label'] for opt in group_options]
-label_to_value = {opt['label']: opt['value'] for opt in group_options}
 value_to_label = {opt['value']: opt['label'] for opt in group_options}
+
+
+def _set_selected_group_values(selected_values: list[str]) -> None:
+    st.session_state.herb_practice_group_values = selected_values
+    for value in value_to_label:
+        st.session_state[f"herb_group_filter_{value}"] = value in selected_values
+
+
+selected_group_values = [
+    value for value in st.session_state.herb_practice_group_values
+    if value in value_to_label
+]
 
 col1, col2, col3 = st.columns(3)
 with col1:
     if st.button("Semester B Herbs", key="semester_b_herbs_btn"):
-        st.session_state.herb_practice_group_labels = [
-            value_to_label[value]
+        _set_selected_group_values([
+            value
             for value in get_semester_b_herb_group_values()
             if value in value_to_label
-        ]
+        ])
         st.rerun()
 with col2:
     if st.button("Semester A Herbs", key="semester_a_herbs_btn"):
-        st.session_state.herb_practice_group_labels = [
-            value_to_label[value]
+        _set_selected_group_values([
+            value
             for value in get_semester_a_herb_group_values()
             if value in value_to_label
-        ]
+        ])
         st.rerun()
 with col3:
     if st.button("All Herbs", key="all_herbs_btn"):
-        st.session_state.herb_practice_group_labels = group_labels
+        _set_selected_group_values([opt['value'] for opt in group_options])
         st.rerun()
 
-selected_group_labels = st.multiselect(
-    "Practice herbs from these groups:",
-    options=group_labels,
-    key="herb_practice_group_labels",
-)
-selected_group_values = [label_to_value[label] for label in selected_group_labels if label in label_to_value]
+st.markdown("Practice herbs from these groups:")
+group_selection_cols = st.columns(2)
+current_selected_values = set(selected_group_values)
+selected_group_values = []
+for index, option in enumerate(group_options):
+    value = option['value']
+    label = option['label']
+    checkbox_key = f"herb_group_filter_{value}"
+    default_checked = value in current_selected_values
+    if checkbox_key not in st.session_state:
+        st.session_state[checkbox_key] = default_checked
+
+    with group_selection_cols[index % 2]:
+        is_selected = st.checkbox(label, key=checkbox_key)
+    if is_selected:
+        selected_group_values.append(value)
+
+st.session_state.herb_practice_group_values = selected_group_values
 
 herb_pool = filter_herbs_by_groups(selected_group_values) if selected_group_values else []
 st.caption(f"Herbs in current filter: {len(herb_pool)}")
