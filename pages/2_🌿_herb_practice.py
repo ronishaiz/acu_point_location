@@ -2,7 +2,8 @@ import streamlit as st
 
 from backend.herbs.herb import filter_herbs_by_groups, get_herb_group_options
 from pages_backend.practice.herb_practice import (
-    generate_random_question,
+    build_question_key,
+    generate_unique_random_question,
     get_semester_a_herb_group_values,
     get_semester_b_herb_group_values,
 )
@@ -25,6 +26,8 @@ if 'herb_practice_answered' not in st.session_state:
 if 'herb_practice_group_values' not in st.session_state:
     all_group_options = get_herb_group_options()
     st.session_state.herb_practice_group_values = [opt['value'] for opt in all_group_options]
+if 'herb_practice_seen_question_keys' not in st.session_state:
+    st.session_state.herb_practice_seen_question_keys = set()
 
 # Herb group selection
 st.subheader("Herb Group Filter")
@@ -110,8 +113,17 @@ if st.button("Generate Question", key="generate_question_btn"):
     if not selected_group_values:
         st.warning("Please select at least one herb group!")
     elif selected_types:
-        st.session_state.herb_practice_question = generate_random_question(selected_types, selected_group_values)
-        st.session_state.herb_practice_answered = False
+        try:
+            question = generate_unique_random_question(
+                question_types=selected_types,
+                selected_groups=selected_group_values,
+                excluded_question_keys=st.session_state.herb_practice_seen_question_keys,
+            )
+            st.session_state.herb_practice_question = question
+            st.session_state.herb_practice_seen_question_keys.add(build_question_key(question))
+            st.session_state.herb_practice_answered = False
+        except ValueError as error:
+            st.error(str(error))
     else:
         st.warning("Please select at least one question type!")
 
@@ -158,6 +170,9 @@ if st.session_state.herb_practice_question:
     # Reset score button
     if st.button("Reset Score", key="reset_score_btn"):
         st.session_state.herb_practice_score = {'correct': 0, 'total': 0}
+        st.session_state.herb_practice_seen_question_keys = set()
+        st.session_state.herb_practice_question = None
+        st.session_state.herb_practice_answered = False
         st.rerun()
 else:
     st.info("👈 Click 'Generate Question' to start practicing!")

@@ -2,8 +2,10 @@ from unittest import TestCase
 
 from pages_backend.practice.syndrome_practice import (
     _jaccard_similarity,
+    build_question_key,
     filter_syndromes_by_organs,
     generate_random_question,
+    generate_unique_random_question,
     get_syndrome_organ_options,
 )
 
@@ -44,3 +46,21 @@ class TestSyndromePractice(TestCase):
     def test_jaccard_similarity(self):
         score = _jaccard_similarity({"a", "b"}, {"b", "c"})
         self.assertEqual(1 / 3, score)
+
+    def test_generate_unique_random_question_skips_excluded_key(self):
+        question = generate_unique_random_question(
+            question_types=["syndrome_to_eight_principles"],
+            selected_organs=["GB"],
+            excluded_question_keys=set(),
+            max_attempts=200,
+        )
+
+        excluded_key = build_question_key(question)
+        new_question = generate_unique_random_question(
+            question_types=["syndrome_to_eight_principles"],
+            selected_organs=["GB"],
+            excluded_question_keys={excluded_key},
+            max_attempts=200,
+        )
+
+        self.assertNotEqual(excluded_key, build_question_key(new_question))

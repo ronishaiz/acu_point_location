@@ -25,6 +25,14 @@ class SyndromeQuestion:
     ]
 
 
+def build_question_key(question: SyndromeQuestion) -> str:
+    return "||".join([
+        question.question_type,
+        question.question,
+        question.correct_answer,
+    ])
+
+
 def get_syndrome_organ_options() -> List[dict]:
     counts_by_organ: Dict[str, int] = {}
     for syndrome in ALL_SYNDROMES:
@@ -447,4 +455,27 @@ def generate_random_question(
     raise ValueError(
         "Unable to generate a syndrome question with the current filters and question types. "
         + "; ".join(errors)
+    )
+
+
+def generate_unique_random_question(
+    question_types: Optional[List[str]] = None,
+    selected_organs: Optional[List[str]] = None,
+    excluded_question_keys: Optional[Set[str]] = None,
+    max_attempts: int = 120,
+) -> SyndromeQuestion:
+    excluded_keys = excluded_question_keys or set()
+
+    for _ in range(max_attempts):
+        question = generate_random_question(
+            question_types=question_types,
+            selected_organs=selected_organs,
+        )
+        question_key = build_question_key(question)
+        if question_key not in excluded_keys:
+            return question
+
+    raise ValueError(
+        "All available questions for the selected filters and types were already shown in this score cycle. "
+        "Use 'Reset Score' to restart the question pool."
     )

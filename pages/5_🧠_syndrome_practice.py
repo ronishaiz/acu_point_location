@@ -1,7 +1,8 @@
 import streamlit as st
 
 from pages_backend.practice.syndrome_practice import (
-    generate_random_question,
+    build_question_key,
+    generate_unique_random_question,
     get_syndrome_organ_options,
 )
 
@@ -22,6 +23,8 @@ if "syndrome_practice_answered" not in st.session_state:
 if "syndrome_practice_organs" not in st.session_state:
     all_organ_options = get_syndrome_organ_options()
     st.session_state.syndrome_practice_organs = [option["value"] for option in all_organ_options]
+if "syndrome_practice_seen_question_keys" not in st.session_state:
+    st.session_state.syndrome_practice_seen_question_keys = set()
 
 st.subheader("Organ Filter")
 organ_options = get_syndrome_organ_options()
@@ -72,10 +75,13 @@ if st.button("Generate Question"):
         st.warning("Please select at least one question type.")
     else:
         try:
-            st.session_state.syndrome_practice_question = generate_random_question(
+            question = generate_unique_random_question(
                 question_types=selected_types,
                 selected_organs=selected_organs,
+                excluded_question_keys=st.session_state.syndrome_practice_seen_question_keys,
             )
+            st.session_state.syndrome_practice_question = question
+            st.session_state.syndrome_practice_seen_question_keys.add(build_question_key(question))
             st.session_state.syndrome_practice_answered = False
         except ValueError as error:
             st.error(str(error))
@@ -117,6 +123,9 @@ if st.session_state.syndrome_practice_question:
 
     if st.button("Reset Score"):
         st.session_state.syndrome_practice_score = {"correct": 0, "total": 0}
+        st.session_state.syndrome_practice_seen_question_keys = set()
+        st.session_state.syndrome_practice_question = None
+        st.session_state.syndrome_practice_answered = False
         st.rerun()
 else:
     st.info("👈 Click 'Generate Question' to start practicing.")

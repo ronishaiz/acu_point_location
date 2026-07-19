@@ -31,6 +31,14 @@ class HerbQuestion:
     question_type: Literal["herb_group", "focus_remark_to_herb", "herb_to_focus_remark"]
 
 
+def build_question_key(question: HerbQuestion) -> str:
+    return "||".join([
+        question.question_type,
+        question.question,
+        question.correct_answer,
+    ])
+
+
 def _resolve_herb_pool(selected_groups: Optional[List[str]] = None) -> List[Herb]:
     herb_pool = filter_herbs_by_groups(selected_groups) if selected_groups else ALL_HERBS
     if not herb_pool:
@@ -169,4 +177,27 @@ def generate_random_question(
         return generate_focus_remark_to_herb_question(herb_pool)
     else:  # herb_to_focus_remark
         return generate_herb_to_focus_remark_question(herb_pool)
+
+
+def generate_unique_random_question(
+    question_types: Optional[List[str]] = None,
+    selected_groups: Optional[List[str]] = None,
+    excluded_question_keys: Optional[set[str]] = None,
+    max_attempts: int = 120,
+) -> HerbQuestion:
+    excluded_keys = excluded_question_keys or set()
+
+    for _ in range(max_attempts):
+        question = generate_random_question(
+            question_types=question_types,
+            selected_groups=selected_groups,
+        )
+        question_key = build_question_key(question)
+        if question_key not in excluded_keys:
+            return question
+
+    raise ValueError(
+        "All available questions for the selected filters and types were already shown in this score cycle. "
+        "Use 'Reset Score' to restart the question pool."
+    )
 

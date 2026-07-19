@@ -2,7 +2,9 @@ from unittest import TestCase
 
 from backend.herbs.herb import get_available_herb_groups
 from pages_backend.practice.herb_practice import (
+    build_question_key,
     generate_random_question,
+    generate_unique_random_question,
     get_semester_a_herb_group_values,
     get_semester_b_herb_group_values,
 )
@@ -36,3 +38,23 @@ class TestHerbPractice(TestCase):
                 question_types=["herb_group"],
                 selected_groups=["GROUP_DOES_NOT_EXIST"],
             )
+
+    def test_generate_unique_random_question_skips_excluded_key(self):
+        selected_group = get_semester_b_herb_group_values()[0]
+
+        question = generate_unique_random_question(
+            question_types=["herb_group"],
+            selected_groups=[selected_group],
+            excluded_question_keys=set(),
+            max_attempts=200,
+        )
+
+        excluded_key = build_question_key(question)
+        new_question = generate_unique_random_question(
+            question_types=["herb_group"],
+            selected_groups=[selected_group],
+            excluded_question_keys={excluded_key},
+            max_attempts=200,
+        )
+
+        self.assertNotEqual(excluded_key, build_question_key(new_question))
