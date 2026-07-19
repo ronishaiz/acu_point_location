@@ -1,0 +1,472 @@
+["LIV Blood Xu"]
+organ = "LIV"
+comment = "The liver is not part of the blood manufacturing system, but since it stores the blood, it is affected by blood deficiency. Western Anemia -> LIV Blood Xu, but it may also be the diagnosis without such evidence in western blood tests."
+etiology = [
+    "SP Qi Xu",
+    "Problems with absorption of nutrients",
+    "Blood loss",
+    "KID deficiency",
+    "Prolonged physical labor",
+    "Chronic, genetic diseases"
+]
+
+["LIV Blood Xu".diagnosis]
+symptoms = [
+    "Insomnia (Light Sleep or Trouble Falling Asleep)",
+    "Blurry Vision, Floaters, Night Blindness",
+    "Dizziness (Especially Changing Positions)",
+    "Dry Eyes",
+    "Sleep Walking",
+    "Muscle Weakness, Cramps, Twitching",
+    "Thin and Brittle Nails",
+    "Dry Hair, Hair Loss",
+    "Pale-Gray Complexion",
+    "Pale Lips",
+    "Amenorrhea, Scanty Menstrual Bleeding, Late Menstruation",
+    "Possible Thin Endometrium in Ultrasound (less than 6mm), Infertility",
+    "Sadness, Depression, Anxiety, Irritability",
+    "Disorientation",
+    "Gastrocnemius Cramps (especially at night)",
+    "Dry Intestines - Constipation",
+    "Numbness or Tingling in the Limbs",
+    "Problem with getting up from bed in the morning"
+]
+key_symptoms = [
+]
+
+["LIV Blood Xu".diagnosis.pulse]
+strength = "V-"
+quality = ["CHOPPY", "THIN"]
+
+["LIV Blood Xu".diagnosis.tongue]
+body_color = "PALE"
+moisture = "DRY"
+body_shapes = ["THIN"]
+
+["LIV Blood Xu".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+
+["LIV Blood Xu".treatment]
+points = ["LIV3", "LIV8", "BL17", "BL19", "BL18", "BL20", "BL23", "SP6", "ST36", "ST37", "ST39", "SP10", "SP3", "CV4"]
+principle = "Strengthen and Nourish LIV Blood, Strengthen SP-ST"
+nutrition = ["Beet", "Bone Broth", "Internal Organs", "Black Sesame Seeds", "Black Beans", "Goji Berries", "Nettle", "Pomegranate", "Berries", "Tahini", "Molasses", "Eggs", "Pecans", "Kale"]
+herbs = ["Si Wu Tang", "Shu Di Huang"]
+
+["LIV Blood Xu & LIV Wind"]
+organ = "LIV"
+comment = "Chronic case that originates from LIV Blood Xu. Meridians are empty - wind enters. Parkinson is an example of this syndrome."
+etiology = [
+    "Chronic LIV Blood Xu",
+    "Massive Bleeding",
+    "Low Protein Diet"
+]
+
+["LIV Blood Xu & LIV Wind".diagnosis]
+symptoms = [
+    "Gentle Tremor of Limbs, Head",
+    "Subtle Tics",
+    "Seizures",
+    "Numbness or Tingling in the Limbs",
+    "Twitching Eyes",
+    "Dizziness",
+    "Dryness and Itching of the Skin",
+    "Stiffness"
+]
+key_symptoms = [
+]
+
+["LIV Blood Xu & LIV Wind".diagnosis.pulse]
+strength = "V-"
+quality = ["CHOPPY", "THIN", "WIRY"]
+
+["LIV Blood Xu & LIV Wind".diagnosis.tongue]
+body_color = "PALE"
+moisture = "DRY"
+body_shapes = ["THIN", "DEVIATED", "STIFF"]
+
+["LIV Blood Xu & LIV Wind".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL+EMPTY"
+
+["LIV Blood Xu & LIV Wind".treatment]
+points = ["LIV3", "LIV8", "BL17", "BL19", "BL18", "BL20", "BL23", "SP6", "ST36", "LI10", "ST37", "ST39", "CV4", "KID3", "GB20", "GV20", "GB31", "GV16", "LI4"]
+principle = "Subdue LIV Wind and Strengthen LIV Blood"
+nutrition = ["Beet", "Bone Broth", "Internal Organs", "Black Sesame Seeds", "Black Beans", "Goji Berries", "Nettle", "Pomegranate", "Berries", "Tahini", "Molasses", "Eggs", "Pecans", "Kale"]
+
+
+["LIV Qi Stagnation"]
+organ = "LIV"
+comment = "Super common syndrome"
+etiology = [
+    "LIV Blood Xu",
+    "Excessive Dampness",
+    "Emotional Stress",
+    "Lack of Physical Exercise",
+]
+
+["LIV Qi Stagnation".diagnosis]
+symptoms = [
+    "Headaches (especially temporal, can be above the eyes and forehead) - dull, pressing - Alleviated by Movement",
+    "Jaw Lock, Teeth Grinding",
+    "Irritability, Anger, Frustration, Mood Swings, Depression",
+    "Sleep Disturbances, Restlessness, Stiff Wake Up",
+    "Plum Pit",
+    "Stiff Muscles around Neck, Scapula and Shoulders",
+    "Fullness and Distress in the Chest Area",
+    "Cold Hands",
+    "Twitchy Feet",
+    "Pressure or Pain in the Hypochondriac Area and Diaphragm",
+    "Goat-Stool, Tenesmus, Diarrhea",
+    "Alternating Constipation and Diarrhea",
+    "Nausea, Vomiting, Belching, Acid Reflux, Lack of Appetite (induced by stress)",
+    "Bloating, Gas, Distention",
+    "Menstrual Irregularities, PMS, Breast Tenderness, Change in Stool Before and During Menstruation",
+    "Nail Nibbling, Skin Picking, Hair Pulling, Lip Biting",
+    "Irritability after Waking Up",
+    "Purple Lips and Complexion"
+]
+key_symptoms = [
+]
+
+["LIV Qi Stagnation".diagnosis.pulse]
+quality = ["WIRY"]
+
+["LIV Qi Stagnation".diagnosis.tongue]
+body_color = "PURPLE"
+body_shapes = ["STIFF", "LIV HILLS", "STIFF VEINS UNDER", "BLOATING"]
+
+["LIV Qi Stagnation".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+
+["LIV Qi Stagnation".treatment]
+points = ["LIV3", "LI4", "PC6", "GB41", "GB34", "BL17", "SP6", "LIV13", "LIV14", "GB13", "BL18", "GV8", "TW6"]
+principle = "Move, Regulate and Harmonize LIV Qi"
+herbs = ["Chai Hu", "Xiang Fu", "Bai Shao"]
+
+
+["LIV Blood Stagnation"]
+organ = "LIV"
+comment = "Many times is a result of LIV Qi Stagnation"
+etiology = [
+    "LIV Qi Stagnation",
+    "LIV Blood Xu",
+    "Internal or External Cold",
+    "Prolonged Heat (that dries the blood and harms the blood manufacturing system)",
+    "Dampness and Phlegm",
+    "Trauma - physical or emotional",
+]
+
+["LIV Blood Stagnation".diagnosis]
+symptoms = [
+    "Sharp, Stabbing Pain",
+    "Masses in the Abdomen or other areas, that cause a Blockage",
+    "Sharp, Stabbing Menstrual Pain, Big Clots in Dark Colors (after their exit, there's usually relief)",
+    "Problems with Menstruation and Uterus",
+    "Purple Fingernails, Purple Complexion"
+]
+key_symptoms = [
+]
+
+["LIV Blood Stagnation".diagnosis.pulse]
+quality = ["WIRY"]
+
+["LIV Blood Stagnation".diagnosis.tongue]
+body_color = "PURPLE"
+body_shapes = ["STIFF VEINS UNDER"]
+
+["LIV Blood Stagnation".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+
+["LIV Blood Stagnation".treatment]
+points = ["LIV3", "LI4", "SP10", "SP8", "SP4", "PC6", "ST29", "KID14", "CV6", "LIV5", "LIV6", "Zi Gong", "ST28", "BL17", "BL18"]
+principle = "Move Qi and Blood and Harmonize the LIV"
+herbs = ["Tao Ren", "Hong Hua", "Yi Mu Cao", "San Leng", "Dang Gui", "Chuan Xiong", "Dan Shen", "Niu Xi"]
+
+
+["LIV Fire Blazing"]
+organ = "LIV"
+comment = "Most symptoms will show in the UJ, the fire rises. People with strong constitutions of excess"
+etiology = [
+    "LIV Qi Stagnation",
+    "ST Fire and its etiology",
+    "Prolonged Emotions (especially anger, resentment and frustration)",
+    "Nutrition - alcohol, hot and greasy foods, meat, drugs, cigarettes"
+]
+
+["LIV Fire Blazing".diagnosis]
+symptoms = [
+    "Red Face, Anger, Irritability, Red Eyes, Bulging Veins in the Forehead",
+    "Significant Sweating",
+    "Temporal Headaches (TW-GB area, eyes, vertex) - Throbbing, Pulsating, Accompanied by Dizziness (even Vertigo)",
+    "Strong and High Tinnitus, may lead to Temporary Deafness",
+    "Sleep with Violent Dreams, Nightmares, Night Sweats",
+    "Skin Issues - Red, Itchy, Lesions",
+    "Unpredictable Behavior",
+    "Thirst for Icy Cold Drinks",
+    "Bitter Taste in Mouth Throughout the Day",
+    "Constipation, Dry, Hard, Smelly Stool",
+    "Hemorrhoids (painful, bleeding, burning)",
+    "Dark, Scanty Urine, with Smell",
+    "Excessive Menstrual Bleeding, Bright Red, Bad Smell",
+    "Early Menstruation",
+    "Menorrhagia (Bleeding Between Periods)",
+    "Nose Bleeds",
+    "Puking with Blood, Coughing with Blood",
+    "Severe Eye Infections",
+    "Teeth Grinding, Jaw Lock",
+    "Nail Nibbling",
+    "Anger Tantrums, Aggression, Violence",
+]
+key_symptoms = [
+]
+
+["LIV Fire Blazing".diagnosis.pulse]
+strength = "V+"
+speed = "RAPID"
+quality = ["FLOODING", "WIRY"]
+
+["LIV Fire Blazing".diagnosis.tongue]
+body_color = "RED"
+coating_color = "YELLOW"
+coating_thickness = "THICK"
+moisture = "DRY"
+body_shapes = ["RED DOTS"]
+
+["LIV Fire Blazing".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+hot_cold = "HOT"
+yin_yang = "YANG+"
+
+["LIV Fire Blazing".treatment]
+points = ["LIV2", "LIV3", "LI11", "GB20", "GB13", "GB14", "Tai Yang", "GV20", "KID1", "SP6", "KID6", "GB43", "GB44", "GB38"]
+principle = "Clear LIV Fire, Support General Yin"
+herbs = ["Long Dan Cao"]
+
+["Extreme Heat Generating Wind"]
+organ = "LIV"
+comment = "More common in children and babies. Acute case, red flag - refer to medical care. Western medicine - viral infection, such as meningitis, encephalitis, etc. The heat is so strong that it generates wind and convulsions. This is a medical emergency."
+etiology = [
+    "Severe External Heat Pathogen",
+]
+
+["Extreme Heat Generating Wind".diagnosis]
+symptoms = [
+    "High Fever",
+    "Convulsions, Seizures (possible unconsciousness)",
+    "Stiff Neck",
+    "Headache",
+    "Tremor in the Limbs",
+    "Head Throwing Back (sign of wind)",
+    "Hot Lesions"
+]
+key_symptoms = [
+]
+
+["Extreme Heat Generating Wind".diagnosis.pulse]
+strength = "V+"
+speed = "RAPID"
+quality = ["FLOODING", "WIRY"]
+
+["Extreme Heat Generating Wind".diagnosis.tongue]
+body_color = "RED"
+coating_color = "YELLOW"
+coating_thickness = "THICK"
+body_shapes = ["STIFF"]
+
+["Extreme Heat Generating Wind".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+hot_cold = "HOT"
+yin_yang = "YANG+"
+
+["Extreme Heat Generating Wind".treatment]
+points = ["LIV2", "LIV3", "SP10", "Shi Xuan", "Er Jian", "GB20", "TW5", "GV20", "GV16", "SI3", "BL62", "GV8", "GV14", "LI11"]
+principle = "Expel Heat! Calm LIV, Subdue Wind"
+
+["Damp Heat in LIV and GB"]
+organ = "LIV"
+comment = "The dampness results from SP Weakness and hot and greasy nutrition. A more severe syndrome than SP damp heat"
+etiology = [
+    "SP Weakness which generates Dampness",
+    "Hot and Greasy Nutrition",
+    "Hot and Damp Environment",
+    "LIV Qi Stagnation over time",
+    "Prolonged Emotions"
+]
+
+["Damp Heat in LIV and GB".diagnosis]
+symptoms = [
+    "Mild Fever Throughout the Day",
+    "Scant, Dark Urine with Smell",
+    "Bitter Taste in Mouth Throughout the Day",
+    "Lack of Appetite, Nausea, Vomiting (Yellow, Greasy Vomit)",
+    "Fullness and Distress in the Chest Area and Hypochondriac Area",
+    "Abdomen Distention, Bloating, Gas, Belching",
+    "Yellow Vaginal Emission, Vaginal Itching",
+    "Pain and Redness in the Scrotum Area",
+    "Yellowish Skin",
+    "Nail Fungus",
+    "Hot or Infectious Emission from Eyes, Ears"
+]
+key_symptoms = [
+]
+
+["Damp Heat in LIV and GB".diagnosis.pulse]
+speed = "RAPID"
+quality = ["SLIPPERY", "WIRY"]
+
+["Damp Heat in LIV and GB".diagnosis.tongue]
+body_color = "RED"
+coating_color = "YELLOW"
+coating_thickness = "THICK"
+moisture = "STICKY"
+
+["Damp Heat in LIV and GB".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+hot_cold = "HOT"
+yin_yang = "YANG+"
+
+["Damp Heat in LIV and GB".treatment]
+points = ["GB24", "GB34", "SP9", "LIV14", "GB26", "LIV2", "LIV3", "LI11", "LIV5", "GB38", "GB43", "GB41", "TW5", "CV9", "CV12", "BL18", "BL19"]
+principle = "Expel Heat and Dampness, Move LIV Qi"
+herbs = ["Long Dan Xie Gan Tang"]
+
+["Stagnant Cold in LIV Channel"]
+organ = "LIV"
+comment = "Exceptional syndrome, since the damage is in the LIV channel and not the organ. Exists as a syndrome since it's clinical. The cold tends to settle especially in the genitals"
+etiology = [
+    "External Cold Pathogen",
+    "Prolonged Exposure to Cold - especially during or after menstruation, or after childbirth",
+]
+
+["Stagnant Cold in LIV Channel".diagnosis]
+symptoms = [
+    "Fullness and Bloating in Hypogastrium (above BL)",
+    "Pain that Radiates toward the Genitals and Rectum",
+    "Pain during Sexual Intercourse",
+    "Muscle Cramps in the Vagina",
+    "Pain is Alleviated by Heat and Aggravated by Cold",
+]
+key_symptoms = [
+]
+
+["Stagnant Cold in LIV Channel".diagnosis.pulse]
+speed = "SLOW"
+quality = ["TENSE", "WIRY"]
+
+["Stagnant Cold in LIV Channel".diagnosis.tongue]
+body_color = "PALE"
+coating_color = "WHITE"
+coating_thickness = "THIN"
+moisture = "WET"
+
+["Stagnant Cold in LIV Channel".diagnosis.eight_principles]
+internal_external = "EXTERNAL"
+full_empty = "FULL"
+hot_cold = "COLD"
+
+["Stagnant Cold in LIV Channel".treatment]
+points = ["CV3", "LIV5", "ST29", "LIV1"]
+principle = "Dispel Cold from the LIV channel"
+acupuncture_techniques = ["MOXA"]
+herbs = ["Wu Zhu Yu"]
+
+["LIV Yang Rising"]
+organ = "LIV"
+comment = "Reminds LIV Fire but much more subtle. Will ALWAYS be a result of a deficiency syndrome - either LIV Blood Xu or KID Yin Xu. In the clinic, we may also see it as a result of LIV Qi Stagnation, but it's not part of the theory."
+etiology = [
+    "Prolonged Emotions (especially stress, anger, resentment and frustration)",
+    "LIV Yin Xu or KID Yin Xu",
+    "LIV Blood Xu",
+    "Clinical - LIV Qi Stagnation over time",
+]
+
+["LIV Yang Rising".diagnosis]
+symptoms = [
+    "Dry Eyes",
+    "During the Episode - Sudden Tinnitus which may lead to Temporary Deafness",
+    "Strong, Temporal Headaches - above the eyes, behind the eyes",
+    "Anxiety, Irritability, Restlessness. Rest will Help",
+    "Dry Stool",
+    "Excessive Dreaming",
+    "Thirst or Dry Throat",
+    "Red Eyes, Hot Face",
+    "During the Episode - Cold, Darkness and Quiet will Help",
+    "Laying Down - with Alleviated Head"
+]
+key_symptoms = [
+]
+
+["LIV Yang Rising".diagnosis.pulse]
+quality = ["WIRY"]
+
+["LIV Yang Rising".diagnosis.tongue]
+body_color = "PURPLE"
+
+["LIV Yang Rising".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL+EMPTY"
+yin_yang = "YANG+"
+
+["LIV Yang Rising".treatment]
+points = ["GV20", "GB20", "GB21", "Tai Yang", "GB4", "GB5", "GB6", "GB7", "BL2", "GB41", "TW5", "GB43", "GB38", "GB44", "LI4", "KID6", "CV4", "KID1", "SP6", "KID3", "ST9"]
+principle = "Down Yang and Strengthen Yin or Blood"
+acupuncture_techniques = ["MOXA"]
+herbs = ["Tian Ma", "Gou Teng Yin"]
+
+["LIV Yin Xu & LIV Yang Rising & LIV Wind"]
+organ = "LIV"
+comment = "Both Yin Xu and Yang Rising are present. This is a more acute condition, may be a sign of CVA, or post-CVA"
+etiology = [
+    "Everything that causes Yin Xu, Blood Xu and Yang Rising"
+]
+
+["LIV Yin Xu & LIV Yang Rising & LIV Wind".diagnosis]
+symptoms = [
+    "Sudden Loss of Consciousness",
+    "Half-body Paralysis",
+    "Limb Muscle Cramps",
+    "Aphasia",
+    "Seizure",
+    "Tremor-Paralysis, Tics",
+    "Itch",
+    "Numbness or Tingling in the Limbs",
+    "Severe Dizziness",
+    "Eye and Mouth Deviation or Twitching",
+    "Pain that Travels between different Locations (Bi Wind)",
+    "Problems Swallowing",
+    "Depression (post-CVA)",
+    "Uncontrollable Cursing or Anger",
+    "High Blood Pressure",
+    "Tourette Syndrome, Parkinson's, Epilepsy"
+]
+key_symptoms = [
+]
+
+["LIV Yin Xu & LIV Yang Rising & LIV Wind".diagnosis.pulse]
+quality = ["THIN", "WIRY"]
+depth = "FLOATING"
+strength = "V+"
+speed = "RAPID"
+
+["LIV Yin Xu & LIV Yang Rising & LIV Wind".diagnosis.tongue]
+body_color = "RED"
+body_shapes = ["CRACKED", "PATCHY", "DEVIATED", "STIFF"]
+coating_thickness = "ABSENT"
+
+
+["LIV Yin Xu & LIV Yang Rising & LIV Wind".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL+EMPTY"
+yin_yang = "YANG+"
+hot_cold = "HOT"
+
+["LIV Yin Xu & LIV Yang Rising & LIV Wind".treatment]
+points = ["LIV3", "LIV8", "SP6", "KID3", "KID6", "BL18", "BL23", "BL17", "BL19", "CV4", "GB20", "GV16", "GB21", "KID1"]
+principle = "Feed KID and LIV Yin, Subdue Wind, Clear Empty Heat"
+herbs = ["Tian Ma", "Gou Teng"]

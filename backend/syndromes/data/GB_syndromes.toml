@@ -1,0 +1,74 @@
+["GB Xu"]
+organ = "GB"
+comment = "The syndrome is usually depicted with mental character or behavioral issues. Slight LIV Qi STG symptoms (non-mandatory), with emphasis on the difficulty to take action or decide."
+etiology = [
+    "Prolonged Emotions",
+    "Family or Environment that is not supportive of the person",
+    "Born Condition, the character or tendency the person was born with"
+]
+
+["GB Xu".diagnosis]
+symptoms = [
+    "Dizziness, Blurry Vision",
+    "Restlessness, Indecisiveness, Cowardice, Shyness, Lack of Courage and Insecurity",
+]
+key_symptoms = [
+]
+
+["GB Xu".diagnosis.pulse]
+strength = "V-"
+
+["GB Xu".diagnosis.tongue]
+body_color = "PALE"
+
+["GB Xu".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "EMPTY"
+
+["GB Xu".treatment]
+points = ["GB40", "BL19", "GB24", "GB37"]
+principle = "Strengthen (and Heat) the GB"
+
+["Damp Heat in the GB"]
+organ = "GB"
+comment = "Refer to medical care! Similar to Damp Heat in the LIV and GB, but less systemic and more localized to the GB"
+etiology = [
+    "Hot Greasy Foods",
+    "Prolonged Emotions",
+    "Tropical, Hot, Humid Climate",
+]
+
+["Damp Heat in the GB".diagnosis]
+symptoms = [
+    "Hypochondriac Pain, Distention, or Fullness",
+    "Bitter Taste in the Mouth Throughout the Day",
+    "Nausea, Vomiting, or Poor Appetite",
+    "Thirst without Desire to Drink",
+    "Yellowish Complexion",
+    "Problems Digesting Fats",
+    "Stomach Pain, Radiating towards the Back"
+]
+key_symptoms = [
+]
+
+["Damp Heat in the GB".diagnosis.pulse]
+speed = "RAPID"
+quality = ["SLIPPERY", "WIRY"]
+
+["Damp Heat in the GB".diagnosis.tongue]
+body_color = "RED"
+coating_color = "YELLOW"
+coating_thickness = "THICK"
+moisture = "STICKY"
+
+["Damp Heat in the GB".diagnosis.eight_principles]
+internal_external = "INTERNAL"
+full_empty = "FULL"
+hot_cold = "HOT"
+yin_yang = "YANG+"
+
+["Damp Heat in the GB".treatment]
+points = ["GB24", "GB34", "GB43", "GB44", "LIV14", "GB26", "CV12", "ST21", "Dan Nang Xue", "GB41", "TW5", "BL18", "BL19", "BL20", "GV9", "TW6", "LI11"]
+principle = "Dispel Dampness, Clear Heat from GB, Move LIV Qi"
+herbs = ["Long Dan Xie Gan Tang"]
+
