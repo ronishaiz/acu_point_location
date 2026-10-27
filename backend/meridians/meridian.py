@@ -4,7 +4,7 @@ from abc import ABCMeta
 from dataclasses import dataclass
 from typing import List
 
-import toml
+import tomllib
 
 from backend.enums import MeridianName, Stage, Element, Limb, Organ
 from backend.meridians.meridian_trajectory import MeridianTrajectory
@@ -63,8 +63,8 @@ class MeridianBase(FlashCardObject, metaclass=ABCMeta):
     def _get_points(self) -> List[Point]:
         path_to_toml = os.path.join(os.path.dirname(__file__), 'data', self.name.value + '.toml')
 
-        with open(path_to_toml, 'r') as f:
-            points_dict = toml.load(f)
+        with open(path_to_toml, 'rb') as f:
+            points_dict = tomllib.load(f)
 
         return [Point.get_point_from_dict(point_dict, identifier) for identifier, point_dict in points_dict.items()]
 

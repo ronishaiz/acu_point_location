@@ -3,7 +3,7 @@ from typing import List, Set, Optional
 from dataclasses import dataclass
 from enum import Enum
 
-import toml
+import tomllib
 
 from backend.enums import Organ
 from pages_backend.flashcards.flashcard import FlashCardObject
@@ -178,10 +178,10 @@ class Herb(FlashCardObject):
 
     @classmethod
     def from_toml(cls, toml_file_path: str) -> List['Herb']:
-        with open(toml_file_path, 'r') as f:
+        with open(toml_file_path, 'rb') as f:
             try:
-                herbs_dict = toml.load(f)
-            except toml.TomlDecodeError as e:
+                herbs_dict = tomllib.load(f)
+            except tomllib.TOMLDecodeError as e:
                 raise ValueError(f"Error parsing TOML file {toml_file_path}: {e}")
 
         return [cls.from_dict(herb_dict, name) for name, herb_dict in herbs_dict.items()]

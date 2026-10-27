@@ -3,7 +3,7 @@ import os.path
 from typing import List, Union
 from dataclasses import dataclass
 
-import toml
+import tomllib
 
 from backend.diagnosis.eight_principles import EightPrinciples, InternalExternalPrinciple, FullEmptyPrinciple, HotColdPrinciple, YinYangPrinciple
 from backend.diagnosis.pulse import Pulse, Speed, Depth, Strength, Quality, PulsePosition, PositionYinYang, PositionJiao, PositionHand
@@ -346,8 +346,8 @@ class Syndrome(FlashCardObject):
 
     @classmethod
     def from_toml(cls, toml_file_path: str) -> List['Syndrome']:
-        with open(toml_file_path, 'r') as f:
-            syndromes_dict = toml.load(f)
+        with open(toml_file_path, 'rb') as f:
+            syndromes_dict = tomllib.load(f)
 
         return [cls.from_dict(syndrome_dict, name) for name, syndrome_dict in syndromes_dict.items()]
 

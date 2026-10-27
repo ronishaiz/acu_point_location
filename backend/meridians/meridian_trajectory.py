@@ -2,7 +2,7 @@ import os.path
 from dataclasses import dataclass
 from typing import List
 
-import toml
+import tomllib
 
 from backend.enums import MeridianName
 from PIL import Image
@@ -56,7 +56,7 @@ class MeridianTrajectory:
     def from_toml(cls, meridian_name: MeridianName) -> 'MeridianTrajectory':
         toml_file_path = os.path.join(trajectories_folder, 'descriptions', meridian_name.value + '.toml')
 
-        with open(toml_file_path, 'r') as f:
-            trajectory_dict = toml.load(f)
+        with open(toml_file_path, 'rb') as f:
+            trajectory_dict = tomllib.load(f)
 
         return cls.from_dict(trajectory_dict, meridian_name)

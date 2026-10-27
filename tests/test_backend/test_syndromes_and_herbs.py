@@ -1,7 +1,6 @@
 import unittest
 import os
 import sys
-import toml
 
 # Add parent directory to path to allow imports
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
